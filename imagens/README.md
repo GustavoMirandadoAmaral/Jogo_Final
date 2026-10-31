@@ -11,6 +11,9 @@ Esta pasta reúne a direção visual do jogo: o protagonista aprovado, sua evolu
 | [Fundo da oficina](fundo-oficina/README.md) | Panorama do ambiente industrial e planejamento do parallax | Nova proposta para avaliação |
 | [Visão do jogo](visao-do-jogo/README.md) | Arena com herói, hordas, plataformas, XP e interface | Composição conceitual aprovada |
 | [Inimigos e chefão](inimigos/README.md) | Andador, Saltador, Voador, Pesado, Atirador e Máquina-mãe | Novas propostas para discussão do grupo |
+| [Engrenagem de XP](xp-engrenagem/README.md) | Peça dourada coletável que representa experiência | Nova proposta |
+| [Disparo do herói](disparo-heroi/README.md) | Projétil alongado claro com borda âmbar | Nova proposta |
+| [Disparo do inimigo](disparo-inimigo/README.md) | Projétil vermelho arredondado com rastros triangulares | Nova proposta |
 
 ## Estrutura
 
@@ -33,14 +36,17 @@ imagens/
 │   ├── README.md
 │   ├── PROMPT.md
 │   └── oficina-em-pane-gameplay-conceito-v1.png
-└── inimigos/
-    ├── README.md
-    ├── andador/
-    ├── saltador/
-    ├── voador/
-    ├── pesado/
-    ├── atirador/
-    └── maquina-mae/
+├── inimigos/
+│   ├── README.md
+│   ├── andador/
+│   ├── saltador/
+│   ├── voador/
+│   ├── pesado/
+│   ├── atirador/
+│   └── maquina-mae/
+├── xp-engrenagem/
+├── disparo-heroi/
+└── disparo-inimigo/
 ```
 
 ## Linguagem visual comum
