@@ -28,6 +28,7 @@
 | Inimigos | **Robôs** de cores e formatos diferentes, **não humanoides**. Cada tipo tem uma silhueta e uma cor próprias. |
 | Plataformas | Prateleiras atravessáveis, esteiras rolantes, andaimes que desabam e óleo subindo pelo chão. |
 | Movimento | Estilo Cuphead: **pulo duplo** e **dash**. |
+| Ataque | **Manual:** tiro no clique do mouse, mirando com o cursor. |
 | Progressão | XP no chão (peças), upgrades escolhidos a cada nível. |
 | **Descartado** | Upgrades que usam o pulo (dano ao cair, rastro ao pular etc.). |
 | **Opcional** | **Parry rosa**, entra só se sobrar tempo. |
@@ -67,18 +68,18 @@ A tensão principal é **segurança lá em cima × evolução lá embaixo**:
 
 Os tempos são um ponto de partida; o balanceamento acontece na fase 3 do FASEAMENTO.
 
-### Ataque [A DEFINIR]
+### Ataque
 
-No gênero, o ataque costuma ser **automático**: o jogador se concentra em se mover. Opções:
+**Decidido: tiro manual com mira no mouse.** O robô se move pelo teclado e atira na direção do cursor com o clique esquerdo. O jogador precisa se mover e mirar ao mesmo tempo, o que deixa o jogo mais ativo e mais próximo do Cuphead do que de um survivor.io.
 
-- **(a) Automático no inimigo mais próximo.** Mais fiel ao survivor.io e mais simples de jogar. *(sugestão)*
-- **(b) Automático para a direção em que o robô está virado.** O posicionamento passa a importar mais.
-- **(c) Manual, com uma tecla de tiro, como no Cuphead.** Mais controle, mas foge do gênero.
+- O projétil sai do canhão do robô e voa em linha reta na direção do cursor.
+- **Sugestão:** segurar o botão dispara continuamente, respeitando uma cadência (ex.: 1 tiro a cada 0,3 s). Isso evita cansar o dedo e permite que o upgrade de velocidade de ataque faça diferença.
+- Como mirar exige atenção, a quantidade de inimigos e a velocidade deles devem ser calibradas no protótipo.
 
 ## 5. Protagonista
 
 - **Robô pequeno**, com cabeça, braços e pernas, mas claramente uma máquina: sem rosto ou traços humanos.
-- O ataque sai de um dos braços (um canhão no braço, por exemplo) **[A DEFINIR]**.
+- O ataque sai de um **canhão no braço**, que gira apontando para o cursor do mouse (sugestão visual).
 - **Movimento:**
   - Andar para os lados
   - **Pulo** e **pulo duplo** (propulsor de mola)
@@ -90,6 +91,8 @@ No gênero, o ataque costuma ser **automático**: o jogador se concentra em se m
 | --- | --- |
 | Andar | Setas ← → ou A / D |
 | Pular / pulo duplo | Espaço, W ou ↑ |
+| Mirar | Mouse |
+| Atirar | Clique esquerdo (segurar = tiro contínuo) |
 | Dash | Shift |
 | Pausa | Esc |
 | Escolher upgrade | Setas + Enter, ou clique do mouse |
@@ -167,7 +170,7 @@ Cada upgrade é uma **peça instalada no robô**. Escolhemos 1 entre 3 opções 
 ### Mínimo (precisa estar pronto)
 
 - [ ] Robô com andar, pulo, pulo duplo e dash
-- [ ] Ataque automático
+- [ ] Tiro manual com mira no mouse
 - [ ] 1 arena com prateleiras, esteiras e andaimes que desabam
 - [ ] Fundo em parallax
 - [ ] Os 5 tipos de inimigo
@@ -216,7 +219,6 @@ Isso vale para a nota de "uso da ferramenta" e para a apresentação:
 ## 12. Próximos passos
 
 - [ ] Fechar o enredo (seção 3) e o nome do robô
-- [ ] Decidir o tipo de ataque (seção 4)
 - [ ] Definir quem cuida de cada frente (tabela no FASEAMENTO)
 - [ ] Confirmar com o professor o uso de imagens geradas por IA
 - [ ] Todos instalarem o GDevelop desktop e clonarem o repositório
