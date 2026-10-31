@@ -44,6 +44,7 @@ Esta comparação orienta a produção dos três visuais. Para usar no GDevelop,
 - **Formato:** PNG com transparência; três estágios na mesma composição.
 - [Imagem PNG](heroi-evolucao-tres-estagios-v1.png)
 - [Prompts da criação e do refinamento](PROMPT.md)
+- Estudo anterior: [imagem](heroi-evolucao-estudo-v1.png) e [prompt](PROMPT-estudo-v1.md)
 - Base de identidade: [herói-caldeira aprovado](../heroi/README.md).
 - Ferramenta: geração de imagens integrada ao Codex.
 

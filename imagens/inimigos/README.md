@@ -6,7 +6,7 @@ Todos usam tecnologia industrial a vapor e formas mecânicas sem rosto humano. C
 
 ## Índice
 
-Para levar ao grupo: [abrir o material de apresentação com as seis imagens](../inimigos-conceitos-v1/LEIA-ME.md) ou [abrir a apresentação resumida](APRESENTACAO.md).
+Para levar ao grupo: [abrir o material de apresentação com as seis imagens](APRESENTACAO.md).
 
 | Inimigo | Identificação | Função |
 | --- | --- | --- |

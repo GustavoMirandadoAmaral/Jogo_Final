@@ -65,6 +65,6 @@ Estas imagens são referências de conceito. A preparação para o GDevelop incl
 
 Arte conceitual gerada por IA com a ferramenta de imagens integrada ao Codex, a partir das ideias e referências fornecidas pelo grupo. Os prompts estão nas respectivas pastas. O registro de autoria e uso de IA deve acompanhar a documentação da entrega.
 
-As cópias anteriores de estudos permanecem em `assets/conceitos/`. Este catálogo é o ponto de consulta das referências selecionadas para o jogo.
+Este catálogo é o ponto de consulta das referências selecionadas para o jogo.
 
 [Voltar ao GDD](../GDD.md)
