@@ -2,6 +2,7 @@
 
 > Documento vivo do grupo: reúne tudo o que já discutimos e decidimos sobre o jogo.
 > O cronograma está em [FASEAMENTO.md](FASEAMENTO.md).
+> Os conceitos visuais, imagens e explicações estão no [catálogo de imagens](imagens/README.md).
 > Itens marcados como **[A DEFINIR]** ainda precisam de decisão do grupo.
 
 ## 1. Visão geral
@@ -23,12 +24,13 @@
 | --- | --- |
 | Ferramenta e colaboração | GDevelop **desktop** + Git/GitHub. Cada integrante é dono de uma parte (veja o FASEAMENTO). |
 | Perspectiva | **De lado, com pulo.** Descartamos "de lado voando" por ficar parecido demais com o jogo da nave das aulas. |
+| Arena e câmera | Arena maior que a área visível, com **acompanhamento horizontal suave** do robô e **parallax** no fundo. |
 | Tema | **Oficina em Pane**, proposto por um colega do grupo. |
-| Protagonista | **Robô** com cabeça, braços e pernas, mas com cara de máquina, sem traços humanos. |
+| Protagonista | **Robô-caldeira movido a vapor**, com metal rebitado, janela circular de fornalha, manômetro, pinça e braço-canhão, sem rosto humano. [Referência aprovada](imagens/heroi/README.md). |
 | Inimigos | **Robôs** de cores e formatos diferentes, **não humanoides**. Cada tipo tem uma silhueta e uma cor próprias. |
 | Plataformas | Prateleiras atravessáveis, esteiras rolantes, andaimes que desabam e óleo subindo pelo chão. |
 | Movimento | Estilo Cuphead: **pulo duplo** e **dash**. |
-| Ataque | **Manual:** tiro no clique do mouse, mirando com o cursor. |
+| Ataque | **Manual**, com mira pelo mouse e disparo ao segurar o botão esquerdo. |
 | Progressão | XP no chão (peças), upgrades escolhidos a cada nível. |
 | **Descartado** | Upgrades que usam o pulo (dano ao cair, rastro ao pular etc.). |
 | **Opcional** | **Parry rosa**, entra só se sobrar tempo. |
@@ -70,16 +72,17 @@ Os tempos são um ponto de partida; o balanceamento acontece na fase 3 do FASEAM
 
 ### Ataque
 
-**Decidido: tiro manual com mira no mouse.** O robô se move pelo teclado e atira na direção do cursor com o clique esquerdo. O jogador precisa se mover e mirar ao mesmo tempo, o que deixa o jogo mais ativo e mais próximo do Cuphead do que de um survivor.io.
+**Manual, com mira pelo mouse.** O jogador decide quando atacar e para onde disparar.
 
-- O projétil sai do canhão do robô e voa em linha reta na direção do cursor.
-- **Sugestão:** segurar o botão dispara continuamente, respeitando uma cadência (ex.: 1 tiro a cada 0,3 s). Isso evita cansar o dedo e permite que o upgrade de velocidade de ataque faça diferença.
-- Como mirar exige atenção, a quantidade de inimigos e a velocidade deles devem ser calibradas no protótipo.
+- O cursor do mouse define a direção dos tiros, independentemente da direção do deslocamento do robô.
+- Enquanto o **botão esquerdo do mouse estiver pressionado**, o robô dispara respeitando a cadência da arma. Soltar o botão interrompe os disparos.
+- O ataque fica suspenso durante a pausa e a escolha de upgrades.
 
 ## 5. Protagonista
 
-- **Robô pequeno**, com cabeça, braços e pernas, mas claramente uma máquina: sem rosto ou traços humanos.
-- O ataque sai de um **canhão no braço**, que gira apontando para o cursor do mouse (sugestão visual).
+- **Robô-caldeira pequeno e movido a vapor**, com cabeça e carcaça de metal esmaltado/rebitado, janela circular de fornalha laranja, escape, manômetro, válvula e tubulações de cobre. Sem rosto ou traços humanos.
+- Uma mão é uma pinça; o outro braço tem um **canhão pneumático**, com mira manual pelo mouse. [Conceito aprovado do herói](imagens/heroi/README.md).
+- **Evolução visual em estudo:** o mesmo robô passa de enferrujado e avariado para parcialmente restaurado e, depois, totalmente revisado e polido. Os níveis de XP que acionam cada estágio ainda serão definidos. [Comparação dos três estágios](imagens/evolucao-heroi/README.md).
 - **Movimento:**
   - Andar para os lados
   - **Pulo** e **pulo duplo** (propulsor de mola)
@@ -87,17 +90,19 @@ Os tempos são um ponto de partida; o balanceamento acontece na fase 3 do FASEAM
 
 ### Controles (proposta)
 
-| Ação | Tecla |
+| Ação | Controle |
 | --- | --- |
 | Andar | Setas ← → ou A / D |
 | Pular / pulo duplo | Espaço, W ou ↑ |
-| Mirar | Mouse |
-| Atirar | Clique esquerdo (segurar = tiro contínuo) |
 | Dash | Shift |
+| Mirar | Cursor do mouse |
+| Atirar | Segurar o botão esquerdo do mouse |
 | Pausa | Esc |
 | Escolher upgrade | Setas + Enter, ou clique do mouse |
 
 ## 6. Inimigos
+
+As propostas individuais estão na [galeria de inimigos e chefão](imagens/inimigos/README.md), com uma imagem e uma ficha por tipo para discussão do grupo.
 
 Todos são **robôs não humanoides**. Cada tipo tem **cor e silhueta próprias**, para que o jogador reconheça o comportamento de longe. Os comportamentos estão decididos; os visuais abaixo são **sugestões** para o grupo ajustar.
 
@@ -117,8 +122,10 @@ A **máquina-mãe** da oficina: um robô gigante, ocupando boa parte da tela, no
 
 ## 7. Arena e plataformas
 
-- **Uma arena fixa** (cerca de 1 a 2 telas de largura), com a câmera seguindo o robô.
-- **Fundo em camadas com parallax**: paredes da oficina, máquinas paradas e janelas ao fundo, rolando em velocidades diferentes conforme a câmera se move.
+- **Uma arena delimitada maior que a área visível**, com largura inicial de aproximadamente **1,5 a 2 telas**, a ajustar no protótipo. Ao caminhar para os lados, o jogador revela outras partes da mesma oficina.
+- **Câmera com acompanhamento horizontal suave:** o robô pode se deslocar dentro de uma faixa central da tela; ao se aproximar das laterais dessa faixa, a câmera acompanha seu movimento. O enquadramento respeita os limites da arena para manter o cenário preenchendo a tela.
+- **Fundo em camadas com parallax:** janelas e estruturas distantes se deslocam mais devagar; máquinas e tubulações intermediárias se deslocam em velocidade intermediária; chão, plataformas, inimigos e peças pertencem ao mesmo espaço de jogo e acompanham a câmera juntos. Essa diferença de movimento cria profundidade e a sensação de uma oficina maior.
+- **Interface fixa na tela:** vida, XP, nível, tempo e indicadores de melhorias permanecem nas mesmas posições enquanto a câmera se move.
 
 | Elemento | Comportamento |
 | --- | --- |
@@ -149,6 +156,7 @@ Cada upgrade é uma **peça instalada no robô**. Escolhemos 1 entre 3 opções 
 ## 9. Estética e som
 
 - **Estilo:** desenho animado dos anos 30, como no Cuphead, com cores levemente dessaturadas e textura de filme antigo.
+- **Identidade industrial:** grandes fábricas e oficinas com metal, vapor, caldeiras, rebites, válvulas e instrumentos analógicos. O [catálogo de imagens](imagens/README.md) reúne as referências do herói, da evolução, do fundo e da composição da partida.
 - **Efeitos do GDevelop** nas camadas para reforçar o visual (granulação, ruído, tom envelhecido).
 - **Cores de destaque**, para manter a leitura em meio a tanto metal:
   - **Dourado:** peças coletáveis (XP)
@@ -170,8 +178,9 @@ Cada upgrade é uma **peça instalada no robô**. Escolhemos 1 entre 3 opções 
 ### Mínimo (precisa estar pronto)
 
 - [ ] Robô com andar, pulo, pulo duplo e dash
-- [ ] Tiro manual com mira no mouse
+- [ ] Ataque manual com mira pelo mouse e disparo ao segurar o botão esquerdo
 - [ ] 1 arena com prateleiras, esteiras e andaimes que desabam
+- [ ] Arena maior que a área visível e câmera com acompanhamento horizontal suave, limitada às bordas do cenário
 - [ ] Fundo em parallax
 - [ ] Os 5 tipos de inimigo
 - [ ] Peças caindo no chão + barra de XP + escolha de upgrade
@@ -198,7 +207,8 @@ Isso vale para a nota de "uso da ferramenta" e para a apresentação:
 | Comportamento **Platformer** | Robô e inimigos terrestres (gravidade, pulo, pulo duplo) |
 | Comportamento **Platform** (incluindo *jumpthru*) | Chão, prateleiras atravessáveis, andaimes |
 | Comportamento **Tween** | Animações dos robôs, plataformas que tremem, óleo subindo |
-| **Camadas** com velocidades diferentes | Fundo em parallax |
+| **Câmeras** | Acompanhar o robô horizontalmente com suavidade, respeitando os limites da arena |
+| **Camadas** com velocidades diferentes | Fundo em parallax, com profundidades distintas, e interface fixa na tela |
 | **Efeitos** de camada | Visual de filme antigo |
 | **Timers** e **variáveis** | Ondas, tempo de partida, vida, XP, recarga do dash |
 | **Eventos externos** | Dividir a lógica por integrante (jogador, inimigos, upgrades, UI) e evitar conflitos no Git |
@@ -219,7 +229,8 @@ Isso vale para a nota de "uso da ferramenta" e para a apresentação:
 ## 12. Próximos passos
 
 - [ ] Fechar o enredo (seção 3) e o nome do robô
+- [x] Definir o ataque manual com mira pelo mouse (seção 4)
 - [ ] Definir quem cuida de cada frente (tabela no FASEAMENTO)
 - [ ] Confirmar com o professor o uso de imagens geradas por IA
 - [ ] Todos instalarem o GDevelop desktop e clonarem o repositório
-- [ ] **Protótipo com quadrados coloridos:** arena com 3–4 plataformas, andadores e saltadores, peças no chão. Validar se o ciclo "subir para se proteger, descer para coletar" é divertido antes de produzir a arte.
+- [ ] **Protótipo com quadrados coloridos:** arena maior que a área visível, câmera lateral e fundo simples em parallax, 3–4 plataformas, mira e tiro manual, andadores e saltadores, peças no chão. Validar se o ciclo "subir para se proteger, descer para coletar" é divertido e se o acompanhamento da câmera mantém o combate legível antes de produzir a arte.
