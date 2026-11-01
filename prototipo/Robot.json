@@ -1364,12 +1364,13 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Chao",
           "persistentUuid": "9d3b9062-66ac-48c2-a1ac-b304ffda734e",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TiledSpriteObject::TiledSprite",
+          "texture": "prototipo/imagens/chao.png",
+          "width": 64,
+          "height": 32,
           "variables": [],
           "effects": [],
           "behaviors": [
@@ -1380,65 +1381,16 @@
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/chao.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 32
-                          },
-                          {
-                            "x": 0,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Prateleira",
           "persistentUuid": "89e0f003-d175-4beb-86c2-06a01dcbf73a",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TiledSpriteObject::TiledSprite",
+          "texture": "prototipo/imagens/prateleira.png",
+          "width": 64,
+          "height": 16,
           "variables": [
             {
               "name": "EstadoImpacto",
@@ -1485,56 +1437,6 @@
               "canBeGrabbed": true,
               "platformType": "Jumpthru",
               "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/prateleira.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -2527,12 +2429,13 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Esteira",
           "persistentUuid": "b00510b5-3031-4934-b2d1-2658c087e8e1",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TiledSpriteObject::TiledSprite",
+          "texture": "imagens/esteira.png",
+          "width": 32,
+          "height": 16,
           "variables": [
             {
               "name": "Velocidade",
@@ -2562,65 +2465,16 @@
               "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imagens/esteira.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 256,
-                            "y": 0
-                          },
-                          {
-                            "x": 256,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Andaime",
           "persistentUuid": "9951445c-666b-488c-b5ce-3c7edd128266",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TiledSpriteObject::TiledSprite",
+          "texture": "imagens/andaime.png",
+          "width": 48,
+          "height": 16,
           "variables": [
             {
               "name": "Estado",
@@ -2674,65 +2528,16 @@
               "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imagens/andaime.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 180,
-                            "y": 0
-                          },
-                          {
-                            "x": 180,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Fio",
           "persistentUuid": "67963de1-2081-4c58-a184-cc367af73dc9",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TiledSpriteObject::TiledSprite",
+          "texture": "imagens/fio.png",
+          "width": 4,
+          "height": 16,
           "variables": [
             {
               "name": "Layout",
@@ -2748,118 +2553,19 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imagens/fio.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 4,
-                            "y": 0
-                          },
-                          {
-                            "x": 4,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Oleo",
           "persistentUuid": "3a3cde69-5aad-4c98-8c9f-c57dedbf86e4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TiledSpriteObject::TiledSprite",
+          "texture": "imagens/oleo.png",
+          "width": 64,
+          "height": 120,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imagens/oleo.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 16,
-                            "y": 0
-                          },
-                          {
-                            "x": 16,
-                            "y": 120
-                          },
-                          {
-                            "x": 0,
-                            "y": 120
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "behaviors": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -7222,43 +6928,21 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Esteiras: plataformas suspensas atravessáveis por baixo. Cada instância tem a variável Velocidade em px/s (negativa = empurra para a esquerda, positiva = para a direita). A imagem aponta para a esquerda; as esteiras com velocidade positiva são espelhadas no início da cena.",
+              "comment": "Chão, prateleiras, esteiras, andaimes, fios e óleo são Tiled Sprite: a imagem se repete para preencher o tamanho da instância em vez de esticar. A arte desses objetos precisa ser repetível (na horizontal; no fio, na vertical). XOffset desliza a imagem dentro do objeto: aumentar o XOffset move a imagem para a esquerda.",
               "comment2": ""
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Esteira",
-                    "Velocidade",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "Esteira",
-                    "yes"
-                  ]
-                }
-              ]
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Esteiras: plataformas suspensas atravessáveis por baixo. Cada instância tem a variável Velocidade em px/s (negativa = empurra para a esquerda, positiva = para a direita). A imagem da correia se repete (Tiled Sprite) e desliza na mesma velocidade e sentido do empurrão, então não precisa ser espelhada.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -7279,6 +6963,22 @@
               "conditions": [],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TiledSpriteObject::XOffset"
+                      },
+                      "parameters": [
+                        "Esteira",
+                        "-",
+                        "Esteira.Velocidade * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -7815,7 +7515,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Opacity"
+                    "value": "TiledSpriteObject::SetOpacity"
                   },
                   "parameters": [
                     "PlataformasMoveis",
@@ -7864,7 +7564,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Opacity"
+                    "value": "TiledSpriteObject::SetOpacity"
                   },
                   "parameters": [
                     "Fio",
@@ -8184,7 +7884,7 @@
                 },
                 {
                   "type": {
-                    "value": "Opacity"
+                    "value": "TiledSpriteObject::SetOpacity"
                   },
                   "parameters": [
                     "PlataformasMoveis",
@@ -8243,7 +7943,7 @@
                 },
                 {
                   "type": {
-                    "value": "Opacity"
+                    "value": "TiledSpriteObject::SetOpacity"
                   },
                   "parameters": [
                     "Fio",
@@ -8480,6 +8180,35 @@
                   "parameters": [
                     "Peca",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Ondulação: a superfície do óleo desliza devagar para a direita (XOffset diminuindo).",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::XOffset"
+                  },
+                  "parameters": [
+                    "Oleo",
+                    "-",
+                    "12 * TimeDelta()"
                   ]
                 }
               ]
