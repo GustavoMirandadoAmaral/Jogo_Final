@@ -167,6 +167,14 @@
         "name": "imagens/limite.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/fundo_colunas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/fundo_colunas.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -359,6 +367,18 @@
           "persistentUuid": "a949ab15-3c0f-4ef8-9daf-9c3b7e00210e",
           "type": "number",
           "value": 2560
+        },
+        {
+          "name": "FatorParallaxDistante",
+          "persistentUuid": "67d05b2a-8b30-49a8-a0cd-8003f502e92c",
+          "type": "number",
+          "value": 0.2
+        },
+        {
+          "name": "FatorParallaxMedio",
+          "persistentUuid": "e2ce7a55-219a-4e11-bbe8-4d75ad326502",
+          "type": "number",
+          "value": 0.5
         }
       ],
       "instances": [
@@ -614,6 +634,86 @@
           "x": 2560,
           "y": -1000,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "FundoDistante",
+          "name": "FundoOficina",
+          "persistentUuid": "b1e1e86e-7322-4ccb-8505-65e33f34ad98",
+          "width": 1800,
+          "x": 0,
+          "y": 0,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "FundoMedio",
+          "name": "FundoColunas",
+          "persistentUuid": "a9d191c4-6252-48b6-8d2b-27e50e820cdc",
+          "width": 512,
+          "x": 0,
+          "y": 0,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "FundoMedio",
+          "name": "FundoColunas",
+          "persistentUuid": "de53e4f8-79a3-48af-be2b-7459534e5681",
+          "width": 512,
+          "x": 512,
+          "y": 0,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "FundoMedio",
+          "name": "FundoColunas",
+          "persistentUuid": "185b4b23-88fd-4e98-9093-0c7909a1c945",
+          "width": 512,
+          "x": 1024,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "FundoMedio",
+          "name": "FundoColunas",
+          "persistentUuid": "33aa920a-e2de-413a-b51a-49481a06178a",
+          "width": 512,
+          "x": 1536,
+          "y": 0,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1782,6 +1882,90 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FundoOficina",
+          "persistentUuid": "0975091a-2572-4360-bc1c-d2b5b97b0d2e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "oficina-fundo-conceito-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FundoColunas",
+          "persistentUuid": "6c4ae787-5646-45a7-b826-2d7f2015a61d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/fundo_colunas.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1816,6 +2000,12 @@
           },
           {
             "objectName": "LimiteArena"
+          },
+          {
+            "objectName": "FundoOficina"
+          },
+          {
+            "objectName": "FundoColunas"
           }
         ]
       },
@@ -5923,6 +6113,18 @@
                   "parameters": [
                     "LimiteArena"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Robo.CenterX()",
+                    "\"\"",
+                    "0"
+                  ]
                 }
               ]
             },
@@ -5936,7 +6138,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Câmera do Mundo (camada base): centraliza no robô a cada quadro e depois é presa aos limites da arena, para nunca mostrar o que está fora dela. O HUD tem câmera própria e fica parado.",
+              "comment": "Câmera suave do Mundo (camada base). Faixa central: o robô pode se afastar até 100 px do centro sem a câmera se mexer; passando disso, a câmera desliza até alcançá-lo (lerp). Depois ela é presa aos limites da arena, para nunca mostrar o que está fora dela. Usa TimeDelta, então congela junto com a pausa. Y fica fixo.",
               "comment2": ""
             },
             {
@@ -5945,12 +6147,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "CenterCameraOnObject"
+                    "value": "SetCameraCenterX"
                   },
                   "parameters": [
                     "",
-                    "Robo",
-                    "no",
+                    "=",
+                    "lerp(CameraCenterX(), clamp(CameraCenterX(), Robo.CenterX() - 100, Robo.CenterX() + 100), min(1, 6 * TimeDelta()))",
                     "\"\"",
                     "0"
                   ]
@@ -5966,6 +6168,49 @@
                     "Variable(LarguraArena)",
                     "720",
                     "\"\"",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Parallax: cada camada de fundo anda só uma fração do que a câmera do Mundo andou a partir do início (FundoDistante 0,2 e FundoMedio 0,5). Quanto menor o fator, mais longe o fundo parece. Este evento vem depois da câmera do Mundo, para usar a posição já atualizada.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "SceneWindowWidth() / 2 + (CameraCenterX() - SceneWindowWidth() / 2) * Variable(FatorParallaxDistante)",
+                    "\"FundoDistante\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "SceneWindowWidth() / 2 + (CameraCenterX() - SceneWindowWidth() / 2) * Variable(FatorParallaxMedio)",
+                    "\"FundoMedio\"",
                     "0"
                   ]
                 }
