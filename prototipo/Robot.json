@@ -159,6 +159,14 @@
         "name": "prototipo/imagens/tiro_inimigo.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/limite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/limite.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -345,6 +353,12 @@
           "persistentUuid": "cf706029-60b4-40be-ad31-ebc79a7af00d",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "LarguraArena",
+          "persistentUuid": "a949ab15-3c0f-4ef8-9daf-9c3b7e00210e",
+          "type": "number",
+          "value": 2560
         }
       ],
       "instances": [
@@ -356,7 +370,7 @@
           "layer": "",
           "name": "Chao",
           "persistentUuid": "af818b8e-ee46-4012-8501-430951490eb7",
-          "width": 1280,
+          "width": 2560,
           "x": 0,
           "y": 688,
           "zOrder": 1,
@@ -449,7 +463,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "TextoVida",
           "persistentUuid": "2c73334c-ad5a-4b13-b1ed-02557ade8af2",
           "width": 0,
@@ -465,7 +479,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "TextoXP",
           "persistentUuid": "bc1e6ab3-ac2b-4e12-8de2-0c4e688263c7",
           "width": 0,
@@ -504,6 +518,102 @@
           "x": 211,
           "y": 656,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "6d5cacba-eb88-437b-94e3-243421412c9e",
+          "width": 256,
+          "x": 1400,
+          "y": 594,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "5a03c005-9f7e-4cf9-b29a-916833d5451d",
+          "width": 320,
+          "x": 1730,
+          "y": 517,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "1474e341-41dc-40f5-b6d2-c00efdaab9b2",
+          "width": 160,
+          "x": 1810,
+          "y": 427,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "d621980a-21fb-479b-b77f-52d86589e5ec",
+          "width": 256,
+          "x": 2200,
+          "y": 591,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1720,
+          "layer": "",
+          "name": "LimiteArena",
+          "persistentUuid": "30ecfdcf-f56b-4eb7-9a61-cd9d3374bad0",
+          "width": 64,
+          "x": -64,
+          "y": -1000,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1720,
+          "layer": "",
+          "name": "LimiteArena",
+          "persistentUuid": "3befd433-381d-42eb-bb6c-e72a1287dbab",
+          "width": 64,
+          "x": 2560,
+          "y": -1000,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1603,6 +1713,75 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "LimiteArena",
+          "persistentUuid": "e676ac76-2a1f-4f19-ac01-bfe4fb68ef20",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "imagens/limite.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1634,6 +1813,9 @@
           },
           {
             "objectName": "TextoXP"
+          },
+          {
+            "objectName": "LimiteArena"
           }
         ]
       },
@@ -5696,9 +5878,161 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": false,
+          "name": "Arena e câmera (Pessoa C)",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "parameters": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Arena de 2560 x 720 px (variável LarguraArena). As paredes LimiteArena ficam nas duas bordas: são sólidas para o robô e os inimigos, mas invisíveis durante o jogo.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "LimiteArena"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Câmera do Mundo (camada base): centraliza no robô a cada quadro e depois é presa aos limites da arena, para nunca mostrar o que está fora dela. O HUD tem câmera própria e fica parado.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CenterCameraOnObject"
+                  },
+                  "parameters": [
+                    "",
+                    "Robo",
+                    "no",
+                    "\"\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ClampCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "0",
+                    "Variable(LarguraArena)",
+                    "720",
+                    "\"\"",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "FundoDistante",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "FundoMedio",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -5765,6 +6099,35 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "HUD",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
