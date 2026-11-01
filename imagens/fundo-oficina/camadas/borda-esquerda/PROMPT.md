@@ -1,0 +1,11 @@
+# Prompt — Borda esquerda
+
+Imagem: [borda-esquerda-v1.png](borda-esquerda-v1.png).
+
+Ferramenta: geração de imagens integrada ao Codex.
+
+Referência: [panorama aprovado da oficina](../../oficina-fundo-conceito-v1.png), acompanhado do recorte da borda enviado pelo usuário.
+
+## Prompt utilizado
+
+Use case: stylized-concept. Asset for the 2D side-view platform game Oficina em Pane. Match the approved factory's hand-inked 1930s cartoon linework, worn industrial iron, rivets, copper pipes, warm furnace light and muted blue-gray distant architecture. It is a steam-powered old factory. Strict side-elevation art, no isometric floor, no characters, no enemies, pickups, bullets, interface, labels, words, watermark or logo. Any screenshots are references for the artwork only: ignore and REMOVE all app text, black screenshot margins, cropping handles and rounded screenshot frames. Create exactly ONE independent game layer per image. Image 1 references the exact desired LEFT-EDGE workshop assembly; image 2 supplies the original style. Create a single tall PORTRAIT left-border foreground cutout, about 2:3 aspect ratio. Preserve the visual idea of the big orange-brown riveted cylindrical boiler, glowing barred furnace window low on it, large round dark valve handwheel, thick vertical copper pipes, flanged elbows, steel supporting scaffold beneath, pipes near the bottom, and one small old hanging lamp near its upper inner edge. Machinery is concentrated against the LEFT side; it rises continuously along that left outer border. The inner RIGHT edge is an irregular silhouette of pipes and valves and steam, with transparent gaps around and through the structures, so another factory layer will be visible behind it. The outer left and lower machinery may meet the corresponding outer canvas boundaries naturally. Extract/redraw the nearer machinery only: absolutely no blue-gray factory wall, windows, distant machinery, painted backdrop or rectangular brown fill behind it. Small localized steam wisps are okay, but no opaque smoke veil filling the right side. TRUE TRANSPARENT ALPHA for every area not occupied by the nearer boiler/pipes/scaffolding. This must be a left boundary piece ONLY, not a full rectangular frame with a second right-hand border, not a whole room, not a prop collection.

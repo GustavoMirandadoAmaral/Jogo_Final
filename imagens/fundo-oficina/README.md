@@ -39,13 +39,15 @@ Ao andar para a direita, a câmera revela o lado direito da oficina; as camadas 
 - **Situação:** nova proposta de panorama para avaliação.
 - **Formato:** PNG opaco e horizontal.
 - **Uso atual:** conceito do ambiente e referência de paleta, arquitetura e profundidade.
-- **Parallax:** esta versão é uma imagem composta. As camadas independentes ainda precisam ser produzidas para se moverem separadamente.
+- **Parallax:** este panorama é uma imagem composta de referência. O [conjunto de camadas](camadas/README.md) oferece duas bordas, um fundo distante e trechos intermediários de máquinas e montagem para experimentar o movimento separado.
 - **Continuidade:** as bordas ainda não foram preparadas nem verificadas para repetição horizontal. A extensão do fundo deve cobrir o percurso da câmera definido para a arena.
 
-A próxima preparação visual pode partir desta imagem para criar um fundo distante e outra imagem com máquinas/tubulações sobre transparência. Chão, plataformas, esteiras e andaimes continuam como objetos separados do cenário.
+O conjunto separa o fundo distante, os trechos intermediários de máquinas e montagem e as duas bordas. Chão, plataformas, esteiras e andaimes jogáveis continuam como objetos separados do cenário.
 
 ## Arquivos e origem
 
+- [Fábrica em camadas para parallax](camadas/README.md): borda esquerda, borda direita, fundo distante, máquinas intermediárias e linha de montagem.
+- [Estudo anterior de moldura em camada única](parallax/README.md): preservado como registro do processo de criação.
 - [Imagem PNG](oficina-fundo-conceito-v1.png)
 - [Prompt da geração por IA](PROMPT.md)
 - Referência: [visão geral do jogo aprovada](../visao-do-jogo/README.md).

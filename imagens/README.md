@@ -9,6 +9,7 @@ Esta pasta reúne a direção visual do jogo: o protagonista aprovado, sua evolu
 | [Herói](heroi/README.md) | Identidade do robô-caldeira: metal, vapor, manômetro, pinça e braço-canhão | Conceito aprovado |
 | [Evolução do herói](evolucao-heroi/README.md) | O mesmo robô enferrujado, parcialmente restaurado e totalmente revisado/polido | Nova proposta para avaliação |
 | [Fundo da oficina](fundo-oficina/README.md) | Panorama do ambiente industrial e planejamento do parallax | Nova proposta para avaliação |
+| [Camadas da fábrica](fundo-oficina/camadas/README.md) | Bordas, fundo distante e trechos intermediários de máquinas e montagem | Propostas para composição e parallax |
 | [Visão do jogo](visao-do-jogo/README.md) | Arena com herói, hordas, plataformas, XP e interface | Composição conceitual aprovada |
 | [Inimigos e chefão](inimigos/README.md) | Andador, Saltador, Voador, Pesado, Atirador e Máquina-mãe | Novas propostas para discussão do grupo |
 | [Engrenagem de XP](xp-engrenagem/README.md) | Peça dourada coletável que representa experiência | Nova proposta |
