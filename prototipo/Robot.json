@@ -280,6 +280,20 @@
               "name": "Peca"
             }
           ]
+        },
+        {
+          "name": "PlataformasMoveis",
+          "objects": [
+            {
+              "name": "Prateleira"
+            },
+            {
+              "name": "Esteira"
+            },
+            {
+              "name": "Andaime"
+            }
+          ]
         }
       ],
       "variables": [
@@ -426,6 +440,18 @@
           "persistentUuid": "e2ce7a55-219a-4e11-bbe8-4d75ad326502",
           "type": "number",
           "value": 0.5
+        },
+        {
+          "name": "NumeroLayouts",
+          "persistentUuid": "87016a2f-c4cc-4e41-b337-8a91adb9f8ac",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "LayoutAtual",
+          "persistentUuid": "0f7d6411-9667-456f-8020-53e73021121a",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -609,6 +635,12 @@
               "persistentUuid": "6716151d-59ca-4693-a2c7-5ad9bd19d507",
               "type": "number",
               "value": -180
+            },
+            {
+              "name": "Layout",
+              "persistentUuid": "1688e425-57b8-4b20-aa6a-e56edf1a6a96",
+              "type": "number",
+              "value": 1
             }
           ]
         },
@@ -626,7 +658,14 @@
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "c5a40bab-ff72-4138-9d09-98fa9b578eab",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -642,7 +681,14 @@
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "7775a90b-0c58-4d1e-9f16-f765e81e30a9",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -664,6 +710,12 @@
               "persistentUuid": "cdcfa712-cbee-4f5c-98fc-67770427e792",
               "type": "number",
               "value": 180
+            },
+            {
+              "name": "Layout",
+              "persistentUuid": "2b3f37b9-3d01-4367-aeab-44c97c867196",
+              "type": "number",
+              "value": 1
             }
           ]
         },
@@ -857,7 +909,14 @@
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "c2372edc-05d9-4863-be49-24495a06c045",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -873,7 +932,14 @@
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "fe7d697d-4ba5-491d-8330-5371414ce5ef",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -889,7 +955,14 @@
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "79642dc2-ce31-403d-b290-4fba4d549383",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -905,7 +978,250 @@
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "17215777-8e5f-4222-b43a-c7e0c375355d",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "68424597-dce4-429c-b27f-56480676470c",
+          "width": 200,
+          "x": 1220,
+          "y": 570,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "5fa97e2a-c0a2-422a-800d-d7df811724a6",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "layer": "",
+          "name": "Andaime",
+          "persistentUuid": "edc7eb0d-e06c-42d3-8538-a679f64fb6ac",
+          "width": 180,
+          "x": 1480,
+          "y": 450,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "0bfc7838-4f2a-4f65-b570-b966377da26b",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "layer": "",
+          "name": "Esteira",
+          "persistentUuid": "e6456902-5e71-47b1-95cd-d283ee924040",
+          "width": 256,
+          "x": 1760,
+          "y": 600,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "88356b6f-e54a-453e-a299-5b8f159a7b88",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Velocidade",
+              "persistentUuid": "8344ddf8-9ac0-422e-997e-1fd562e17163",
+              "type": "number",
+              "value": 180
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "f0247155-7adf-439d-8aea-2faebc99b630",
+          "width": 200,
+          "x": 2080,
+          "y": 560,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "ceca83f0-b932-4216-8a65-96d24b2a6f1d",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "layer": "",
+          "name": "Andaime",
+          "persistentUuid": "7d32f31f-ea07-44f0-82b4-3308a62ce29e",
+          "width": 180,
+          "x": 2340,
+          "y": 440,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "2ab20435-fca4-42b4-95ae-7042c086961c",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 574,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "c80cde3e-7f63-4b21-810d-9f5faeda3f5a",
+          "width": 4,
+          "x": 1318.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "9153b7f4-8c13-413b-9bec-64effc35f7ff",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 454,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "ade7b4ff-6d82-456c-9e84-0f9ed9ee6f3a",
+          "width": 4,
+          "x": 1568.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "94797c9b-8864-4afe-b585-382bb6614d75",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 604,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "f987f061-f92d-4544-b1fd-80b791de106e",
+          "width": 4,
+          "x": 1886.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "108a0913-8baa-43c4-af15-3c21502aa94a",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "95c98a50-16b5-4f91-bb20-bd7d56dbefa5",
+          "width": 4,
+          "x": 2178.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "42cd0a45-c65f-4bbf-8420-ec0ae2e18fc9",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "313a6f53-53a6-4d4f-b4f8-be1bfb90785d",
+          "width": 4,
+          "x": 2428.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "6ffcd333-202c-4a3e-a874-f1312aa94f52",
+              "type": "number",
+              "value": 2
+            }
+          ]
         }
       ],
       "objects": [
@@ -1103,6 +1419,18 @@
             {
               "name": "XOrigemImpacto",
               "persistentUuid": "2f012d2d-16d7-422d-9490-0a8f7538415a",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Layout",
+              "persistentUuid": "a1f352a5-2cee-4e6a-a43d-88e5b251a2ab",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Ativa",
+              "persistentUuid": "3140e8f2-a4cd-48ae-a410-cb4fca97be71",
               "type": "number",
               "value": 0
             }
@@ -2169,6 +2497,18 @@
               "persistentUuid": "ed3a0a52-c077-4b00-9274-c5fcd1d9ab5c",
               "type": "number",
               "value": -180
+            },
+            {
+              "name": "Layout",
+              "persistentUuid": "032a29ad-340a-4ae2-96bf-1b1721b63ff1",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Ativa",
+              "persistentUuid": "804b4080-4273-4461-86e1-d8d5630de19a",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -2263,6 +2603,24 @@
               "persistentUuid": "6f370879-f6d7-4892-a528-a9d0c1d5f72b",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Layout",
+              "persistentUuid": "e07a0ea3-3bd9-462f-9ab9-465f6e154160",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Ativa",
+              "persistentUuid": "e4e748e3-68a8-42ac-b458-f3f68280344e",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "YOrigem",
+              "persistentUuid": "e52a43d0-9286-4b9e-ac78-14df7ddc0a71",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -2333,7 +2691,20 @@
           "persistentUuid": "67963de1-2081-4c58-a184-cc367af73dc9",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "904335e5-d550-4a59-b972-448546c541e1",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Ativa",
+              "persistentUuid": "31d71e2b-ddf6-48f2-88b9-54f2f7240f9c",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -6765,7 +7136,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Andaime: plataforma atravessável que desaba e não volta. Regra de layout: a arena tem 3 setores (esquerda, meio, direita) e um andaime é sempre a plataforma mais alta do seu setor. Estado 0 = firme, 1 = tremendo (aviso), 2 = caindo. Começa a tremer quando o robô pisa nele ou quando outra regra coloca SinalQueda = 1 (ex.: o Pesado chegando por baixo). Treme 1 s, o fio se rompe, ele cai e é removido. Novos andaimes só entram na mudança de plataformas entre ondas.",
+              "comment": "Andaime: plataforma atravessável que desaba e não volta. Regra de layout: a arena tem 3 setores (esquerda, meio, direita) e um andaime é sempre a plataforma mais alta do seu setor. Estado 0 = firme, 1 = tremendo (aviso), 2 = caindo, 3 = caído (escondido). Começa a tremer quando o robô pisa nele ou quando outra regra coloca SinalQueda = 1 (ex.: o Pesado chegando por baixo). Treme 1 s, o fio se rompe, ele cai e fica escondido. Só volta quando o layout dele for ativado de novo na mudança de plataformas entre ondas.",
               "comment2": ""
             },
             {
@@ -6790,6 +7161,17 @@
                     "XOrigem",
                     "=",
                     "Andaime.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andaime",
+                    "YOrigem",
+                    "=",
+                    "Andaime.Y()"
                   ]
                 }
               ]
@@ -6982,7 +7364,7 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Delete"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Fio",
@@ -7130,13 +7512,558 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Delete"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Andaime",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Andaime",
+                        "=",
+                        "Andaime.XOrigem"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Andaime",
+                        "=",
+                        "Andaime.YOrigem"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Andaime",
+                        "Estado",
+                        "=",
+                        "3"
+                      ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Mudança de plataformas: cada plataforma e cada fio têm a variável Layout (0 = fixa, sempre presente; 1, 2... = só existe naquele layout). O layout de cada onda é mod(Onda - 1, NumeroLayouts) + 1, então as ondas ímpares usam o 1 e as pares o 2. Só os setores do meio e da direita mudam: a esquerda fica fixa por causa da rota do Saltador. Ao criar um layout novo, respeitar a regra dos setores e dar a cada plataforma um fio com o mesmo Layout.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Aviso: durante a pausa entre ondas (EsperaProximaOnda > 0), as plataformas do layout atual que vão sair piscam. Elas continuam sólidas até a onda virar.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EsperaProximaOnda",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Layout",
+                    "=",
+                    "Variable(LayoutAtual)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Layout",
+                    "!=",
+                    "mod(Variable(Onda), Variable(NumeroLayouts)) + 1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "=",
+                    "140 + 115 * sin(Variable(EsperaProximaOnda) * 20)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EsperaProximaOnda",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Layout",
+                    "=",
+                    "Variable(LayoutAtual)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Layout",
+                    "!=",
+                    "mod(Variable(Onda), Variable(NumeroLayouts)) + 1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "=",
+                    "140 + 115 * sin(Variable(EsperaProximaOnda) * 20)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Troca: quando a onda vira, LayoutAtual passa a ser o layout da nova onda (no primeiro quadro do jogo isso ativa o layout 1).",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "LayoutAtual",
+                    "!=",
+                    "mod(Variable(Onda) - 1, Variable(NumeroLayouts)) + 1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "LayoutAtual",
+                    "=",
+                    "mod(Variable(Onda) - 1, Variable(NumeroLayouts)) + 1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Plataformas e fios de outros layouts ficam escondidos e sem colisão. Roda a cada quadro, então nada fora do layout volta sozinho (nem pelo retorno da prateleira após o impacto do Pesado).",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Layout",
+                    "!=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Layout",
+                    "!=",
+                    "Variable(LayoutAtual)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Platform",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Ativa",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Layout",
+                    "!=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Layout",
+                    "!=",
+                    "Variable(LayoutAtual)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Fio",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Ativa",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "As plataformas do layout novo aparecem uma única vez (Ativa = 0 -> 1), e só quando não estão encostando no robô; se estiverem, esperam ele sair. Andaimes voltam inteiros, na posição original e firmes.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andaime",
+                    "Layout",
+                    "=",
+                    "Variable(LayoutAtual)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andaime",
+                    "Ativa",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Andaime",
+                    "Robo",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andaime",
+                    "Estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andaime",
+                    "Tempo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andaime",
+                    "SinalQueda",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Layout",
+                    "=",
+                    "Variable(LayoutAtual)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Ativa",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Robo",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Platform",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Ativa",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Layout",
+                    "=",
+                    "Variable(LayoutAtual)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Ativa",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Fio",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Ativa",
+                    "=",
+                    "1"
                   ]
                 }
               ]
