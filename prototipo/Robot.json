@@ -121,14 +121,6 @@
         "userAdded": false
       },
       {
-        "file": "oficina-fundo-conceito-v1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "oficina-fundo-conceito-v1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "imagens/voador.png",
         "kind": "image",
         "metadata": "",
@@ -169,14 +161,6 @@
         "userAdded": false
       },
       {
-        "file": "imagens/fundo_colunas.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "imagens/fundo_colunas.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "imagens/esteira.png",
         "kind": "image",
         "metadata": "",
@@ -205,6 +189,38 @@
         "kind": "image",
         "metadata": "",
         "name": "imagens/oleo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/cenario/fundo-distante.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/cenario/fundo-distante.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/cenario/fundo-maquinas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/cenario/fundo-maquinas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/cenario/borda-esquerda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/cenario/borda-esquerda.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/cenario/borda-direita.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/cenario/borda-direita.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -447,7 +463,7 @@
           "name": "FatorParallaxMedio",
           "persistentUuid": "e2ce7a55-219a-4e11-bbe8-4d75ad326502",
           "type": "number",
-          "value": 0.5
+          "value": 0.4
         },
         {
           "name": "NumeroLayouts",
@@ -799,60 +815,12 @@
           "depth": 0,
           "height": 720,
           "layer": "FundoMedio",
-          "name": "FundoColunas",
+          "name": "FundoMaquinas",
           "persistentUuid": "a9d191c4-6252-48b6-8d2b-27e50e820cdc",
-          "width": 512,
+          "width": 1800,
           "x": 0,
           "y": 0,
           "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 720,
-          "layer": "FundoMedio",
-          "name": "FundoColunas",
-          "persistentUuid": "de53e4f8-79a3-48af-be2b-7459534e5681",
-          "width": 512,
-          "x": 512,
-          "y": 0,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 720,
-          "layer": "FundoMedio",
-          "name": "FundoColunas",
-          "persistentUuid": "185b4b23-88fd-4e98-9093-0c7909a1c945",
-          "width": 512,
-          "x": 1024,
-          "y": 0,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 720,
-          "layer": "FundoMedio",
-          "name": "FundoColunas",
-          "persistentUuid": "33aa920a-e2de-413a-b51a-49481a06178a",
-          "width": 512,
-          "x": 1536,
-          "y": 0,
-          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1261,6 +1229,38 @@
           "x": 0,
           "y": 720,
           "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "BordaEsquerda",
+          "persistentUuid": "75e002fa-507e-4b3a-a369-276e7592e79d",
+          "width": 480,
+          "x": 0,
+          "y": 0,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "BordaDireita",
+          "persistentUuid": "3f11c49b-c312-48bc-94cd-a10d1a8fb95a",
+          "width": 480,
+          "x": 2080,
+          "y": 0,
+          "zOrder": -10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2463,7 +2463,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "oficina-fundo-conceito-v1.png",
+                      "image": "imagens/cenario/fundo-distante.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2487,7 +2487,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "FundoColunas",
+          "name": "FundoMaquinas",
           "persistentUuid": "6c4ae787-5646-45a7-b826-2d7f2015a61d",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2505,7 +2505,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imagens/fundo_colunas.png",
+                      "image": "imagens/cenario/fundo-maquinas.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2860,6 +2860,90 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BordaEsquerda",
+          "persistentUuid": "7d6f9fe6-5343-4dc7-b1e1-c69f73260a6d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/cenario/borda-esquerda.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BordaDireita",
+          "persistentUuid": "b5a356b4-a9a9-44e3-ab58-d76d29d54f5a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/cenario/borda-direita.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2899,7 +2983,7 @@
             "objectName": "FundoOficina"
           },
           {
-            "objectName": "FundoColunas"
+            "objectName": "FundoMaquinas"
           },
           {
             "objectName": "Esteira"
@@ -2912,6 +2996,12 @@
           },
           {
             "objectName": "Oleo"
+          },
+          {
+            "objectName": "BordaEsquerda"
+          },
+          {
+            "objectName": "BordaDireita"
           }
         ]
       },
@@ -7089,7 +7179,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Parallax: cada camada de fundo anda só uma fração do que a câmera do Mundo andou a partir do início (FundoDistante 0,2 e FundoMedio 0,5). Quanto menor o fator, mais longe o fundo parece. Este evento vem depois da câmera do Mundo, para usar a posição já atualizada.",
+              "comment": "Parallax: cada camada de fundo anda só uma fração do que a câmera do Mundo andou a partir do início (FundoDistante 0,2 com as janelas da fábrica; FundoMedio 0,4 com as máquinas). Quanto menor o fator, mais longe o fundo parece. As bordas da oficina ficam no próprio Mundo (100%). Cada camada precisa cobrir 1280 + (LarguraArena - 1280) x fator px; as imagens têm 1800. Este evento vem depois da câmera do Mundo, para usar a posição já atualizada.",
               "comment2": ""
             },
             {
