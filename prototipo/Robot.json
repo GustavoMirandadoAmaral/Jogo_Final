@@ -175,6 +175,14 @@
         "name": "imagens/fundo_colunas.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/esteira.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/esteira.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -231,6 +239,29 @@
             },
             {
               "name": "Atirador"
+            }
+          ]
+        },
+        {
+          "name": "Empurraveis",
+          "objects": [
+            {
+              "name": "Robo"
+            },
+            {
+              "name": "Andador"
+            },
+            {
+              "name": "Saltador"
+            },
+            {
+              "name": "Pesado"
+            },
+            {
+              "name": "Atirador"
+            },
+            {
+              "name": "Peca"
             }
           ]
         }
@@ -548,7 +579,7 @@
           "depth": 0,
           "height": 16,
           "layer": "",
-          "name": "Prateleira",
+          "name": "Esteira",
           "persistentUuid": "6d5cacba-eb88-437b-94e3-243421412c9e",
           "width": 256,
           "x": 1400,
@@ -556,7 +587,14 @@
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Velocidade",
+              "persistentUuid": "6716151d-59ca-4693-a2c7-5ad9bd19d507",
+              "type": "number",
+              "value": -180
+            }
+          ]
         },
         {
           "angle": 0,
@@ -596,7 +634,7 @@
           "depth": 0,
           "height": 16,
           "layer": "",
-          "name": "Prateleira",
+          "name": "Esteira",
           "persistentUuid": "d621980a-21fb-479b-b77f-52d86589e5ec",
           "width": 256,
           "x": 2200,
@@ -604,7 +642,14 @@
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Velocidade",
+              "persistentUuid": "cdcfa712-cbee-4f5c-98fc-67770427e792",
+              "type": "number",
+              "value": 180
+            }
+          ]
         },
         {
           "angle": 0,
@@ -1966,6 +2011,82 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Esteira",
+          "persistentUuid": "b00510b5-3031-4934-b2d1-2658c087e8e1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Velocidade",
+              "persistentUuid": "ed3a0a52-c077-4b00-9274-c5fcd1d9ab5c",
+              "type": "number",
+              "value": -180
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "imagens/esteira.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2006,6 +2127,9 @@
           },
           {
             "objectName": "FundoColunas"
+          },
+          {
+            "objectName": "Esteira"
           }
         ]
       },
@@ -6212,6 +6336,103 @@
                     "SceneWindowWidth() / 2 + (CameraCenterX() - SceneWindowWidth() / 2) * Variable(FatorParallaxMedio)",
                     "\"FundoMedio\"",
                     "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Esteiras: plataformas suspensas atravessáveis por baixo. Cada instância tem a variável Velocidade em px/s (negativa = empurra para a esquerda, positiva = para a direita). A imagem aponta para a esquerda; as esteiras com velocidade positiva são espelhadas no início da cena.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Esteira",
+                    "Velocidade",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Esteira",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Para cada esteira, quem estiver apoiado nela (grupo Empurraveis: robô, inimigos com gravidade e peças) é deslocado pela Velocidade dela. Ao pular, o objeto deixa de estar apoiado e o empurrão para sozinho.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Esteira",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                      },
+                      "parameters": [
+                        "Empurraveis",
+                        "PlatformerObject",
+                        "Esteira",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Empurraveis",
+                        "+",
+                        "Esteira.Velocidade * TimeDelta()"
+                      ]
+                    }
                   ]
                 }
               ]
