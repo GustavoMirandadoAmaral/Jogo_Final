@@ -199,6 +199,14 @@
         "name": "imagens/fio.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/oleo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/oleo.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -452,6 +460,24 @@
           "persistentUuid": "0f7d6411-9667-456f-8020-53e73021121a",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "OleoAtivo",
+          "persistentUuid": "e636cd0d-7253-4192-9dac-b4074254d232",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "AlturaFinalOleo",
+          "persistentUuid": "d295c0d4-f95c-4b2c-9632-f115707f7e3d",
+          "type": "number",
+          "value": 630
+        },
+        {
+          "name": "VelocidadeOleo",
+          "persistentUuid": "7f3cd32a-8123-4794-bfc4-19545a8a4de8",
+          "type": "number",
+          "value": 10
         }
       ],
       "instances": [
@@ -1222,6 +1248,22 @@
               "value": 2
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "",
+          "name": "Oleo",
+          "persistentUuid": "f8a64dec-ad79-49b9-8687-ca0b6021534d",
+          "width": 2560,
+          "x": 0,
+          "y": 720,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2757,6 +2799,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Oleo",
+          "persistentUuid": "3a3cde69-5aad-4c98-8c9f-c57dedbf86e4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "imagens/oleo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 120
+                          },
+                          {
+                            "x": 0,
+                            "y": 120
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2806,6 +2909,9 @@
           },
           {
             "objectName": "Fio"
+          },
+          {
+            "objectName": "Oleo"
           }
         ]
       },
@@ -8064,6 +8170,226 @@
                     "Ativa",
                     "=",
                     "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Óleo",
+          "source": "",
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": false,
+          "parameters": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Gatilho provisório: o óleo começa a subir quando entra a onda 5. Quando o chefão existir, basta trocar esta condição para a chegada dele: o resto só olha a variável OleoAtivo.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Onda",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "OleoAtivo",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "OleoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Subida: com OleoAtivo = 1, o topo do óleo sobe VelocidadeOleo px/s até a AlturaFinalOleo (max() impede passar do limite). A altura final deixa todas as plataformas usáveis e transforma o chão em perigo. Usa TimeDelta, então para junto com a pausa.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "OleoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Oleo",
+                    "=",
+                    "max(Variable(AlturaFinalOleo), Oleo.Y() - Variable(VelocidadeOleo) * TimeDelta())"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Dano: o robô encostando no óleo perde 1 de vida e fica 1,5 s invulnerável, a mesma regra do tiro inimigo. Os inimigos ignoram o óleo.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Oleo",
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "=",
+                    "1.5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Peças de XP que caem no óleo afundam e somem.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Peca",
+                    "Oleo",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Peca",
+                    ""
                   ]
                 }
               ]
