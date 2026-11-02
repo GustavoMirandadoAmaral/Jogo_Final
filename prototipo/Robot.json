@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 285,
+    "build": 286,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -279,6 +279,86 @@
         "name": "robo17.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "robo1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo10.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -312,7 +392,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311478,
+        "zoomFactor": 3.6212820570304602,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -637,13 +717,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 48,
+          "height": 88,
           "layer": "",
           "name": "Robo",
           "persistentUuid": "4dd4e464-c003-4072-8506-4eb068315e89",
-          "width": 35,
+          "width": 70,
           "x": 610,
-          "y": 319,
+          "y": 279,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -1394,234 +1474,6 @@
           ],
           "animations": [
             {
-              "name": "andar",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.05,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 423
-                          },
-                          {
-                            "x": 20,
-                            "y": 423
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 423
-                          },
-                          {
-                            "x": 20,
-                            "y": 423
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 423
-                          },
-                          {
-                            "x": 20,
-                            "y": 423
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 423
-                          },
-                          {
-                            "x": 20,
-                            "y": 423
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 423
-                          },
-                          {
-                            "x": 20,
-                            "y": 423
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 18
-                          },
-                          {
-                            "x": 361,
-                            "y": 423
-                          },
-                          {
-                            "x": 20,
-                            "y": 423
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "parado",
               "useMultipleDirections": false,
               "directions": [
@@ -1647,20 +1499,320 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 20,
-                            "y": 18
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 361,
-                            "y": 18
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 361,
-                            "y": 423
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 20,
-                            "y": 423
+                            "x": 19,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "andar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 414
+                          },
+                          {
+                            "x": 19,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 414
+                          },
+                          {
+                            "x": 19,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 414
+                          },
+                          {
+                            "x": 19,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 414
+                          },
+                          {
+                            "x": 19,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 414
+                          },
+                          {
+                            "x": 19,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 414
+                          },
+                          {
+                            "x": 19,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 414
+                          },
+                          {
+                            "x": 19,
+                            "y": 414
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 14
+                          },
+                          {
+                            "x": 351,
+                            "y": 414
+                          },
+                          {
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -9675,7 +9827,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"A\""
+                    "\"a\""
                   ]
                 },
                 {
@@ -9769,7 +9921,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"D\""
+                    "\"d\""
                   ]
                 },
                 {
@@ -9875,7 +10027,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"W\""
+                    "\"w\""
                   ]
                 }
               ],
@@ -10299,7 +10451,7 @@
               },
               "parameters": [
                 "",
-                "\"A\""
+                "\"a\""
               ]
             }
           ],
@@ -10325,7 +10477,7 @@
               },
               "parameters": [
                 "",
-                "\"D\""
+                "\"d\""
               ]
             }
           ],
@@ -10591,7 +10743,24 @@
       ]
     }
   ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Arena"
+      }
+    ]
+  },
   "externalEvents": [],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "testsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsFunctionsExtensions": [],
-  "externalLayouts": []
+  "externalLayouts": [],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT"
+  }
 }
