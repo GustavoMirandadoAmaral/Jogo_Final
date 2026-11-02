@@ -223,6 +223,62 @@
         "name": "imagens/cenario/borda-direita.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "robo11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "robo17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "robo17.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -834,7 +890,7 @@
           "name": "Fio",
           "persistentUuid": "baf7cf06-1fb7-45cc-b23a-97188bb95abf",
           "width": 4,
-          "x": 226.0,
+          "x": 226,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -850,7 +906,7 @@
           "name": "Fio",
           "persistentUuid": "1f60888c-d147-4777-80e2-8bd234eef7fa",
           "width": 4,
-          "x": 1050.0,
+          "x": 1050,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -866,7 +922,7 @@
           "name": "Fio",
           "persistentUuid": "ae295d6d-9a69-43ca-b45a-cc10f7951121",
           "width": 4,
-          "x": 634.0,
+          "x": 634,
           "y": 443,
           "zOrder": 0,
           "numberProperties": [],
@@ -882,7 +938,7 @@
           "name": "Fio",
           "persistentUuid": "88e94fd6-63cc-4516-be68-22784bfafb3a",
           "width": 4,
-          "x": 635.0,
+          "x": 635,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -898,7 +954,7 @@
           "name": "Fio",
           "persistentUuid": "918fcd74-e403-4ff4-8c41-4a5d4f785361",
           "width": 4,
-          "x": 1526.0,
+          "x": 1526,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -921,7 +977,7 @@
           "name": "Fio",
           "persistentUuid": "6db5bb16-b91a-4112-9fdb-213d9f4df9fd",
           "width": 4,
-          "x": 1828.0,
+          "x": 1828,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -944,7 +1000,7 @@
           "name": "Fio",
           "persistentUuid": "1194797a-4c15-4f62-a37f-874a0ad2da73",
           "width": 4,
-          "x": 2048.0,
+          "x": 2048,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -967,7 +1023,7 @@
           "name": "Fio",
           "persistentUuid": "8fb5ad31-d33a-46a5-9c99-f608e832842d",
           "width": 4,
-          "x": 2326.0,
+          "x": 2326,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -1111,7 +1167,7 @@
           "name": "Fio",
           "persistentUuid": "c80cde3e-7f63-4b21-810d-9f5faeda3f5a",
           "width": 4,
-          "x": 1318.0,
+          "x": 1318,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -1134,7 +1190,7 @@
           "name": "Fio",
           "persistentUuid": "ade7b4ff-6d82-456c-9e84-0f9ed9ee6f3a",
           "width": 4,
-          "x": 1568.0,
+          "x": 1568,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -1157,7 +1213,7 @@
           "name": "Fio",
           "persistentUuid": "f987f061-f92d-4544-b1fd-80b791de106e",
           "width": 4,
-          "x": 1886.0,
+          "x": 1886,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -1180,7 +1236,7 @@
           "name": "Fio",
           "persistentUuid": "95c98a50-16b5-4f91-bb20-bd7d56dbefa5",
           "width": 4,
-          "x": 2178.0,
+          "x": 2178,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -1203,7 +1259,7 @@
           "name": "Fio",
           "persistentUuid": "313a6f53-53a6-4d4f-b4f8-be1bfb90785d",
           "width": 4,
-          "x": 2428.0,
+          "x": 2428,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -1314,16 +1370,16 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "andar",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.05,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/robo.png",
+                      "image": "robo11.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1339,20 +1395,248 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 20,
+                            "y": 18
                           },
                           {
-                            "x": 32,
-                            "y": 0
+                            "x": 361,
+                            "y": 18
                           },
                           {
-                            "x": 32,
-                            "y": 48
+                            "x": 361,
+                            "y": 423
                           },
                           {
-                            "x": 0,
-                            "y": 48
+                            "x": 20,
+                            "y": 423
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 423
+                          },
+                          {
+                            "x": 20,
+                            "y": 423
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 423
+                          },
+                          {
+                            "x": 20,
+                            "y": 423
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 423
+                          },
+                          {
+                            "x": 20,
+                            "y": 423
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 423
+                          },
+                          {
+                            "x": 20,
+                            "y": 423
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 423
+                          },
+                          {
+                            "x": 20,
+                            "y": 423
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "parado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "robo17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 18
+                          },
+                          {
+                            "x": 361,
+                            "y": 423
+                          },
+                          {
+                            "x": 20,
+                            "y": 423
                           }
                         ]
                       ]
@@ -1365,12 +1649,12 @@
         },
         {
           "assetStoreId": "",
+          "height": 32,
           "name": "Chao",
           "persistentUuid": "9d3b9062-66ac-48c2-a1ac-b304ffda734e",
-          "type": "TiledSpriteObject::TiledSprite",
           "texture": "prototipo/imagens/chao.png",
+          "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
-          "height": 32,
           "variables": [],
           "effects": [],
           "behaviors": [
@@ -1385,12 +1669,12 @@
         },
         {
           "assetStoreId": "",
+          "height": 16,
           "name": "Prateleira",
           "persistentUuid": "89e0f003-d175-4beb-86c2-06a01dcbf73a",
-          "type": "TiledSpriteObject::TiledSprite",
           "texture": "prototipo/imagens/prateleira.png",
+          "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
-          "height": 16,
           "variables": [
             {
               "name": "EstadoImpacto",
@@ -2430,12 +2714,12 @@
         },
         {
           "assetStoreId": "",
+          "height": 16,
           "name": "Esteira",
           "persistentUuid": "b00510b5-3031-4934-b2d1-2658c087e8e1",
-          "type": "TiledSpriteObject::TiledSprite",
           "texture": "imagens/esteira.png",
+          "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
-          "height": 16,
           "variables": [
             {
               "name": "Velocidade",
@@ -2469,12 +2753,12 @@
         },
         {
           "assetStoreId": "",
+          "height": 16,
           "name": "Andaime",
           "persistentUuid": "9951445c-666b-488c-b5ce-3c7edd128266",
-          "type": "TiledSpriteObject::TiledSprite",
           "texture": "imagens/andaime.png",
+          "type": "TiledSpriteObject::TiledSprite",
           "width": 48,
-          "height": 16,
           "variables": [
             {
               "name": "Estado",
@@ -2532,12 +2816,12 @@
         },
         {
           "assetStoreId": "",
+          "height": 16,
           "name": "Fio",
           "persistentUuid": "67963de1-2081-4c58-a184-cc367af73dc9",
-          "type": "TiledSpriteObject::TiledSprite",
           "texture": "imagens/fio.png",
+          "type": "TiledSpriteObject::TiledSprite",
           "width": 4,
-          "height": 16,
           "variables": [
             {
               "name": "Layout",
@@ -2557,12 +2841,12 @@
         },
         {
           "assetStoreId": "",
+          "height": 120,
           "name": "Oleo",
           "persistentUuid": "3a3cde69-5aad-4c98-8c9f-c57dedbf86e4",
-          "type": "TiledSpriteObject::TiledSprite",
           "texture": "imagens/oleo.png",
+          "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
-          "height": 120,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -2708,6 +2992,18 @@
           },
           {
             "objectName": "BordaDireita"
+          },
+          {
+            "objectName": "Voador"
+          },
+          {
+            "objectName": "Pesado"
+          },
+          {
+            "objectName": "Atirador"
+          },
+          {
+            "objectName": "TiroInimigo"
           }
         ]
       },
@@ -6552,7 +6848,6 @@
           "name": "Movimento do Voador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "parameters": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -6571,7 +6866,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 95,
@@ -6582,7 +6878,6 @@
           "name": "Movimento do Pesado",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "parameters": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -6636,7 +6931,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 95,
@@ -6647,7 +6943,6 @@
           "name": "Impacto do Pesado nas plataformas ocupadas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "parameters": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7138,7 +7433,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 95,
@@ -7149,7 +7445,6 @@
           "name": "Movimento do Atirador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "parameters": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7558,7 +7853,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 95,
@@ -7569,7 +7865,6 @@
           "name": "Disparos do Atirador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "parameters": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -7839,7 +8134,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 95,
@@ -7850,7 +8146,6 @@
           "name": "Vida do Robo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "parameters": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7897,18 +8192,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 95,
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": false,
+          "folded": true,
           "name": "Arena e câmera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "parameters": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -7920,8 +8215,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Arena de 2560 x 720 px (variável LarguraArena). As paredes LimiteArena ficam nas duas bordas: são sólidas para o robô e os inimigos, mas invisíveis durante o jogo.",
-              "comment2": ""
+              "comment": "Arena de 2560 x 720 px (variável LarguraArena). As paredes LimiteArena ficam nas duas bordas: são sólidas para o robô e os inimigos, mas invisíveis durante o jogo."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7968,8 +8262,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Câmera suave do Mundo (camada base). Faixa central: o robô pode se afastar até 100 px do centro sem a câmera se mexer; passando disso, a câmera desliza até alcançá-lo (lerp). Depois ela é presa aos limites da arena, para nunca mostrar o que está fora dela. Usa TimeDelta, então congela junto com a pausa. Y fica fixo.",
-              "comment2": ""
+              "comment": "Câmera suave do Mundo (camada base). Faixa central: o robô pode se afastar até 100 px do centro sem a câmera se mexer; passando disso, a câmera desliza até alcançá-lo (lerp). Depois ela é presa aos limites da arena, para nunca mostrar o que está fora dela. Usa TimeDelta, então congela junto com a pausa. Y fica fixo."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8013,8 +8306,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Parallax: cada camada de fundo anda só uma fração do que a câmera do Mundo andou a partir do início (FundoDistante 0,2 com as janelas da fábrica; FundoMedio 0,4 com as máquinas). Quanto menor o fator, mais longe o fundo parece. As bordas da oficina ficam no próprio Mundo (100%). Cada camada precisa cobrir 1280 + (LarguraArena - 1280) x fator px; as imagens têm 1800. Este evento vem depois da câmera do Mundo, para usar a posição já atualizada.",
-              "comment2": ""
+              "comment": "Parallax: cada camada de fundo anda só uma fração do que a câmera do Mundo andou a partir do início (FundoDistante 0,2 com as janelas da fábrica; FundoMedio 0,4 com as máquinas). Quanto menor o fator, mais longe o fundo parece. As bordas da oficina ficam no próprio Mundo (100%). Cada camada precisa cobrir 1280 + (LarguraArena - 1280) x fator px; as imagens têm 1800. Este evento vem depois da câmera do Mundo, para usar a posição já atualizada."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8056,8 +8348,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Chão, prateleiras, esteiras, andaimes, fios e óleo são Tiled Sprite: a imagem se repete para preencher o tamanho da instância em vez de esticar. A arte desses objetos precisa ser repetível (na horizontal; no fio, na vertical). XOffset desliza a imagem dentro do objeto: aumentar o XOffset move a imagem para a esquerda.",
-              "comment2": ""
+              "comment": "Chão, prateleiras, esteiras, andaimes, fios e óleo são Tiled Sprite: a imagem se repete para preencher o tamanho da instância em vez de esticar. A arte desses objetos precisa ser repetível (na horizontal; no fio, na vertical). XOffset desliza a imagem dentro do objeto: aumentar o XOffset move a imagem para a esquerda."
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -8069,8 +8360,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Esteiras: plataformas suspensas atravessáveis por baixo. Cada instância tem a variável Velocidade em px/s (negativa = empurra para a esquerda, positiva = para a direita). A imagem da correia se repete (Tiled Sprite) e desliza na mesma velocidade e sentido do empurrão, então não precisa ser espelhada.",
-              "comment2": ""
+              "comment": "Esteiras: plataformas suspensas atravessáveis por baixo. Cada instância tem a variável Velocidade em px/s (negativa = empurra para a esquerda, positiva = para a direita). A imagem da correia se repete (Tiled Sprite) e desliza na mesma velocidade e sentido do empurrão, então não precisa ser espelhada."
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -8082,8 +8372,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Para cada esteira, quem estiver apoiado nela (grupo Empurraveis: robô, inimigos com gravidade e peças) é deslocado pela Velocidade dela. Ao pular, o objeto deixa de estar apoiado e o empurrão para sozinho.",
-              "comment2": ""
+              "comment": "Para cada esteira, quem estiver apoiado nela (grupo Empurraveis: robô, inimigos com gravidade e peças) é deslocado pela Velocidade dela. Ao pular, o objeto deixa de estar apoiado e o empurrão para sozinho."
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -8147,8 +8436,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Fios: cabos decorativos (objeto Fio) que suspendem cada plataforma, do teto ou da plataforma logo acima até o meio dela. Ficam atrás das plataformas e não têm colisão. Ao colocar uma plataforma nova, colocar também o seu fio.",
-              "comment2": ""
+              "comment": "Fios: cabos decorativos (objeto Fio) que suspendem cada plataforma, do teto ou da plataforma logo acima até o meio dela. Ficam atrás das plataformas e não têm colisão. Ao colocar uma plataforma nova, colocar também o seu fio."
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -8160,8 +8448,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Andaime: plataforma atravessável que desaba e não volta. Regra de layout: a arena tem 3 setores (esquerda, meio, direita) e um andaime é sempre a plataforma mais alta do seu setor. Estado 0 = firme, 1 = tremendo (aviso), 2 = caindo, 3 = caído (escondido). Começa a tremer quando o robô pisa nele ou quando outra regra coloca SinalQueda = 1 (ex.: o Pesado chegando por baixo). Treme 1 s, o fio se rompe, ele cai e fica escondido. Só volta quando o layout dele for ativado de novo na mudança de plataformas entre ondas.",
-              "comment2": ""
+              "comment": "Andaime: plataforma atravessável que desaba e não volta. Regra de layout: a arena tem 3 setores (esquerda, meio, direita) e um andaime é sempre a plataforma mais alta do seu setor. Estado 0 = firme, 1 = tremendo (aviso), 2 = caindo, 3 = caído (escondido). Começa a tremer quando o robô pisa nele ou quando outra regra coloca SinalQueda = 1 (ex.: o Pesado chegando por baixo). Treme 1 s, o fio se rompe, ele cai e fica escondido. Só volta quando o layout dele for ativado de novo na mudança de plataformas entre ondas."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8588,8 +8875,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Mudança de plataformas: cada plataforma e cada fio têm a variável Layout (0 = fixa, sempre presente; 1, 2... = só existe naquele layout). O layout de cada onda é mod(Onda - 1, NumeroLayouts) + 1, então as ondas ímpares usam o 1 e as pares o 2. Só os setores do meio e da direita mudam: a esquerda fica fixa por causa da rota do Saltador. Ao criar um layout novo, respeitar a regra dos setores e dar a cada plataforma um fio com o mesmo Layout.",
-              "comment2": ""
+              "comment": "Mudança de plataformas: cada plataforma e cada fio têm a variável Layout (0 = fixa, sempre presente; 1, 2... = só existe naquele layout). O layout de cada onda é mod(Onda - 1, NumeroLayouts) + 1, então as ondas ímpares usam o 1 e as pares o 2. Só os setores do meio e da direita mudam: a esquerda fica fixa por causa da rota do Saltador. Ao criar um layout novo, respeitar a regra dos setores e dar a cada plataforma um fio com o mesmo Layout."
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -8601,8 +8887,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Aviso: durante a pausa entre ondas (EsperaProximaOnda > 0), as plataformas do layout atual que vão sair piscam. Elas continuam sólidas até a onda virar.",
-              "comment2": ""
+              "comment": "Aviso: durante a pausa entre ondas (EsperaProximaOnda > 0), as plataformas do layout atual que vão sair piscam. Elas continuam sólidas até a onda virar."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8712,8 +8997,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Troca: quando a onda vira, LayoutAtual passa a ser o layout da nova onda (no primeiro quadro do jogo isso ativa o layout 1).",
-              "comment2": ""
+              "comment": "Troca: quando a onda vira, LayoutAtual passa a ser o layout da nova onda (no primeiro quadro do jogo isso ativa o layout 1)."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8752,8 +9036,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Plataformas e fios de outros layouts ficam escondidos e sem colisão. Roda a cada quadro, então nada fora do layout volta sozinho (nem pelo retorno da prateleira após o impacto do Pesado).",
-              "comment2": ""
+              "comment": "Plataformas e fios de outros layouts ficam escondidos e sem colisão. Roda a cada quadro, então nada fora do layout volta sozinho (nem pelo retorno da prateleira após o impacto do Pesado)."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8873,8 +9156,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "As plataformas do layout novo aparecem uma única vez (Ativa = 0 -> 1), e só quando não estão encostando no robô; se estiverem, esperam ele sair. Andaimes voltam inteiros, na posição original e firmes.",
-              "comment2": ""
+              "comment": "As plataformas do layout novo aparecem uma única vez (Ativa = 0 -> 1), e só quando não estão encostando no robô; se estiverem, esperam ele sair. Andaimes voltam inteiros, na posição original e firmes."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9092,18 +9374,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Óleo",
-          "source": "",
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": false,
-          "parameters": [],
+          "folded": true,
+          "name": "Óleo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -9115,8 +9397,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Gatilho provisório: o óleo começa a subir quando entra a onda 5. Quando o chefão existir, basta trocar esta condição para a chegada dele: o resto só olha a variável OleoAtivo.",
-              "comment2": ""
+              "comment": "Gatilho provisório: o óleo começa a subir quando entra a onda 5. Quando o chefão existir, basta trocar esta condição para a chegada dele: o resto só olha a variável OleoAtivo."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9165,8 +9446,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Subida: com OleoAtivo = 1, o topo do óleo sobe VelocidadeOleo px/s até a AlturaFinalOleo (max() impede passar do limite). A altura final deixa todas as plataformas usáveis e transforma o chão em perigo. Usa TimeDelta, então para junto com a pausa.",
-              "comment2": ""
+              "comment": "Subida: com OleoAtivo = 1, o topo do óleo sobe VelocidadeOleo px/s até a AlturaFinalOleo (max() impede passar do limite). A altura final deixa todas as plataformas usáveis e transforma o chão em perigo. Usa TimeDelta, então para junto com a pausa."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9205,8 +9485,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Dano: o robô encostando no óleo perde 1 de vida e fica 1,5 s invulnerável, a mesma regra do tiro inimigo. Os inimigos ignoram o óleo.",
-              "comment2": ""
+              "comment": "Dano: o robô encostando no óleo perde 1 de vida e fica 1,5 s invulnerável, a mesma regra do tiro inimigo. Os inimigos ignoram o óleo."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9281,8 +9560,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Peças de XP que caem no óleo afundam e somem.",
-              "comment2": ""
+              "comment": "Peças de XP que caem no óleo afundam e somem."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9322,8 +9600,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Ondulação: a superfície do óleo desliza devagar para a direita (XOffset diminuindo).",
-              "comment2": ""
+              "comment": "Ondulação: a superfície do óleo desliza devagar para a direita (XOffset diminuindo)."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9339,6 +9616,143 @@
                     "12 * TimeDelta()"
                   ]
                 }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Movimentação personagem: \"Robô\"",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Robo",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "Robo",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Robo",
+                "Animation",
+                "=",
+                "\"andar\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Robo",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "Robo",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Robo",
+                "Animation",
+                "=",
+                "\"parado\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Robo",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Robo",
+                "Flippable",
+                "no"
               ]
             }
           ]
