@@ -225,7 +225,7 @@
         "userAdded": false
       },
       {
-        "file": "robo11.png",
+        "file": "imagens/robo/robo11.png",
         "kind": "image",
         "metadata": "",
         "name": "robo11.png",
@@ -233,7 +233,7 @@
         "userAdded": false
       },
       {
-        "file": "robo12.png",
+        "file": "imagens/robo/robo12.png",
         "kind": "image",
         "metadata": "",
         "name": "robo12.png",
@@ -241,7 +241,7 @@
         "userAdded": false
       },
       {
-        "file": "robo13.png",
+        "file": "imagens/robo/robo13.png",
         "kind": "image",
         "metadata": "",
         "name": "robo13.png",
@@ -249,7 +249,7 @@
         "userAdded": false
       },
       {
-        "file": "robo14.png",
+        "file": "imagens/robo/robo14.png",
         "kind": "image",
         "metadata": "",
         "name": "robo14.png",
@@ -257,7 +257,7 @@
         "userAdded": false
       },
       {
-        "file": "robo15.png",
+        "file": "imagens/robo/robo15.png",
         "kind": "image",
         "metadata": "",
         "name": "robo15.png",
@@ -265,7 +265,7 @@
         "userAdded": false
       },
       {
-        "file": "robo16.png",
+        "file": "imagens/robo/robo16.png",
         "kind": "image",
         "metadata": "",
         "name": "robo16.png",
@@ -273,7 +273,7 @@
         "userAdded": false
       },
       {
-        "file": "robo17.png",
+        "file": "imagens/robo/robo17.png",
         "kind": "image",
         "metadata": "",
         "name": "robo17.png",
@@ -281,7 +281,7 @@
         "userAdded": false
       },
       {
-        "file": "robo1.png",
+        "file": "imagens/robo/robo1.png",
         "kind": "image",
         "metadata": "",
         "name": "robo1.png",
@@ -289,7 +289,7 @@
         "userAdded": false
       },
       {
-        "file": "robo2.png",
+        "file": "imagens/robo/robo2.png",
         "kind": "image",
         "metadata": "",
         "name": "robo2.png",
@@ -297,7 +297,7 @@
         "userAdded": false
       },
       {
-        "file": "robo3.png",
+        "file": "imagens/robo/robo3.png",
         "kind": "image",
         "metadata": "",
         "name": "robo3.png",
@@ -305,7 +305,7 @@
         "userAdded": false
       },
       {
-        "file": "robo4.png",
+        "file": "imagens/robo/robo4.png",
         "kind": "image",
         "metadata": "",
         "name": "robo4.png",
@@ -313,7 +313,7 @@
         "userAdded": false
       },
       {
-        "file": "robo5.png",
+        "file": "imagens/robo/robo5.png",
         "kind": "image",
         "metadata": "",
         "name": "robo5.png",
@@ -321,7 +321,7 @@
         "userAdded": false
       },
       {
-        "file": "robo6.png",
+        "file": "imagens/robo/robo6.png",
         "kind": "image",
         "metadata": "",
         "name": "robo6.png",
@@ -329,7 +329,7 @@
         "userAdded": false
       },
       {
-        "file": "robo7.png",
+        "file": "imagens/robo/robo7.png",
         "kind": "image",
         "metadata": "",
         "name": "robo7.png",
@@ -337,7 +337,7 @@
         "userAdded": false
       },
       {
-        "file": "robo8.png",
+        "file": "imagens/robo/robo8.png",
         "kind": "image",
         "metadata": "",
         "name": "robo8.png",
@@ -345,7 +345,7 @@
         "userAdded": false
       },
       {
-        "file": "robo9.png",
+        "file": "imagens/robo/robo9.png",
         "kind": "image",
         "metadata": "",
         "name": "robo9.png",
@@ -353,10 +353,18 @@
         "userAdded": false
       },
       {
-        "file": "robo10.png",
+        "file": "imagens/robo/robo10.png",
         "kind": "image",
         "metadata": "",
         "name": "robo10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/esteira-esquerda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/esteira-esquerda.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -653,13 +661,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "a63fd959-313e-4ae0-8721-43757769f2d5",
           "width": 256,
           "x": 100,
-          "y": 594,
+          "y": 560,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -669,13 +677,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "3c4634b4-a0b8-4f9b-8e55-21e97fc2a27e",
           "width": 256,
           "x": 924,
-          "y": 591,
+          "y": 560,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -685,7 +693,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "105215fa-3b9c-44c5-a04c-17f796cd7a12",
@@ -701,13 +709,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "f82e7ce9-4549-46dc-9c30-66e6829585f3",
           "width": 160,
           "x": 557,
-          "y": 427,
+          "y": 397,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -717,11 +725,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 88,
+          "height": 91.62,
           "layer": "",
           "name": "Robo",
           "persistentUuid": "4dd4e464-c003-4072-8506-4eb068315e89",
-          "width": 70,
+          "width": 71.5,
           "x": 610,
           "y": 279,
           "zOrder": 6,
@@ -797,13 +805,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Esteira",
           "persistentUuid": "6d5cacba-eb88-437b-94e3-243421412c9e",
           "width": 256,
           "x": 1400,
-          "y": 594,
+          "y": 560,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -826,7 +834,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "5a03c005-9f7e-4cf9-b29a-916833d5451d",
@@ -849,13 +857,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Andaime",
           "persistentUuid": "1474e341-41dc-40f5-b6d2-c00efdaab9b2",
           "width": 180,
-          "x": 1960,
-          "y": 440,
+          "x": 2000,
+          "y": 330,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -872,13 +880,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Esteira",
           "persistentUuid": "d621980a-21fb-479b-b77f-52d86589e5ec",
           "width": 256,
           "x": 2200,
-          "y": 591,
+          "y": 560,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -965,169 +973,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 598,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "baf7cf06-1fb7-45cc-b23a-97188bb95abf",
-          "width": 4,
-          "x": 226,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 595,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "1f60888c-d147-4777-80e2-8bd234eef7fa",
-          "width": 4,
-          "x": 1050,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 78,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "ae295d6d-9a69-43ca-b45a-cc10f7951121",
-          "width": 4,
-          "x": 634,
-          "y": 443,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 431,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "88e94fd6-63cc-4516-be68-22784bfafb3a",
-          "width": 4,
-          "x": 635,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 598,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "918fcd74-e403-4ff4-8c41-4a5d4f785361",
-          "width": 4,
-          "x": 1526,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "c2372edc-05d9-4863-be49-24495a06c045",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 564,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "6db5bb16-b91a-4112-9fdb-213d9f4df9fd",
-          "width": 4,
-          "x": 1828,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "fe7d697d-4ba5-491d-8330-5371414ce5ef",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "1194797a-4c15-4f62-a37f-874a0ad2da73",
-          "width": 4,
-          "x": 2048,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "79642dc2-ce31-403d-b290-4fba4d549383",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 595,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "8fb5ad31-d33a-46a5-9c99-f608e832842d",
-          "width": 4,
-          "x": 2326,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "17215777-8e5f-4222-b43a-c7e0c375355d",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "68424597-dce4-429c-b27f-56480676470c",
           "width": 200,
           "x": 1220,
-          "y": 570,
+          "y": 560,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1144,13 +996,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Andaime",
           "persistentUuid": "edc7eb0d-e06c-42d3-8538-a679f64fb6ac",
           "width": 180,
           "x": 1480,
-          "y": 450,
+          "y": 330,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1167,13 +1019,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Esteira",
           "persistentUuid": "e6456902-5e71-47b1-95cd-d283ee924040",
           "width": 256,
           "x": 1760,
-          "y": 600,
+          "y": 560,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -1196,7 +1048,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "f0247155-7adf-439d-8aea-2faebc99b630",
@@ -1219,13 +1071,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
+          "height": 32,
           "layer": "",
           "name": "Andaime",
           "persistentUuid": "7d32f31f-ea07-44f0-82b4-3308a62ce29e",
           "width": 180,
           "x": 2340,
-          "y": 440,
+          "y": 330,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -1233,121 +1085,6 @@
             {
               "name": "Layout",
               "persistentUuid": "2ab20435-fca4-42b4-95ae-7042c086961c",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 574,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "c80cde3e-7f63-4b21-810d-9f5faeda3f5a",
-          "width": 4,
-          "x": 1318,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "9153b7f4-8c13-413b-9bec-64effc35f7ff",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 454,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "ade7b4ff-6d82-456c-9e84-0f9ed9ee6f3a",
-          "width": 4,
-          "x": 1568,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "94797c9b-8864-4afe-b585-382bb6614d75",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 604,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "f987f061-f92d-4544-b1fd-80b791de106e",
-          "width": 4,
-          "x": 1886,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "108a0913-8baa-43c4-af15-3c21502aa94a",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 564,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "95c98a50-16b5-4f91-bb20-bd7d56dbefa5",
-          "width": 4,
-          "x": 2178,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "42cd0a45-c65f-4bbf-8420-ec0ae2e18fc9",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "313a6f53-53a6-4d4f-b4f8-be1bfb90785d",
-          "width": 4,
-          "x": 2428,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "6ffcd333-202c-4a3e-a874-f1312aa94f52",
               "type": "number",
               "value": 2
             }
@@ -1400,6 +1137,493 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "5d1725b4-1be8-4497-beaf-c094d385bfe9",
+          "width": 200,
+          "x": 300,
+          "y": 320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "653fd21e-ec3a-4f7c-ba5f-c09f6f910b3b",
+          "width": 200,
+          "x": 1150,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "4b4d8e52-9b96-4887-87bc-e57b0ab61a05",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "21337d70-4ff7-49cc-a578-ed76663be7a2",
+          "width": 200,
+          "x": 2230,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "4b5c1105-f9f8-4569-9a0d-1ba3ba1c45e7",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "339f11a0-8646-4018-af17-fc21b3d252b4",
+          "width": 200,
+          "x": 1250,
+          "y": 440,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "96d3eb09-611b-41b6-b7bd-ed8f59661412",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "3dd4b7d3-7f18-4218-a55b-67516a9ddc44",
+          "width": 180,
+          "x": 2120,
+          "y": 440,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "23610ab9-e996-46f1-9614-821099a39521",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "47276b92-8069-43c3-9e8f-ddbc13d47c67",
+          "width": 8,
+          "x": 224.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "fffd450d-22b5-4683-afcf-5427e394a02f",
+          "width": 8,
+          "x": 1048.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "aebff544-116b-46a9-b33f-f24cd5ee4cde",
+          "width": 8,
+          "x": 632.0,
+          "y": 429,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 401,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "38e98c3f-5c25-4984-ba41-de34b02e619c",
+          "width": 8,
+          "x": 633.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "e8d58af8-b157-4488-a194-4385c49eb497",
+          "width": 8,
+          "x": 1524.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "16c0f662-8748-4db5-b5ab-e212fc5ba198",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "873b4236-1c1e-4bb4-a6f2-3ea549d5fb50",
+          "width": 8,
+          "x": 1826.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "3dfc086e-a71e-44be-814b-b4a90a43aa38",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 334,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "dcb95d5e-012e-4a62-b0ef-e28dce2b7803",
+          "width": 8,
+          "x": 2086.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "3ca09e04-192a-4600-8dfe-dae6a1ed538e",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "b9b2fb15-9386-4ff0-b50f-9145a1b6bf55",
+          "width": 8,
+          "x": 2324.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "13ade55f-8705-4724-bd24-801391364ee7",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "f564bdf9-f546-4220-80e9-18d83973e999",
+          "width": 8,
+          "x": 1316.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "27990c4f-55e4-4975-926b-486decbcbc5e",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 334,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "ace145f6-baa2-4599-bcbc-839ae14d277a",
+          "width": 8,
+          "x": 1566.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "82b1c8cc-5ded-402e-944d-ec3a51a85b15",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "d0564177-7b5d-4837-b857-19f6bcfff8d3",
+          "width": 8,
+          "x": 1884.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "4faf3758-a495-4c62-9d7e-8600d17407e7",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "c6b0b247-da43-4185-9f11-b600a2b73143",
+          "width": 8,
+          "x": 2176.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "c755eba7-9129-4f18-9953-a96d9ee1b506",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 334,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "0fc549db-f95c-4edc-b4f2-0c9dd2cced9f",
+          "width": 8,
+          "x": 2426.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "9045fc2b-1de3-4f5d-b6eb-d63c78a95d98",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 324,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "5b4c9c80-caaa-4d52-929b-1c7489090622",
+          "width": 8,
+          "x": 396.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "cce1b20a-84f8-4227-b660-fbc21c9c61da",
+          "width": 8,
+          "x": 1246.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "43713336-3a74-4de8-91eb-c6ee5dee686b",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "68b1ff40-ade9-4341-8107-c796f654ec7b",
+          "width": 8,
+          "x": 2326.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "cd000bb5-8a80-456e-a647-eaff445d1ba2",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "ddea1061-8838-45aa-a69f-ed43afe627b3",
+          "width": 8,
+          "x": 1346.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "23145984-df6d-4c97-8a0a-08f78861df6f",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "0e033425-737c-480b-bae3-35fcf7b45174",
+          "width": 8,
+          "x": 2206.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "2c1e6111-6f5d-4e35-af1e-1bf734062c7e",
+              "type": "number",
+              "value": 2
+            }
+          ]
         }
       ],
       "objects": [
@@ -1491,10 +1715,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
@@ -1539,10 +1763,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
@@ -1575,10 +1799,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
@@ -1611,10 +1835,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
@@ -1647,10 +1871,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
@@ -1683,10 +1907,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
@@ -1719,10 +1943,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
@@ -1755,10 +1979,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
@@ -1791,10 +2015,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
@@ -1830,7 +2054,7 @@
           "persistentUuid": "9d3b9062-66ac-48c2-a1ac-b304ffda734e",
           "texture": "prototipo/imagens/chao.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
+          "width": 33,
           "variables": [],
           "effects": [],
           "behaviors": [
@@ -1845,12 +2069,12 @@
         },
         {
           "assetStoreId": "",
-          "height": 16,
+          "height": 32,
           "name": "Prateleira",
           "persistentUuid": "89e0f003-d175-4beb-86c2-06a01dcbf73a",
           "texture": "prototipo/imagens/prateleira.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
+          "width": 29,
           "variables": [
             {
               "name": "EstadoImpacto",
@@ -2890,12 +3114,12 @@
         },
         {
           "assetStoreId": "",
-          "height": 16,
+          "height": 32,
           "name": "Esteira",
           "persistentUuid": "b00510b5-3031-4934-b2d1-2658c087e8e1",
           "texture": "imagens/esteira.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 30,
           "variables": [
             {
               "name": "Velocidade",
@@ -2929,12 +3153,12 @@
         },
         {
           "assetStoreId": "",
-          "height": 16,
+          "height": 32,
           "name": "Andaime",
           "persistentUuid": "9951445c-666b-488c-b5ce-3c7edd128266",
           "texture": "imagens/andaime.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 48,
+          "width": 70,
           "variables": [
             {
               "name": "Estado",
@@ -2992,12 +3216,12 @@
         },
         {
           "assetStoreId": "",
-          "height": 16,
+          "height": 26,
           "name": "Fio",
           "persistentUuid": "67963de1-2081-4c58-a184-cc367af73dc9",
           "texture": "imagens/fio.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 4,
+          "width": 8,
           "variables": [
             {
               "name": "Layout",
@@ -3022,7 +3246,7 @@
           "persistentUuid": "3a3cde69-5aad-4c98-8c9f-c57dedbf86e4",
           "texture": "imagens/oleo.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
+          "width": 154,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -7150,6 +7374,19 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Prateleira atingida pelo Pesado: treme 2 s, cai (some e perde a colisão) junto com o fio que a segura e fica fora até a próxima troca de layout entre ondas, como o andaime. O retorno fica no grupo \"Arena e câmera\", no evento da troca.",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Prateleira",
               "conditions": [],
@@ -7373,136 +7610,45 @@
                         "=",
                         "2"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "TempoRetorno",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "EstadoImpacto",
-                        "=",
-                        "2"
-                      ]
                     }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "TempoRetorno",
-                        "+",
-                        "TimeDelta()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "EstadoImpacto",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "TempoRetorno",
-                        ">=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetX"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "=",
-                        "Prateleira.XOrigemImpacto"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "Platform",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Show"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "EstadoImpacto",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "TempoAbalo",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Prateleira",
-                        "TempoRetorno",
-                        "=",
-                        "0"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Fio",
+                            "Prateleira",
+                            "",
+                            "",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "Fio",
+                            "<",
+                            "Prateleira.Y()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "Fio",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -8438,6 +8584,35 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Segurança da arena: movimentos que mudam a posição direto (como o dash) ignoram as paredes LimiteArena. Por isso, a cada quadro, o robô é mantido entre 0 e LarguraArena.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "=",
+                    "clamp(Robo.X(), 0, Variable(LarguraArena) - Robo.Width())"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Câmera suave do Mundo (camada base). Faixa central: o robô pode se afastar até 100 px do centro sem a câmera se mexer; passando disso, a câmera desliza até alcançá-lo (lerp). Depois ela é presa aos limites da arena, para nunca mostrar o que está fora dela. Usa TimeDelta, então congela junto com a pausa. Y fica fixo."
             },
             {
@@ -8524,7 +8699,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Chão, prateleiras, esteiras, andaimes, fios e óleo são Tiled Sprite: a imagem se repete para preencher o tamanho da instância em vez de esticar. A arte desses objetos precisa ser repetível (na horizontal; no fio, na vertical). XOffset desliza a imagem dentro do objeto: aumentar o XOffset move a imagem para a esquerda."
+              "comment": "Chão, prateleiras, esteiras, andaimes, fios e óleo são Tiled Sprite: a imagem se repete para preencher o tamanho da instância em vez de esticar. As texturas são um ciclo da arte de imagens/plataformas, já com a emenda fundida e na altura do objeto (32 px nas plataformas e no chão, 120 no óleo; o fio repete na vertical, com 8 px de largura). XOffset desliza a imagem dentro do objeto: aumentar o XOffset move a imagem para a esquerda."
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -8536,7 +8711,42 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Esteiras: plataformas suspensas atravessáveis por baixo. Cada instância tem a variável Velocidade em px/s (negativa = empurra para a esquerda, positiva = para a direita). A imagem da correia se repete (Tiled Sprite) e desliza na mesma velocidade e sentido do empurrão, então não precisa ser espelhada."
+              "comment": "Esteiras: plataformas suspensas atravessáveis por baixo. Cada instância tem a variável Velocidade em px/s (negativa = empurra para a esquerda, positiva = para a direita). As setas da arte apontam para a direita; as esteiras com Velocidade negativa trocam, no início da cena, para a imagem espelhada (esteira-esquerda). A correia desliza na mesma velocidade e sentido do empurrão."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Esteira",
+                    "Velocidade",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::SetImageFromResource"
+                  },
+                  "parameters": [
+                    "Esteira",
+                    "imagens/esteira-esquerda.png"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -8612,7 +8822,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Fios: cabos decorativos (objeto Fio) que suspendem cada plataforma, do teto ou da plataforma logo acima até o meio dela. Ficam atrás das plataformas e não têm colisão. Ao colocar uma plataforma nova, colocar também o seu fio."
+              "comment": "Fios: cabos decorativos (objeto Fio) que suspendem cada plataforma, do teto ou da plataforma logo acima até o meio dela. Ficam atrás das plataformas e não têm colisão. Ao colocar uma plataforma nova, colocar também o seu fio. Alturas: o andar de baixo fica em y 560 e cada plataforma empilhada 120 px acima da de baixo (32 de espessura + 88 do robô), para o robô caber embaixo sem atravessar a plataforma."
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -9200,6 +9410,146 @@
                     "mod(Variable(Onda) - 1, Variable(NumeroLayouts)) + 1"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Na troca, as prateleiras derrubadas pelo Pesado voltam firmes. As fixas (Layout 0) reaparecem aqui, junto com os fios fixos; as dos layouts reaparecem quando o layout delas for ativado.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "Layout",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "Platform",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "=",
+                        "Prateleira.XOrigemImpacto"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoAbalo",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Fio",
+                        "Layout",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Fio",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -9212,7 +9562,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Plataformas e fios de outros layouts ficam escondidos e sem colisão. Roda a cada quadro, então nada fora do layout volta sozinho (nem pelo retorno da prateleira após o impacto do Pesado)."
+              "comment": "Plataformas e fios de outros layouts ficam escondidos e sem colisão. Roda a cada quadro, então nada fora do layout volta sozinho."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
