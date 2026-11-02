@@ -1,0 +1,192 @@
+{
+  "data": "2026-11-02",
+  "status": "artes-base originais; recortes e reducoes sugeridos ainda nao aplicados",
+  "arquivos": [
+    {
+      "tipo": "andaime",
+      "arquivo": "imagens/plataformas/andaime/andaime-repetivel-v1.png",
+      "dimensoes_originais": [
+        2172,
+        724
+      ],
+      "modo": "RGBA",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "limites_alpha_128": [
+        0,
+        275,
+        2172,
+        547
+      ],
+      "primeira_linha_95pct_opaca": 278,
+      "recorte_sugerido_xyxy": [
+        0,
+        278,
+        2172,
+        547
+      ],
+      "reducao_inicial_px": [
+        129,
+        16
+      ],
+      "observacao": "Somente medicao; nenhum recorte ou redimensionamento foi aplicado."
+    },
+    {
+      "tipo": "chao",
+      "arquivo": "imagens/plataformas/chao/chao-repetivel-v1.png",
+      "dimensoes_originais": [
+        1774,
+        887
+      ],
+      "modo": "RGBA",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "limites_alpha_128": [
+        0,
+        397,
+        1774,
+        848
+      ],
+      "primeira_linha_95pct_opaca": 400,
+      "recorte_sugerido_xyxy": [
+        0,
+        400,
+        1774,
+        848
+      ],
+      "reducao_inicial_px": [
+        127,
+        32
+      ],
+      "observacao": "Somente medicao; nenhum recorte ou redimensionamento foi aplicado."
+    },
+    {
+      "tipo": "esteira",
+      "arquivo": "imagens/plataformas/esteira/esteira-direita-repetivel-v1.png",
+      "dimensoes_originais": [
+        2172,
+        724
+      ],
+      "modo": "RGBA",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "limites_alpha_128": [
+        0,
+        150,
+        2172,
+        536
+      ],
+      "primeira_linha_95pct_opaca": 151,
+      "recorte_sugerido_xyxy": [
+        0,
+        151,
+        2172,
+        536
+      ],
+      "reducao_inicial_px": [
+        90,
+        16
+      ],
+      "observacao": "Somente medicao; nenhum recorte ou redimensionamento foi aplicado."
+    },
+    {
+      "tipo": "fio",
+      "arquivo": "imagens/plataformas/fio/cabo-vertical-repetivel-v1.png",
+      "dimensoes_originais": [
+        793,
+        1983
+      ],
+      "modo": "RGBA",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "limites_alpha_128": [
+        331,
+        0,
+        463,
+        1983
+      ],
+      "primeira_linha_95pct_opaca": null,
+      "recorte_sugerido_xyxy": [
+        330,
+        0,
+        464,
+        1983
+      ],
+      "reducao_inicial_px": [
+        4,
+        59
+      ],
+      "observacao": "Somente medicao; nenhum recorte ou redimensionamento foi aplicado."
+    },
+    {
+      "tipo": "oleo",
+      "arquivo": "imagens/plataformas/oleo/oleo-superficie-repetivel-v1.png",
+      "dimensoes_originais": [
+        1774,
+        887
+      ],
+      "modo": "RGBA",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "limites_alpha_128": [
+        0,
+        373,
+        1774,
+        887
+      ],
+      "primeira_linha_95pct_opaca": 399,
+      "recorte_sugerido_xyxy": [
+        0,
+        373,
+        1774,
+        887
+      ],
+      "reducao_inicial_px": [
+        414,
+        120
+      ],
+      "observacao": "Somente medicao; nenhum recorte ou redimensionamento foi aplicado."
+    },
+    {
+      "tipo": "prateleira",
+      "arquivo": "imagens/plataformas/prateleira/prateleira-repetivel-v1.png",
+      "dimensoes_originais": [
+        2079,
+        756
+      ],
+      "modo": "RGBA",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "limites_alpha_128": [
+        0,
+        206,
+        2079,
+        609
+      ],
+      "primeira_linha_95pct_opaca": 209,
+      "recorte_sugerido_xyxy": [
+        0,
+        209,
+        2079,
+        609
+      ],
+      "reducao_inicial_px": [
+        83,
+        16
+      ],
+      "observacao": "Somente medicao; nenhum recorte ou redimensionamento foi aplicado."
+    }
+  ]
+}

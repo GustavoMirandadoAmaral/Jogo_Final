@@ -15,6 +15,7 @@ Esta pasta reúne a direção visual do jogo: o protagonista aprovado, sua evolu
 | [Engrenagem de XP](xp-engrenagem/README.md) | Peça dourada coletável que representa experiência | Nova proposta |
 | [Disparo do herói](disparo-heroi/README.md) | Projétil alongado claro com borda âmbar | Nova proposta |
 | [Disparo do inimigo](disparo-inimigo/README.md) | Projétil vermelho arredondado com rastros triangulares | Nova proposta |
+| [Plataformas e elementos da arena](plataformas/README.md) | Prateleira, esteira, andaime, cabo de sustentação, chão e óleo | Artes-base com guia de recorte e preparação |
 
 ## Estrutura
 
@@ -47,7 +48,17 @@ imagens/
 │   └── maquina-mae/
 ├── xp-engrenagem/
 ├── disparo-heroi/
-└── disparo-inimigo/
+├── disparo-inimigo/
+└── plataformas/
+    ├── README.md
+    ├── PREPARACAO.md
+    ├── MEDIDAS.json
+    ├── prateleira/
+    ├── esteira/
+    ├── andaime/
+    ├── fio/
+    ├── chao/
+    └── oleo/
 ```
 
 ## Linguagem visual comum
@@ -62,7 +73,8 @@ O robô usa marfim, grafite e cobre, com o brilho laranja da fornalha. Peças de
 2. Consulte o [herói](heroi/README.md) e sua [evolução](evolucao-heroi/README.md) para manter a identidade do personagem.
 3. Use o [fundo da oficina](fundo-oficina/README.md) para orientar o cenário e as camadas.
 4. Consulte a [galeria dos inimigos e do chefão](inimigos/README.md) para comparar as silhuetas e os comportamentos.
-5. Ao criar outra imagem, mantenha esse padrão de pasta, explicação, imagem e prompt. Salve alterações como novas versões para permitir comparação.
+5. Consulte as [plataformas e elementos da arena](plataformas/README.md) para as artes-base e as medidas de preparação para o protótipo.
+6. Ao criar outra imagem, mantenha esse padrão de pasta, explicação, imagem e prompt. Salve alterações como novas versões para permitir comparação.
 
 Cada uma das seis pastas de inimigo contém um PNG, um `README.md` e um `PROMPT.md`.
 
