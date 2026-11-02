@@ -1288,10 +1288,150 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
+          "height": 720,
+          "layer": "HUD",
+          "name": "AlertaOleo",
+          "persistentUuid": "471fbad2-eb78-4ad7-ab6e-75275ce4dbec",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "6b759085-d40c-4131-b1b6-452f7f1b102e",
+          "width": 160,
+          "x": 20,
+          "y": 440,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "0dd5193c-de21-4436-ac27-f4f2144b938a",
+          "width": 110,
+          "x": 810,
+          "y": 440,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "5db4d2f2-4c8b-41b3-ac49-a459b025fba7",
+          "width": 160,
+          "x": 1480,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "2f702d0c-3600-4411-a07d-1d1dce0377a2",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "0516be58-7a59-4de2-850f-24dcfd4671fd",
+          "width": 150,
+          "x": 1300,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "844beca4-c44a-4dde-8acd-5cb1114cb202",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "97375075-4b1c-452c-83b4-0e2b6e29dff6",
+          "width": 140,
+          "x": 1760,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "2b57ccb8-0e31-40c0-a718-844ceed30c28",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "f963c28b-87a0-4fcd-89d3-0e55a52f952d",
+          "width": 160,
+          "x": 1800,
+          "y": 440,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "b92c894c-47c0-4aa3-8038-cd9c10a1d61f",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
           "height": 564,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "47276b92-8069-43c3-9e8f-ddbc13d47c67",
+          "persistentUuid": "24c68566-4cf9-4d33-ae9a-aa4769a45507",
           "width": 8,
           "x": 224.0,
           "y": 0,
@@ -1307,7 +1447,7 @@
           "height": 564,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "fffd450d-22b5-4683-afcf-5427e394a02f",
+          "persistentUuid": "3995b479-8014-4fa3-8a35-3f995bb91199",
           "width": 8,
           "x": 1048.0,
           "y": 0,
@@ -1323,7 +1463,7 @@
           "height": 92,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "aebff544-116b-46a9-b33f-f24cd5ee4cde",
+          "persistentUuid": "79b7bf8e-3c72-4eb1-ae4c-1073be416b82",
           "width": 8,
           "x": 632.0,
           "y": 429,
@@ -1339,7 +1479,7 @@
           "height": 401,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "38e98c3f-5c25-4984-ba41-de34b02e619c",
+          "persistentUuid": "162614f8-73a3-4d24-9609-76117e6698d5",
           "width": 8,
           "x": 633.0,
           "y": 0,
@@ -1352,20 +1492,20 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 564,
+          "height": 92,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "e8d58af8-b157-4488-a194-4385c49eb497",
+          "persistentUuid": "839aca98-e2f7-4fb6-99e8-0bc0053b66a1",
           "width": 8,
           "x": 1524.0,
-          "y": 0,
+          "y": 472,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "16c0f662-8748-4db5-b5ab-e212fc5ba198",
+              "persistentUuid": "b4690ef3-c43b-4841-ae17-e055a34437b8",
               "type": "number",
               "value": 1
             }
@@ -1375,20 +1515,20 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 564,
+          "height": 92,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "873b4236-1c1e-4bb4-a6f2-3ea549d5fb50",
+          "persistentUuid": "65c4e77c-24b5-463c-a356-4011aa7311ce",
           "width": 8,
           "x": 1826.0,
-          "y": 0,
+          "y": 472,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "3dfc086e-a71e-44be-814b-b4a90a43aa38",
+              "persistentUuid": "68d5437a-748c-44f9-9b07-310535f5880f",
               "type": "number",
               "value": 1
             }
@@ -1401,7 +1541,7 @@
           "height": 334,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "dcb95d5e-012e-4a62-b0ef-e28dce2b7803",
+          "persistentUuid": "de3de6ce-535b-41a5-8dc6-936922940651",
           "width": 8,
           "x": 2086.0,
           "y": 0,
@@ -1411,7 +1551,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "3ca09e04-192a-4600-8dfe-dae6a1ed538e",
+              "persistentUuid": "4d4e2555-183e-44a3-8801-7910087ca427",
               "type": "number",
               "value": 1
             }
@@ -1424,7 +1564,7 @@
           "height": 92,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "b9b2fb15-9386-4ff0-b50f-9145a1b6bf55",
+          "persistentUuid": "e8d6b2e5-c6d1-45d3-baf7-697314db348f",
           "width": 8,
           "x": 2324.0,
           "y": 472,
@@ -1434,7 +1574,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "13ade55f-8705-4724-bd24-801391364ee7",
+              "persistentUuid": "26879b5f-22f5-4f70-9531-3c7fa5782cfe",
               "type": "number",
               "value": 1
             }
@@ -1447,7 +1587,7 @@
           "height": 92,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "f564bdf9-f546-4220-80e9-18d83973e999",
+          "persistentUuid": "4f1b7130-ab37-4486-a41c-1198f0b50877",
           "width": 8,
           "x": 1316.0,
           "y": 472,
@@ -1457,7 +1597,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "27990c4f-55e4-4975-926b-486decbcbc5e",
+              "persistentUuid": "d604871e-f8ab-4a22-ac6e-7dc41a45141e",
               "type": "number",
               "value": 2
             }
@@ -1470,7 +1610,7 @@
           "height": 334,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "ace145f6-baa2-4599-bcbc-839ae14d277a",
+          "persistentUuid": "1c7fcd84-6313-4bd7-9a5c-451828db1c58",
           "width": 8,
           "x": 1566.0,
           "y": 0,
@@ -1480,30 +1620,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "82b1c8cc-5ded-402e-944d-ec3a51a85b15",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 564,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "d0564177-7b5d-4837-b857-19f6bcfff8d3",
-          "width": 8,
-          "x": 1884.0,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "4faf3758-a495-4c62-9d7e-8600d17407e7",
+              "persistentUuid": "7f3c8cd3-9e6d-4680-aaaf-ebaaf8365f81",
               "type": "number",
               "value": 2
             }
@@ -1516,7 +1633,30 @@
           "height": 92,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "c6b0b247-da43-4185-9f11-b600a2b73143",
+          "persistentUuid": "659a7ed4-17b8-4984-9b5a-f50c4fe3597a",
+          "width": 8,
+          "x": 1884.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "bd84cd2e-6a5f-460e-833d-d299aeaaf3fe",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "f79401ee-4322-4212-a8b9-82f518f409ff",
           "width": 8,
           "x": 2176.0,
           "y": 472,
@@ -1526,7 +1666,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "c755eba7-9129-4f18-9953-a96d9ee1b506",
+              "persistentUuid": "c372b275-9b74-4f99-9ab4-f2fbf1350e8b",
               "type": "number",
               "value": 2
             }
@@ -1539,7 +1679,7 @@
           "height": 334,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "0fc549db-f95c-4edc-b4f2-0c9dd2cced9f",
+          "persistentUuid": "6270c568-9b37-4edc-9304-698ea71b6327",
           "width": 8,
           "x": 2426.0,
           "y": 0,
@@ -1549,7 +1689,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "9045fc2b-1de3-4f5d-b6eb-d63c78a95d98",
+              "persistentUuid": "b9874dd6-63f7-4140-b048-f136abb6632d",
               "type": "number",
               "value": 2
             }
@@ -1562,7 +1702,7 @@
           "height": 324,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "5b4c9c80-caaa-4d52-929b-1c7489090622",
+          "persistentUuid": "a030cd1f-87f2-4414-aaa8-b089f217fc21",
           "width": 8,
           "x": 396.0,
           "y": 0,
@@ -1578,7 +1718,7 @@
           "height": 444,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "cce1b20a-84f8-4227-b660-fbc21c9c61da",
+          "persistentUuid": "6b701b77-8683-4c13-96d2-abb72ebbc2de",
           "width": 8,
           "x": 1246.0,
           "y": 0,
@@ -1588,7 +1728,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "43713336-3a74-4de8-91eb-c6ee5dee686b",
+              "persistentUuid": "301fdc34-69d9-4d35-acbb-317d8c322f1e",
               "type": "number",
               "value": 1
             }
@@ -1601,7 +1741,7 @@
           "height": 444,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "68b1ff40-ade9-4341-8107-c796f654ec7b",
+          "persistentUuid": "97d5599d-f5ab-449d-bfce-73f9cff021f5",
           "width": 8,
           "x": 2326.0,
           "y": 0,
@@ -1611,7 +1751,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "cd000bb5-8a80-456e-a647-eaff445d1ba2",
+              "persistentUuid": "9e554b22-d1c3-4a12-82b6-c84a27506f8d",
               "type": "number",
               "value": 1
             }
@@ -1624,7 +1764,7 @@
           "height": 444,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "ddea1061-8838-45aa-a69f-ed43afe627b3",
+          "persistentUuid": "13470cf8-1a22-4079-8190-4c976dfbdbcb",
           "width": 8,
           "x": 1346.0,
           "y": 0,
@@ -1634,7 +1774,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "23145984-df6d-4c97-8a0a-08f78861df6f",
+              "persistentUuid": "2edab93e-0371-46a7-936d-9ee5abc32f1a",
               "type": "number",
               "value": 2
             }
@@ -1647,7 +1787,7 @@
           "height": 444,
           "layer": "",
           "name": "Fio",
-          "persistentUuid": "0e033425-737c-480b-bae3-35fcf7b45174",
+          "persistentUuid": "8b34da72-47a9-4950-aa3a-210bcffcb0c5",
           "width": 8,
           "x": 2206.0,
           "y": 0,
@@ -1657,7 +1797,7 @@
           "initialVariables": [
             {
               "name": "Layout",
-              "persistentUuid": "2c1e6111-6f5d-4e35-af1e-1bf734062c7e",
+              "persistentUuid": "830f293b-d508-45fb-b9ff-777ec3af7d78",
               "type": "number",
               "value": 2
             }
@@ -1667,17 +1807,125 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 720,
-          "layer": "HUD",
-          "name": "AlertaOleo",
-          "persistentUuid": "471fbad2-eb78-4ad7-ab6e-75275ce4dbec",
-          "width": 1280,
-          "x": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "27c743da-f267-48ad-ba73-9a74635965e7",
+          "width": 8,
+          "x": 96.0,
           "y": 0,
-          "zOrder": 6,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "69c25bc8-eb3c-4c32-96a2-b814451f4d89",
+          "width": 8,
+          "x": 861.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "ff9e6593-6b1c-4e49-b395-e12aff073fec",
+          "width": 8,
+          "x": 1556.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "dbfde019-7087-40b8-8868-e5fa045d08ae",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 324,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "a6484254-fa28-4741-b957-3bfbad94f819",
+          "width": 8,
+          "x": 1371.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "7df05420-dbee-465c-af46-a214db16b55f",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "9ff31545-1be4-4a36-b05b-aca4f637d5ad",
+          "width": 8,
+          "x": 1826.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "d2c09d9c-adeb-4e56-ad81-281ab49c4805",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "09d1c44c-2170-4924-a5f8-d22e3324ddca",
+          "width": 8,
+          "x": 1876.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "68943a57-c2a2-4a13-9097-06ecb922b3b0",
+              "type": "number",
+              "value": 2
+            }
+          ]
         }
       ],
       "objects": [
