@@ -1926,6 +1926,118 @@
               "value": 2
             }
           ]
+        },
+        {
+          "angle": -90,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "FundoMedio",
+          "name": "Vapor",
+          "persistentUuid": "fd88e3ba-0403-4b45-b345-a9729a1eb90b",
+          "width": 0,
+          "x": 91,
+          "y": 170,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "FundoMedio",
+          "name": "Vapor",
+          "persistentUuid": "50a1eb92-6b51-40be-a9bc-28d0e935eb98",
+          "width": 0,
+          "x": 1078,
+          "y": 228,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "FundoMedio",
+          "name": "Vapor",
+          "persistentUuid": "ef4b6bdc-334c-4cd7-9f2c-0d7eef9f334d",
+          "width": 0,
+          "x": 1225,
+          "y": 345,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "FundoMedio",
+          "name": "Vapor",
+          "persistentUuid": "e727bc80-9e67-4f03-a76c-544757cb9c13",
+          "width": 0,
+          "x": 1584,
+          "y": 245,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "FundoMedio",
+          "name": "Vapor",
+          "persistentUuid": "a1389d43-7050-4cb7-b993-740bc6390e95",
+          "width": 0,
+          "x": 1761,
+          "y": 210,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "",
+          "name": "Vapor",
+          "persistentUuid": "bc374383-e057-4042-93d5-e469773f32a5",
+          "width": 0,
+          "x": 200,
+          "y": 215,
+          "zOrder": -9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "",
+          "name": "Vapor",
+          "persistentUuid": "f314db95-ca95-4486-9c72-01812a0c6c38",
+          "width": 0,
+          "x": 2455,
+          "y": 165,
+          "zOrder": -9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3687,6 +3799,44 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Vapor",
+          "persistentUuid": "89d2d79b-826e-48df-9d4d-b83366f38c15",
+          "type": "ParticleSystem::ParticleEmitter",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "additive": false,
+          "destroyWhenNoParticles": false,
+          "jumpForwardInTimeOnCreation": 3,
+          "emitterAngleA": 0,
+          "emitterAngleB": 25,
+          "emitterForceMin": 25,
+          "emitterForceMax": 50,
+          "zoneRadius": 4,
+          "flow": 7,
+          "tank": -1,
+          "maxParticleNb": 50,
+          "particleLifeTimeMin": 1.8,
+          "particleLifeTimeMax": 3,
+          "particleGravityX": 6,
+          "particleGravityY": -12,
+          "particleColor1": "235;232;225",
+          "particleColor2": "190;185;180",
+          "particleAlpha1": 110,
+          "particleAlpha2": 0,
+          "particleSize1": 100,
+          "particleSize2": 420,
+          "particleSizeRandomness1": 20,
+          "particleSizeRandomness2": 30,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "rendererType": "Point",
+          "rendererParam1": 6,
+          "rendererParam2": 1,
+          "textureParticleName": ""
         }
       ],
       "objectsFolderStructure": {
@@ -3760,6 +3910,9 @@
           },
           {
             "objectName": "AlertaOleo"
+          },
+          {
+            "objectName": "Vapor"
           }
         ]
       },
@@ -9149,6 +9302,19 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment2": "",
+              "comment": "Visual de filme antigo (sem eventos, configurado nas camadas): o efeito OldFilm deixa as camadas de jogo levemente em sépia e com vinheta. Granulação e riscos ficam só no FundoDistante, que cobre a tela toda; nas camadas com partes transparentes eles acenderiam pontos sobre as de baixo. O HUD fica sem efeito. Vapor: emissores de partículas (objeto Vapor) nas chaminés da camada FundoMedio e nos canos das bordas; ângulo -90 = para cima."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Chão, prateleiras, esteiras, andaimes, fios e óleo são Tiled Sprite: a imagem se repete para preencher o tamanho da instância em vez de esticar. As texturas são um ciclo da arte de imagens/plataformas, já com a emenda fundida e na altura do objeto (32 px nas plataformas e no chão, 120 no óleo; o fio repete na vertical, com 8 px de largura). XOffset desliza a imagem dentro do objeto: aumentar o XOffset move a imagem para a esquerda."
             },
             {
@@ -11596,7 +11762,26 @@
               "width": 0
             }
           ],
-          "effects": []
+          "effects": [
+            {
+              "effectType": "Effects::OldFilm",
+              "name": "Filme antigo",
+              "doubleParameters": {
+                "sepia": 0.2,
+                "noise": 0.12,
+                "noiseSize": 1,
+                "scratch": 0.5,
+                "scratchDensity": 0.25,
+                "scratchWidth": 1,
+                "vignetting": 0.3,
+                "vignettingAlpha": 0.7,
+                "vignettingBlur": 0.3,
+                "animationFrequency": 12
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
         },
         {
           "ambientLightColorB": 200,
@@ -11625,7 +11810,26 @@
               "width": 0
             }
           ],
-          "effects": []
+          "effects": [
+            {
+              "effectType": "Effects::OldFilm",
+              "name": "Filme antigo",
+              "doubleParameters": {
+                "sepia": 0.2,
+                "noise": 0,
+                "noiseSize": 1,
+                "scratch": 0,
+                "scratchDensity": 0,
+                "scratchWidth": 1,
+                "vignetting": 0.3,
+                "vignettingAlpha": 0.7,
+                "vignettingBlur": 0.3,
+                "animationFrequency": 12
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
         },
         {
           "ambientLightColorB": 200,
@@ -11691,6 +11895,24 @@
               "booleanParameters": {
                 "isCastingShadow": true
               }
+            },
+            {
+              "effectType": "Effects::OldFilm",
+              "name": "Filme antigo",
+              "doubleParameters": {
+                "sepia": 0.2,
+                "noise": 0,
+                "noiseSize": 1,
+                "scratch": 0,
+                "scratchDensity": 0,
+                "scratchWidth": 1,
+                "vignetting": 0.3,
+                "vignettingAlpha": 0.7,
+                "vignettingBlur": 0.3,
+                "animationFrequency": 12
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
             }
           ]
         },
