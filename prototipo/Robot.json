@@ -367,6 +367,14 @@
         "name": "imagens/esteira-esquerda.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/alerta-oleo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/alerta-oleo.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -638,6 +646,36 @@
           "persistentUuid": "7f3cd32a-8123-4794-bfc4-19545a8a4de8",
           "type": "number",
           "value": 10
+        },
+        {
+          "name": "TremorCamera",
+          "persistentUuid": "df45500d-1fc9-42b2-a873-ba4bbfe8d66f",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "DeslocamentoTremorX",
+          "persistentUuid": "e8974955-bc5f-4f4a-be8a-0e3f22a8a386",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EtapaOleo",
+          "persistentUuid": "6aae167b-3c3b-45d8-b7ef-a0f93201220b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TempoAvisoOleo",
+          "persistentUuid": "8ec6ce8e-cd80-458c-8468-9608964bbf13",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "DuracaoAvisoOleo",
+          "persistentUuid": "88f8428a-90d8-47f6-887d-1939e3993f18",
+          "type": "number",
+          "value": 3
         }
       ],
       "instances": [
@@ -1624,6 +1662,22 @@
               "value": 2
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "HUD",
+          "name": "AlertaOleo",
+          "persistentUuid": "471fbad2-eb78-4ad7-ab6e-75275ce4dbec",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3211,6 +3265,10 @@
               "canBeGrabbed": true,
               "platformType": "Jumpthru",
               "yGrabOffset": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ]
         },
@@ -3249,7 +3307,12 @@
           "width": 154,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -3315,6 +3378,48 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "imagens/cenario/borda-direita.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AlertaOleo",
+          "persistentUuid": "46bb3407-30da-4e92-9c46-eeb668078827",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/alerta-oleo.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3404,6 +3509,9 @@
           },
           {
             "objectName": "TiroInimigo"
+          },
+          {
+            "objectName": "AlertaOleo"
           }
         ]
       },
@@ -7610,6 +7718,29 @@
                         "=",
                         "2"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TremorCamera",
+                        "=",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenSceneVariableNumber3"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TremorCamera\"",
+                        "TremorCamera",
+                        "0",
+                        "\"easeOutQuad\"",
+                        "0.5"
+                      ]
                     }
                   ],
                   "events": [
@@ -8625,6 +8756,24 @@
                   },
                   "parameters": [
                     "",
+                    "-",
+                    "Variable(DeslocamentoTremorX)",
+                    "\"\"",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
                     "=",
                     "lerp(CameraCenterX(), clamp(CameraCenterX(), Robo.CenterX() - 100, Robo.CenterX() + 100), min(1, 6 * TimeDelta()))",
                     "\"\"",
@@ -8641,6 +8790,59 @@
                     "0",
                     "Variable(LarguraArena)",
                     "720",
+                    "\"\"",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Tremor da câmera (impactos): TremorCamera é a força em px, e um Tween de variável a leva de volta a 0. O deslocamento entra depois da câmera suave e sai antes dela no quadro seguinte (evento acima), então não atrapalha o lerp. O Y treme em volta do meio da tela. Para tremer, basta pôr um valor em TremorCamera e criar o Tween \"TremorCamera\" até 0.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DeslocamentoTremorX",
+                    "=",
+                    "Variable(TremorCamera) * sin(TimeFromStart() * 55)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "+",
+                    "Variable(DeslocamentoTremorX)",
+                    "\"\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "SceneWindowHeight() / 2 + Variable(TremorCamera) * cos(TimeFromStart() * 43)",
                     "\"\"",
                     "0"
                   ]
@@ -8834,7 +9036,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Andaime: plataforma atravessável que desaba e não volta. Regra de layout: a arena tem 3 setores (esquerda, meio, direita) e um andaime é sempre a plataforma mais alta do seu setor. Estado 0 = firme, 1 = tremendo (aviso), 2 = caindo, 3 = caído (escondido). Começa a tremer quando o robô pisa nele ou quando outra regra coloca SinalQueda = 1 (ex.: o Pesado chegando por baixo). Treme 1 s, o fio se rompe, ele cai e fica escondido. Só volta quando o layout dele for ativado de novo na mudança de plataformas entre ondas."
+              "comment": "Andaime: plataforma atravessável que desaba e não volta. Regra de layout: a arena tem 3 setores (esquerda, meio, direita) e um andaime é sempre a plataforma mais alta do seu setor. Estado 0 = firme, 1 = tremendo (aviso), 2 = caindo, 3 = caído (escondido). Começa a tremer quando o robô pisa nele ou quando outra regra coloca SinalQueda = 1 (ex.: o Pesado chegando por baixo). Treme 1 s, o fio se rompe, ele cai e fica escondido. Só volta quando o layout dele for ativado de novo na mudança de plataformas entre ondas. A queda é um Tween de Y (0,7 s, easeInQuad: começa devagar e acelera) e faz a câmera tremer; aos 0,8 s, com o Tween já terminado, ele é escondido e volta à posição original."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9138,6 +9340,43 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Andaime",
+                        "Tween",
+                        "\"Queda\"",
+                        "Andaime.YOrigem + 500",
+                        "\"easeInQuad\"",
+                        "0.7",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TremorCamera",
+                        "=",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenSceneVariableNumber3"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TremorCamera\"",
+                        "TremorCamera",
+                        "0",
+                        "\"easeOutQuad\"",
+                        "0.5"
+                      ]
                     }
                   ]
                 },
@@ -9166,16 +9405,6 @@
                         "Tempo",
                         "+",
                         "TimeDelta()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetY"
-                      },
-                      "parameters": [
-                        "Andaime",
-                        "+",
-                        "600 * TimeDelta()"
                       ]
                     }
                   ]
@@ -9923,7 +10152,30 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Gatilho provisório: o óleo começa a subir quando entra a onda 5. Quando o chefão existir, basta trocar esta condição para a chegada dele: o resto só olha a variável OleoAtivo."
+              "comment": "Gatilho provisório: na onda 5 começa o aviso do óleo (EtapaOleo 0 -> 1). Quando o chefão existir, basta trocar a condição da onda pela chegada dele. Aviso: durante DuracaoAvisoOleo s a borda da tela pulsa em vermelho, a câmera treme de leve e o óleo aparece na borda de baixo (Tween de Y). Depois disso EtapaOleo = 2 e OleoAtivo = 1, e ele sobe; o resto (surgimento dos inimigos, dano) só olha OleoAtivo."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "AlertaOleo"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9943,7 +10195,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "OleoAtivo",
+                    "EtapaOleo",
                     "=",
                     "0"
                   ]
@@ -9955,9 +10207,180 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
+                    "EtapaOleo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoAvisoOleo",
+                    "=",
+                    "Variable(DuracaoAvisoOleo)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "AlertaOleo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Oleo",
+                    "Tween",
+                    "\"Aviso\"",
+                    "700",
+                    "\"easeOutQuad\"",
+                    "1",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TremorCamera",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenSceneVariableNumber3"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TremorCamera\"",
+                    "TremorCamera",
+                    "0",
+                    "\"linear\"",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaOleo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoAvisoOleo",
+                    "-",
+                    "TimeDelta()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "AlertaOleo",
+                    "Opacity",
+                    "=",
+                    "150 + 100 * sin(Variable(TempoAvisoOleo) * 10)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaOleo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoAvisoOleo",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaOleo",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
                     "OleoAtivo",
                     "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "AlertaOleo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TremorCamera",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenSceneVariableNumber3"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TremorCamera\"",
+                    "TremorCamera",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "0.8"
                   ]
                 }
               ]
