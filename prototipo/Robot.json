@@ -2901,14 +2901,69 @@
                         "=",
                         "Inimigos.XPDrop"
                       ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "OleoAtivo",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "Inimigos",
+                            ">=",
+                            "Oleo.Y()-Inimigos.Height()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetX"
+                          },
+                          "parameters": [
+                            "Peca",
+                            "=",
+                            "min(1800, 200 + 800 * clamp(floor((Inimigos.X() + 200) / 800), 0, 3))"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetY"
+                          },
+                          "parameters": [
+                            "Peca",
+                            "=",
+                            "500"
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Inimigos",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Inimigos",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -3679,7 +3734,7 @@
                   "parameters": [
                     "CotaAndador",
                     "=",
-                    "10"
+                    "0"
                   ]
                 },
                 {
@@ -3709,7 +3764,7 @@
                   "parameters": [
                     "CotaPesado",
                     "=",
-                    "3"
+                    "0"
                   ]
                 },
                 {
@@ -3925,8 +3980,8 @@
                   "parameters": [
                     "",
                     "Andador",
-                    "100",
-                    "656",
+                    "(1 - Variable(OleoAtivo)) * (clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(AndadoresCriados), 2)), 80, Variable(LarguraArena) - 80)) + Variable(OleoAtivo) * (200 + 800 * mod(Variable(AndadoresCriados), 2) + 1300 * min(1, floor(Robo.X() / 1200)))",
+                    "(1 - Variable(OleoAtivo)) * 656 + Variable(OleoAtivo) * 520",
                     ""
                   ]
                 },
@@ -4056,6 +4111,16 @@
                     "<",
                     "Variable(LimiteVivos)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.X()",
+                    "<",
+                    "1200"
+                  ]
                 }
               ],
               "actions": [
@@ -4066,8 +4131,143 @@
                   "parameters": [
                     "",
                     "Saltador",
-                    "1100",
-                    "656",
+                    "(1 - Variable(OleoAtivo)) * (1100) + Variable(OleoAtivo) * (1000)",
+                    "(1 - Variable(OleoAtivo)) * 656 + Variable(OleoAtivo) * 520",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Saltador",
+                    "Vida",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Saltador",
+                    "XPDrop",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Saltador",
+                    "PontosAbate",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Saltador",
+                    "TempoPulo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Saltador",
+                    "EtapaRota",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "SaltadoresCriados",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoSurgimentoSaltador",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoSurgimentoSaltador",
+                    ">=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SaltadoresCriados",
+                    "<",
+                    "Variable(CotaSaltador)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Inimigos",
+                    "<",
+                    "Variable(LimiteVivos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.X()",
+                    ">=",
+                    "1200"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Saltador",
+                    "(1 - Variable(OleoAtivo)) * (clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(SaltadoresCriados), 2)), 80, Variable(LarguraArena) - 80)) + Variable(OleoAtivo) * (200 + 800 * mod(Variable(SaltadoresCriados), 2) + 1300 * min(1, floor(Robo.X() / 1200)))",
+                    "(1 - Variable(OleoAtivo)) * 656 + Variable(OleoAtivo) * 520",
                     ""
                   ]
                 },
@@ -4229,7 +4429,7 @@
                   "parameters": [
                     "",
                     "Voador",
-                    "1100",
+                    "clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(VoadoresCriados), 2)), 80, Variable(LarguraArena) - 80)",
                     "170",
                     ""
                   ]
@@ -4370,8 +4570,8 @@
                   "parameters": [
                     "",
                     "Pesado",
-                    "1100",
-                    "640",
+                    "(1 - Variable(OleoAtivo)) * (clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(PesadosCriados), 2)), 80, Variable(LarguraArena) - 80)) + Variable(OleoAtivo) * (200 + 800 * mod(Variable(PesadosCriados), 2) + 1300 * min(1, floor(Robo.X() / 1200)))",
+                    "(1 - Variable(OleoAtivo)) * 640 + Variable(OleoAtivo) * 520",
                     ""
                   ]
                 },
@@ -4522,8 +4722,8 @@
                   "parameters": [
                     "",
                     "Atirador",
-                    "1100",
-                    "656",
+                    "(1 - Variable(OleoAtivo)) * (clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(AtiradoresCriados), 2)), 80, Variable(LarguraArena) - 80)) + Variable(OleoAtivo) * ((1 - min(1, floor(Robo.X() / 1200))) * (200 + 800 * mod(Variable(AtiradoresCriados), 2)) + min(1, floor(Robo.X() / 1200)) * 1800)",
+                    "(1 - Variable(OleoAtivo)) * 656 + Variable(OleoAtivo) * 520",
                     ""
                   ]
                 },
@@ -4609,7 +4809,28 @@
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Saltador",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Saltador",
+                    "<",
+                    "1200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.X()",
+                    "<",
+                    "1200"
+                  ]
+                }
+              ],
               "actions": [],
               "events": [
                 {
@@ -5774,6 +5995,550 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Saltador",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Saltador",
+                    ">=",
+                    "1200"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        "+",
+                        "TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "<",
+                        "Robo.X()-20"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        ">",
+                        "Robo.X()+20"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        ">=",
+                        "1.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "PlataformasMoveis",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject",
+                        "PlataformasMoveis",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "<",
+                            "Robo.X()-40"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            ">=",
+                            "PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-35"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "TempoPulo",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            ">",
+                            "Robo.X()+40"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "<=",
+                            "PlataformasMoveis.X()+35"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "TempoPulo",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Saltador",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Saltador",
+                    "<",
+                    "1200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.X()",
+                    ">=",
+                    "1200"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        "+",
+                        "TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "<",
+                        "Robo.X()-20"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        ">",
+                        "Robo.X()+20"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        ">=",
+                        "1.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "PlataformasMoveis",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject",
+                        "PlataformasMoveis",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "<",
+                            "Robo.X()-40"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            ">=",
+                            "PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-35"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "TempoPulo",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            ">",
+                            "Robo.X()+40"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "<=",
+                            "PlataformasMoveis.X()+35"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "TempoPulo",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -5879,7 +6644,7 @@
           "colorR": 95,
           "creationTime": 0,
           "folded": true,
-          "name": "Impacto do Pesado na plataforma ocupada",
+          "name": "Impacto do Pesado nas plataformas ocupadas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "parameters": [],
@@ -6272,6 +7037,106 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Andaime",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Andaime",
+                        "Estado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "PlatformerObject",
+                        "Andaime",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Pesado",
+                        "RecargaImpacto",
+                        "<=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Pesado",
+                        ">",
+                        "Andaime.X()-Pesado.Width()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Pesado",
+                        "<",
+                        "Andaime.X()+Andaime.Width()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "Pesado",
+                        ">",
+                        "Andaime.Y()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Andaime",
+                        "SinalQueda",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Pesado",
+                        "RecargaImpacto",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6289,6 +7154,16 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "OleoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PosX"
@@ -6317,6 +7192,16 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "OleoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PosX"
                   },
                   "parameters": [
@@ -6341,6 +7226,16 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "OleoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PosX"
@@ -6389,6 +7284,16 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "OleoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PosX"
                   },
                   "parameters": [
@@ -6414,7 +7319,7 @@
                   "parameters": [
                     "Atirador",
                     "<",
-                    "1230"
+                    "Variable(LarguraArena)-Atirador.Width()-20"
                   ]
                 }
               ],
@@ -6426,6 +7331,229 @@
                   "parameters": [
                     "Atirador",
                     "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Atirador",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "OleoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "PlataformasMoveis",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                      },
+                      "parameters": [
+                        "Atirador",
+                        "PlatformerObject",
+                        "PlataformasMoveis",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "<",
+                            "Robo.X()-400"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "<",
+                            "PlataformasMoveis.X()+PlataformasMoveis.Width()-Atirador.Width()-20"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            ">",
+                            "Robo.X()+400"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            ">",
+                            "PlataformasMoveis.X()+20"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            ">",
+                            "Robo.X()-250"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "<",
+                            "Robo.X()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            ">",
+                            "20"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            ">",
+                            "PlataformasMoveis.X()+20"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "<",
+                            "Robo.X()+250"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            ">=",
+                            "Robo.X()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "<",
+                            "Variable(LarguraArena)-Atirador.Width()-20"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "<",
+                            "PlataformasMoveis.X()+PlataformasMoveis.Width()-Atirador.Width()-20"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Atirador",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
