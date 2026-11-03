@@ -1,0 +1,285 @@
+{
+  "arquivo": "atirador-spritesheet-v1.png",
+  "dimensoes": [
+    1774,
+    887
+  ],
+  "modo": "RGBA",
+  "alfa_min_max": [
+    0,
+    255
+  ],
+  "colunas": 6,
+  "linhas": 3,
+  "quadros": [
+    {
+      "linha": 1,
+      "coluna": 1,
+      "x": 0,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": [
+        30,
+        22,
+        273,
+        265
+      ],
+      "animacao": "ParadoDireita"
+    },
+    {
+      "linha": 1,
+      "coluna": 2,
+      "x": 296,
+      "y": 0,
+      "largura": 295,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": [
+        26,
+        27,
+        267,
+        265
+      ],
+      "animacao": "ParadoEsquerda"
+    },
+    {
+      "linha": 2,
+      "coluna": 1,
+      "x": 0,
+      "y": 296,
+      "largura": 296,
+      "altura": 295,
+      "limites_visiveis_locais_alpha128": [
+        31,
+        19,
+        273,
+        254
+      ],
+      "animacao": "MoverDireita"
+    },
+    {
+      "linha": 2,
+      "coluna": 2,
+      "x": 296,
+      "y": 296,
+      "largura": 295,
+      "altura": 295,
+      "limites_visiveis_locais_alpha128": [
+        30,
+        24,
+        272,
+        256
+      ],
+      "animacao": "MoverDireita"
+    },
+    {
+      "linha": 2,
+      "coluna": 3,
+      "x": 591,
+      "y": 296,
+      "largura": 296,
+      "altura": 295,
+      "limites_visiveis_locais_alpha128": [
+        31,
+        20,
+        275,
+        255
+      ],
+      "animacao": "MoverDireita"
+    },
+    {
+      "linha": 2,
+      "coluna": 4,
+      "x": 887,
+      "y": 296,
+      "largura": 296,
+      "altura": 295,
+      "limites_visiveis_locais_alpha128": [
+        27,
+        25,
+        274,
+        253
+      ],
+      "animacao": "MoverDireita"
+    },
+    {
+      "linha": 2,
+      "coluna": 5,
+      "x": 1183,
+      "y": 296,
+      "largura": 295,
+      "altura": 295,
+      "limites_visiveis_locais_alpha128": [
+        29,
+        26,
+        274,
+        250
+      ],
+      "animacao": "MoverDireita"
+    },
+    {
+      "linha": 2,
+      "coluna": 6,
+      "x": 1478,
+      "y": 296,
+      "largura": 296,
+      "altura": 295,
+      "limites_visiveis_locais_alpha128": [
+        35,
+        18,
+        274,
+        252
+      ],
+      "animacao": "MoverDireita"
+    },
+    {
+      "linha": 3,
+      "coluna": 1,
+      "x": 0,
+      "y": 591,
+      "largura": 296,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": [
+        24,
+        22,
+        266,
+        255
+      ],
+      "animacao": "MoverEsquerda"
+    },
+    {
+      "linha": 3,
+      "coluna": 2,
+      "x": 296,
+      "y": 591,
+      "largura": 295,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": [
+        23,
+        21,
+        263,
+        252
+      ],
+      "animacao": "MoverEsquerda"
+    },
+    {
+      "linha": 3,
+      "coluna": 3,
+      "x": 591,
+      "y": 591,
+      "largura": 296,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": [
+        23,
+        26,
+        263,
+        253
+      ],
+      "animacao": "MoverEsquerda"
+    },
+    {
+      "linha": 3,
+      "coluna": 4,
+      "x": 887,
+      "y": 591,
+      "largura": 296,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": [
+        23,
+        28,
+        268,
+        252
+      ],
+      "animacao": "MoverEsquerda"
+    },
+    {
+      "linha": 3,
+      "coluna": 5,
+      "x": 1183,
+      "y": 591,
+      "largura": 295,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": [
+        24,
+        23,
+        268,
+        249
+      ],
+      "animacao": "MoverEsquerda"
+    },
+    {
+      "linha": 3,
+      "coluna": 6,
+      "x": 1478,
+      "y": 591,
+      "largura": 296,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": [
+        25,
+        18,
+        265,
+        254
+      ],
+      "animacao": "MoverEsquerda"
+    }
+  ],
+  "celulas_vazias": [
+    {
+      "linha": 1,
+      "coluna": 3,
+      "x": 591,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": null,
+      "alfa_min_max": [
+        0,
+        1
+      ]
+    },
+    {
+      "linha": 1,
+      "coluna": 4,
+      "x": 887,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": null,
+      "alfa_min_max": [
+        0,
+        1
+      ]
+    },
+    {
+      "linha": 1,
+      "coluna": 5,
+      "x": 1183,
+      "y": 0,
+      "largura": 295,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": null,
+      "alfa_min_max": [
+        0,
+        1
+      ]
+    },
+    {
+      "linha": 1,
+      "coluna": 6,
+      "x": 1478,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "limites_visiveis_locais_alpha128": null,
+      "alfa_min_max": [
+        0,
+        0
+      ]
+    }
+  ],
+  "canvas_uniforme_sugerido": [
+    296,
+    296
+  ],
+  "observacao": "Retangulos medidos na grade 6 x 3 da folha original; sem exportacao individual nem normalizacao."
+}

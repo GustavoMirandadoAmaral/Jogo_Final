@@ -26,6 +26,8 @@ Obriga o jogador a abandonar uma posição e mudar sua rota quando uma plataform
 
 Movimento lento das esteiras, vibração do corpo e acionamento do pistão; os sinais de tremor precisam avisar o jogador antes do desabamento.
 
+Proposta de animação: [spritesheet com poses paradas e deslocamento nas duas direções](spritesheet/README.md). A prensa permanece recolhida neste ciclo; seu acionamento será uma animação própria. Inclui o PNG, o prompt e o mapa auxiliar de quadros.
+
 A imagem é uma ilustração conceitual completa, em PNG com transparência. Para montar a versão animada, ainda serão definidos os recortes de peças, os pontos de origem e as áreas de colisão. A aparência poderá ser ajustada após a discussão do grupo.
 
 ## Arquivos e origem
