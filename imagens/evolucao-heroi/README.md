@@ -36,6 +36,10 @@ O robô restaurado pode estar com pouca vida em um momento de combate. O desenho
 
 As versões devem manter o mesmo tamanho de corpo, proporção da cabeça, posição de origem, apoio dos pés e área de colisão. Isso permite trocar a aparência durante a partida sem alterar a movimentação nem causar saltos na posição do personagem.
 
+As novas [folhas de caminhada nos três estágios](../spritesheets/heroi/caminhada-tres-estagios/README.md) usam esta comparação como referência de acabamento. A versão enferrujada estabelece o ciclo, e as outras duas foram geradas como restaurações dessa mesma folha.
+
+A revisão v2 recompõe a segunda passada com pernas independentes e normaliza os três estágios na mesma grade e linha de apoio.
+
 Esta comparação orienta a produção dos três visuais. Para usar no GDevelop, ainda serão necessários arquivos individuais alinhados e o braço-canhão separado, com animações compatíveis entre os estágios.
 
 ## Arquivos e origem

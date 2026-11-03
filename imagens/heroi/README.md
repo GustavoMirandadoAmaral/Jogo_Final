@@ -33,6 +33,12 @@ O jogador controla seus movimentos, pulos, dash, mira e disparos. O personagem d
 
 A versão usada no jogo precisa manter uma silhueta legível em tamanho pequeno. A mira é livre pelo mouse; por isso, a preparação da arte deve separar o braço-canhão do corpo e definir seu ponto de rotação.
 
+## Spritesheets de caminhada
+
+O [conjunto de caminhada nos três estágios](../spritesheets/heroi/caminhada-tres-estagios/README.md) reúne as novas folhas do herói enferrujado, parcialmente restaurado e totalmente restaurado. Cada folha segue o padrão dos inimigos: duas poses paradas e seis quadros de caminhada para cada direção.
+
+As folhas v2 mostram o personagem completo, com a passada alternada e os quadros já normalizados em células de 296 × 296 px. A preparação do braço-canhão para a mira livre continua sendo uma etapa própria da integração. As prévias de avaliação ficam fora do repositório.
+
 ## Situação e preparação
 
 - **Situação:** conceito visual aprovado pelo usuário.
@@ -40,7 +46,7 @@ A versão usada no jogo precisa manter uma silhueta legível em tamanho pequeno.
 - **Uso atual:** referência de identidade e materiais.
 - **Preparação prevista:** pose lateral consistente, corpo e canhão separados, ponto de apoio dos pés, área de colisão e animações.
 
-Esta ilustração mostra uma pose completa do personagem. Os movimentos de corrida, pulo, dash, tiro e dano ainda serão preparados para o jogo.
+Esta ilustração mostra uma pose completa do personagem. A nova proposta de caminhada está no conjunto dos três estágios; pulo, dash, tiro e dano ainda serão preparados para o jogo.
 
 ## Arquivos e origem
 

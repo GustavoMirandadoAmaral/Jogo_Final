@@ -1,0 +1,406 @@
+{
+  "arquivo": "heroi-enferrujado-spritesheet-v2.png",
+  "estagio": "enferrujado",
+  "versao": 2,
+  "dimensoes": [
+    1776,
+    888
+  ],
+  "modo": "RGBA",
+  "alfa_min_max": [
+    0,
+    255
+  ],
+  "colunas": 6,
+  "linhas": 3,
+  "tamanho_celula": [
+    296,
+    296
+  ],
+  "origem_comum": [
+    148,
+    289
+  ],
+  "quadros": [
+    {
+      "linha": 1,
+      "coluna": 1,
+      "x": 0,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        48,
+        21,
+        276,
+        289
+      ],
+      "animacao": "ParadoDireita",
+      "fase": "Parado; duas pernas apoiadas."
+    },
+    {
+      "linha": 1,
+      "coluna": 2,
+      "x": 296,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        20,
+        21,
+        248,
+        289
+      ],
+      "animacao": "ParadoEsquerda",
+      "fase": "Parado; duas pernas apoiadas."
+    },
+    {
+      "linha": 2,
+      "coluna": 1,
+      "x": 0,
+      "y": 296,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        35,
+        17,
+        267,
+        289
+      ],
+      "animacao": "AndarDireita",
+      "fase": "Direita avança; esquerda apoia.",
+      "perna_em_avanco": "direita",
+      "perna_de_apoio": "esquerda"
+    },
+    {
+      "linha": 2,
+      "coluna": 2,
+      "x": 296,
+      "y": 296,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        46,
+        18,
+        270,
+        289
+      ],
+      "animacao": "AndarDireita",
+      "fase": "Direita apoia; esquerda inicia a recuperação.",
+      "perna_em_avanco": null,
+      "perna_de_apoio": "direita"
+    },
+    {
+      "linha": 2,
+      "coluna": 3,
+      "x": 592,
+      "y": 296,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        44,
+        21,
+        273,
+        289
+      ],
+      "animacao": "AndarDireita",
+      "fase": "Direita apoia; esquerda passa por baixo.",
+      "perna_em_avanco": null,
+      "perna_de_apoio": "direita"
+    },
+    {
+      "linha": 2,
+      "coluna": 4,
+      "x": 888,
+      "y": 296,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        35,
+        17,
+        267,
+        289
+      ],
+      "animacao": "AndarDireita",
+      "fase": "Esquerda avança; direita apoia.",
+      "perna_em_avanco": "esquerda",
+      "perna_de_apoio": "direita"
+    },
+    {
+      "linha": 2,
+      "coluna": 5,
+      "x": 1184,
+      "y": 296,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        46,
+        18,
+        270,
+        289
+      ],
+      "animacao": "AndarDireita",
+      "fase": "Esquerda apoia; direita se recupera atrás.",
+      "perna_em_avanco": null,
+      "perna_de_apoio": "esquerda"
+    },
+    {
+      "linha": 2,
+      "coluna": 6,
+      "x": 1480,
+      "y": 296,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        44,
+        21,
+        273,
+        289
+      ],
+      "animacao": "AndarDireita",
+      "fase": "Esquerda apoia; direita passa para o próximo passo.",
+      "perna_em_avanco": null,
+      "perna_de_apoio": "esquerda"
+    },
+    {
+      "linha": 3,
+      "coluna": 1,
+      "x": 0,
+      "y": 592,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        29,
+        17,
+        261,
+        289
+      ],
+      "animacao": "AndarEsquerda",
+      "fase": "Direita avança; esquerda apoia.",
+      "perna_em_avanco": "direita",
+      "perna_de_apoio": "esquerda"
+    },
+    {
+      "linha": 3,
+      "coluna": 2,
+      "x": 296,
+      "y": 592,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        26,
+        18,
+        250,
+        289
+      ],
+      "animacao": "AndarEsquerda",
+      "fase": "Direita apoia; esquerda inicia a recuperação.",
+      "perna_em_avanco": null,
+      "perna_de_apoio": "direita"
+    },
+    {
+      "linha": 3,
+      "coluna": 3,
+      "x": 592,
+      "y": 592,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        23,
+        21,
+        252,
+        289
+      ],
+      "animacao": "AndarEsquerda",
+      "fase": "Direita apoia; esquerda passa por baixo.",
+      "perna_em_avanco": null,
+      "perna_de_apoio": "direita"
+    },
+    {
+      "linha": 3,
+      "coluna": 4,
+      "x": 888,
+      "y": 592,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        29,
+        17,
+        261,
+        289
+      ],
+      "animacao": "AndarEsquerda",
+      "fase": "Esquerda avança; direita apoia.",
+      "perna_em_avanco": "esquerda",
+      "perna_de_apoio": "direita"
+    },
+    {
+      "linha": 3,
+      "coluna": 5,
+      "x": 1184,
+      "y": 592,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        26,
+        18,
+        250,
+        289
+      ],
+      "animacao": "AndarEsquerda",
+      "fase": "Esquerda apoia; direita se recupera atrás.",
+      "perna_em_avanco": null,
+      "perna_de_apoio": "esquerda"
+    },
+    {
+      "linha": 3,
+      "coluna": 6,
+      "x": 1480,
+      "y": 592,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": [
+        23,
+        21,
+        252,
+        289
+      ],
+      "animacao": "AndarEsquerda",
+      "fase": "Esquerda apoia; direita passa para o próximo passo.",
+      "perna_em_avanco": null,
+      "perna_de_apoio": "esquerda"
+    }
+  ],
+  "celulas_vazias": [
+    {
+      "linha": 1,
+      "coluna": 3,
+      "x": 592,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": null,
+      "alfa_min_max": [
+        0,
+        0
+      ]
+    },
+    {
+      "linha": 1,
+      "coluna": 4,
+      "x": 888,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": null,
+      "alfa_min_max": [
+        0,
+        0
+      ]
+    },
+    {
+      "linha": 1,
+      "coluna": 5,
+      "x": 1184,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": null,
+      "alfa_min_max": [
+        0,
+        0
+      ]
+    },
+    {
+      "linha": 1,
+      "coluna": 6,
+      "x": 1480,
+      "y": 0,
+      "largura": 296,
+      "altura": 296,
+      "origem": [
+        148,
+        289
+      ],
+      "limites_visiveis_locais_alpha128": null,
+      "alfa_min_max": [
+        0,
+        0
+      ]
+    }
+  ],
+  "canvas_uniforme_sugerido": [
+    296,
+    296
+  ],
+  "montagem": "Correção por Python/Pillow autorizada pelo usuário. A primeira metade da caminhada usa a arte original; a segunda foi recomposta com pernas independentes, quadris fixos e reconstrução das conexões mecânicas. A linha para a esquerda é o espelhamento exato da direita.",
+  "observacao": "Folha normalizada em células de 296 × 296 px e apoio comum. Mapa auxiliar; não é carregado pelo jogo."
+}

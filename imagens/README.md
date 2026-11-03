@@ -8,6 +8,7 @@ Esta pasta reúne a direção visual do jogo: o protagonista aprovado, sua evolu
 | --- | --- | --- |
 | [Herói](heroi/README.md) | Identidade do robô-caldeira: metal, vapor, manômetro, pinça e braço-canhão | Conceito aprovado |
 | [Evolução do herói](evolucao-heroi/README.md) | O mesmo robô enferrujado, parcialmente restaurado e totalmente revisado/polido | Nova proposta para avaliação |
+| [Spritesheets do herói](spritesheets/heroi/caminhada-tres-estagios/README.md) | Poses paradas e caminhada nas duas direções para os três estágios | v2 com passos alternados e grade alinhada |
 | [Fundo da oficina](fundo-oficina/README.md) | Panorama do ambiente industrial e planejamento do parallax | Nova proposta para avaliação |
 | [Camadas da fábrica](fundo-oficina/camadas/README.md) | Bordas, fundo distante e trechos intermediários de máquinas e montagem | Propostas para composição e parallax |
 | [Visão do jogo](visao-do-jogo/README.md) | Arena com herói, hordas, plataformas, XP e interface | Composição conceitual aprovada |
@@ -46,6 +47,13 @@ imagens/
 │   ├── pesado/
 │   ├── atirador/
 │   └── maquina-mae/
+├── spritesheets/
+│   └── heroi/
+│       └── caminhada-tres-estagios/
+│           ├── README.md
+│           ├── enferrujado/
+│           ├── intermediario/
+│           └── evoluido/
 ├── xp-engrenagem/
 ├── disparo-heroi/
 ├── disparo-inimigo/
@@ -70,7 +78,7 @@ O robô usa marfim, grafite e cobre, com o brilho laranja da fornalha. Peças de
 ## Como consultar e ampliar
 
 1. Leia a [visão do jogo](visao-do-jogo/README.md) para entender a composição.
-2. Consulte o [herói](heroi/README.md) e sua [evolução](evolucao-heroi/README.md) para manter a identidade do personagem.
+2. Consulte o [herói](heroi/README.md), sua [evolução](evolucao-heroi/README.md) e as [folhas de caminhada](spritesheets/heroi/caminhada-tres-estagios/README.md) para manter a identidade do personagem.
 3. Use o [fundo da oficina](fundo-oficina/README.md) para orientar o cenário e as camadas.
 4. Consulte a [galeria dos inimigos e do chefão](inimigos/README.md) para comparar as silhuetas e os comportamentos.
 5. Consulte as [plataformas e elementos da arena](plataformas/README.md) para as artes-base e as medidas de preparação para o protótipo.
