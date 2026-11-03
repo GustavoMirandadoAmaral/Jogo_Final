@@ -26,6 +26,8 @@ Ameaça o jogador no alto e exige atenção ao espaço aéreo da arena.
 
 Rotação da hélice, oscilação curta durante o voo, vapor e reação ao impacto.
 
+Proposta de animação: [spritesheet com poses paradas e voo nas duas direções](spritesheet/README.md). Inclui o PNG, o prompt e o mapa auxiliar de quadros. A preparação final de escala e origem ainda será feita para a importação no jogo.
+
 A imagem é uma ilustração conceitual completa, em PNG com transparência. Para montar a versão animada, ainda serão definidos os recortes de peças, os pontos de origem e as áreas de colisão. A aparência poderá ser ajustada após a discussão do grupo.
 
 ## Arquivos e origem

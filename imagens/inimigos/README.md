@@ -17,6 +17,21 @@ Para levar ao grupo: [abrir o material de apresentação com as seis imagens](AP
 | [Atirador](atirador/README.md) | Roxo / violeta | Mantém distância do jogador e dispara projéteis. |
 | [Máquina-mãe](maquina-mae/README.md) | Vermelho escuro, ferro e latão | É o chefão que aparece no final da partida. Seus ataques e padrões ainda serão definidos. |
 
+## Spritesheets de animação
+
+As folhas seguem três linhas: poses paradas para direita e esquerda, seis quadros de movimento para a direita e seis para a esquerda. Cada pasta contém o PNG, o prompt e um mapa auxiliar de quadros. As prévias HTML ficam fora do repositório.
+
+| Inimigo | Movimento representado | Situação |
+| --- | --- | --- |
+| [Andador](andador/spritesheet/README.md) | Rodas e pistão | Proposta já avaliada, usada como referência |
+| [Voador](voador/spritesheet/README.md) | Voo, hélice e ganchos estabilizadores | Nova proposta para avaliação |
+| [Pesado](pesado/spritesheet/README.md) | Esteiras com a prensa recolhida | Nova proposta para avaliação |
+| [Atirador](atirador/spritesheet/README.md) | Pequenos passos dos apoios articulados | Nova proposta para avaliação; disparo ainda separado |
+| Saltador | A definir após a revisão do comportamento | Deixado por último a pedido do grupo |
+| Máquina-mãe | A definir junto aos padrões do chefão | Adiada para uma etapa posterior |
+
+As folhas ainda precisam de preparação de escala, canvas e pontos de origem para a importação definitiva no GDevelop. Os detalhes medidos estão nos READMEs e arquivos `quadros.json` de cada inimigo.
+
 ## Imagens para apresentação
 
 ### Andador
@@ -25,7 +40,7 @@ Para levar ao grupo: [abrir o material de apresentação com as seis imagens](AP
 
 Persegue o jogador pelo chão e não sobe nas plataformas.
 
-[Ver ficha e conceito](andador/README.md) · [Abrir PNG](andador/andador-conceito-v1.png)
+[Ver ficha e conceito](andador/README.md) · [Abrir PNG](andador/andador-conceito-v1.png) · [Spritesheet de animação](andador/spritesheet/README.md)
 
 ### Saltador
 

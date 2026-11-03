@@ -26,6 +26,8 @@ Ensina o jogador a usar a altura como proteção e torna a coleta de XP no chão
 
 Giro das rodas, leve balanço da carcaça, vapor do escape e reação ao receber dano.
 
+Primeira proposta de animação: [spritesheet com poses paradas e movimento nas duas direções](spritesheet/README.md). A pasta inclui o PNG, o prompt e um mapa auxiliar com os recortes medidos. A folha ainda precisa de normalização e alinhamento para a importação definitiva.
+
 A imagem é uma ilustração conceitual completa, em PNG com transparência. Para montar a versão animada, ainda serão definidos os recortes de peças, os pontos de origem e as áreas de colisão. A aparência poderá ser ajustada após a discussão do grupo.
 
 ## Arquivos e origem

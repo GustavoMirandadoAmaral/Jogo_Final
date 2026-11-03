@@ -26,6 +26,8 @@ Cria linhas de tiro que o jogador precisa evitar ao se mover entre as plataforma
 
 Giro da mira, preparação do disparo, recuo do canhão e vapor. Na montagem do jogo, separar a base do conjunto que aponta.
 
+Proposta de locomoção: [spritesheet com poses paradas e reposicionamento nas duas direções](spritesheet/README.md), usando os apoios articulados do conceito. Inclui o PNG, o prompt e o mapa auxiliar de quadros. O ciclo de disparo será preparado separadamente.
+
 A imagem é uma ilustração conceitual completa, em PNG com transparência. Para montar a versão animada, ainda serão definidos os recortes de peças, os pontos de origem e as áreas de colisão. A aparência poderá ser ajustada após a discussão do grupo.
 
 ## Arquivos e origem
