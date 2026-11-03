@@ -36,13 +36,13 @@
       "backgroundImageResourceName": "",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
-      "logoAndProgressLogoFadeInDelay": 0.0,
+      "logoAndProgressLogoFadeInDelay": 0,
       "minDuration": 1.5,
       "progressBarColor": 16777215,
-      "progressBarHeight": 20.0,
-      "progressBarMaxWidth": 200.0,
-      "progressBarMinWidth": 40.0,
-      "progressBarWidthPercent": 30.0,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
@@ -377,14 +377,6 @@
         "userAdded": false
       },
       {
-        "file": "engrenagem.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "engrenagem.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/engrenagem.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -527,7 +519,7 @@
       "mangledName": "Arena",
       "name": "Arena",
       "r": 247,
-      "renderer3DWorldScale": 100.0,
+      "renderer3DWorldScale": 100,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
@@ -535,13 +527,13 @@
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
-        "gridWidth": 32.0,
-        "gridHeight": 32.0,
-        "gridDepth": 32.0,
-        "gridOffsetX": 0.0,
-        "gridOffsetY": 0.0,
-        "gridOffsetZ": 0.0,
-        "gridColor": 10401023.0,
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 1.8655255482570159,
@@ -613,133 +605,133 @@
           "name": "Abates",
           "persistentUuid": "c73d6bc7-b703-4c93-96c0-aaa4bc057622",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "Pontuacao",
           "persistentUuid": "50b4615c-1baf-4408-a035-6aaeaf0ddb3e",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "TempoSurgimentoAndador",
           "persistentUuid": "cb22d80f-1bc2-4c61-a98e-a77cae44e69d",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "TempoPartida",
           "persistentUuid": "ed87abf0-0126-4a29-a3db-1d9d58f5d2ca",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "Onda",
           "persistentUuid": "7c962dd6-7693-40df-94b2-b10ee7118d0d",
           "type": "number",
-          "value": 1.0
+          "value": 1
         },
         {
           "name": "TempoSurgimentoSaltador",
           "persistentUuid": "1dcab706-1c5b-4b0d-93f3-7e079a6ff2ef",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "AndadoresCriados",
           "persistentUuid": "693ad62a-27c6-4a49-9b26-dbabfb4ee07c",
           "type": "number",
-          "value": 2.0
+          "value": 2
         },
         {
           "name": "SaltadoresCriados",
           "persistentUuid": "aa755555-0141-419a-87c4-b715278eee2b",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "CotaAndador",
           "persistentUuid": "6e9385f8-19d0-40a6-8e0e-4b3aca9dc2fb",
           "type": "number",
-          "value": 10.0
+          "value": 10
         },
         {
           "name": "CotaSaltador",
           "persistentUuid": "4992eefa-073a-45cd-b4e9-0d0273b59c39",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "LimiteVivos",
           "persistentUuid": "286fdd20-6401-4f19-b224-38d3a71ef646",
           "type": "number",
-          "value": 5.0
+          "value": 5
         },
         {
           "name": "EsperaProximaOnda",
           "persistentUuid": "accc6f7a-43ea-4504-a708-bd018287da1a",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "TempoSurgimentoVoador",
           "persistentUuid": "77a87c99-1fac-418f-8349-28f43eaa75ec",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "VoadoresCriados",
           "persistentUuid": "05529411-7ed0-4aa7-a94f-4499157adddc",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "CotaVoador",
           "persistentUuid": "0c807238-809c-43c8-9d25-082d4217be79",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "TempoSurgimentoPesado",
           "persistentUuid": "1af7cdc3-0ef1-4098-8126-5d3e375c64f2",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "PesadosCriados",
           "persistentUuid": "d12e2877-0884-4264-9655-3c4ab5458e28",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "CotaPesado",
           "persistentUuid": "88dc950b-81a1-4b9d-9c95-89616836ac15",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "TempoSurgimentoAtirador",
           "persistentUuid": "6c9427f9-9e15-4701-bec3-f6841a207f1b",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "AtiradoresCriados",
           "persistentUuid": "1d75bc05-9d44-4073-9967-7ca42aea9843",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "CotaAtirador",
           "persistentUuid": "cf706029-60b4-40be-ad31-ebc79a7af00d",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "LarguraArena",
           "persistentUuid": "a949ab15-3c0f-4ef8-9daf-9c3b7e00210e",
           "type": "number",
-          "value": 2560.0
+          "value": 2560
         },
         {
           "name": "FatorParallaxDistante",
@@ -757,235 +749,235 @@
           "name": "NumeroLayouts",
           "persistentUuid": "87016a2f-c4cc-4e41-b337-8a91adb9f8ac",
           "type": "number",
-          "value": 2.0
+          "value": 2
         },
         {
           "name": "LayoutAtual",
           "persistentUuid": "0f7d6411-9667-456f-8020-53e73021121a",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "OleoAtivo",
           "persistentUuid": "e636cd0d-7253-4192-9dac-b4074254d232",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "AlturaFinalOleo",
           "persistentUuid": "d295c0d4-f95c-4b2c-9632-f115707f7e3d",
           "type": "number",
-          "value": 630.0
+          "value": 630
         },
         {
           "name": "VelocidadeOleo",
           "persistentUuid": "7f3cd32a-8123-4794-bfc4-19545a8a4de8",
           "type": "number",
-          "value": 10.0
+          "value": 10
         },
         {
           "name": "TremorCamera",
           "persistentUuid": "df45500d-1fc9-42b2-a873-ba4bbfe8d66f",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "DeslocamentoTremorX",
           "persistentUuid": "e8974955-bc5f-4f4a-be8a-0e3f22a8a386",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "EtapaOleo",
           "persistentUuid": "6aae167b-3c3b-45d8-b7ef-a0f93201220b",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "TempoAvisoOleo",
           "persistentUuid": "8ec6ce8e-cd80-458c-8468-9608964bbf13",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "DuracaoAvisoOleo",
           "persistentUuid": "88f8428a-90d8-47f6-887d-1939e3993f18",
           "type": "number",
-          "value": 3.0
+          "value": 3
         }
       ],
       "instances": [
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Chao",
           "persistentUuid": "af818b8e-ee46-4012-8501-430951490eb7",
-          "width": 2560.0,
-          "x": 0.0,
-          "y": 688.0,
+          "width": 2560,
+          "x": 0,
+          "y": 688,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "a63fd959-313e-4ae0-8721-43757769f2d5",
-          "width": 256.0,
-          "x": 100.0,
-          "y": 560.0,
+          "width": 256,
+          "x": 100,
+          "y": 560,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "3c4634b4-a0b8-4f9b-8e55-21e97fc2a27e",
-          "width": 256.0,
-          "x": 924.0,
-          "y": 560.0,
+          "width": 256,
+          "x": 924,
+          "y": 560,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "105215fa-3b9c-44c5-a04c-17f796cd7a12",
-          "width": 320.0,
-          "x": 476.0,
-          "y": 517.0,
+          "width": 320,
+          "x": 476,
+          "y": 517,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "f82e7ce9-4549-46dc-9c30-66e6829585f3",
-          "width": 160.0,
-          "x": 557.0,
-          "y": 397.0,
+          "width": 160,
+          "x": 557,
+          "y": 397,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 1.0,
+          "depth": 1,
           "height": 91.62,
           "layer": "",
           "name": "Robo",
           "persistentUuid": "4dd4e464-c003-4072-8506-4eb068315e89",
           "width": 71.5,
-          "x": 610.0,
-          "y": 279.0,
+          "x": 610,
+          "y": 279,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": false,
-          "height": 0.0,
+          "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "TextoVida",
           "persistentUuid": "2c73334c-ad5a-4b13-b1ed-02557ade8af2",
-          "width": 0.0,
-          "x": 20.0,
-          "y": 20.0,
+          "width": 0,
+          "x": 20,
+          "y": 20,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": false,
-          "height": 0.0,
+          "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "TextoXP",
           "persistentUuid": "bc1e6ab3-ac2b-4e12-8de2-0c4e688263c7",
-          "width": 0.0,
-          "x": 20.0,
-          "y": 50.0,
+          "width": 0,
+          "x": 20,
+          "y": 50,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": false,
-          "height": 0.0,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Andador",
           "persistentUuid": "9c72f01b-f289-4828-9106-0993e600d2c9",
-          "width": 0.0,
-          "x": 1086.0,
-          "y": 656.0,
+          "width": 0,
+          "x": 1086,
+          "y": 656,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": false,
-          "height": 0.0,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Andador",
           "persistentUuid": "b4eaab0d-e443-45e0-9cee-485626548e7d",
-          "width": 0.0,
-          "x": 211.0,
-          "y": 656.0,
+          "width": 0,
+          "x": 211,
+          "y": 656,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Esteira",
           "persistentUuid": "6d5cacba-eb88-437b-94e3-243421412c9e",
-          "width": 256.0,
-          "x": 1400.0,
-          "y": 560.0,
+          "width": 256,
+          "x": 1400,
+          "y": 560,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -994,27 +986,27 @@
               "name": "Velocidade",
               "persistentUuid": "6716151d-59ca-4693-a2c7-5ad9bd19d507",
               "type": "number",
-              "value": -180.0
+              "value": -180
             },
             {
               "name": "Layout",
               "persistentUuid": "1688e425-57b8-4b20-aa6a-e56edf1a6a96",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "5a03c005-9f7e-4cf9-b29a-916833d5451d",
-          "width": 200.0,
-          "x": 1730.0,
-          "y": 560.0,
+          "width": 200,
+          "x": 1730,
+          "y": 560,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1023,21 +1015,21 @@
               "name": "Layout",
               "persistentUuid": "c5a40bab-ff72-4138-9d09-98fa9b578eab",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Andaime",
           "persistentUuid": "1474e341-41dc-40f5-b6d2-c00efdaab9b2",
-          "width": 180.0,
-          "x": 2000.0,
-          "y": 330.0,
+          "width": 180,
+          "x": 2000,
+          "y": 330,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -1046,21 +1038,21 @@
               "name": "Layout",
               "persistentUuid": "7775a90b-0c58-4d1e-9f16-f765e81e30a9",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Esteira",
           "persistentUuid": "d621980a-21fb-479b-b77f-52d86589e5ec",
-          "width": 256.0,
-          "x": 2200.0,
-          "y": 560.0,
+          "width": 256,
+          "x": 2200,
+          "y": 560,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1069,91 +1061,91 @@
               "name": "Velocidade",
               "persistentUuid": "cdcfa712-cbee-4f5c-98fc-67770427e792",
               "type": "number",
-              "value": 180.0
+              "value": 180
             },
             {
               "name": "Layout",
               "persistentUuid": "2b3f37b9-3d01-4367-aeab-44c97c867196",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 1720.0,
+          "depth": 0,
+          "height": 1720,
           "layer": "",
           "name": "LimiteArena",
           "persistentUuid": "30ecfdcf-f56b-4eb7-9a61-cd9d3374bad0",
-          "width": 64.0,
-          "x": -64.0,
-          "y": -1000.0,
+          "width": 64,
+          "x": -64,
+          "y": -1000,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 1720.0,
+          "depth": 0,
+          "height": 1720,
           "layer": "",
           "name": "LimiteArena",
           "persistentUuid": "3befd433-381d-42eb-bb6c-e72a1287dbab",
-          "width": 64.0,
-          "x": 2560.0,
-          "y": -1000.0,
+          "width": 64,
+          "x": 2560,
+          "y": -1000,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 720.0,
+          "depth": 0,
+          "height": 720,
           "layer": "FundoDistante",
           "name": "FundoOficina",
           "persistentUuid": "b1e1e86e-7322-4ccb-8505-65e33f34ad98",
-          "width": 1800.0,
-          "x": 0.0,
-          "y": 0.0,
+          "width": 1800,
+          "x": 0,
+          "y": 0,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 720.0,
+          "depth": 0,
+          "height": 720,
           "layer": "FundoMedio",
           "name": "FundoMaquinas",
           "persistentUuid": "a9d191c4-6252-48b6-8d2b-27e50e820cdc",
-          "width": 1800.0,
-          "x": 0.0,
-          "y": 0.0,
+          "width": 1800,
+          "x": 0,
+          "y": 0,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "68424597-dce4-429c-b27f-56480676470c",
-          "width": 200.0,
-          "x": 1220.0,
-          "y": 560.0,
+          "width": 200,
+          "x": 1220,
+          "y": 560,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1162,21 +1154,21 @@
               "name": "Layout",
               "persistentUuid": "5fa97e2a-c0a2-422a-800d-d7df811724a6",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Andaime",
           "persistentUuid": "edc7eb0d-e06c-42d3-8538-a679f64fb6ac",
-          "width": 180.0,
-          "x": 1480.0,
-          "y": 330.0,
+          "width": 180,
+          "x": 1480,
+          "y": 330,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1185,21 +1177,21 @@
               "name": "Layout",
               "persistentUuid": "0bfc7838-4f2a-4f65-b570-b966377da26b",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Esteira",
           "persistentUuid": "e6456902-5e71-47b1-95cd-d283ee924040",
-          "width": 256.0,
-          "x": 1760.0,
-          "y": 560.0,
+          "width": 256,
+          "x": 1760,
+          "y": 560,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -1208,27 +1200,27 @@
               "name": "Layout",
               "persistentUuid": "88356b6f-e54a-453e-a299-5b8f159a7b88",
               "type": "number",
-              "value": 2.0
+              "value": 2
             },
             {
               "name": "Velocidade",
               "persistentUuid": "8344ddf8-9ac0-422e-997e-1fd562e17163",
               "type": "number",
-              "value": 180.0
+              "value": 180
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "f0247155-7adf-439d-8aea-2faebc99b630",
-          "width": 200.0,
-          "x": 2080.0,
-          "y": 560.0,
+          "width": 200,
+          "x": 2080,
+          "y": 560,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -1237,21 +1229,21 @@
               "name": "Layout",
               "persistentUuid": "ceca83f0-b932-4216-8a65-96d24b2a6f1d",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Andaime",
           "persistentUuid": "7d32f31f-ea07-44f0-82b4-3308a62ce29e",
-          "width": 180.0,
-          "x": 2340.0,
-          "y": 330.0,
+          "width": 180,
+          "x": 2340,
+          "y": 330,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -1260,85 +1252,85 @@
               "name": "Layout",
               "persistentUuid": "2ab20435-fca4-42b4-95ae-7042c086961c",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 120.0,
+          "depth": 0,
+          "height": 120,
           "layer": "",
           "name": "Oleo",
           "persistentUuid": "f8a64dec-ad79-49b9-8687-ca0b6021534d",
-          "width": 2560.0,
-          "x": 0.0,
-          "y": 720.0,
+          "width": 2560,
+          "x": 0,
+          "y": 720,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 720.0,
+          "depth": 0,
+          "height": 720,
           "layer": "",
           "name": "BordaEsquerda",
           "persistentUuid": "75e002fa-507e-4b3a-a369-276e7592e79d",
-          "width": 480.0,
-          "x": 0.0,
-          "y": 0.0,
+          "width": 480,
+          "x": 0,
+          "y": 0,
           "zOrder": -10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 720.0,
+          "depth": 0,
+          "height": 720,
           "layer": "",
           "name": "BordaDireita",
           "persistentUuid": "3f11c49b-c312-48bc-94cd-a10d1a8fb95a",
-          "width": 480.0,
-          "x": 2080.0,
-          "y": 0.0,
+          "width": 480,
+          "x": 2080,
+          "y": 0,
           "zOrder": -10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "5d1725b4-1be8-4497-beaf-c094d385bfe9",
-          "width": 200.0,
-          "x": 300.0,
-          "y": 320.0,
+          "width": 200,
+          "x": 300,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "653fd21e-ec3a-4f7c-ba5f-c09f6f910b3b",
-          "width": 200.0,
-          "x": 1150.0,
-          "y": 440.0,
+          "width": 200,
+          "x": 1150,
+          "y": 440,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1347,21 +1339,21 @@
               "name": "Layout",
               "persistentUuid": "4b4d8e52-9b96-4887-87bc-e57b0ab61a05",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "21337d70-4ff7-49cc-a578-ed76663be7a2",
-          "width": 200.0,
-          "x": 2230.0,
-          "y": 440.0,
+          "width": 200,
+          "x": 2230,
+          "y": 440,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1370,21 +1362,21 @@
               "name": "Layout",
               "persistentUuid": "4b5c1105-f9f8-4569-9a0d-1ba3ba1c45e7",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "339f11a0-8646-4018-af17-fc21b3d252b4",
-          "width": 200.0,
-          "x": 1250.0,
-          "y": 440.0,
+          "width": 200,
+          "x": 1250,
+          "y": 440,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1393,21 +1385,21 @@
               "name": "Layout",
               "persistentUuid": "96d3eb09-611b-41b6-b7bd-ed8f59661412",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "3dd4b7d3-7f18-4218-a55b-67516a9ddc44",
-          "width": 180.0,
-          "x": 2120.0,
-          "y": 440.0,
+          "width": 180,
+          "x": 2120,
+          "y": 440,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -1416,69 +1408,69 @@
               "name": "Layout",
               "persistentUuid": "23610ab9-e996-46f1-9614-821099a39521",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 720.0,
+          "depth": 0,
+          "height": 720,
           "layer": "HUD",
           "name": "AlertaOleo",
           "persistentUuid": "471fbad2-eb78-4ad7-ab6e-75275ce4dbec",
-          "width": 1280.0,
-          "x": 1.0,
-          "y": 2.0,
+          "width": 1280,
+          "x": 0,
+          "y": 0,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "6b759085-d40c-4131-b1b6-452f7f1b102e",
-          "width": 160.0,
-          "x": 20.0,
-          "y": 440.0,
+          "width": 160,
+          "x": 20,
+          "y": 440,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "0dd5193c-de21-4436-ac27-f4f2144b938a",
-          "width": 110.0,
-          "x": 810.0,
-          "y": 440.0,
+          "width": 110,
+          "x": 810,
+          "y": 440,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "5db4d2f2-4c8b-41b3-ac49-a459b025fba7",
-          "width": 160.0,
-          "x": 1480.0,
-          "y": 440.0,
+          "width": 160,
+          "x": 1480,
+          "y": 440,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1487,21 +1479,21 @@
               "name": "Layout",
               "persistentUuid": "2f702d0c-3600-4411-a07d-1d1dce0377a2",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "0516be58-7a59-4de2-850f-24dcfd4671fd",
-          "width": 150.0,
-          "x": 1300.0,
-          "y": 320.0,
+          "width": 150,
+          "x": 1300,
+          "y": 320,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1510,21 +1502,21 @@
               "name": "Layout",
               "persistentUuid": "844beca4-c44a-4dde-8acd-5cb1114cb202",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "97375075-4b1c-452c-83b4-0e2b6e29dff6",
-          "width": 140.0,
-          "x": 1760.0,
-          "y": 440.0,
+          "width": 140,
+          "x": 1760,
+          "y": 440,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1533,21 +1525,21 @@
               "name": "Layout",
               "persistentUuid": "2b57ccb8-0e31-40c0-a718-844ceed30c28",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 32.0,
+          "depth": 0,
+          "height": 32,
           "layer": "",
           "name": "Prateleira",
           "persistentUuid": "f963c28b-87a0-4fcd-89d3-0e55a52f952d",
-          "width": 160.0,
-          "x": 1800.0,
-          "y": 440.0,
+          "width": 160,
+          "x": 1800,
+          "y": 440,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -1556,85 +1548,85 @@
               "name": "Layout",
               "persistentUuid": "b92c894c-47c0-4aa3-8038-cd9c10a1d61f",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 564.0,
+          "depth": 0,
+          "height": 564,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "24c68566-4cf9-4d33-ae9a-aa4769a45507",
-          "width": 8.0,
-          "x": 224.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 224,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 564.0,
+          "depth": 0,
+          "height": 564,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "3995b479-8014-4fa3-8a35-3f995bb91199",
-          "width": 8.0,
-          "x": 1048.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 1048,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 92.0,
+          "depth": 0,
+          "height": 92,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "79b7bf8e-3c72-4eb1-ae4c-1073be416b82",
-          "width": 8.0,
-          "x": 632.0,
-          "y": 429.0,
+          "width": 8,
+          "x": 632,
+          "y": 429,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 401.0,
+          "depth": 0,
+          "height": 401,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "162614f8-73a3-4d24-9609-76117e6698d5",
-          "width": 8.0,
-          "x": 633.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 633,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 92.0,
+          "depth": 0,
+          "height": 92,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "839aca98-e2f7-4fb6-99e8-0bc0053b66a1",
-          "width": 8.0,
-          "x": 1524.0,
-          "y": 472.0,
+          "width": 8,
+          "x": 1524,
+          "y": 472,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1643,21 +1635,21 @@
               "name": "Layout",
               "persistentUuid": "b4690ef3-c43b-4841-ae17-e055a34437b8",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 92.0,
+          "depth": 0,
+          "height": 92,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "65c4e77c-24b5-463c-a356-4011aa7311ce",
-          "width": 8.0,
-          "x": 1826.0,
-          "y": 472.0,
+          "width": 8,
+          "x": 1826,
+          "y": 472,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1666,21 +1658,21 @@
               "name": "Layout",
               "persistentUuid": "68d5437a-748c-44f9-9b07-310535f5880f",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 334.0,
+          "depth": 0,
+          "height": 334,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "de3de6ce-535b-41a5-8dc6-936922940651",
-          "width": 8.0,
-          "x": 2086.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 2086,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1689,21 +1681,21 @@
               "name": "Layout",
               "persistentUuid": "4d4e2555-183e-44a3-8801-7910087ca427",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 92.0,
+          "depth": 0,
+          "height": 92,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "e8d6b2e5-c6d1-45d3-baf7-697314db348f",
-          "width": 8.0,
-          "x": 2324.0,
-          "y": 472.0,
+          "width": 8,
+          "x": 2324,
+          "y": 472,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1712,21 +1704,21 @@
               "name": "Layout",
               "persistentUuid": "26879b5f-22f5-4f70-9531-3c7fa5782cfe",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 92.0,
+          "depth": 0,
+          "height": 92,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "4f1b7130-ab37-4486-a41c-1198f0b50877",
-          "width": 8.0,
-          "x": 1316.0,
-          "y": 472.0,
+          "width": 8,
+          "x": 1316,
+          "y": 472,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1735,21 +1727,21 @@
               "name": "Layout",
               "persistentUuid": "d604871e-f8ab-4a22-ac6e-7dc41a45141e",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 334.0,
+          "depth": 0,
+          "height": 334,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "1c7fcd84-6313-4bd7-9a5c-451828db1c58",
-          "width": 8.0,
-          "x": 1566.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 1566,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1758,21 +1750,21 @@
               "name": "Layout",
               "persistentUuid": "7f3c8cd3-9e6d-4680-aaaf-ebaaf8365f81",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 92.0,
+          "depth": 0,
+          "height": 92,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "659a7ed4-17b8-4984-9b5a-f50c4fe3597a",
-          "width": 8.0,
-          "x": 1884.0,
-          "y": 472.0,
+          "width": 8,
+          "x": 1884,
+          "y": 472,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1781,21 +1773,21 @@
               "name": "Layout",
               "persistentUuid": "bd84cd2e-6a5f-460e-833d-d299aeaaf3fe",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 92.0,
+          "depth": 0,
+          "height": 92,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "f79401ee-4322-4212-a8b9-82f518f409ff",
-          "width": 8.0,
-          "x": 2176.0,
-          "y": 472.0,
+          "width": 8,
+          "x": 2176,
+          "y": 472,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1804,21 +1796,21 @@
               "name": "Layout",
               "persistentUuid": "c372b275-9b74-4f99-9ab4-f2fbf1350e8b",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 334.0,
+          "depth": 0,
+          "height": 334,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "6270c568-9b37-4edc-9304-698ea71b6327",
-          "width": 8.0,
-          "x": 2426.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 2426,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1827,37 +1819,37 @@
               "name": "Layout",
               "persistentUuid": "b9874dd6-63f7-4140-b048-f136abb6632d",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 324.0,
+          "depth": 0,
+          "height": 324,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "a030cd1f-87f2-4414-aaa8-b089f217fc21",
-          "width": 8.0,
-          "x": 396.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 396,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 444.0,
+          "depth": 0,
+          "height": 444,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "6b701b77-8683-4c13-96d2-abb72ebbc2de",
-          "width": 8.0,
-          "x": 1246.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 1246,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1866,21 +1858,21 @@
               "name": "Layout",
               "persistentUuid": "301fdc34-69d9-4d35-acbb-317d8c322f1e",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 444.0,
+          "depth": 0,
+          "height": 444,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "97d5599d-f5ab-449d-bfce-73f9cff021f5",
-          "width": 8.0,
-          "x": 2326.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 2326,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1889,21 +1881,21 @@
               "name": "Layout",
               "persistentUuid": "9e554b22-d1c3-4a12-82b6-c84a27506f8d",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 444.0,
+          "depth": 0,
+          "height": 444,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "13470cf8-1a22-4079-8190-4c976dfbdbcb",
-          "width": 8.0,
-          "x": 1346.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 1346,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1912,21 +1904,21 @@
               "name": "Layout",
               "persistentUuid": "2edab93e-0371-46a7-936d-9ee5abc32f1a",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 444.0,
+          "depth": 0,
+          "height": 444,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "8b34da72-47a9-4950-aa3a-210bcffcb0c5",
-          "width": 8.0,
-          "x": 2206.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 2206,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1935,53 +1927,53 @@
               "name": "Layout",
               "persistentUuid": "830f293b-d508-45fb-b9ff-777ec3af7d78",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 444.0,
+          "depth": 0,
+          "height": 444,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "27c743da-f267-48ad-ba73-9a74635965e7",
-          "width": 8.0,
-          "x": 96.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 96,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 444.0,
+          "depth": 0,
+          "height": 444,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "69c25bc8-eb3c-4c32-96a2-b814451f4d89",
-          "width": 8.0,
-          "x": 861.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 861,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 444.0,
+          "depth": 0,
+          "height": 444,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "ff9e6593-6b1c-4e49-b395-e12aff073fec",
-          "width": 8.0,
-          "x": 1556.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 1556,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1990,21 +1982,21 @@
               "name": "Layout",
               "persistentUuid": "dbfde019-7087-40b8-8868-e5fa045d08ae",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 324.0,
+          "depth": 0,
+          "height": 324,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "a6484254-fa28-4741-b957-3bfbad94f819",
-          "width": 8.0,
-          "x": 1371.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 1371,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2013,21 +2005,21 @@
               "name": "Layout",
               "persistentUuid": "7df05420-dbee-465c-af46-a214db16b55f",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 444.0,
+          "depth": 0,
+          "height": 444,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "9ff31545-1be4-4a36-b05b-aca4f637d5ad",
-          "width": 8.0,
-          "x": 1826.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 1826,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2036,21 +2028,21 @@
               "name": "Layout",
               "persistentUuid": "d2c09d9c-adeb-4e56-ad81-281ab49c4805",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ]
         },
         {
-          "angle": 0.0,
+          "angle": 0,
           "customSize": true,
-          "depth": 0.0,
-          "height": 444.0,
+          "depth": 0,
+          "height": 444,
           "layer": "",
           "name": "Fio",
           "persistentUuid": "09d1c44c-2170-4924-a5f8-d22e3324ddca",
-          "width": 8.0,
-          "x": 1876.0,
-          "y": 0.0,
+          "width": 8,
+          "x": 1876,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2059,134 +2051,118 @@
               "name": "Layout",
               "persistentUuid": "68943a57-c2a2-4a13-9097-06ecb922b3b0",
               "type": "number",
-              "value": 2.0
+              "value": 2
             }
           ]
         },
         {
-          "angle": -90.0,
+          "angle": -90,
           "customSize": false,
-          "depth": 0.0,
-          "height": 0.0,
+          "depth": 0,
+          "height": 0,
           "layer": "FundoMedio",
           "name": "Vapor",
           "persistentUuid": "fd88e3ba-0403-4b45-b345-a9729a1eb90b",
-          "width": 0.0,
-          "x": 91.0,
-          "y": 170.0,
+          "width": 0,
+          "x": 91,
+          "y": 170,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": -90.0,
+          "angle": -90,
           "customSize": false,
-          "depth": 0.0,
-          "height": 0.0,
+          "depth": 0,
+          "height": 0,
           "layer": "FundoMedio",
           "name": "Vapor",
           "persistentUuid": "50a1eb92-6b51-40be-a9bc-28d0e935eb98",
-          "width": 0.0,
-          "x": 1078.0,
-          "y": 228.0,
+          "width": 0,
+          "x": 1078,
+          "y": 228,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": -90.0,
+          "angle": -90,
           "customSize": false,
-          "depth": 0.0,
-          "height": 0.0,
+          "depth": 0,
+          "height": 0,
           "layer": "FundoMedio",
           "name": "Vapor",
           "persistentUuid": "ef4b6bdc-334c-4cd7-9f2c-0d7eef9f334d",
-          "width": 0.0,
-          "x": 1225.0,
-          "y": 345.0,
+          "width": 0,
+          "x": 1225,
+          "y": 345,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": -90.0,
+          "angle": -90,
           "customSize": false,
-          "depth": 0.0,
-          "height": 0.0,
+          "depth": 0,
+          "height": 0,
           "layer": "FundoMedio",
           "name": "Vapor",
           "persistentUuid": "e727bc80-9e67-4f03-a76c-544757cb9c13",
-          "width": 0.0,
-          "x": 1584.0,
-          "y": 245.0,
+          "width": 0,
+          "x": 1584,
+          "y": 245,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": -90.0,
+          "angle": -90,
           "customSize": false,
-          "depth": 0.0,
-          "height": 0.0,
+          "depth": 0,
+          "height": 0,
           "layer": "FundoMedio",
           "name": "Vapor",
           "persistentUuid": "a1389d43-7050-4cb7-b993-740bc6390e95",
-          "width": 0.0,
-          "x": 1761.0,
-          "y": 210.0,
+          "width": 0,
+          "x": 1761,
+          "y": 210,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": -90.0,
+          "angle": -90,
           "customSize": false,
-          "depth": 0.0,
-          "height": 0.0,
+          "depth": 0,
+          "height": 0,
           "layer": "",
           "name": "Vapor",
           "persistentUuid": "bc374383-e057-4042-93d5-e469773f32a5",
-          "width": 0.0,
-          "x": 200.0,
-          "y": 215.0,
+          "width": 0,
+          "x": 200,
+          "y": 215,
           "zOrder": -9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": -90.0,
+          "angle": -90,
           "customSize": false,
-          "depth": 0.0,
-          "height": 0.0,
+          "depth": 0,
+          "height": 0,
           "layer": "",
           "name": "Vapor",
           "persistentUuid": "f314db95-ca95-4486-9c72-01812a0c6c38",
-          "width": 0.0,
-          "x": 2455.0,
-          "y": 165.0,
+          "width": 0,
+          "x": 2455,
+          "y": 165,
           "zOrder": -9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0.0,
-          "customSize": false,
-          "height": 0.0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Peca",
-          "persistentUuid": "28dd2178-b279-4c25-945a-95f565c6cd6d",
-          "width": 0.0,
-          "x": 837.0,
-          "y": 432.0,
-          "zOrder": 127,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2205,37 +2181,37 @@
               "name": "Vida",
               "persistentUuid": "e2374d25-2f01-43e5-bb69-7b03e6522222",
               "type": "number",
-              "value": 5.0
+              "value": 5
             },
             {
               "name": "TempoInvulneravel",
               "persistentUuid": "0772e371-4566-4926-9a09-f829d9d3c72c",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "RecargaDash",
               "persistentUuid": "b1c2d3e4-f5a6-4789-b012-c3d4e5f6a001",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "EmDash",
               "persistentUuid": "b1c2d3e4-f5a6-4789-b012-c3d4e5f6a002",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "DuracaoDash",
               "persistentUuid": "b1c2d3e4-f5a6-4789-b012-c3d4e5f6a003",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "DirecaoDash",
               "persistentUuid": "b1c2d3e4-f5a6-4789-b012-c3d4e5f6a004",
               "type": "number",
-              "value": 1.0
+              "value": 1
             }
           ],
           "effects": [],
@@ -2246,50 +2222,50 @@
               "FireCooldown": 0.1,
               "HasJustFired": false,
               "RotateBullet": true,
-              "FiringArc": 45.0,
-              "BulletQuantity": 1.0,
-              "AngleVariance": 0.0,
-              "BulletSpeedVariance": 0.0,
-              "AmmoQuantity": 0.0,
-              "ShotsPerReload": 0.0,
-              "ReloadDuration": 1.0,
-              "MaxAmmo": 0.0,
-              "ShotsBeforeNextReload": 0.0,
-              "TotalShotsFired": 0.0,
-              "TotalBulletsCreated": 0.0,
-              "StartingAmmo": 0.0,
-              "TotalReloadsCompleted": 0.0,
+              "FiringArc": 45,
+              "BulletQuantity": 1,
+              "AngleVariance": 0,
+              "BulletSpeedVariance": 0,
+              "AmmoQuantity": 0,
+              "ShotsPerReload": 0,
+              "ReloadDuration": 1,
+              "MaxAmmo": 0,
+              "ShotsBeforeNextReload": 0,
+              "TotalShotsFired": 0,
+              "TotalBulletsCreated": 0,
+              "StartingAmmo": 0,
+              "TotalReloadsCompleted": 0,
               "UnlimitedAmmo": true,
               "ReloadInProgress": false,
-              "HeatIncreasePerShot": 0.0,
-              "HeatLevel": 0.0,
+              "HeatIncreasePerShot": 0,
+              "HeatLevel": 0,
               "AutomaticReloading": true,
-              "OverheatDuration": 0.0,
+              "OverheatDuration": 0,
               "LinearCoolingRate": 0.1,
               "ExponentialCoolingRate": 0.3,
               "BulletLayer": "",
-              "RandomizedAngle": 0.0
+              "RandomizedAngle": 0
             },
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500.0,
+              "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "deceleration": 1500.0,
-              "gravity": 1000.0,
+              "deceleration": 1500,
+              "gravity": 1000,
               "ignoreDefaultControls": true,
-              "jumpSpeed": 600.0,
+              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150.0,
-              "maxFallingSpeed": 700.0,
-              "maxSpeed": 250.0,
-              "slopeMaxAngle": 60.0,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
-              "xGrabTolerance": 10.0,
-              "yGrabOffset": 0.0
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -2307,32 +2283,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185.0,
-                        "y": 214.0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.0,
-                            "y": 14.0
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 14.0
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 414.0
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 19.0,
-                            "y": 414.0
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -2355,32 +2331,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185.0,
-                        "y": 214.0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.0,
-                            "y": 14.0
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 14.0
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 414.0
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 19.0,
-                            "y": 414.0
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -2391,32 +2367,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185.0,
-                        "y": 214.0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.0,
-                            "y": 14.0
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 14.0
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 414.0
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 19.0,
-                            "y": 414.0
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -2427,32 +2403,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185.0,
-                        "y": 214.0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.0,
-                            "y": 14.0
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 14.0
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 414.0
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 19.0,
-                            "y": 414.0
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -2463,32 +2439,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185.0,
-                        "y": 214.0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.0,
-                            "y": 14.0
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 14.0
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 414.0
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 19.0,
-                            "y": 414.0
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -2499,32 +2475,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185.0,
-                        "y": 214.0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.0,
-                            "y": 14.0
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 14.0
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 414.0
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 19.0,
-                            "y": 414.0
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -2535,32 +2511,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185.0,
-                        "y": 214.0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.0,
-                            "y": 14.0
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 14.0
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 414.0
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 19.0,
-                            "y": 414.0
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -2571,32 +2547,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185.0,
-                        "y": 214.0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.0,
-                            "y": 14.0
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 14.0
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 414.0
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 19.0,
-                            "y": 414.0
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -2607,32 +2583,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185.0,
-                        "y": 214.0
+                        "x": 185,
+                        "y": 214
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19.0,
-                            "y": 14.0
+                            "x": 19,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 14.0
+                            "x": 351,
+                            "y": 14
                           },
                           {
-                            "x": 351.0,
-                            "y": 414.0
+                            "x": 351,
+                            "y": 414
                           },
                           {
-                            "x": 19.0,
-                            "y": 414.0
+                            "x": 19,
+                            "y": 414
                           }
                         ]
                       ]
@@ -2645,12 +2621,12 @@
         },
         {
           "assetStoreId": "",
-          "height": 32.0,
+          "height": 32,
           "name": "Chao",
           "persistentUuid": "9d3b9062-66ac-48c2-a1ac-b304ffda734e",
           "texture": "prototipo/imagens/chao.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 33.0,
+          "width": 33,
           "variables": [],
           "effects": [],
           "behaviors": [
@@ -2659,54 +2635,54 @@
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
               "platformType": "NormalPlatform",
-              "yGrabOffset": 0.0
+              "yGrabOffset": 0
             }
           ]
         },
         {
           "assetStoreId": "",
-          "height": 32.0,
+          "height": 32,
           "name": "Prateleira",
           "persistentUuid": "89e0f003-d175-4beb-86c2-06a01dcbf73a",
           "texture": "prototipo/imagens/prateleira.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 29.0,
+          "width": 29,
           "variables": [
             {
               "name": "EstadoImpacto",
               "persistentUuid": "454be15b-925b-48ea-bd5a-39591e284e1c",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "TempoAbalo",
               "persistentUuid": "09d2b2d0-31bb-44bf-86a6-53e78ccd245f",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "TempoRetorno",
               "persistentUuid": "84566db2-fc7c-419e-8ee2-984fee5a1189",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "XOrigemImpacto",
               "persistentUuid": "2f012d2d-16d7-422d-9490-0a8f7538415a",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "Layout",
               "persistentUuid": "a1f352a5-2cee-4e6a-a43d-88e5b251a2ab",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "Ativa",
               "persistentUuid": "3140e8f2-a4cd-48ae-a410-cb4fca97be71",
               "type": "number",
-              "value": 0.0
+              "value": 0
             }
           ],
           "effects": [],
@@ -2716,7 +2692,7 @@
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
               "platformType": "Jumpthru",
-              "yGrabOffset": 0.0
+              "yGrabOffset": 0
             }
           ]
         },
@@ -2732,19 +2708,19 @@
               "name": "Vida",
               "persistentUuid": "eb542972-adfb-4d73-a4ef-fbc6b3b909ff",
               "type": "number",
-              "value": 3.0
+              "value": 3
             },
             {
               "name": "XPDrop",
               "persistentUuid": "a30c2a0a-14e5-4ec5-9317-f3adc675f14b",
               "type": "number",
-              "value": 1.0
+              "value": 1
             },
             {
               "name": "PontosAbate",
               "persistentUuid": "7853f866-0196-4e21-afef-d1a22a2982d2",
               "type": "number",
-              "value": 100.0
+              "value": 100
             }
           ],
           "effects": [],
@@ -2753,23 +2729,23 @@
               "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500.0,
+              "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "deceleration": 1500.0,
-              "gravity": 1000.0,
+              "deceleration": 1500,
+              "gravity": 1000,
               "ignoreDefaultControls": true,
-              "jumpSpeed": 600.0,
+              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150.0,
-              "maxFallingSpeed": 700.0,
-              "maxSpeed": 120.0,
-              "slopeMaxAngle": 60.0,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 120,
+              "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
-              "xGrabTolerance": 10.0,
-              "yGrabOffset": 0.0
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -2787,32 +2763,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 32.0,
-                            "y": 0.0
+                            "x": 32,
+                            "y": 0
                           },
                           {
-                            "x": 32.0,
-                            "y": 32.0
+                            "x": 32,
+                            "y": 32
                           },
                           {
-                            "x": 0.0,
-                            "y": 32.0
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -2835,31 +2811,31 @@
               "name": "TempoPulo",
               "persistentUuid": "df9fa82e-5eac-48fd-8646-ac0f25d54c79",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "EtapaRota",
               "persistentUuid": "9ec1c29b-d834-4399-8db2-5960be180265",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "Vida",
               "persistentUuid": "d9e4d4e5-7003-4a30-b9ec-bd8c2bddc6fd",
               "type": "number",
-              "value": 4.0
+              "value": 4
             },
             {
               "name": "XPDrop",
               "persistentUuid": "3e3e3d30-f0b7-4b30-a72a-b9841c162c2f",
               "type": "number",
-              "value": 2.0
+              "value": 2
             },
             {
               "name": "PontosAbate",
               "persistentUuid": "cf4b0d57-f28b-4e2b-9241-6bd445e3ca72",
               "type": "number",
-              "value": 150.0
+              "value": 150
             }
           ],
           "effects": [],
@@ -2867,23 +2843,23 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500.0,
+              "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "deceleration": 1500.0,
-              "gravity": 1000.0,
+              "deceleration": 1500,
+              "gravity": 1000,
               "ignoreDefaultControls": true,
-              "jumpSpeed": 850.0,
+              "jumpSpeed": 850,
               "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150.0,
-              "maxFallingSpeed": 700.0,
-              "maxSpeed": 200.0,
-              "slopeMaxAngle": 60.0,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 200,
+              "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
-              "xGrabTolerance": 10.0,
-              "yGrabOffset": 0.0
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -2901,32 +2877,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 32.0,
-                            "y": 0.0
+                            "x": 32,
+                            "y": 0
                           },
                           {
-                            "x": 32.0,
-                            "y": 32.0
+                            "x": 32,
+                            "y": 32
                           },
                           {
-                            "x": 0.0,
-                            "y": 32.0
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -2950,8 +2926,8 @@
             {
               "name": "DestroyOutside",
               "type": "DestroyOutsideBehavior::DestroyOutside",
-              "extraBorder": 200.0,
-              "unseenGraceDistance": 10000.0
+              "extraBorder": 200,
+              "unseenGraceDistance": 10000
             }
           ],
           "animations": [
@@ -2969,32 +2945,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 8.0,
-                            "y": 0.0
+                            "x": 8,
+                            "y": 0
                           },
                           {
-                            "x": 8.0,
-                            "y": 8.0
+                            "x": 8,
+                            "y": 8
                           },
                           {
-                            "x": 0.0,
-                            "y": 8.0
+                            "x": 0,
+                            "y": 8
                           }
                         ]
                       ]
@@ -3015,9 +2991,8 @@
           "variables": [
             {
               "name": "ValorXP",
-              "persistentUuid": "924eb6ae-4bf4-4172-83ea-ea4da1307b39",
               "type": "number",
-              "value": 0.0
+              "value": 0
             }
           ],
           "effects": [],
@@ -3025,23 +3000,23 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500.0,
+              "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "deceleration": 1500.0,
-              "gravity": 1000.0,
+              "deceleration": 1500,
+              "gravity": 1000,
               "ignoreDefaultControls": true,
-              "jumpSpeed": 600.0,
+              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150.0,
-              "maxFallingSpeed": 700.0,
-              "maxSpeed": 250.0,
-              "slopeMaxAngle": 60.0,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
-              "xGrabTolerance": 10.0,
-              "yGrabOffset": 0.0
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -3650,7 +3625,7 @@
           "string": "Vida: 5",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20.0,
+          "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
@@ -3662,20 +3637,20 @@
             "isShadowEnabled": false,
             "italic": false,
             "outlineColor": "7;0;0",
-            "outlineThickness": 2.0,
-            "shadowAngle": 90.0,
-            "shadowBlurRadius": 2.0,
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
             "shadowColor": "247;1;1",
-            "shadowDistance": 4.0,
-            "shadowOpacity": 127.0,
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
             "text": "Vida: 5",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20.0,
-            "lineHeight": 0.0,
+            "characterSize": 20,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -3694,7 +3669,7 @@
           "string": "Peças: 0",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20.0,
+          "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
@@ -3706,20 +3681,20 @@
             "isShadowEnabled": false,
             "italic": false,
             "outlineColor": "255;255;255",
-            "outlineThickness": 2.0,
-            "shadowAngle": 90.0,
-            "shadowBlurRadius": 2.0,
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
             "shadowColor": "0;0;0",
-            "shadowDistance": 4.0,
-            "shadowOpacity": 127.0,
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
             "text": "Peças: 0",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20.0,
-            "lineHeight": 0.0,
+            "characterSize": 20,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -3735,19 +3710,19 @@
               "name": "Vida",
               "persistentUuid": "79e12c5a-a7b6-4d75-b292-d4b6835184d1",
               "type": "number",
-              "value": 3.0
+              "value": 3
             },
             {
               "name": "XPDrop",
               "persistentUuid": "7046fce8-bb5d-443c-8ba1-d2b801e9819c",
               "type": "number",
-              "value": 2.0
+              "value": 2
             },
             {
               "name": "PontosAbate",
               "persistentUuid": "85d2d0d6-44a5-4897-a401-5e3c49f88f66",
               "type": "number",
-              "value": 175.0
+              "value": 175
             }
           ],
           "effects": [],
@@ -3767,32 +3742,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 32.0,
-                            "y": 0.0
+                            "x": 32,
+                            "y": 0
                           },
                           {
-                            "x": 32.0,
-                            "y": 32.0
+                            "x": 32,
+                            "y": 32
                           },
                           {
-                            "x": 0.0,
-                            "y": 32.0
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -3815,25 +3790,25 @@
               "name": "Vida",
               "persistentUuid": "ead2f861-5a8f-4336-9f72-2c3e986a8a8f",
               "type": "number",
-              "value": 8.0
+              "value": 8
             },
             {
               "name": "XPDrop",
               "persistentUuid": "cfd32051-7247-4eaf-be5e-00ea51da494c",
               "type": "number",
-              "value": 3.0
+              "value": 3
             },
             {
               "name": "PontosAbate",
               "persistentUuid": "41f0674c-5e25-4946-9438-5774db8d8ba9",
               "type": "number",
-              "value": 250.0
+              "value": 250
             },
             {
               "name": "RecargaImpacto",
               "persistentUuid": "8fbc0ee6-42e0-4db5-b5b4-0d121bcd9864",
               "type": "number",
-              "value": 0.0
+              "value": 0
             }
           ],
           "effects": [],
@@ -3842,23 +3817,23 @@
               "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500.0,
+              "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "deceleration": 1500.0,
-              "gravity": 1000.0,
+              "deceleration": 1500,
+              "gravity": 1000,
               "ignoreDefaultControls": true,
-              "jumpSpeed": 600.0,
+              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150.0,
-              "maxFallingSpeed": 700.0,
-              "maxSpeed": 65.0,
-              "slopeMaxAngle": 60.0,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 65,
+              "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
-              "xGrabTolerance": 10.0,
-              "yGrabOffset": 0.0
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -3876,32 +3851,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 48.0,
-                            "y": 0.0
+                            "x": 48,
+                            "y": 0
                           },
                           {
-                            "x": 48.0,
-                            "y": 48.0
+                            "x": 48,
+                            "y": 48
                           },
                           {
-                            "x": 0.0,
-                            "y": 48.0
+                            "x": 0,
+                            "y": 48
                           }
                         ]
                       ]
@@ -3924,25 +3899,25 @@
               "name": "Vida",
               "persistentUuid": "d787060d-6f4a-4e73-91e7-de517bdaee45",
               "type": "number",
-              "value": 4.0
+              "value": 4
             },
             {
               "name": "XPDrop",
               "persistentUuid": "ed8c0696-3400-49d2-8e10-2a9478f8e622",
               "type": "number",
-              "value": 2.0
+              "value": 2
             },
             {
               "name": "PontosAbate",
               "persistentUuid": "f3b2543b-30b1-41db-94e6-02b0cf17044b",
               "type": "number",
-              "value": 175.0
+              "value": 175
             },
             {
               "name": "RecargaTiro",
               "persistentUuid": "efe249b0-3e02-40d5-a941-41c59d8d918d",
               "type": "number",
-              "value": 0.0
+              "value": 0
             }
           ],
           "effects": [],
@@ -3951,23 +3926,23 @@
               "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500.0,
+              "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
-              "deceleration": 1500.0,
-              "gravity": 1000.0,
+              "deceleration": 1500,
+              "gravity": 1000,
               "ignoreDefaultControls": true,
-              "jumpSpeed": 600.0,
+              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150.0,
-              "maxFallingSpeed": 700.0,
-              "maxSpeed": 100.0,
-              "slopeMaxAngle": 60.0,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 100,
+              "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
-              "xGrabTolerance": 10.0,
-              "yGrabOffset": 0.0
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -3985,32 +3960,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 32.0,
-                            "y": 0.0
+                            "x": 32,
+                            "y": 0
                           },
                           {
-                            "x": 32.0,
-                            "y": 32.0
+                            "x": 32,
+                            "y": 32
                           },
                           {
-                            "x": 0.0,
-                            "y": 32.0
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -4033,7 +4008,7 @@
               "name": "TempoVida",
               "persistentUuid": "8f2c9d3e-83df-429c-a301-fb73d1505e0b",
               "type": "number",
-              "value": 0.0
+              "value": 0
             }
           ],
           "effects": [],
@@ -4041,8 +4016,8 @@
             {
               "name": "DestroyOutside",
               "type": "DestroyOutsideBehavior::DestroyOutside",
-              "extraBorder": 200.0,
-              "unseenGraceDistance": 10000.0
+              "extraBorder": 200,
+              "unseenGraceDistance": 10000
             }
           ],
           "animations": [
@@ -4060,32 +4035,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 12.0,
-                            "y": 0.0
+                            "x": 12,
+                            "y": 0
                           },
                           {
-                            "x": 12.0,
-                            "y": 12.0
+                            "x": 12,
+                            "y": 12
                           },
                           {
-                            "x": 0.0,
-                            "y": 12.0
+                            "x": 0,
+                            "y": 12
                           }
                         ]
                       ]
@@ -4111,7 +4086,7 @@
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
               "platformType": "NormalPlatform",
-              "yGrabOffset": 0.0
+              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -4129,32 +4104,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 64.0,
-                            "y": 0.0
+                            "x": 64,
+                            "y": 0
                           },
                           {
-                            "x": 64.0,
-                            "y": 64.0
+                            "x": 64,
+                            "y": 64
                           },
                           {
-                            "x": 0.0,
-                            "y": 64.0
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -4190,14 +4165,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     }
@@ -4232,14 +4207,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     }
@@ -4251,30 +4226,30 @@
         },
         {
           "assetStoreId": "",
-          "height": 32.0,
+          "height": 32,
           "name": "Esteira",
           "persistentUuid": "b00510b5-3031-4934-b2d1-2658c087e8e1",
           "texture": "imagens/esteira.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 30.0,
+          "width": 30,
           "variables": [
             {
               "name": "Velocidade",
               "persistentUuid": "ed3a0a52-c077-4b00-9274-c5fcd1d9ab5c",
               "type": "number",
-              "value": -180.0
+              "value": -180
             },
             {
               "name": "Layout",
               "persistentUuid": "032a29ad-340a-4ae2-96bf-1b1721b63ff1",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "Ativa",
               "persistentUuid": "804b4080-4273-4461-86e1-d8d5630de19a",
               "type": "number",
-              "value": 0.0
+              "value": 0
             }
           ],
           "effects": [],
@@ -4284,60 +4259,60 @@
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
               "platformType": "Jumpthru",
-              "yGrabOffset": 0.0
+              "yGrabOffset": 0
             }
           ]
         },
         {
           "assetStoreId": "",
-          "height": 32.0,
+          "height": 32,
           "name": "Andaime",
           "persistentUuid": "9951445c-666b-488c-b5ce-3c7edd128266",
           "texture": "imagens/andaime.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 70.0,
+          "width": 70,
           "variables": [
             {
               "name": "Estado",
               "persistentUuid": "8bf8314f-9225-4562-93af-70be396a852f",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "Tempo",
               "persistentUuid": "2315b878-49a2-49d1-aa91-798c923c4196",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "XOrigem",
               "persistentUuid": "06ed0a58-6df5-4457-a44d-d953c11ff826",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "SinalQueda",
               "persistentUuid": "6f370879-f6d7-4892-a528-a9d0c1d5f72b",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "Layout",
               "persistentUuid": "e07a0ea3-3bd9-462f-9ab9-465f6e154160",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "Ativa",
               "persistentUuid": "e4e748e3-68a8-42ac-b458-f3f68280344e",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "YOrigem",
               "persistentUuid": "e52a43d0-9286-4b9e-ac78-14df7ddc0a71",
               "type": "number",
-              "value": 0.0
+              "value": 0
             }
           ],
           "effects": [],
@@ -4347,7 +4322,7 @@
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
               "platformType": "Jumpthru",
-              "yGrabOffset": 0.0
+              "yGrabOffset": 0
             },
             {
               "name": "Tween",
@@ -4357,24 +4332,24 @@
         },
         {
           "assetStoreId": "",
-          "height": 26.0,
+          "height": 26,
           "name": "Fio",
           "persistentUuid": "67963de1-2081-4c58-a184-cc367af73dc9",
           "texture": "imagens/fio.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 8.0,
+          "width": 8,
           "variables": [
             {
               "name": "Layout",
               "persistentUuid": "904335e5-d550-4a59-b972-448546c541e1",
               "type": "number",
-              "value": 0.0
+              "value": 0
             },
             {
               "name": "Ativa",
               "persistentUuid": "31d71e2b-ddf6-48f2-88b9-54f2f7240f9c",
               "type": "number",
-              "value": 0.0
+              "value": 0
             }
           ],
           "effects": [],
@@ -4382,12 +4357,12 @@
         },
         {
           "assetStoreId": "",
-          "height": 120.0,
+          "height": 120,
           "name": "Oleo",
           "persistentUuid": "3a3cde69-5aad-4c98-8c9f-c57dedbf86e4",
           "texture": "imagens/oleo.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 154.0,
+          "width": 154,
           "variables": [],
           "effects": [],
           "behaviors": [
@@ -4422,14 +4397,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     }
@@ -4464,14 +4439,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     }
@@ -4506,14 +4481,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     }
@@ -4527,46 +4502,46 @@
           "additive": false,
           "assetStoreId": "",
           "destroyWhenNoParticles": false,
-          "emitterAngleA": 0.0,
-          "emitterAngleB": 25.0,
-          "emitterForceMax": 50.0,
-          "emitterForceMin": 25.0,
-          "flow": 7.0,
-          "jumpForwardInTimeOnCreation": 3.0,
+          "emitterAngleA": 0,
+          "emitterAngleB": 25,
+          "emitterForceMax": 50,
+          "emitterForceMin": 25,
+          "flow": 7,
+          "jumpForwardInTimeOnCreation": 3,
           "maxParticleNb": 50,
           "name": "Vapor",
-          "particleAlpha1": 110.0,
-          "particleAlpha2": 0.0,
-          "particleAlphaRandomness1": 0.0,
-          "particleAlphaRandomness2": 0.0,
-          "particleAngle1": 0.0,
-          "particleAngle2": 0.0,
-          "particleAngleRandomness1": 0.0,
-          "particleAngleRandomness2": 0.0,
-          "particleBlue1": 225.0,
-          "particleBlue2": 180.0,
+          "particleAlpha1": 110,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 225,
+          "particleBlue2": 180,
           "particleColor1": "235;232;225",
           "particleColor2": "190;185;180",
-          "particleGravityX": 6.0,
-          "particleGravityY": -12.0,
-          "particleGreen1": 232.0,
-          "particleGreen2": 185.0,
-          "particleLifeTimeMax": 3.0,
+          "particleGravityX": 6,
+          "particleGravityY": -12,
+          "particleGreen1": 232,
+          "particleGreen2": 185,
+          "particleLifeTimeMax": 3,
           "particleLifeTimeMin": 1.8,
-          "particleRed1": 235.0,
-          "particleRed2": 190.0,
-          "particleSize1": 100.0,
-          "particleSize2": 420.0,
-          "particleSizeRandomness1": 20.0,
-          "particleSizeRandomness2": 30.0,
+          "particleRed1": 235,
+          "particleRed2": 190,
+          "particleSize1": 100,
+          "particleSize2": 420,
+          "particleSizeRandomness1": 20,
+          "particleSizeRandomness2": 30,
           "persistentUuid": "89d2d79b-826e-48df-9d4d-b83366f38c15",
-          "rendererParam1": 6.0,
-          "rendererParam2": 1.0,
+          "rendererParam1": 6,
+          "rendererParam2": 1,
           "rendererType": "Point",
-          "tank": -1.0,
+          "tank": -1,
           "textureParticleName": "",
           "type": "ParticleSystem::ParticleEmitter",
-          "zoneRadius": 4.0,
+          "zoneRadius": 4,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -11730,111 +11705,99 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Disparos do robô com o botão esquerdo do mouse"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Arma do robô",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "FireBullet",
+                        "Robo.X() + 60",
+                        "Robo.Y() + 40",
+                        "Tiro",
+                        "MouseX()",
+                        "MouseY()",
+                        "800",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "inverted": true,
-                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "Flippable"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "FireBullet",
+                        "Robo.X()",
+                        "Robo.Y() + 40",
+                        "Tiro",
+                        "MouseX()",
+                        "MouseY()",
+                        "800",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FireBullet::FireBullet::FireTowardPosition"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "FireBullet",
-                    "Robo.X() + 60",
-                    "Robo.Y() + 40",
-                    "Tiro",
-                    "MouseX()",
-                    "MouseY()",
-                    "800",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "Flippable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FireBullet::FireBullet::FireTowardPosition"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "FireBullet",
-                    "Robo.X()",
-                    "Robo.Y() + 40",
-                    "Tiro",
-                    "MouseX()",
-                    "MouseY()",
-                    "800",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Movimentação do próprio robô"
+              "parameters": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12009,34 +11972,6 @@
                     "Animation",
                     "=",
                     "\"andar\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Tiro",
-                    "Inimigos",
-                    "",
-                    "",
-                    "no"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Tiro",
-                    ""
                   ]
                 }
               ]
@@ -12610,10 +12545,10 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000.0,
-          "camera3DFarPlaneDistance": 10000.0,
-          "camera3DFieldOfView": 45.0,
-          "camera3DNearPlaneDistance": 3.0,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
@@ -12625,12 +12560,12 @@
             {
               "defaultSize": true,
               "defaultViewport": true,
-              "height": 0.0,
-              "viewportBottom": 1.0,
-              "viewportLeft": 0.0,
-              "viewportRight": 1.0,
-              "viewportTop": 0.0,
-              "width": 0.0
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
             }
           ],
           "effects": [
@@ -12638,12 +12573,12 @@
               "effectType": "Effects::OldFilm",
               "name": "Filme antigo",
               "doubleParameters": {
-                "animationFrequency": 12.0,
+                "animationFrequency": 12,
                 "noise": 0.12,
-                "noiseSize": 1.0,
+                "noiseSize": 1,
                 "scratch": 0.5,
                 "scratchDensity": 0.25,
-                "scratchWidth": 1.0,
+                "scratchWidth": 1,
                 "sepia": 0.2,
                 "vignetting": 0.3,
                 "vignettingAlpha": 0.7,
@@ -12658,10 +12593,10 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000.0,
-          "camera3DFarPlaneDistance": 10000.0,
-          "camera3DFieldOfView": 45.0,
-          "camera3DNearPlaneDistance": 3.0,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
@@ -12673,12 +12608,12 @@
             {
               "defaultSize": true,
               "defaultViewport": true,
-              "height": 0.0,
-              "viewportBottom": 1.0,
-              "viewportLeft": 0.0,
-              "viewportRight": 1.0,
-              "viewportTop": 0.0,
-              "width": 0.0
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
             }
           ],
           "effects": [
@@ -12686,12 +12621,12 @@
               "effectType": "Effects::OldFilm",
               "name": "Filme antigo",
               "doubleParameters": {
-                "animationFrequency": 12.0,
-                "noise": 0.0,
-                "noiseSize": 1.0,
-                "scratch": 0.0,
-                "scratchDensity": 0.0,
-                "scratchWidth": 1.0,
+                "animationFrequency": 12,
+                "noise": 0,
+                "noiseSize": 1,
+                "scratch": 0,
+                "scratchDensity": 0,
+                "scratchWidth": 1,
                 "sepia": 0.2,
                 "vignetting": 0.3,
                 "vignettingAlpha": 0.7,
@@ -12706,10 +12641,10 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000.0,
-          "camera3DFarPlaneDistance": 10000.0,
-          "camera3DFieldOfView": 45.0,
-          "camera3DNearPlaneDistance": 3.0,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
@@ -12721,12 +12656,12 @@
             {
               "defaultSize": true,
               "defaultViewport": true,
-              "height": 0.0,
-              "viewportBottom": 1.0,
-              "viewportLeft": 0.0,
-              "viewportRight": 1.0,
-              "viewportTop": 0.0,
-              "width": 0.0
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
             }
           ],
           "effects": [
@@ -12734,9 +12669,9 @@
               "effectType": "Scene3D::HemisphereLight",
               "name": "3D Ambient Hemisphere Light",
               "doubleParameters": {
-                "elevation": 40.0,
+                "elevation": 40,
                 "intensity": 0.33,
-                "rotation": 300.0
+                "rotation": 300
               },
               "stringParameters": {
                 "groundColor": "127;127;127",
@@ -12749,13 +12684,13 @@
               "effectType": "Scene3D::DirectionalLight",
               "name": "3D Sun Light",
               "doubleParameters": {
-                "distanceFromCamera": 1500.0,
-                "elevation": 40.0,
-                "frustumSize": 4000.0,
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
                 "intensity": 0.75,
-                "minimumShadowBias": 0.0,
-                "rotation": 300.0,
-                "shadowDistance": 2000.0
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000
               },
               "stringParameters": {
                 "color": "255;255;255",
@@ -12771,12 +12706,12 @@
               "effectType": "Effects::OldFilm",
               "name": "Filme antigo",
               "doubleParameters": {
-                "animationFrequency": 12.0,
-                "noise": 0.0,
-                "noiseSize": 1.0,
-                "scratch": 0.0,
-                "scratchDensity": 0.0,
-                "scratchWidth": 1.0,
+                "animationFrequency": 12,
+                "noise": 0,
+                "noiseSize": 1,
+                "scratch": 0,
+                "scratchDensity": 0,
+                "scratchWidth": 1,
                 "sepia": 0.2,
                 "vignetting": 0.3,
                 "vignettingAlpha": 0.7,
@@ -12791,10 +12726,10 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000.0,
-          "camera3DFarPlaneDistance": 10000.0,
-          "camera3DFieldOfView": 45.0,
-          "camera3DNearPlaneDistance": 3.0,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
@@ -12806,12 +12741,12 @@
             {
               "defaultSize": true,
               "defaultViewport": true,
-              "height": 0.0,
-              "viewportBottom": 1.0,
-              "viewportLeft": 0.0,
-              "viewportRight": 1.0,
-              "viewportTop": 0.0,
-              "width": 0.0
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
             }
           ],
           "effects": []
@@ -13968,12 +13903,12 @@
                               "folded": true,
                               "name": "MultiShotAngle",
                               "type": "number",
-                              "value": 0.0
+                              "value": 0
                             },
                             {
                               "name": "BulletIndex",
                               "type": "number",
-                              "value": 0.0
+                              "value": 0
                             }
                           ]
                         }
