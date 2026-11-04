@@ -511,6 +511,70 @@
         "name": "engrenagem16",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "heroi-enferrujado-spritesheet-v2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heroi-enferrujado-spritesheet-v2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/andar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "andar",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/andar2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "andar2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/andar3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "andar3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/andar4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "andar4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/andar5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "andar5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/andar6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "andar6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "parado_enferrujado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parado_enferrujado.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -544,7 +608,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329979,
+        "zoomFactor": 0.7619362677197604,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -604,6 +668,26 @@
             },
             {
               "name": "Andaime"
+            }
+          ]
+        },
+        {
+          "name": "CausadoresDeDano",
+          "objects": [
+            {
+              "name": "Andador"
+            },
+            {
+              "name": "Saltador"
+            },
+            {
+              "name": "Voador"
+            },
+            {
+              "name": "Pesado"
+            },
+            {
+              "name": "TiroInimigo"
             }
           ]
         }
@@ -2178,7 +2262,7 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Robo",
           "persistentUuid": "e7bb9880-d4ae-40b2-accc-e80e19fbcb30",
@@ -2202,6 +2286,12 @@
               "persistentUuid": "b1c2d3e4-f5a6-4789-b012-c3d4e5f6a004",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "Invulnerável",
+              "persistentUuid": "0591904e-6eba-4a9e-92ae-c4615013d22a",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -2238,6 +2328,16 @@
               "RandomizedAngle": 0
             },
             {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            },
+            {
+              "isFolded": true,
               "name": "HorizontalDash",
               "type": "AdvancedJump::HorizontalDash",
               "PlatformerCharacter": "PlatformerObject",
@@ -2257,6 +2357,7 @@
               "CanDash": true
             },
             {
+              "isFolded": true,
               "name": "PlatformerConfigurationStack",
               "type": "AdvancedJump::PlatformerConfigurationStack",
               "PlatformerCharacter": "PlatformerObject"
@@ -2282,9 +2383,374 @@
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
+            {
+              "name": "andar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "andar",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 22,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 131.5,
+                        "y": 173
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32.5,
+                            "y": 224
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 12
+                          },
+                          {
+                            "x": 105,
+                            "y": 12
+                          },
+                          {
+                            "x": 205.5,
+                            "y": 67.5
+                          },
+                          {
+                            "x": 270,
+                            "y": 153
+                          },
+                          {
+                            "x": 256,
+                            "y": 208.5
+                          },
+                          {
+                            "x": 212,
+                            "y": 265.5
+                          },
+                          {
+                            "x": 192,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 70,
+                            "y": 282
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "andar2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 22,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 131.5,
+                        "y": 173
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 207
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 12
+                          },
+                          {
+                            "x": 105,
+                            "y": 12
+                          },
+                          {
+                            "x": 205.5,
+                            "y": 67.5
+                          },
+                          {
+                            "x": 270,
+                            "y": 153
+                          },
+                          {
+                            "x": 270.5,
+                            "y": 180
+                          },
+                          {
+                            "x": 225,
+                            "y": 277.5
+                          },
+                          {
+                            "x": 192,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 93.5,
+                            "y": 277.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "andar3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 22,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 131.5,
+                        "y": 173
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 51,
+                            "y": 210.5
+                          },
+                          {
+                            "x": 42.5,
+                            "y": 193
+                          },
+                          {
+                            "x": 73,
+                            "y": 18
+                          },
+                          {
+                            "x": 105,
+                            "y": 12
+                          },
+                          {
+                            "x": 205.5,
+                            "y": 67.5
+                          },
+                          {
+                            "x": 270,
+                            "y": 153
+                          },
+                          {
+                            "x": 276,
+                            "y": 178
+                          },
+                          {
+                            "x": 212,
+                            "y": 265.5
+                          },
+                          {
+                            "x": 192,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 115.5,
+                            "y": 282.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "andar4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 22,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 131.5,
+                        "y": 173
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33.5,
+                            "y": 210
+                          },
+                          {
+                            "x": 68.5,
+                            "y": 12
+                          },
+                          {
+                            "x": 105,
+                            "y": 12
+                          },
+                          {
+                            "x": 205,
+                            "y": 71.5
+                          },
+                          {
+                            "x": 270,
+                            "y": 153
+                          },
+                          {
+                            "x": 251,
+                            "y": 241
+                          },
+                          {
+                            "x": 214.5,
+                            "y": 260.5
+                          },
+                          {
+                            "x": 143,
+                            "y": 280
+                          },
+                          {
+                            "x": 70,
+                            "y": 282
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "andar5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 22,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 131.5,
+                        "y": 173
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 70,
+                            "y": 253
+                          },
+                          {
+                            "x": 44.5,
+                            "y": 204.5
+                          },
+                          {
+                            "x": 70,
+                            "y": 13
+                          },
+                          {
+                            "x": 105,
+                            "y": 12
+                          },
+                          {
+                            "x": 205,
+                            "y": 72
+                          },
+                          {
+                            "x": 270,
+                            "y": 153
+                          },
+                          {
+                            "x": 270,
+                            "y": 184
+                          },
+                          {
+                            "x": 233,
+                            "y": 279.5
+                          },
+                          {
+                            "x": 188.5,
+                            "y": 284.5
+                          },
+                          {
+                            "x": 99,
+                            "y": 269.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "andar6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 22,
+                        "y": 11
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 131.5,
+                        "y": 173
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 47,
+                            "y": 208
+                          },
+                          {
+                            "x": 43,
+                            "y": 189.5
+                          },
+                          {
+                            "x": 73,
+                            "y": 16.5
+                          },
+                          {
+                            "x": 105,
+                            "y": 12
+                          },
+                          {
+                            "x": 209,
+                            "y": 73.5
+                          },
+                          {
+                            "x": 270,
+                            "y": 153
+                          },
+                          {
+                            "x": 275,
+                            "y": 179.5
+                          },
+                          {
+                            "x": 211,
+                            "y": 263.5
+                          },
+                          {
+                            "x": 192,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 115,
+                            "y": 279.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "name": "parado",
               "useMultipleDirections": false,
@@ -2295,336 +2761,56 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "robo17.png",
+                      "image": "parado_enferrujado.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 22,
+                        "y": 11
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 185,
-                        "y": 214
+                        "x": 131.5,
+                        "y": 173
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 19,
-                            "y": 14
+                            "x": 21.5,
+                            "y": 209.5
                           },
                           {
-                            "x": 351,
-                            "y": 14
+                            "x": 43,
+                            "y": 11
                           },
                           {
-                            "x": 351,
-                            "y": 414
+                            "x": 87,
+                            "y": 10
                           },
                           {
-                            "x": 19,
-                            "y": 414
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "andar",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.05,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 185,
-                        "y": 214
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 19,
-                            "y": 14
+                            "x": 191,
+                            "y": 79
                           },
                           {
-                            "x": 351,
-                            "y": 14
+                            "x": 245.5,
+                            "y": 164.5
                           },
                           {
-                            "x": 351,
-                            "y": 414
+                            "x": 244,
+                            "y": 196.5
                           },
                           {
-                            "x": 19,
-                            "y": 414
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 185,
-                        "y": 214
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 19,
-                            "y": 14
+                            "x": 214.5,
+                            "y": 275.5
                           },
                           {
-                            "x": 351,
-                            "y": 14
+                            "x": 52.5,
+                            "y": 277
                           },
                           {
-                            "x": 351,
-                            "y": 414
-                          },
-                          {
-                            "x": 19,
-                            "y": 414
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 185,
-                        "y": 214
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 19,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 414
-                          },
-                          {
-                            "x": 19,
-                            "y": 414
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 185,
-                        "y": 214
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 19,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 414
-                          },
-                          {
-                            "x": 19,
-                            "y": 414
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 185,
-                        "y": 214
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 19,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 414
-                          },
-                          {
-                            "x": 19,
-                            "y": 414
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 185,
-                        "y": 214
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 19,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 414
-                          },
-                          {
-                            "x": 19,
-                            "y": 414
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 185,
-                        "y": 214
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 19,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 414
-                          },
-                          {
-                            "x": 19,
-                            "y": 414
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "robo17.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 185,
-                        "y": 214
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 19,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 14
-                          },
-                          {
-                            "x": 351,
-                            "y": 414
-                          },
-                          {
-                            "x": 19,
-                            "y": 414
+                            "x": 21.5,
+                            "y": 229
                           }
                         ]
                       ]
@@ -4712,10 +4898,50 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Combate e recompensas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Tiro",
+                    "Inimigos",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Inimigos",
+                    "Vida",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Tiro",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -9437,7 +9663,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Disparos do Atirador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9706,64 +9931,6 @@
                   "parameters": [
                     "TiroInimigo",
                     ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 95,
-          "colorG": 95,
-          "colorR": 95,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Vida do Robo",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "TempoInvulneravel",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "TempoInvulneravel",
-                    "-",
-                    "TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "TextoVida",
-                    "=",
-                    "\"Vida: \" + ToString(Robo.Vida)"
                   ]
                 }
               ]
@@ -11772,6 +11939,16 @@
                     "800",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Tiro",
+                    "=",
+                    "5"
+                  ]
                 }
               ]
             },
@@ -11811,6 +11988,44 @@
                     "MouseX()",
                     "MouseY()",
                     "800",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Tiro",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Tiro",
+                    "Chao",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Tiro",
                     ""
                   ]
                 }
@@ -12001,34 +12216,6 @@
                     "Animation",
                     "=",
                     "\"andar\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Tiro",
-                    "Inimigos",
-                    "",
-                    "",
-                    "no"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Tiro",
-                    ""
                   ]
                 }
               ]
@@ -12313,6 +12500,185 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Dano no robô"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "CausadoresDeDano",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Invulnerável",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Invulnerável",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "\"TempoDano\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::FlashEffect::Flash"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "FlashEffect",
+                    "3",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "Robo",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "Chao",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "\"TempoDano\"",
+                    ">",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Invulnerável",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "\"TempoDano\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -12542,6 +12908,10 @@
         {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "FlashEffect",
+          "type": "Flash::FlashEffect"
         },
         {
           "name": "Flippable",
@@ -25670,6 +26040,3240 @@
             "children": [
               {
                 "propertyName": "PlatformerCharacter"
+              }
+            ]
+          }
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "@4ian, Entropy, VegeTato",
+      "category": "Visual effect",
+      "dimension": "2D",
+      "extensionNamespace": "",
+      "fullName": "Flash object",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZsYXNoLW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNywySDE3TDEzLjUsOUgxN0wxMCwyMlYxNEg3VjJNOSw0VjEySDEyVjE0LjY2TDE0LDExSDEwLjI0TDEzLjc2LDRIOVoiIC8+PC9zdmc+",
+      "name": "Flash",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg",
+      "shortDescription": "Flash/blink objects: toggle visibility, color tint, effect, or opacity over time.",
+      "version": "1.4.1",
+      "description": [
+        "Make a 2D object flash for a period of time so that it alternates between two different states.",
+        "Includes the ability to flash visibility (blink), color tint, object effect, or opacity (fade).",
+        "",
+        "After adding a behavior to an object, you **trigger the effect** by using the **Flash action**.",
+        "",
+        "This can be used to:",
+        "- Let players know they are invincible after being hit",
+        "- Catch player attention on the interface (for instance a \"press start\" text)",
+        ""
+      ],
+      "origin": {
+        "identifier": "Flash",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "tween",
+        "flash",
+        "blink",
+        "visible",
+        "invisible",
+        "hit",
+        "damage",
+        "fade",
+        "effect",
+        "color",
+        "tint"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+        "q8ubdigLvIRXLxsJDDTaokO41mc2",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Color tint applied to an object.",
+          "fullName": "Color tint applied to an object",
+          "functionType": "ExpressionAndCondition",
+          "name": "ColorTint",
+          "private": true,
+          "sentence": "Color tint applied to _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Return the color string for the tint applied to the object"
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "/** @type {gdjs.SpriteRuntimeObject} */\r",
+                "const tintedObject = objects[0];\r",
+                "const tint = tintedObject.getColor();\r",
+                "eventsFunctionContext.returnValue = tint;"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "color"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if a color tint is applied to an object.",
+          "fullName": "Is a color tint applied to an object",
+          "functionType": "StringExpression",
+          "name": "IsTinted",
+          "private": true,
+          "sentence": "_PARAM1_ is color tinted",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Flash::ColorTint"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "\"255;255;255\"",
+                    "Object",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "color"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Toggle color tint between the starting tint and a given value.",
+          "fullName": "Toggle a color tint",
+          "functionType": "Action",
+          "name": "ToggleColorTint",
+          "private": true,
+          "sentence": "Toggle color tint _PARAM2_ on _PARAM1_",
+          "events": [
+            {
+              "colorB": 35,
+              "colorG": 166,
+              "colorR": 245,
+              "creationTime": 0,
+              "name": "Note: This function cannot be \"public\" until it properly handles objects without a starting color tint variable (NULL)",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Swap between the starting tint and the given value",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_ColorTintToggled",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::ColorTint"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "Object.VariableString(__FlashColor_StartingTint)",
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Object",
+                        "ColorTint"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_ColorTintToggled",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_ColorTintToggled",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Flash::ColorTint"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "Object.VariableString(__FlashColor_StartingTint)",
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.VariableString(__FlashColor_StartingTint)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Color tint",
+              "name": "ColorTint",
+              "type": "color"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Toggle object visibility.",
+          "fullName": "Toggle object visibility",
+          "functionType": "Action",
+          "name": "ToggleVisibility",
+          "private": true,
+          "sentence": "Toggle visibility of _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "__Flash_VisibilityToggled",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Object"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Object"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "__Flash_VisibilityToggled",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "__Flash_VisibilityToggled",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Object"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Object",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "ColorTint"
+          },
+          {
+            "functionName": "IsTinted"
+          },
+          {
+            "functionName": "ToggleColorTint"
+          },
+          {
+            "functionName": "ToggleVisibility"
+          }
+        ]
+      },
+      "eventsBasedBehaviors": [
+        {
+          "description": "Make the object flash (blink) for a period of time so it alternates between visible and invisible.",
+          "fullName": "Flash visibility (blink)",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "Flash",
+          "objectType": "",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Alternate states",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Visibility_Timer\"",
+                                ">",
+                                "HalfPeriodTime"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::ToggleVisibility"
+                              },
+                              "parameters": [
+                                "",
+                                "Object",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Visibility_Timer\""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Stop flashing",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Visibility_Duration_Timer\"",
+                                ">",
+                                "FlashDuration"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::Flash::Stop"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Make an object flash (blink) visibility for a period of time.",
+              "fullName": "Flash visibility (blink)",
+              "functionType": "Action",
+              "name": "Flash",
+              "sentence": "Make _PARAM0_ flash (blink) for _PARAM2_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Flash::Flash::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::ToggleVisibility"
+                      },
+                      "parameters": [
+                        "",
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Timer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration of the flashing, in seconds",
+                  "longDescription": "Use \"0\" to keep flashing until stopped.",
+                  "name": "NewFlashDuration",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if an object is flashing visibility.",
+              "fullName": "Is object flashing visibility",
+              "functionType": "Condition",
+              "name": "IsFlashing",
+              "sentence": "_PARAM0_ is flashing",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::Flash::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stop flashing visibility (blink) of an object.",
+              "fullName": "Stop flashing visibility (blink)",
+              "functionType": "Action",
+              "name": "Stop",
+              "sentence": "Stop flashing visibility of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Visibility_Duration_Timer\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the half period of the object (time the object is invisible).",
+              "fullName": "Half period",
+              "functionType": "ExpressionAndCondition",
+              "group": "Flash visibility (blink) configuration",
+              "name": "HalfPeriodTime",
+              "sentence": "the half period (time the object is invisible)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "HalfPeriodTime",
+              "group": "Flash visibility (blink) configuration",
+              "name": "SetHalfPeriodTime",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::Flash",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              },
+              {
+                "folderName": "Flash visibility (blink) configuration",
+                "children": [
+                  {
+                    "functionName": "HalfPeriodTime"
+                  },
+                  {
+                    "functionName": "SetHalfPeriodTime"
+                  }
+                ]
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "0.1",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Half period ",
+              "description": "Time that the object is invisible",
+              "name": "HalfPeriodTime"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "hidden": true,
+              "name": "IsFlashing"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Flash duration",
+              "description": "Use \"0\" to keep flashing until stopped",
+              "hidden": true,
+              "name": "FlashDuration"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              }
+            ]
+          }
+        },
+        {
+          "description": "Make an object flash a color tint for a period of time.",
+          "fullName": "Flash color tint",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "FlashColor",
+          "objectType": "Sprite",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Alternate states",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Color_Timer\"",
+                                ">",
+                                "HalfPeriodTime"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Color_Timer\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Flash::ToggleColorTint"
+                              },
+                              "parameters": [
+                                "",
+                                "Object",
+                                "TintColor",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Stop flashing",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Color_Duration_Timer\"",
+                                ">",
+                                "FlashDuration"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::FlashColor::Stop"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Make an object flash a color tint for a period of time.",
+              "fullName": "Flash a color tint",
+              "functionType": "Action",
+              "name": "Flash",
+              "sentence": "Make _PARAM0_ flash the color tint _PARAM3_ for _PARAM2_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__FlashColor_StartingTint",
+                        "=",
+                        "Flash::ColorTint(Object)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Flash::ToggleColorTint"
+                      },
+                      "parameters": [
+                        "",
+                        "Object",
+                        "NewColorTint",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "TintColor",
+                        "=",
+                        "NewColorTint"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration of the flashing, in seconds",
+                  "longDescription": "Use \"0\" to keep flashing until stopped.",
+                  "name": "NewFlashDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Color tint",
+                  "name": "NewColorTint",
+                  "type": "color"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if an object is flashing a color tint.",
+              "fullName": "Is object flashing a color tint",
+              "functionType": "Condition",
+              "name": "IsFlashing",
+              "sentence": "_PARAM0_ is flashing a color tint",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashColor::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stop flashing a color tint on an object.",
+              "fullName": "Stop flashing color tint",
+              "functionType": "Action",
+              "name": "Stop",
+              "sentence": "Stop flashing color tint _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.VariableString(__FlashColor_StartingTint)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Duration_Timer\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the half period (time between flashes) of the object.",
+              "fullName": "Half period",
+              "functionType": "ExpressionAndCondition",
+              "group": "Flash color tint configuration",
+              "name": "HalfPeriodTime",
+              "sentence": "the half period (time between flashes)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "HalfPeriodTime",
+              "group": "Flash color tint configuration",
+              "name": "SetHalfPeriodTime",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashColor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              },
+              {
+                "folderName": "Flash color tint configuration",
+                "children": [
+                  {
+                    "functionName": "HalfPeriodTime"
+                  },
+                  {
+                    "functionName": "SetHalfPeriodTime"
+                  }
+                ]
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "0.1",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Half period",
+              "description": "Time between flashes",
+              "name": "HalfPeriodTime"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "hidden": true,
+              "name": "IsFlashing"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Flash duration",
+              "description": "Use \"0\" to keep flashing until stopped",
+              "hidden": true,
+              "name": "FlashDuration"
+            },
+            {
+              "value": "\"255;255;255\"",
+              "type": "String",
+              "label": "Tint color",
+              "hidden": true,
+              "name": "TintColor"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TintColor"
+              }
+            ]
+          }
+        },
+        {
+          "description": "Flash opacity smoothly (fade) in a repeating loop.",
+          "fullName": "Flash opacity smothly (fade)",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "FlashOpacity",
+          "objectType": "",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashOpacity::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Alternate states",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Tween::HasFinished"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToTargetOpacity\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::AddObjectOpacityTween"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToStartingOpacity\"",
+                                "StartingOpacity",
+                                "\"easeInOutCubic\"",
+                                "1000 * HalfPeriodTime",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::RemoveTween"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToTargetOpacity\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Tween::HasFinished"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToStartingOpacity\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::AddObjectOpacityTween"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToTargetOpacity\"",
+                                "TargetOpacity",
+                                "\"easeInOutCubic\"",
+                                "1000 * HalfPeriodTime",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::RemoveTween"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TweenBehavior",
+                                "\"__Flash.ToStartingOpacity\""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Stop flashing",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Opacity_Duration_Timer\"",
+                                ">",
+                                "FlashDuration"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::FlashOpacity::Stop"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Make an object flash opacity smoothly (fade) in a repeating loop.",
+              "fullName": "Flash the opacity (fade)",
+              "functionType": "Action",
+              "name": "Flash",
+              "sentence": "Make _PARAM0_ flash opacity smoothly to _PARAM4_ in a loop for _PARAM3_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "StartingOpacity",
+                        "=",
+                        "Object.Opacity::Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"__Flash.ToTargetOpacity\"",
+                        "NewTargetOpacity",
+                        "\"easeInOutCubic\"",
+                        "1000 * HalfPeriodTime",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Opacity_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TargetOpacity",
+                        "=",
+                        "NewTargetOpacity"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Tween behavior (required)",
+                  "name": "TweenBehavior",
+                  "supplementaryInformation": "Tween::TweenBehavior",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration of the flashing, in seconds",
+                  "longDescription": "Use \"0\" to keep flashing until stopped.",
+                  "name": "NewFlashDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Target opacity",
+                  "name": "NewTargetOpacity",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if an object is flashing opacity.",
+              "fullName": "Is object flashing opacity",
+              "functionType": "Condition",
+              "name": "IsFlashing",
+              "sentence": "_PARAM0_ is flashing opacity",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashOpacity::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stop flashing opacity of an object.",
+              "fullName": "Stop flashing opacity",
+              "functionType": "Action",
+              "name": "Stop",
+              "sentence": "Stop flashing opacity of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashOpacity::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Color_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"__Flash.ToTargetOpacity\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"__Flash.ToStartingOpacity\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Opacity",
+                        "=",
+                        "StartingOpacity"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the half period (time between flashes) of the object.",
+              "fullName": "Half period",
+              "functionType": "ExpressionAndCondition",
+              "group": "Flash opacity smothly (fade) configuration",
+              "name": "HalfPeriodTime",
+              "sentence": "the half period (time between flashes)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "HalfPeriodTime",
+              "group": "Flash opacity smothly (fade) configuration",
+              "name": "SetHalfPeriodTime",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashOpacity",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              },
+              {
+                "folderName": "Flash opacity smothly (fade) configuration",
+                "children": [
+                  {
+                    "functionName": "HalfPeriodTime"
+                  },
+                  {
+                    "functionName": "SetHalfPeriodTime"
+                  }
+                ]
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Opacity capability",
+              "extraInformation": [
+                "OpacityCapability::OpacityBehavior"
+              ],
+              "choices": [],
+              "name": "Opacity"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Tween Behavior (required)",
+              "extraInformation": [
+                "Tween::TweenBehavior"
+              ],
+              "choices": [],
+              "name": "TweenBehavior"
+            },
+            {
+              "value": "0.1",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Half period",
+              "description": "Time between flashes",
+              "name": "HalfPeriodTime"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "hidden": true,
+              "name": "IsFlashing"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Flash duration",
+              "description": "Use \"0\" to keep flashing until stopped",
+              "hidden": true,
+              "name": "FlashDuration"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Dimensionless",
+              "label": "Target opacity (Range: 0 - 255)",
+              "description": "Opacity will fade between the starting value and a target value",
+              "hidden": true,
+              "name": "TargetOpacity"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "unit": "Dimensionless",
+              "label": "Starting opacity",
+              "description": "Opacity will fade between the starting value and a target value",
+              "hidden": true,
+              "name": "StartingOpacity"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Opacity"
+              },
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TargetOpacity"
+              },
+              {
+                "propertyName": "StartingOpacity"
+              }
+            ]
+          }
+        },
+        {
+          "description": "Make the object flash an effect for a period of time.",
+          "fullName": "Flash effect",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "FlashEffect",
+          "objectType": "",
+          "previewIconUrl": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashEffect::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Alternate states",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Effect_Timer\"",
+                                ">",
+                                "HalfPeriodTime"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Effect_Timer\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Flash::FlashEffect::ToggleEffect"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "EffectName",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Stop flashing",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "FlashDuration",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Object",
+                                "\"Flash_Effect_Duration_Timer\"",
+                                ">",
+                                "FlashDuration"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Flash::FlashEffect::Stop"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Make an object flash an effect for a period of time.",
+              "fullName": "Flash an effect",
+              "functionType": "Action",
+              "name": "Flash",
+              "sentence": "Make _PARAM0_ flash the effect _PARAM3_ for _PARAM2_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Stop flashing existing effects if the effect name changed"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashEffect::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EffectName",
+                        "!=",
+                        "NewEffectName"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashEffect::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Flash::FlashEffect::IsFlashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "NewEffectName"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__FlashColor_StartingState",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "NewEffectName"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__FlashColor_StartingState",
+                            "False"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Flash::FlashEffect::ToggleEffect"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "NewEffectName",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"Flash_Effect_Timer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "IsFlashing",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Effect_Duration_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "FlashDuration",
+                        "=",
+                        "NewFlashDuration"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "EffectName",
+                        "=",
+                        "NewEffectName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration of the flashing, in seconds",
+                  "longDescription": "Use \"0\" to keep flashing until stopped.",
+                  "name": "NewFlashDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Name of effect",
+                  "name": "NewEffectName",
+                  "type": "objectEffectName"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if an object is flashing an effect.",
+              "fullName": "Is object flashing an effect",
+              "functionType": "Condition",
+              "name": "IsFlashing",
+              "sentence": "_PARAM0_ is flashing an effect",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::FlashEffect::Stop"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stop flashing an effect of an object.",
+              "fullName": "Stop flashing an effect",
+              "functionType": "Action",
+              "name": "Stop",
+              "sentence": "Stop flashing an effect on _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsFlashing",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Effect_Timer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Flash_Effect_Duration_Timer\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__FlashEffect_StartingState",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "EffectName",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__FlashEffect_StartingState",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Effect",
+                            "EffectName",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the half period (time between flashes) of the object.",
+              "fullName": "Half period",
+              "functionType": "ExpressionAndCondition",
+              "group": "Flash effect configuration",
+              "name": "HalfPeriodTime",
+              "sentence": "the half period (time between flashes)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "HalfPeriodTime",
+              "group": "Flash effect configuration",
+              "name": "SetHalfPeriodTime",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HalfPeriodTime",
+                        "=",
+                        "Value"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Toggle an object effect.",
+              "fullName": "Toggle an object effect",
+              "functionType": "Action",
+              "name": "ToggleEffect",
+              "private": true,
+              "sentence": "Toggle effect _PARAM2_ on _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_EffectToggled",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_EffectToggled",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__Flash_EffectToggled",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Effect",
+                        "EffectName",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Flash::FlashEffect",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Effect name to toggle",
+                  "name": "EffectName",
+                  "type": "objectEffectName"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              },
+              {
+                "folderName": "Flash effect configuration",
+                "children": [
+                  {
+                    "functionName": "HalfPeriodTime"
+                  },
+                  {
+                    "functionName": "SetHalfPeriodTime"
+                  }
+                ]
+              },
+              {
+                "functionName": "ToggleEffect"
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Effect capability",
+              "extraInformation": [
+                "EffectCapability::EffectBehavior"
+              ],
+              "choices": [],
+              "name": "Effect"
+            },
+            {
+              "value": "0.1",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Half period",
+              "description": "Time between flashes",
+              "name": "HalfPeriodTime"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "hidden": true,
+              "name": "IsFlashing"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Second",
+              "label": "Flash duration",
+              "description": "Use \"0\" to keep flashing until stopped",
+              "hidden": true,
+              "name": "FlashDuration"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Name of effect",
+              "hidden": true,
+              "name": "EffectName"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "EffectName"
               }
             ]
           }
