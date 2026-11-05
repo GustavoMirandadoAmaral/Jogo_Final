@@ -225,142 +225,6 @@
         "userAdded": false
       },
       {
-        "file": "imagens/robo/robo11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo11.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo12.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo13.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo14.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo15.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo16.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo17.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "imagens/robo/robo10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "robo10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "imagens/esteira-esquerda.png",
         "kind": "image",
         "metadata": "",
@@ -373,14 +237,6 @@
         "kind": "image",
         "metadata": "",
         "name": "imagens/alerta-oleo.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "engrenagem.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "engrenagem.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -513,7 +369,7 @@
         "userAdded": false
       },
       {
-        "file": "heroi-enferrujado-spritesheet-v2.png",
+        "file": "imagens/robo/heroi-enferrujado-spritesheet-v2.png",
         "kind": "image",
         "metadata": "",
         "name": "heroi-enferrujado-spritesheet-v2.png",
@@ -569,12 +425,84 @@
         "userAdded": false
       },
       {
-        "file": "parado_enferrujado.png",
+        "file": "imagens/parado_enferrujado.png",
         "kind": "image",
         "metadata": "",
         "name": "parado_enferrujado.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/maquina_mae.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/maquina_mae.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/chefao/funcionando-b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/chefao/funcionando-b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/chefao/pressurizando.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/chefao/pressurizando.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/chefao/liberando-pressao.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/chefao/liberando-pressao.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/chefao/prensa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/chefao/prensa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/chefao/clarao-a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/chefao/clarao-a.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/chefao/clarao-b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/chefao/clarao-b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/chefao/vapor-a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/chefao/vapor-a.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/chefao/vapor-b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/chefao/vapor-b.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
@@ -685,9 +613,6 @@
             },
             {
               "name": "Pesado"
-            },
-            {
-              "name": "TiroInimigo"
             }
           ]
         }
@@ -896,6 +821,120 @@
           "persistentUuid": "88f8428a-90d8-47f6-887d-1939e3993f18",
           "type": "number",
           "value": 3
+        },
+        {
+          "name": "ChefaoAtivo",
+          "persistentUuid": "40843988-cec9-4da5-852b-7ce07a3a0684",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ChefaoDerrotado",
+          "persistentUuid": "31ac3ca5-b488-4d8e-9bba-9db38b52b467",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RecargaRajadaChefao",
+          "persistentUuid": "f2463a10-84f7-47af-853d-86dcbbfd174a",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "AvisoRajadaChefao",
+          "persistentUuid": "2916bd50-c5a4-42bc-87f6-cba49ac9deca",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TempoAvisoRajadaChefao",
+          "persistentUuid": "07cc7bf3-fc94-4019-bac8-07579d6a23ae",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RecargaPrensaChefao",
+          "persistentUuid": "4181036b-69ee-4b4d-b54d-45288c53e7da",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PrensaEmCursoChefao",
+          "persistentUuid": "70bcd1fc-a824-4a5b-a4ab-b10248726c4f",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RecargaVaporChefao",
+          "persistentUuid": "944b1b9d-2e89-4faa-867b-0e180a3fb803",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EstadoVaporChefao",
+          "persistentUuid": "01b8b39b-9b4f-4619-a2b8-cfd23c92b8f1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TempoVaporChefao",
+          "persistentUuid": "ec47e0da-b19e-485e-9d24-885392bb674c",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "XVaporChefao",
+          "persistentUuid": "f916f1ea-6a29-4f63-a944-c0b5840014fc",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RecargaConvocacaoChefao",
+          "persistentUuid": "f63f29d6-0a4e-4a36-aee2-64bc7f30b547",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EstadoConvocacaoChefao",
+          "persistentUuid": "749a4f2d-a74e-4a4b-96ee-b5c853f67451",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TempoConvocacaoChefao",
+          "persistentUuid": "0fb05b65-26b8-4901-8dde-54e9dcc7238e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "AnimacaoVisualChefao",
+          "persistentUuid": "07f3b597-29e7-420a-b767-ace609bc48b2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TempoClaraoChefao",
+          "persistentUuid": "b0813c45-460e-464e-b62e-ad3596fb3ba4",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TempoDescargaChefao",
+          "persistentUuid": "4a75fb25-173f-4dee-8191-d423d1eb1d71",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TempoDanoVisualChefao",
+          "persistentUuid": "8a343c84-de14-4585-b342-2b484c5f4cf8",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TempoDesligamentoChefao",
+          "persistentUuid": "b0827efa-bf71-4d86-8158-7f9ae0a00088",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -2258,6 +2297,181 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 267,
+          "layer": "",
+          "name": "MaquinaMae",
+          "persistentUuid": "f7c87f95-b55f-4b52-bbd3-6328f4571b88",
+          "width": 400,
+          "x": 2130,
+          "y": 293,
+          "zOrder": 130,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoChefao",
+          "persistentUuid": "a639225b-1ec8-4453-9f67-f23b9ccbe491",
+          "width": 0,
+          "x": 850,
+          "y": 20,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoDirecaoChefao",
+          "persistentUuid": "04587b90-e6a7-4d5f-9652-2733925bd517",
+          "width": 0,
+          "x": 875,
+          "y": 66,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoAvisoRajadaChefao",
+          "persistentUuid": "be6e4a7d-64f8-4f15-b109-ac5df83a52cb",
+          "width": 0,
+          "x": 850,
+          "y": 110,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoAlvoPrensa",
+          "persistentUuid": "aab8ed1d-ccdf-42fc-9da2-295b41a955d3",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextoAlvoVapor",
+          "persistentUuid": "9bfa3713-48af-44d2-b8be-31384446d990",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 161,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoAvisoConvocacaoChefao",
+          "persistentUuid": "9286a29a-f16c-471b-bc15-40a9cc201462",
+          "width": 0,
+          "x": 810,
+          "y": 155,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 300,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PrensaVisualChefao",
+          "persistentUuid": "fda1fbb8-a1d0-4bdf-8415-6856021a2e57",
+          "width": 200,
+          "x": 0,
+          "y": 0,
+          "zOrder": 145,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ClaraoRajadaChefao",
+          "persistentUuid": "71123e63-4a4f-4ac0-bd7d-e05adb702af9",
+          "width": 180,
+          "x": 0,
+          "y": 0,
+          "zOrder": 146,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 267,
+          "layer": "",
+          "name": "CarcacaVisualChefao",
+          "persistentUuid": "f7f96760-4cde-4e6c-8c5a-1b9abfd18539",
+          "width": 400,
+          "x": 2130,
+          "y": 293,
+          "zOrder": 130,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 450,
+          "layer": "",
+          "name": "ColunaVaporChefao",
+          "persistentUuid": "7578992b-1a5b-411e-b37d-549aff08ff01",
+          "width": 225,
+          "x": 0,
+          "y": 630,
+          "zOrder": 140,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2286,12 +2500,6 @@
               "persistentUuid": "b1c2d3e4-f5a6-4789-b012-c3d4e5f6a004",
               "type": "number",
               "value": 1
-            },
-            {
-              "name": "Invulnerável",
-              "persistentUuid": "0591904e-6eba-4a9e-92ae-c4615013d22a",
-              "type": "boolean",
-              "value": false
             }
           ],
           "effects": [],
@@ -4212,6 +4420,18 @@
               "persistentUuid": "8f2c9d3e-83df-429c-a301-fb73d1505e0b",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "DoChefao",
+              "persistentUuid": "d63eda05-9a88-443c-aee8-d3e787dd0b33",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "TempoRastro",
+              "persistentUuid": "a3568dc6-6978-407c-a820-a06fcff9fb2d",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -4748,6 +4968,906 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "MaquinaMae",
+          "persistentUuid": "44529aa3-b2da-4f17-80d8-3573800d8829",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Vida",
+              "persistentUuid": "c6a0821e-78df-4596-9234-8d218daadaf4",
+              "type": "number",
+              "value": 30
+            },
+            {
+              "name": "VidaMaxima",
+              "persistentUuid": "2cd9ec03-6ec5-433b-b8a4-4c7eb275e0e0",
+              "type": "number",
+              "value": 30
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Animation",
+              "type": "AnimatableCapability::AnimatableBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Funcionando",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/maquina_mae.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 800,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 790
+                          },
+                          {
+                            "x": 800,
+                            "y": 790
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/chefao/funcionando-b.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 800,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 790
+                          },
+                          {
+                            "x": 800,
+                            "y": 790
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressurizando",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/chefao/funcionando-b.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 800,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 790
+                          },
+                          {
+                            "x": 800,
+                            "y": 790
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/chefao/pressurizando.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 800,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 790
+                          },
+                          {
+                            "x": 800,
+                            "y": 790
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "LiberandoPressao",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/chefao/pressurizando.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 800,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 790
+                          },
+                          {
+                            "x": 800,
+                            "y": 790
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/chefao/liberando-pressao.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 800,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 790
+                          },
+                          {
+                            "x": 800,
+                            "y": 790
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/chefao/funcionando-b.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 800,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 790
+                          },
+                          {
+                            "x": 800,
+                            "y": 790
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoChefao",
+          "persistentUuid": "d7820da8-15ad-48f8-a2c2-c1cda588a410",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Maquina-mãe: 30/30",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "7;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Maquina-mãe: 30/30",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoDirecaoChefao",
+          "persistentUuid": "0d79e4ac-96b8-43cf-8235-1691fe344cfa",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CHEFE À DIREITA →",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "b": 48,
+            "g": 204,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "CHEFE À DIREITA →",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "255;204;48"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoAvisoRajadaChefao",
+          "persistentUuid": "a908aec2-dbdb-411a-a82b-af8d5648da37",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ATENÇÃO: RAJADA!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 40,
+            "g": 70,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ATENÇÃO: RAJADA!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "255;70;40"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoAlvoPrensa",
+          "persistentUuid": "312404ea-6640-461d-ab84-732c70e2c56c",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "PERIGO: PRENSA!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 40,
+            "g": 70,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "PERIGO: PRENSA!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "255;70;40"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoAlvoVapor",
+          "persistentUuid": "a3bbc5db-353e-46cb-aa29-c37a593461b2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "VAPOR AQUI!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 80,
+            "g": 220,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "VAPOR AQUI!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "255;220;80"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoAvisoConvocacaoChefao",
+          "persistentUuid": "7687122b-21a8-428d-aa1a-5e100c351d9d",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "VOADORES A CAMINHO!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 60,
+            "g": 170,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "VOADORES A CAMINHO!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "255;170;60"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PrensaVisualChefao",
+          "persistentUuid": "4407ec14-b047-4cd0-adea-c74878723090",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Prensa",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prototipo/imagens/chefao/prensa.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ClaraoRajadaChefao",
+          "persistentUuid": "d41f88d0-5e26-475d-9c7a-acd6e792be94",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Disparo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.09,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prototipo/imagens/chefao/clarao-a.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 1180,
+                        "y": 570
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 1180,
+                        "y": 570
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prototipo/imagens/chefao/clarao-b.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 1180,
+                        "y": 570
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 1180,
+                        "y": 570
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": false,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": -175,
+          "emitterAngleB": -5,
+          "emitterForceMax": 160,
+          "emitterForceMin": 70,
+          "flow": -1,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 24,
+          "name": "PoeiraPrensaChefao",
+          "particleAlpha1": 190,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 130,
+          "particleBlue2": 75,
+          "particleColor1": "205;177;130",
+          "particleColor2": "100;90;75",
+          "particleGravityX": 0,
+          "particleGravityY": 180,
+          "particleGreen1": 177,
+          "particleGreen2": 90,
+          "particleLifeTimeMax": 0.5,
+          "particleLifeTimeMin": 0.2,
+          "particleRed1": 205,
+          "particleRed2": 100,
+          "particleSize1": 22,
+          "particleSize2": 45,
+          "particleSizeRandomness1": 8,
+          "particleSizeRandomness2": 10,
+          "persistentUuid": "b293effa-b1af-4fac-93e9-18c97f0e261e",
+          "rendererParam1": 6,
+          "rendererParam2": 1,
+          "rendererType": "Point",
+          "tank": 20,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 35,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "additive": false,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 15,
+          "emitterForceMin": 4,
+          "flow": -1,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 4,
+          "name": "RastroRajadaChefao",
+          "particleAlpha1": 230,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 60,
+          "particleBlue2": 20,
+          "particleColor1": "255;192;60",
+          "particleColor2": "180;55;20",
+          "particleGravityX": 0,
+          "particleGravityY": -15,
+          "particleGreen1": 192,
+          "particleGreen2": 55,
+          "particleLifeTimeMax": 0.22,
+          "particleLifeTimeMin": 0.1,
+          "particleRed1": 255,
+          "particleRed2": 180,
+          "particleSize1": 12,
+          "particleSize2": 3,
+          "particleSizeRandomness1": 2,
+          "particleSizeRandomness2": 1,
+          "persistentUuid": "d22198ff-a35e-41b1-b99c-236f00919809",
+          "rendererParam1": 6,
+          "rendererParam2": 1,
+          "rendererType": "Point",
+          "tank": 3,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "CarcacaVisualChefao",
+          "persistentUuid": "6c804994-733d-4a48-a0a4-85b59db5ed06",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "LiberandoPressao",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/chefao/liberando-pressao.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 800,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 450
+                          },
+                          {
+                            "x": 1150,
+                            "y": 790
+                          },
+                          {
+                            "x": 800,
+                            "y": 790
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ColunaVaporChefao",
+          "persistentUuid": "21a50930-308a-47f7-b92d-cf5d60786674",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "VaporSubindo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prototipo/imagens/chefao/vapor-a.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 512,
+                        "y": 1500
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 512,
+                        "y": 1500
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prototipo/imagens/chefao/vapor-b.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 512,
+                        "y": 1500
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 512,
+                        "y": 1500
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4824,6 +5944,45 @@
           },
           {
             "objectName": "Vapor"
+          },
+          {
+            "objectName": "MaquinaMae"
+          },
+          {
+            "objectName": "TextoChefao"
+          },
+          {
+            "objectName": "TextoDirecaoChefao"
+          },
+          {
+            "objectName": "TextoAvisoRajadaChefao"
+          },
+          {
+            "objectName": "TextoAlvoPrensa"
+          },
+          {
+            "objectName": "TextoAlvoVapor"
+          },
+          {
+            "objectName": "TextoAvisoConvocacaoChefao"
+          },
+          {
+            "objectName": "PrensaVisualChefao"
+          },
+          {
+            "objectName": "ClaraoRajadaChefao"
+          },
+          {
+            "objectName": "PoeiraPrensaChefao"
+          },
+          {
+            "objectName": "RastroRajadaChefao"
+          },
+          {
+            "objectName": "CarcacaVisualChefao"
+          },
+          {
+            "objectName": "ColunaVaporChefao"
           }
         ]
       },
@@ -9870,6 +11029,18 @@
                 },
                 {
                   "type": {
+                    "value": "Flash::FlashEffect::Flash"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "FlashEffect",
+                    "1.5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -9931,6 +11102,64 @@
                   "parameters": [
                     "TiroInimigo",
                     ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Vida do Robo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "-",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoVida",
+                    "=",
+                    "\"Vida: \" + ToString(Robo.Vida)"
                   ]
                 }
               ]
@@ -12530,13 +13759,24 @@
                 },
                 {
                   "type": {
-                    "value": "BooleanObjectVariable"
+                    "value": "NumberObjectVariable"
                   },
                   "parameters": [
                     "Robo",
-                    "Invulnerável",
-                    "False",
-                    ""
+                    "Vida",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "<=",
+                    "0"
                   ]
                 }
               ],
@@ -12554,22 +13794,13 @@
                 },
                 {
                   "type": {
-                    "value": "SetBooleanObjectVariable"
+                    "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
                     "Robo",
-                    "Invulnerável",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "\"TempoDano\""
+                    "TempoInvulneravel",
+                    "=",
+                    "3"
                   ]
                 },
                 {
@@ -12585,31 +13816,120 @@
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "parameters": [],
+          "folded": true
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Máquina-mãe: entrada e derrota",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "DepartScene"
                   },
                   "parameters": [
-                    "TiroInimigo",
-                    "Robo",
-                    "",
-                    "",
-                    "no"
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "Hide"
                   },
                   "parameters": [
-                    "TiroInimigo",
-                    ""
+                    "MaquinaMae"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoDirecaoChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAvisoRajadaChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAlvoPrensa"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAlvoVapor"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAvisoConvocacaoChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PrensaVisualChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "CarcacaVisualChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ColunaVaporChefao"
                   ]
                 }
               ]
@@ -12619,25 +13939,85 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "TiroInimigo",
-                    "Chao",
+                    "Onda",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SaltadoresCriados",
+                    ">=",
+                    "Variable(CotaSaltador)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "VoadoresCriados",
+                    ">=",
+                    "Variable(CotaVoador)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AtiradoresCriados",
+                    ">=",
+                    "Variable(CotaAtirador)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
                     "",
-                    "",
-                    "no"
+                    "Inimigos",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoDerrotado",
+                    "=",
+                    "0"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "TiroInimigo",
-                    ""
+                    "EsperaProximaOnda",
+                    "+",
+                    "TimeDelta()"
                   ]
                 }
               ]
@@ -12647,12 +14027,3729 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareObjectTimer"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Robo",
-                    "\"TempoDano\"",
+                    "Onda",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EsperaProximaOnda",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoDerrotado",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "MaquinaMae",
+                    "Vida",
+                    "=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "MaquinaMae",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoChefao",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EsperaProximaOnda",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoAvisoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAvisoRajadaChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaPrensaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PrensaEmCursoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAlvoPrensa"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAlvoVapor"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAvisoConvocacaoChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoClaraoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDescargaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PrensaVisualChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "CarcacaVisualChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDesligamentoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDanoVisualChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ColunaVaporChefao"
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 95,
+              "colorG": 95,
+              "colorR": 95,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Teste temporário: F8 inicia a luta",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"F8\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoAtivo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoDerrotado",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Inimigos",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Onda",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CotaAndador",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CotaSaltador",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CotaVoador",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CotaPesado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CotaAtirador",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EtapaOleo",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "OleoAtivo",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Oleo",
+                        "=",
+                        "630"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "AlertaOleo"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "MaquinaMae",
+                        "Vida",
+                        "=",
+                        "30"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "MaquinaMae",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "TextoChefao",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoAtivo",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EsperaProximaOnda",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "=",
+                        "1800"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "=",
+                        "460"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Vida",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "TempoInvulneravel",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCameraCenterX"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "Robo.CenterX()",
+                        "\"\"",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RecargaRajadaChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "AvisoRajadaChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoAvisoRajadaChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAvisoRajadaChefao"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RecargaPrensaChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PrensaEmCursoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAlvoPrensa"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RecargaVaporChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoVaporChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoVaporChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAlvoVapor"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RecargaConvocacaoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoConvocacaoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoConvocacaoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAvisoConvocacaoChefao"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoClaraoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoDescargaChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "ClaraoRajadaChefao"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "CarcacaVisualChefao"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoDesligamentoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoDanoVisualChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "ColunaVaporChefao"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoDirecaoChefao"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "MaquinaMae.X() + MaquinaMae.Width() * 0.65",
                     ">",
+                    "CameraCenterX() + SceneWindowWidth() / 2 - 60"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoDirecaoChefao",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoChefao",
+                    "=",
+                    "\"Máquina-mãe: \" + ToString(MaquinaMae.Vida) + \"/30\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Tiro",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Tiro",
+                    "MaquinaMae",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "MaquinaMae",
+                    "Vida",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Tiro",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDanoVisualChefao",
+                    "=",
+                    "0.12"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "MaquinaMae",
+                    "Vida",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoDerrotado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Abates",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Pontuacao",
+                    "+",
+                    "1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "CarcacaVisualChefao",
+                    "=",
+                    "MaquinaMae.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "CarcacaVisualChefao",
+                    "=",
+                    "MaquinaMae.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "CarcacaVisualChefao",
+                    "\"150;130;110\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "CarcacaVisualChefao",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDesligamentoChefao",
+                    "=",
+                    "0.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "MaquinaMae",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoDirecaoChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAvisoRajadaChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAlvoPrensa"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PrensaEmCursoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAlvoVapor"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAvisoConvocacaoChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Voador",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PrensaVisualChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "PoeiraPrensaChefao",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "RastroRajadaChefao",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ColunaVaporChefao"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Máquina-mãe: rajada de projéteis",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaRajadaChefao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaRajadaChefao",
+                    ">=",
+                    "3.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoAvisoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAvisoRajadaChefao",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoAvisoRajadaChefao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoAvisoRajadaChefao",
+                    ">=",
+                    "0.8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "TiroInimigo",
+                    "MaquinaMae.X()+35",
+                    "MaquinaMae.Y()+150",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "DoChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "TempoRastro",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "TempoVida",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "AngleBetweenPositions(MaquinaMae.X()+35, MaquinaMae.Y()+150, Robo.CenterX(), Robo.CenterY())-18",
+                    "360",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "TiroInimigo",
+                    "MaquinaMae.X()+35",
+                    "MaquinaMae.Y()+150",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "DoChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "TempoRastro",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "TempoVida",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "AngleBetweenPositions(MaquinaMae.X()+35, MaquinaMae.Y()+150, Robo.CenterX(), Robo.CenterY())",
+                    "360",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "TiroInimigo",
+                    "MaquinaMae.X()+35",
+                    "MaquinaMae.Y()+150",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "DoChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "TempoRastro",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "TempoVida",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "AngleBetweenPositions(MaquinaMae.X()+35, MaquinaMae.Y()+150, Robo.CenterX(), Robo.CenterY())+18",
+                    "360",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAvisoRajadaChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoClaraoChefao",
+                    "=",
+                    "0.20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDescargaChefao",
+                    "=",
+                    "0.36"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Máquina-mãe: prensa de plataforma",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaPrensaChefao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Prateleira",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoAtivo",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PrensaEmCursoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "RecargaPrensaChefao",
+                        ">=",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "PlatformerObject",
+                        "Prateleira",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoVaporChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "EstadoConvocacaoChefao",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "XOrigemImpacto",
+                        "=",
+                        "Prateleira.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoAbalo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PrensaEmCursoChefao",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "RecargaPrensaChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "TextoAlvoPrensa",
+                        "=",
+                        "Prateleira.CenterX()-95"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "TextoAlvoPrensa",
+                        "=",
+                        "Prateleira.Y()-47"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "TextoAlvoPrensa",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao",
+                        "=",
+                        "Prateleira.CenterX()-100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao",
+                        "=",
+                        "Prateleira.Y()-845"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoAtivo",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoAbalo",
+                        "+",
+                        "TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "=",
+                        "Prateleira.XOrigemImpacto+3*sin(Prateleira.TempoAbalo*30)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Prateleira",
+                            "TempoAbalo",
+                            ">=",
+                            "1.15"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "PrensaVisualChefao",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetY"
+                          },
+                          "parameters": [
+                            "PrensaVisualChefao",
+                            "=",
+                            "Prateleira.Y()-295-550*(1-pow(clamp((Prateleira.TempoAbalo-1.15)/0.35,0,1),2))"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoAtivo",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoAbalo",
+                        ">=",
+                        "1.5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "=",
+                        "Prateleira.XOrigemImpacto"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "Prateleira"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "Platform",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoRetorno",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAlvoPrensa"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TremorCamera",
+                        "=",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenSceneVariableNumber3"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TremorCamera\"",
+                        "TremorCamera",
+                        "0",
+                        "\"easeOutQuad\"",
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao",
+                        "=",
+                        "Prateleira.Y()-295"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "PoeiraPrensaChefao",
+                        "Prateleira.CenterX()",
+                        "Prateleira.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetZOrder"
+                      },
+                      "parameters": [
+                        "PoeiraPrensaChefao",
+                        "=",
+                        "147"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoDescargaChefao",
+                        "=",
+                        "0.36"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoRetorno",
+                        "+",
+                        "TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao",
+                        "=",
+                        "Prateleira.Y()-295-550*pow(clamp((Prateleira.TempoRetorno-0.1)/0.4,0,1),2)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Prateleira",
+                            "TempoRetorno",
+                            ">=",
+                            "0.55"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Hide"
+                          },
+                          "parameters": [
+                            "PrensaVisualChefao"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoRetorno",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "=",
+                        "Prateleira.XOrigemImpacto"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "Platform",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoAbalo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoRetorno",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PrensaEmCursoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoDerrotado",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "=",
+                        "Prateleira.XOrigemImpacto"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "Platform",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoAbalo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoRetorno",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PrensaEmCursoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAlvoPrensa"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoDerrotado",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "=",
+                        "Prateleira.XOrigemImpacto"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "Platform",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoAbalo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoRetorno",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PrensaEmCursoChefao",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "TextoAlvoPrensa"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Hide"
+                      },
+                      "parameters": [
+                        "PrensaVisualChefao"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Máquina-mãe: jato de vapor",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaVaporChefao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaVaporChefao",
+                    ">=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PrensaEmCursoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "XVaporChefao",
+                    "=",
+                    "clamp(Robo.CenterX(), 80, Variable(LarguraArena)-80)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoAlvoVapor",
+                    "=",
+                    "Variable(XVaporChefao)-75"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TextoAlvoVapor",
+                    "=",
+                    "clamp(Robo.Y()+Robo.Height()+20, 220, 560)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAlvoVapor",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoVaporChefao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoVaporChefao",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAlvoVapor"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDescargaChefao",
+                    "=",
+                    "0.36"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ColunaVaporChefao",
+                    "=",
+                    "Variable(XVaporChefao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ColunaVaporChefao",
+                    "=",
+                    "630"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "ColunaVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "ColunaVaporChefao",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoVaporChefao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoVaporChefao",
+                    ">=",
+                    "0.25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    ">",
+                    "Variable(XVaporChefao)-55"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    "<",
+                    "Variable(XVaporChefao)+55"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.Y()+Robo.Height()",
+                    ">",
+                    "210"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.Y()",
+                    "<",
+                    "630"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "=",
+                    "1.5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoVaporChefao",
+                    ">=",
+                    "1.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ColunaVaporChefao"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Máquina-mãe: convocação de voadores",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaConvocacaoChefao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaConvocacaoChefao",
+                    ">=",
+                    "11"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Voador",
+                    "<",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PrensaEmCursoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecargaConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoAvisoConvocacaoChefao",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoConvocacaoChefao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoConvocacaoChefao",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Voador",
+                    "<",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Voador",
+                    "MaquinaMae.X()-110",
+                    "190",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "Vida",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "XPDrop",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "PontosAbate",
+                    "=",
+                    "175"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoConvocacaoChefao",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Voador",
+                    "<",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Voador",
+                    "MaquinaMae.X()+100",
+                    "170",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "Vida",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "XPDrop",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "PontosAbate",
+                    "=",
+                    "175"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoConvocacaoChefao",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoAvisoConvocacaoChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoConvocacaoChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDescargaChefao",
+                    "=",
+                    "0.36"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Máquina-mãe: animações e efeitos",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AnimacaoVisualChefao",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AnimacaoVisualChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoVaporChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AnimacaoVisualChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EstadoConvocacaoChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AnimacaoVisualChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Prateleira",
+                    "EstadoImpacto",
+                    "=",
                     "3"
                   ]
                 }
@@ -12660,22 +17757,412 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetBooleanObjectVariable"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Robo",
-                    "Invulnerável",
-                    "False",
-                    ""
+                    "AnimacaoVisualChefao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "RemoveObjectTimer"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Robo",
-                    "\"TempoDano\""
+                    "TempoDescargaChefao",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AnimacaoVisualChefao",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDescargaChefao",
+                    "-",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "MaquinaMae",
+                    "Animation",
+                    "=",
+                    "Variable(AnimacaoVisualChefao)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoClaraoChefao",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoClaraoChefao",
+                    "-",
+                    "TimeDelta()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao",
+                    "=",
+                    "MaquinaMae.X()+35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao",
+                    "=",
+                    "MaquinaMae.Y()+150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao",
+                    "=",
+                    "AngleBetweenPositions(MaquinaMae.X()+35,MaquinaMae.Y()+150,Robo.CenterX(),Robo.CenterY())-180"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoClaraoChefao",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "TiroInimigo",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "DoChefao",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "TempoRastro",
+                        "+",
+                        "TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "DoChefao",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "TempoRastro",
+                        ">=",
+                        "0.065"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "RastroRajadaChefao",
+                        "TiroInimigo.CenterX()",
+                        "TiroInimigo.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetZOrder"
+                      },
+                      "parameters": [
+                        "RastroRajadaChefao",
+                        "=",
+                        "140"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "TempoRastro",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "MaquinaMae",
+                    "\"255;255;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDanoVisualChefao",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "MaquinaMae",
+                    "\"255;165;125\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDanoVisualChefao",
+                    "-",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDesligamentoChefao",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDesligamentoChefao",
+                    "-",
+                    "TimeDelta()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "CarcacaVisualChefao",
+                    "=",
+                    "1.5*sin((0.7-Variable(TempoDesligamentoChefao))*45)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDesligamentoChefao",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "CarcacaVisualChefao"
                   ]
                 }
               ]
