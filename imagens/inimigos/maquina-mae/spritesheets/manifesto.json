@@ -1,0 +1,99 @@
+[
+  {
+    "key": "maquina-funcionando",
+    "cols": 2,
+    "rows": 2,
+    "prompt": "Use case: precise-object-edit. Asset type: production animation SPRITE SHEET for GDevelop, original boss Máquina-mãe. Input image is the character identity and geometry reference. Exact 1536x1024 transparent canvas, EXACTLY TWO EQUAL COLUMNS AND TWO EQUAL ROWS, four frames in reading order. Each invisible cell is exactly 768x512. Draw ONE complete machine per cell, scaled to half the input image's size. Position and register identical stationary central boiler, orange furnace weakspot and feet in the same LOCAL cell coordinates across all four frames. Whole machine including side mechanisms and steam fits inside its own cell with small transparent margins. Same fixed camera, no camera changes, no body translation, no resizing between cells. Preserve red/dark iron, copper/brass, rivets, original 1930s hand-painted cartoon style and thick ink outlines. Only designated mechanical parts and steam animate. No visible grid, text, labels, numbers, scenery, floor or opaque backdrop. Real alpha transparency. Sequence: four DISTINCT consecutive IDLE phases for a seamless loop. Frame1 low warm furnace, gauge needle normal, small compact ivory chimney puffs; frame2 flame slightly brighter, needle slightly higher, steam curls rising; frame3 larger detached steam lobes drifting above chimneys and slightly lower needle; frame4 smaller fresh puffs replacing the dispersed ones, furnace settles, ready to loop to frame1. Metal geometry remains precisely registered. Do not make duplicates; visibly evolving white steam contours.",
+    "arquivo": "maquina-funcionando-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "frameWidth": 768,
+    "frameHeight": 512,
+    "situacao": "Gerado; integração dos quadros pendente"
+  },
+  {
+    "key": "maquina-rajada",
+    "cols": 2,
+    "rows": 2,
+    "prompt": "Use case: precise-object-edit. Asset type: production animation SPRITE SHEET for GDevelop, original boss Máquina-mãe. Input image is the character identity and geometry reference. Exact 1536x1024 transparent canvas, EXACTLY TWO EQUAL COLUMNS AND TWO EQUAL ROWS, four frames in reading order. Each invisible cell is exactly 768x512. Draw ONE complete machine per cell, scaled to half the input image's size. Position and register identical stationary central boiler, orange furnace weakspot and feet in the same LOCAL cell coordinates across all four frames. Whole machine including side mechanisms and steam fits inside its own cell with small transparent margins. Same fixed camera, no camera changes, no body translation, no resizing between cells. Preserve red/dark iron, copper/brass, rivets, original 1930s hand-painted cartoon style and thick ink outlines. Only designated mechanical parts and steam animate. No visible grid, text, labels, numbers, scenery, floor or opaque backdrop. Real alpha transparency. Sequence: the LEFT SIDE PISTON/CLAMP charges and fires a FAN SHOT. Frame1 anticipation: left horizontal piston pulls the left clamp inward toward boiler, its small pressure outlet glows amber, needle rises. Frame2 peak charge: piston pulled further inward, strong white-yellow furnace core, a compact orange light at left pressure outlet, tiny trembling steam wisps. Frame3 FIRE: left piston rapidly kicks outward, a short leftward orange muzzle blast at left outlet, gauge drops, steam releases at piston joint. Frame4 recovery: piston returns close to resting length, orange blast gone, thin ivory exhaust dissipates. Make left piston positions noticeably different and mechanically connected throughout. Keep central furnace ring and feet fixed in all cells. This is a shooting tell, not a clamp crushing animation.",
+    "arquivo": "maquina-rajada-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "frameWidth": 768,
+    "frameHeight": 512,
+    "situacao": "Gerado; integração dos quadros pendente"
+  },
+  {
+    "key": "maquina-prensa",
+    "cols": 2,
+    "rows": 2,
+    "prompt": "EDIT TARGET is the attached FOUR-CELL idle SPRITE SHEET. Preserve its exact 1536x1024 layout, 2 columns x 2 rows, each cell 768x512, machine size and fixed central boiler/feet coordinates in EACH cell. Replace each cell's pose according to the following sequence. Use case: precise-object-edit. Asset type: production animation SPRITE SHEET for GDevelop, original boss Máquina-mãe. Input image is the character identity and geometry reference. Exact 1536x1024 transparent canvas, EXACTLY TWO EQUAL COLUMNS AND TWO EQUAL ROWS, four frames in reading order. Each invisible cell is exactly 768x512. Draw ONE complete machine per cell, scaled to half the input image's size. Position and register identical stationary central boiler, orange furnace weakspot and feet in the same LOCAL cell coordinates across all four frames. Whole machine including side mechanisms and steam fits inside its own cell with small transparent margins. Same fixed camera, no camera changes, no body translation, no resizing between cells. Preserve red/dark iron, copper/brass, rivets, original 1930s hand-painted cartoon style and thick ink outlines. Only designated mechanical parts and steam animate. No visible grid, text, labels, numbers, scenery, floor or opaque backdrop. Real alpha transparency. Four-frame PRESS COMMAND sequence, visually different from shooting: Frame1 both industrial clamp jaws open extra WIDE vertically while pistons stay connected, gauge rises. Frame2 peak anticipation, both upper/lower jaw blocks compress toward each other nearly touching, red boiler looks pressurized, fine steam at both cylinder joints. Frame3 both heavy clamps snap firmly SHUT with clear metal contact and a few tiny ivory steam puffs, commanding a remote overhead crushing press. Frame4 clamps reopen to normal idle gap, pressure settles. Jaw opening/closing must be obvious at gameplay size, no fiery muzzle flash, no bullets. Central core and stationary base never move.",
+    "arquivo": "maquina-prensa-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "frameWidth": 768,
+    "frameHeight": 512,
+    "situacao": "Gerado; integração dos quadros pendente"
+  },
+  {
+    "key": "maquina-vapor",
+    "cols": 2,
+    "rows": 2,
+    "prompt": "EDIT TARGET is the attached FOUR-CELL idle SPRITE SHEET. Preserve its exact 1536x1024 layout, 2 columns x 2 rows, each cell 768x512, machine size and fixed central boiler/feet coordinates in EACH cell. Replace each cell's pose according to the following sequence. Use case: precise-object-edit. Asset type: production animation SPRITE SHEET for GDevelop, original boss Máquina-mãe. Input image is the character identity and geometry reference. Exact 1536x1024 transparent canvas, EXACTLY TWO EQUAL COLUMNS AND TWO EQUAL ROWS, four frames in reading order. Each invisible cell is exactly 768x512. Draw ONE complete machine per cell, scaled to half the input image's size. Position and register identical stationary central boiler, orange furnace weakspot and feet in the same LOCAL cell coordinates across all four frames. Whole machine including side mechanisms and steam fits inside its own cell with small transparent margins. Same fixed camera, no camera changes, no body translation, no resizing between cells. Preserve red/dark iron, copper/brass, rivets, original 1930s hand-painted cartoon style and thick ink outlines. Only designated mechanical parts and steam animate. No visible grid, text, labels, numbers, scenery, floor or opaque backdrop. Real alpha transparency. Four-frame STEAM VENT attack sequence: Frame1 boiler under rising pressure, chimney steam compact and compressed, gauge high, small bright gaps at the chimney brass collars. Frame2 anticipation, all three chimney vent collars lift slightly and show white pressurized vapor underneath, larger dense ivory steam bulbs above pipes. Frame3 full discharge, all three chimneys expel strong upward WHITE STEAM columns and big rounded curling ivory clouds contained inside cell; small vapor wisps from copper pipe seams, gauge drops. Frame4 steam columns break into dissipating puffs, vent collars return down to rest. Clearly mechanical vent opening and visibly stronger steam than idle. No fire, orange rays, muzzle shot or projectiles. Keep central machine geometry aligned.",
+    "arquivo": "maquina-vapor-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "frameWidth": 768,
+    "frameHeight": 512,
+    "situacao": "Gerado; integração dos quadros pendente"
+  },
+  {
+    "key": "maquina-convocacao",
+    "cols": 2,
+    "rows": 2,
+    "prompt": "EDIT TARGET is the attached four-cell machine idle sheet. Preserve 1536x1024 canvas, 2 columns x2 rows, local stationary boiler and feet positions in each cell. Use case: precise-object-edit. Asset type: production animation SPRITE SHEET for GDevelop, original boss Máquina-mãe. Input image is the character identity and geometry reference. Exact 1536x1024 transparent canvas, EXACTLY TWO EQUAL COLUMNS AND TWO EQUAL ROWS, four frames in reading order. Each invisible cell is exactly 768x512. Draw ONE complete machine per cell, scaled to half the input image's size. Position and register identical stationary central boiler, orange furnace weakspot and feet in the same LOCAL cell coordinates across all four frames. Whole machine including side mechanisms and steam fits inside its own cell with small transparent margins. Same fixed camera, no camera changes, no body translation, no resizing between cells. Preserve red/dark iron, copper/brass, rivets, original 1930s hand-painted cartoon style and thick ink outlines. Only designated mechanical parts and steam animate. No visible grid, text, labels, numbers, scenery, floor or opaque backdrop. Real alpha transparency. Four-frame SUMMON DRONES sequence. Use the existing small round maintenance hatch BELOW AND TO THE RIGHT of the big furnace as a visible mechanical drone-bay door, keep furnace weakspot intact. Frame1 hatch starts turning outward on its hinge, a thin ivory pressure leak. Frame2 hatch WIDE OPEN showing a dark inner compartment with a warm small amber indicator and swirling white vapor; gauge high. Frame3 release: hatch fully open and a thick puff of ivory steam bursts upward along the machine side toward its top, communicating auxiliary machines being released (do not draw a full extra drone or character). Frame4 hatch closes and vapor dissipates. Hatch open/closed silhouette and dark compartment must be readable, no fiery projectile, clamp crushing, or steam chimney blast.",
+    "arquivo": "maquina-convocacao-v2.png",
+    "width": 1536,
+    "height": 1024,
+    "frameWidth": 768,
+    "frameHeight": 512,
+    "situacao": "Gerado; integração dos quadros pendente",
+    "correcaoTransparencia": "Use case: background-extraction. EDIT TARGET is this exact FOUR-FRAME animation sprite sheet. Remove ONLY the entire white/light gray background and background haze, replacing all space outside the four separate machines and their own steam clouds with truly transparent alpha=0. Preserve each of the FOUR machines, their open/closed hatch differences, each steam puff, all ink outlines and interior colors, exact 1536x1024 canvas, exact 2x2 grid, exact pixel positions, scale, framing and arrangement. Do not redraw, recompose, resize, crop or add anything. No checkerboard, white fill, black fill or new visible backdrop. Fully transparent background; retain smooth transparent edges. Return same four-cell sprite sheet cutout."
+  },
+  {
+    "key": "prensa-sequencia",
+    "cols": 3,
+    "rows": 2,
+    "prompt": "Use case: precise-object-edit. Asset type: SIX-FRAME ANIMATION SPRITE SHEET for a vertical hydraulic press. Attached isolated press is shape/material reference. Exact 1536x1536 transparent canvas, EXACT THREE equal COLUMNS and TWO equal ROWS. Each cell512x768. One complete press mechanism per cell, centered at local x256. Same width, fixed upper collar at y150 and top shaft at y15 across all six cells. Animate LOWER TELESCOPIC PISTON AND HAZARD-STRIPED CRUSHING HEAD moving DOWN then retracting. Frame1 (top left) fully retracted, flat underside of head at local y470; frame2 head half-extended underside y590; frame3 full extension underside y740; frame4 impact at y740, small ivory steam puffs at cylinder and a few tiny dust flecks, head remains level; frame5 head retracts to underside y590; frame6 retracted underside y470, small recovery steam wisps. Piston must LENGTHEN AND SHORTEN coherently, connected to fixed collar, with visibly different head heights. Dark iron, warm copper, brass, dark red paint, yellow-black diagonal hazard stripes, same 1930s hand-inked cartoon style. Fully contained within each cell except the upper shaft nearly touches top. No floor or ground, machine body, visible grid, labels or text. True transparent background.",
+    "arquivo": "prensa-sequencia-v1.png",
+    "width": 1254,
+    "height": 1254,
+    "frameWidth": 418,
+    "frameHeight": 627,
+    "situacao": "Gerado; integração dos quadros pendente"
+  },
+  {
+    "key": "vapor-sequencia",
+    "cols": 3,
+    "rows": 2,
+    "prompt": "Use case: precise-object-edit. Asset type: SIX-FRAME STEAM JET SPRITE SHEET for 2D game. Input white steam image is identity/style reference. Exact 1536x1536 transparent canvas, THREE equal COLUMNS and TWO equal ROWS, six invisible cells of512x768. Each cell holds ONE narrow continuous upward white/ivory steam column, fixed base at local(256,750), same top near y60 and same overall height and width. Frame1 compact curled lobes; frame2 lobes rise and open; frame3 billows expand toward left; frame4 upper billows rise right while fresh stem puffs replace lower ones; frame5 upper puff separates and middle curls upward; frame6 new smaller puffs lead smoothly back to frame1. Clearly distinct consecutive flowing shapes for a LOOP, base position perfectly fixed; no complete translation up/down between cells. Same bold hand-inked 1930s cartoon outline, pale cool-gray internal shadows, airy transparent edges and solid readable white core. Keep all puffs inside their own cells, no touching neighbor. No fire, sparks, colored glow, machines, nozzles, ground, text, borders or visible grid. True transparent alpha background.",
+    "arquivo": "vapor-sequencia-v1.png",
+    "width": 1254,
+    "height": 1254,
+    "frameWidth": 418,
+    "frameHeight": 627,
+    "situacao": "Gerado; integração dos quadros pendente"
+  },
+  {
+    "key": "clarao-sequencia",
+    "cols": 2,
+    "rows": 2,
+    "prompt": "Use case: precise-object-edit. Asset type: FOUR-FRAME leftward MUZZLE FLASH SPRITE SHEET. Input flame is effect identity/style reference. Exact1536x1024 transparent canvas, TWO columns and TWO rows, four equal invisible cells768x512. Fixed emission point in EVERY CELL at local(590,285), burst points LEFT. Sequence in reading order: 1 small bright ignition,2 maximum white-yellow flash and orange lobes extending left,3 orange expanded lobes with smaller white core breaking apart,4 separated fading orange flecks and small smoke curling at source. Four clearly different stages of one short shot, not four duplicates. Keep source pivot fixed, all effects within each cell with generous margins, same 1930s cartoon ink outline style. No gun or machine, character, background, text, grid or labels, true transparent background.",
+    "arquivo": "clarao-sequencia-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "frameWidth": 768,
+    "frameHeight": 512,
+    "situacao": "Gerado; integração dos quadros pendente"
+  }
+]

@@ -33,7 +33,8 @@ _A preencher._
 
 ## Inimigos, ondas e chefão
 
-_A preencher._
+- Animações e efeitos da Máquina-mãe: oito PNGs gerados por IA com a ferramenta de imagens integrada ao Codex, usando o conceito aprovado como referência. Quadros em `prototipo/imagens/chefao/`; origem, integração e prompts em [ANIMACOES.md](imagens/inimigos/maquina-mae/ANIMACOES.md). Movimentos da prensa integrados com eventos do GDevelop. O vapor dos ataques usa imagens animadas.
+- Oito spritesheets adicionais da Máquina-mãe e de seus efeitos, totalizando 36 quadros, gerados pela mesma ferramenta. [Catálogo e prompts](imagens/inimigos/maquina-mae/spritesheets/README.md).
 
 ## Interface, menus e áudio
 
