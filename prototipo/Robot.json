@@ -591,6 +591,118 @@
         "name": "../imagens/spritesheets/heroi/parado-tres-estagios/parado_enferrujado_sem_braco.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/paradodireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/paradodireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/paradoesquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/paradoesquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moverdireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moverdireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moverdireita-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moverdireita-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moverdireita-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moverdireita-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moverdireita-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moverdireita-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moverdireita-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moverdireita-05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moverdireita-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moverdireita-06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moveresquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moveresquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moveresquerda-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moveresquerda-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moveresquerda-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moveresquerda-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moveresquerda-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moveresquerda-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moveresquerda-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moveresquerda-05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/andador-animado/moveresquerda-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/andador-animado/moveresquerda-06.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3746,16 +3858,16 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "ParadoDireita",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/andador.png",
+                      "image": "prototipo/imagens/andador-animado/paradodireita-01.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3771,20 +3883,524 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 14
                           },
                           {
-                            "x": 32,
-                            "y": 0
+                            "x": 40,
+                            "y": 14
                           },
                           {
-                            "x": 32,
-                            "y": 32
+                            "x": 40,
+                            "y": 46
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ParadoEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/paradoesquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MoverDireita",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moverdireita-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moverdireita-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moverdireita-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moverdireita-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moverdireita-05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moverdireita-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MoverEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moveresquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moveresquerda-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moveresquerda-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moveresquerda-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moveresquerda-05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/andador-animado/moveresquerda-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 14
+                          },
+                          {
+                            "x": 40,
+                            "y": 46
+                          },
+                          {
+                            "x": 8,
+                            "y": 46
                           }
                         ]
                       ]
@@ -6663,7 +7279,7 @@
                   "parameters": [
                     "Andador",
                     "<",
-                    "Robo.X()"
+                    "Robo.X()-10"
                   ]
                 }
               ],
@@ -6675,6 +7291,17 @@
                   "parameters": [
                     "Andador",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "Animation",
+                    "=",
+                    "\"MoverDireita\""
                   ]
                 }
               ]
@@ -6689,7 +7316,7 @@
                   "parameters": [
                     "Andador",
                     ">",
-                    "Robo.X()"
+                    "Robo.X()+10"
                   ]
                 }
               ],
@@ -6701,6 +7328,193 @@
                   "parameters": [
                     "Andador",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "Animation",
+                    "=",
+                    "\"MoverEsquerda\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    ">=",
+                    "Robo.X()-10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "<=",
+                    "Robo.X()+10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "<=",
+                    "Robo.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "Animation",
+                    "=",
+                    "\"ParadoDireita\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    ">=",
+                    "Robo.X()-10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "<=",
+                    "Robo.X()+10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    ">",
+                    "Robo.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "Animation",
+                    "=",
+                    "\"ParadoEsquerda\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "comment": "O Andador pisca quando se aproxima do Robô e pode causar dano por contato. É um aviso visual; o dano continua no evento de combate."
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Andador",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "\"255;255;255\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Andador.Distance(Robo)",
+                        "<=",
+                        "100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Vida",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "TempoInvulneravel",
+                        "<=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "mod(floor(TimeFromStart()*8),2)",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Andador",
+                        "\"255;120;120\""
+                      ]
+                    }
                   ]
                 }
               ]
