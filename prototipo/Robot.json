@@ -615,6 +615,23 @@
               "name": "Pesado"
             }
           ]
+        },
+        {
+          "name": "InimigosTerrestres",
+          "objects": [
+            {
+              "name": "Andador"
+            },
+            {
+              "name": "Saltador"
+            },
+            {
+              "name": "Pesado"
+            },
+            {
+              "name": "Atirador"
+            }
+          ]
         }
       ],
       "variables": [
@@ -658,7 +675,7 @@
           "name": "AndadoresCriados",
           "persistentUuid": "693ad62a-27c6-4a49-9b26-dbabfb4ee07c",
           "type": "number",
-          "value": 2
+          "value": 0
         },
         {
           "name": "SaltadoresCriados",
@@ -682,7 +699,7 @@
           "name": "LimiteVivos",
           "persistentUuid": "286fdd20-6401-4f19-b224-38d3a71ef646",
           "type": "number",
-          "value": 5
+          "value": 8
         },
         {
           "name": "EsperaProximaOnda",
@@ -935,6 +952,24 @@
           "persistentUuid": "b0827efa-bf71-4d86-8158-7f9ae0a00088",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "MargemSurgimento",
+          "persistentUuid": "1739874d-7763-4384-a506-fb6bfcaf66aa",
+          "type": "number",
+          "value": 64
+        },
+        {
+          "name": "LadoSurgimento",
+          "persistentUuid": "979f47cf-c370-48c4-9438-d134f62d68bd",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SurgimentoConcluido",
+          "persistentUuid": "4c207adf-3677-47d7-9dd8-a7e02be4f5a6",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -1062,38 +1097,6 @@
           "x": 20,
           "y": 50,
           "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Andador",
-          "persistentUuid": "9c72f01b-f289-4828-9106-0993e600d2c9",
-          "width": 0,
-          "x": 1086,
-          "y": 656,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Andador",
-          "persistentUuid": "b4eaab0d-e443-45e0-9cee-485626548e7d",
-          "width": 0,
-          "x": 211,
-          "y": 656,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3118,7 +3121,7 @@
               "name": "Vida",
               "persistentUuid": "eb542972-adfb-4d73-a4ef-fbc6b3b909ff",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "name": "XPDrop",
@@ -3233,7 +3236,7 @@
               "name": "Vida",
               "persistentUuid": "d9e4d4e5-7003-4a30-b9ec-bd8c2bddc6fd",
               "type": "number",
-              "value": 4
+              "value": 15
             },
             {
               "name": "XPDrop",
@@ -4121,7 +4124,7 @@
               "name": "Vida",
               "persistentUuid": "79e12c5a-a7b6-4d75-b292-d4b6835184d1",
               "type": "number",
-              "value": 3
+              "value": 8
             },
             {
               "name": "XPDrop",
@@ -4201,7 +4204,7 @@
               "name": "Vida",
               "persistentUuid": "ead2f861-5a8f-4336-9f72-2c3e986a8a8f",
               "type": "number",
-              "value": 8
+              "value": 25
             },
             {
               "name": "XPDrop",
@@ -4310,7 +4313,7 @@
               "name": "Vida",
               "persistentUuid": "d787060d-6f4a-4e73-91e7-de517bdaee45",
               "type": "number",
-              "value": 4
+              "value": 10
             },
             {
               "name": "XPDrop",
@@ -6365,7 +6368,7 @@
                   "parameters": [
                     "CotaSaltador",
                     "=",
-                    "4"
+                    "8"
                   ]
                 },
                 {
@@ -6375,7 +6378,7 @@
                   "parameters": [
                     "LimiteVivos",
                     "=",
-                    "8"
+                    "10"
                   ]
                 },
                 {
@@ -6530,7 +6533,7 @@
                   "parameters": [
                     "CotaAndador",
                     "=",
-                    "10"
+                    "14"
                   ]
                 },
                 {
@@ -6540,7 +6543,7 @@
                   "parameters": [
                     "CotaSaltador",
                     "=",
-                    "6"
+                    "10"
                   ]
                 },
                 {
@@ -6550,7 +6553,7 @@
                   "parameters": [
                     "CotaVoador",
                     "=",
-                    "5"
+                    "6"
                   ]
                 },
                 {
@@ -6560,7 +6563,7 @@
                   "parameters": [
                     "LimiteVivos",
                     "=",
-                    "8"
+                    "12"
                   ]
                 },
                 {
@@ -6755,7 +6758,7 @@
                   "parameters": [
                     "CotaSaltador",
                     "=",
-                    "6"
+                    "10"
                   ]
                 },
                 {
@@ -6765,7 +6768,7 @@
                   "parameters": [
                     "CotaVoador",
                     "=",
-                    "4"
+                    "8"
                   ]
                 },
                 {
@@ -6775,7 +6778,7 @@
                   "parameters": [
                     "CotaPesado",
                     "=",
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -6785,7 +6788,7 @@
                   "parameters": [
                     "LimiteVivos",
                     "=",
-                    "8"
+                    "14"
                   ]
                 },
                 {
@@ -7010,7 +7013,7 @@
                   "parameters": [
                     "CotaSaltador",
                     "=",
-                    "6"
+                    "12"
                   ]
                 },
                 {
@@ -7020,7 +7023,7 @@
                   "parameters": [
                     "CotaVoador",
                     "=",
-                    "5"
+                    "8"
                   ]
                 },
                 {
@@ -7040,7 +7043,7 @@
                   "parameters": [
                     "CotaAtirador",
                     "=",
-                    "4"
+                    "8"
                   ]
                 },
                 {
@@ -7050,7 +7053,7 @@
                   "parameters": [
                     "LimiteVivos",
                     "=",
-                    "8"
+                    "16"
                   ]
                 },
                 {
@@ -7166,895 +7169,2316 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 95,
+              "colorG": 95,
+              "colorR": 95,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Surgimentos fora da câmera",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "parameters": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "AndadoresCriados",
-                    "<",
-                    "Variable(CotaAndador)"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "comment": "Os inimigos alternam os lados da câmera e nascem com uma margem fora da tela. Nas extremidades, eles podem nascer além das paredes da arena."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "comment": "Atiradores tentam uma prateleira a cada dois surgimentos. Ela deve estar ativa, inteira, fora da tela e a até 400 px da borda da câmera. Sem uma candidata, a entrada acontece pelo chão. Os pontos acompanham as plataformas do layout atual."
+                },
+                {
+                  "colorB": 95,
+                  "colorG": 95,
+                  "colorR": 95,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Surgimento do Andador",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "parameters": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AndadoresCriados",
+                            "<",
+                            "Variable(CotaAndador)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoAndador",
+                            "+",
+                            "TimeDelta()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoAndador",
+                            ">=",
+                            "1.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AndadoresCriados",
+                            "<",
+                            "Variable(CotaAndador)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "LadoSurgimento",
+                            "=",
+                            "mod(Variable(AndadoresCriados) + 0, 2)"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Andador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "=",
+                                "CameraBorderLeft() - Variable(MargemSurgimento) - Andador.Width()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "=",
+                                "Chao.Y() - Andador.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "Vida",
+                                "=",
+                                "10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "XPDrop",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "PontosAbate",
+                                "=",
+                                "100"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "AndadoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoAndador",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Andador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "=",
+                                "CameraBorderRight() + Variable(MargemSurgimento)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "=",
+                                "Chao.Y() - Andador.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "Vida",
+                                "=",
+                                "10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "XPDrop",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "PontosAbate",
+                                "=",
+                                "100"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "AndadoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoAndador",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoAndador",
-                    "+",
-                    "TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoAndador",
-                    ">=",
-                    "1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "AndadoresCriados",
-                    "<",
-                    "Variable(CotaAndador)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Andador",
-                    "(1 - Variable(OleoAtivo)) * (clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(AndadoresCriados), 2)), 80, Variable(LarguraArena) - 80)) + Variable(OleoAtivo) * (200 + 800 * mod(Variable(AndadoresCriados), 2) + 1300 * min(1, floor(Robo.X() / 1200)))",
-                    "(1 - Variable(OleoAtivo)) * 656 + Variable(OleoAtivo) * 520",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Andador",
-                    "Vida",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Andador",
-                    "XPDrop",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Andador",
-                    "PontosAbate",
-                    "=",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "AndadoresCriados",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoAndador",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "SaltadoresCriados",
-                    "<",
-                    "Variable(CotaSaltador)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoSaltador",
-                    "+",
-                    "TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoSaltador",
-                    ">=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "SaltadoresCriados",
-                    "<",
-                    "Variable(CotaSaltador)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Robo.X()",
-                    "<",
-                    "1200"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Saltador",
-                    "(1 - Variable(OleoAtivo)) * (1100) + Variable(OleoAtivo) * (1000)",
-                    "(1 - Variable(OleoAtivo)) * 656 + Variable(OleoAtivo) * 520",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "Vida",
-                    "=",
-                    "4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "XPDrop",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "PontosAbate",
-                    "=",
-                    "150"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "TempoPulo",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "EtapaRota",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "SaltadoresCriados",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoSaltador",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoSaltador",
-                    ">=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "SaltadoresCriados",
-                    "<",
-                    "Variable(CotaSaltador)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Robo.X()",
-                    ">=",
-                    "1200"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Saltador",
-                    "(1 - Variable(OleoAtivo)) * (clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(SaltadoresCriados), 2)), 80, Variable(LarguraArena) - 80)) + Variable(OleoAtivo) * (200 + 800 * mod(Variable(SaltadoresCriados), 2) + 1300 * min(1, floor(Robo.X() / 1200)))",
-                    "(1 - Variable(OleoAtivo)) * 656 + Variable(OleoAtivo) * 520",
-                    ""
+                  "colorB": 95,
+                  "colorG": 95,
+                  "colorR": 95,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Surgimento do Saltador",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "parameters": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "SaltadoresCriados",
+                            "<",
+                            "Variable(CotaSaltador)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoSaltador",
+                            "+",
+                            "TimeDelta()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoSaltador",
+                            ">=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "SaltadoresCriados",
+                            "<",
+                            "Variable(CotaSaltador)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "LadoSurgimento",
+                            "=",
+                            "mod(Variable(SaltadoresCriados) + 1, 2)"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Saltador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "=",
+                                "CameraBorderLeft() - Variable(MargemSurgimento) - Saltador.Width()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "=",
+                                "Chao.Y() - Saltador.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "Vida",
+                                "=",
+                                "15"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "XPDrop",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "PontosAbate",
+                                "=",
+                                "150"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "TempoPulo",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "EtapaRota",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "SaltadoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoSaltador",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Saltador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "=",
+                                "CameraBorderRight() + Variable(MargemSurgimento)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "=",
+                                "Chao.Y() - Saltador.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "Vida",
+                                "=",
+                                "15"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "XPDrop",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "PontosAbate",
+                                "=",
+                                "150"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "TempoPulo",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "EtapaRota",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "SaltadoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoSaltador",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "Vida",
-                    "=",
-                    "4"
+                  "colorB": 95,
+                  "colorG": 95,
+                  "colorR": 95,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Surgimento do Voador",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "parameters": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "VoadoresCriados",
+                            "<",
+                            "Variable(CotaVoador)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoVoador",
+                            "+",
+                            "TimeDelta()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoVoador",
+                            ">=",
+                            "3.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "VoadoresCriados",
+                            "<",
+                            "Variable(CotaVoador)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "LadoSurgimento",
+                            "=",
+                            "mod(Variable(VoadoresCriados) + 0, 2)"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Voador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "=",
+                                "CameraBorderLeft() - Variable(MargemSurgimento) - Voador.Width()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "=",
+                                "RandomInRange(120, 360)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "Vida",
+                                "=",
+                                "8"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "XPDrop",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "PontosAbate",
+                                "=",
+                                "175"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "VoadoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoVoador",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Voador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "=",
+                                "CameraBorderRight() + Variable(MargemSurgimento)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "=",
+                                "RandomInRange(120, 360)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "Vida",
+                                "=",
+                                "8"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "XPDrop",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "PontosAbate",
+                                "=",
+                                "175"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "VoadoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoVoador",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "XPDrop",
-                    "=",
-                    "2"
+                  "colorB": 95,
+                  "colorG": 95,
+                  "colorR": 95,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Surgimento do Pesado",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "parameters": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "PesadosCriados",
+                            "<",
+                            "Variable(CotaPesado)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoPesado",
+                            "+",
+                            "TimeDelta()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoPesado",
+                            ">=",
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "PesadosCriados",
+                            "<",
+                            "Variable(CotaPesado)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "LadoSurgimento",
+                            "=",
+                            "mod(Variable(PesadosCriados) + 1, 2)"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Pesado",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "=",
+                                "CameraBorderLeft() - Variable(MargemSurgimento) - Pesado.Width()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "=",
+                                "Chao.Y() - Pesado.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "Vida",
+                                "=",
+                                "25"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "XPDrop",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "PontosAbate",
+                                "=",
+                                "250"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "RecargaImpacto",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "PesadosCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoPesado",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Pesado",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "=",
+                                "CameraBorderRight() + Variable(MargemSurgimento)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "=",
+                                "Chao.Y() - Pesado.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "Vida",
+                                "=",
+                                "25"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "XPDrop",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "PontosAbate",
+                                "=",
+                                "250"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "RecargaImpacto",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "PesadosCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoPesado",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "PontosAbate",
-                    "=",
-                    "150"
+                  "colorB": 95,
+                  "colorG": 95,
+                  "colorR": 95,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Surgimento do Atirador",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "parameters": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AtiradoresCriados",
+                            "<",
+                            "Variable(CotaAtirador)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoAtirador",
+                            "+",
+                            "TimeDelta()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "TempoSurgimentoAtirador",
+                            ">=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AtiradoresCriados",
+                            "<",
+                            "Variable(CotaAtirador)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Inimigos",
+                            "<",
+                            "Variable(LimiteVivos)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "LadoSurgimento",
+                            "=",
+                            "mod(floor(Variable(AtiradoresCriados) / 2), 2)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "SurgimentoConcluido",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "SurgimentoConcluido",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "mod(Variable(AtiradoresCriados), 2)",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Visible"
+                              },
+                              "parameters": [
+                                "Prateleira"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BehaviorActivated"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "Platform"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "Ativa",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "EstadoImpacto",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                ">=",
+                                "8"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "<=",
+                                "Variable(LarguraArena) - Prateleira.Width() - 8"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "<=",
+                                "CameraBorderLeft() - Variable(MargemSurgimento) - Prateleira.Width()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                ">=",
+                                "CameraBorderLeft() - 400 - Prateleira.Width()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PickRandomInstance"
+                              },
+                              "parameters": [
+                                "",
+                                "Prateleira"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Atirador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "=",
+                                "Prateleira.X() + Prateleira.Width() - Atirador.Width() - 16"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "=",
+                                "Prateleira.Y() - Atirador.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "Vida",
+                                "=",
+                                "10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "XPDrop",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "PontosAbate",
+                                "=",
+                                "175"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "RecargaTiro",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "AtiradoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoAtirador",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "SurgimentoConcluido",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "SurgimentoConcluido",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "mod(Variable(AtiradoresCriados), 2)",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Visible"
+                              },
+                              "parameters": [
+                                "Prateleira"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BehaviorActivated"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "Platform"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "Ativa",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "EstadoImpacto",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                ">=",
+                                "8"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "<=",
+                                "Variable(LarguraArena) - Prateleira.Width() - 8"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                ">=",
+                                "CameraBorderRight() + Variable(MargemSurgimento)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "Prateleira",
+                                "<=",
+                                "CameraBorderRight() + 400"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PickRandomInstance"
+                              },
+                              "parameters": [
+                                "",
+                                "Prateleira"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Atirador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "=",
+                                "Prateleira.X() + 16"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "=",
+                                "Prateleira.Y() - Atirador.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "Vida",
+                                "=",
+                                "10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "XPDrop",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "PontosAbate",
+                                "=",
+                                "175"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "RecargaTiro",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "AtiradoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoAtirador",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "SurgimentoConcluido",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "SurgimentoConcluido",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Atirador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "=",
+                                "CameraBorderLeft() - Variable(MargemSurgimento) - Atirador.Width()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "=",
+                                "Chao.Y() - Atirador.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "Vida",
+                                "=",
+                                "10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "XPDrop",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "PontosAbate",
+                                "=",
+                                "175"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "RecargaTiro",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "AtiradoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoAtirador",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "SurgimentoConcluido",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "SurgimentoConcluido",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "LadoSurgimento",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Atirador",
+                                "0",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "=",
+                                "CameraBorderRight() + Variable(MargemSurgimento)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "=",
+                                "Chao.Y() - Atirador.Height() - 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "Vida",
+                                "=",
+                                "10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "XPDrop",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "PontosAbate",
+                                "=",
+                                "175"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "RecargaTiro",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "AtiradoresCriados",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "TempoSurgimentoAtirador",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "SurgimentoConcluido",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "TempoPulo",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "EtapaRota",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "SaltadoresCriados",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoSaltador",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "VoadoresCriados",
-                    "<",
-                    "Variable(CotaVoador)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoVoador",
-                    "+",
-                    "TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoVoador",
-                    ">=",
-                    "3.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "VoadoresCriados",
-                    "<",
-                    "Variable(CotaVoador)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Voador",
-                    "clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(VoadoresCriados), 2)), 80, Variable(LarguraArena) - 80)",
-                    "170",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Voador",
-                    "Vida",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Voador",
-                    "XPDrop",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Voador",
-                    "PontosAbate",
-                    "=",
-                    "175"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "VoadoresCriados",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoVoador",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PesadosCriados",
-                    "<",
-                    "Variable(CotaPesado)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoPesado",
-                    "+",
-                    "TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoPesado",
-                    ">=",
-                    "5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PesadosCriados",
-                    "<",
-                    "Variable(CotaPesado)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Pesado",
-                    "(1 - Variable(OleoAtivo)) * (clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(PesadosCriados), 2)), 80, Variable(LarguraArena) - 80)) + Variable(OleoAtivo) * (200 + 800 * mod(Variable(PesadosCriados), 2) + 1300 * min(1, floor(Robo.X() / 1200)))",
-                    "(1 - Variable(OleoAtivo)) * 640 + Variable(OleoAtivo) * 520",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Pesado",
-                    "Vida",
-                    "=",
-                    "8"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Pesado",
-                    "XPDrop",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Pesado",
-                    "PontosAbate",
-                    "=",
-                    "250"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Pesado",
-                    "RecargaImpacto",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PesadosCriados",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoPesado",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "AtiradoresCriados",
-                    "<",
-                    "Variable(CotaAtirador)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoAtirador",
-                    "+",
-                    "TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoAtirador",
-                    ">=",
-                    "4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "AtiradoresCriados",
-                    "<",
-                    "Variable(CotaAtirador)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneInstancesCount"
-                  },
-                  "parameters": [
-                    "",
-                    "Inimigos",
-                    "<",
-                    "Variable(LimiteVivos)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Atirador",
-                    "(1 - Variable(OleoAtivo)) * (clamp(Robo.X() + 500 * (1 - 2 * mod(Variable(AtiradoresCriados), 2)), 80, Variable(LarguraArena) - 80)) + Variable(OleoAtivo) * ((1 - min(1, floor(Robo.X() / 1200))) * (200 + 800 * mod(Variable(AtiradoresCriados), 2)) + min(1, floor(Robo.X() / 1200)) * 1800)",
-                    "(1 - Variable(OleoAtivo)) * 656 + Variable(OleoAtivo) * 520",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Atirador",
-                    "Vida",
-                    "=",
-                    "4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Atirador",
-                    "XPDrop",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Atirador",
-                    "PontosAbate",
-                    "=",
-                    "175"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Atirador",
-                    "RecargaTiro",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "AtiradoresCriados",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoSurgimentoAtirador",
-                    "=",
-                    "0"
+                  "colorB": 95,
+                  "colorG": 95,
+                  "colorR": 95,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Entrada pelas laterais da arena",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "parameters": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "comment": "A entrada desliza os inimigos terrestres através das paredes sem gravidade. O comportamento de plataforma volta quando o sprite está inteiro dentro da arena."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "InimigosTerrestres",
+                            "<",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "InimigosTerrestres",
+                            "PlatformerObject",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetX"
+                          },
+                          "parameters": [
+                            "InimigosTerrestres",
+                            "=",
+                            "min(0, InimigosTerrestres.X() + 140 * TimeDelta())"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "InimigosTerrestres",
+                                ">=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "InimigosTerrestres",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "InimigosTerrestres",
+                                "PlatformerObject",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "InimigosTerrestres",
+                            ">",
+                            "Variable(LarguraArena) - InimigosTerrestres.Width()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "InimigosTerrestres",
+                            "PlatformerObject",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetX"
+                          },
+                          "parameters": [
+                            "InimigosTerrestres",
+                            "=",
+                            "max(Variable(LarguraArena) - InimigosTerrestres.Width(), InimigosTerrestres.X() - 140 * TimeDelta())"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosX"
+                              },
+                              "parameters": [
+                                "InimigosTerrestres",
+                                "<=",
+                                "Variable(LarguraArena) - InimigosTerrestres.Width()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "InimigosTerrestres",
+                                "=",
+                                "Variable(LarguraArena) - InimigosTerrestres.Width() - 2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "InimigosTerrestres",
+                                "PlatformerObject",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
@@ -10361,6 +11785,10 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "comment": "No chão, o Atirador busca distância do robô. Em prateleiras, esteiras ou andaimes, ele avança e recua dentro da superfície, respeitando as bordas mesmo antes do óleo."
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -10381,6 +11809,17 @@
                     "Atirador",
                     "<",
                     "Robo.X()-400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "PlatformerObject",
+                    "Chao",
+                    ""
                   ]
                 }
               ],
@@ -10417,6 +11856,17 @@
                     "Atirador",
                     ">",
                     "Robo.X()+400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "PlatformerObject",
+                    "Chao",
+                    ""
                   ]
                 }
               ],
@@ -10474,6 +11924,17 @@
                     ">",
                     "20"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "PlatformerObject",
+                    "Chao",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -10530,6 +11991,17 @@
                     "<",
                     "Variable(LarguraArena)-Atirador.Width()-20"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "PlatformerObject",
+                    "Chao",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -10547,18 +12019,7 @@
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Atirador",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "OleoAtivo",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [],
               "events": [
                 {
@@ -17549,7 +19010,7 @@
                     "Voador",
                     "Vida",
                     "=",
-                    "3"
+                    "8"
                   ]
                 },
                 {
@@ -17642,7 +19103,7 @@
                     "Voador",
                     "Vida",
                     "=",
-                    "3"
+                    "8"
                   ]
                 },
                 {
