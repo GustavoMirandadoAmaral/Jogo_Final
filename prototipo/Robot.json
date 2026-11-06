@@ -6199,7 +6199,7 @@
                       "parameters": [
                         "",
                         "Peca",
-                        "Inimigos.BoundingBoxCenterX() - 12",
+                        "clamp(Inimigos.BoundingBoxCenterX() - 12, 0, Variable(LarguraArena) - 24)",
                         "Inimigos.BoundingBoxCenterY() - 30",
                         ""
                       ]
@@ -6217,53 +6217,6 @@
                     }
                   ],
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberVariable"
-                          },
-                          "parameters": [
-                            "OleoAtivo",
-                            "=",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PosY"
-                          },
-                          "parameters": [
-                            "Inimigos",
-                            ">=",
-                            "Oleo.Y()-Inimigos.Height()"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetX"
-                          },
-                          "parameters": [
-                            "Peca",
-                            "=",
-                            "min(1800, 200 + 800 * clamp(floor((Inimigos.X() + 200) / 800), 0, 3))"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetY"
-                          },
-                          "parameters": [
-                            "Peca",
-                            "=",
-                            "500"
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
@@ -12680,7 +12633,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Gatilho provisório: na onda 5 começa o aviso do óleo (EtapaOleo 0 -> 1). Quando o chefão existir, basta trocar a condição da onda pela chegada dele. Aviso: durante DuracaoAvisoOleo s a borda da tela pulsa em vermelho, a câmera treme de leve e o óleo aparece na borda de baixo (Tween de Y). Depois disso EtapaOleo = 2 e OleoAtivo = 1, e ele sobe; o resto (surgimento dos inimigos, dano) só olha OleoAtivo."
+              "comment": "Gatilho: quando a Máquina-mãe entra (ChefaoAtivo = 1) começa o aviso do óleo (EtapaOleo 0 -> 1). Aviso: durante DuracaoAvisoOleo s a borda da tela pulsa em vermelho, a câmera treme de leve e o óleo aparece na borda de baixo (Tween de Y). Depois disso EtapaOleo = 2 e OleoAtivo = 1, e ele sobe; o resto (surgimento dos inimigos, dano) só olha OleoAtivo. Com a Máquina-mãe derrotada, o óleo escoa (EtapaOleo = 3)."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12713,9 +12666,9 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Onda",
+                    "ChefaoAtivo",
                     "=",
-                    "5"
+                    "1"
                   ]
                 },
                 {
@@ -12962,6 +12915,80 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Escoamento: com a Máquina-mãe derrotada, o óleo para de subir e desce para fora da tela em 3 s (Tween de Y). EtapaOleo = 3 marca o fim, e as peças voltam a cair até o chão.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoDerrotado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaOleo",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaOleo",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "OleoAtivo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Oleo",
+                    "Tween",
+                    "\"Escoamento\"",
+                    "760",
+                    "\"easeInOutQuad\"",
+                    "3",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Dano: o robô encostando no óleo perde 1 de vida e fica 1,5 s invulnerável, a mesma regra do tiro inimigo. Os inimigos ignoram o óleo."
             },
             {
@@ -13037,7 +13064,49 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Peças de XP que caem no óleo afundam e somem."
+              "comment": "Ondulação: a superfície do óleo desliza devagar para a direita (XOffset diminuindo)."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::XOffset"
+                  },
+                  "parameters": [
+                    "Oleo",
+                    "-",
+                    "12 * TimeDelta()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": false,
+          "name": "Peças de XP",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Peças de XP (engrenagens): nascem no inimigo abatido e caem com o comportamento de plataforma. Sem óleo (EtapaOleo 0 = antes, 3 = depois do chefão) elas atravessam prateleiras, esteiras e andaimes (todos atravessáveis) simulando a seta para baixo, e só param no chão: para evoluir é preciso descer. O chão cobre a arena inteira, então nenhuma peça cai para fora.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -13047,11 +13116,50 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "OleoAtivo",
-                    "=",
+                    "EtapaOleo",
+                    "!=",
                     "1"
                   ]
                 },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaOleo",
+                    "!=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateDownKey"
+                  },
+                  "parameters": [
+                    "Peca",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Com o óleo (do aviso até o chefão cair), a peça para na primeira plataforma embaixo dela. Peça parada no chão quando o óleo chega é engolida (o aviso serve para recolhê-las). Peça que cai no óleo ainda no ar é levada para cima da prateleira visível mais próxima, para não se perder.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
                     "value": "CollisionNP"
@@ -13062,6 +13170,15 @@
                     "",
                     "",
                     "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Peca",
+                    "PlatformerObject"
                   ]
                 }
               ],
@@ -13078,29 +13195,78 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Ondulação: a superfície do óleo desliza devagar para a direita (XOffset diminuindo)."
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Peca",
+              "conditions": [
                 {
                   "type": {
-                    "value": "TiledSpriteObject::XOffset"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
+                    "Peca",
                     "Oleo",
-                    "-",
-                    "12 * TimeDelta()"
+                    "",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor",
+                    "inverted": true
+                  },
+                  "parameters": [
+                    "Peca",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "Prateleira"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "Peca.CenterX()",
+                        "Peca.CenterY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Peca",
+                        "=",
+                        "clamp(Peca.X(), Prateleira.X() + 8, Prateleira.X() + Prateleira.Width() - Peca.Width() - 8)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Peca",
+                        "=",
+                        "Prateleira.Y() - 40"
+                      ]
+                    }
                   ]
                 }
               ]
