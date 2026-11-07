@@ -2122,6 +2122,21 @@
           "name": "IndiceResumo",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "PainelMontado",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ContagemMelhorias",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PosicaoResumo",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -12378,6 +12393,266 @@
             "lineHeight": 0,
             "color": "225;210;185"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeResumo",
+          "persistentUuid": "8e88dfff-d95f-4d56-9be1-9e54e433187d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "canhao-reforcado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/canhao-reforcado-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "engrenagem-rapida",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/engrenagem-rapida-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "placa-blindagem",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/placa-blindagem-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "rodas-lubrificadas",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/rodas-lubrificadas-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "caldeira-extra",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/caldeira-extra-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ima",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/ima-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "reparo-imediato",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/reparo-imediato-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoNivelResumo",
+          "persistentUuid": "04ffc501-39fa-471f-82cf-f8552ce9d3a4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 185,
+            "g": 210,
+            "r": 225
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "225;210;185"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -12529,6 +12804,12 @@
           },
           {
             "objectName": "TextoDescricaoCarta"
+          },
+          {
+            "objectName": "IconeResumo"
+          },
+          {
+            "objectName": "TextoNivelResumo"
           }
         ]
       },
@@ -14918,7 +15199,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Painel das telas de pausa, derrota e vitória: centralizado na câmera do HUD, com o título em cima, o resumo da partida no meio e o subtítulo (Continuar / Enter) embaixo. ResumoMelhorias lista as melhorias já escolhidas com o nível de cada uma.",
+              "comment": "Painel das telas de pausa, derrota e vitória: centralizado na câmera do HUD, com o título em cima, o resumo da partida no meio e o subtítulo (Continuar / Enter) embaixo. Abaixo do resumo, uma fileira com o ícone e o nível de cada melhoria conquistada (IconeResumo e TextoNivelResumo, criados uma vez por abertura do painel; PainelMontado volta a 0 quando o jogo ou as cartas voltam).",
               "comment2": ""
             },
             {
@@ -14994,12 +15275,12 @@
                 },
                 {
                   "type": {
-                    "value": "SetStringVariable"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "ResumoMelhorias",
+                    "IndiceResumo",
                     "=",
-                    "\"\""
+                    "0"
                   ]
                 },
                 {
@@ -15007,7 +15288,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "IndiceResumo",
+                    "ContagemMelhorias",
                     "=",
                     "0"
                   ]
@@ -15049,12 +15330,12 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetStringVariable"
+                            "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "ResumoMelhorias",
-                            "=",
-                            "VariableString(ResumoMelhorias) + VariableString(Melhorias[Variable(IndiceResumo)].Nome) + \"  \" + ToString(Variable(Melhorias[Variable(IndiceResumo)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(IndiceResumo)].Maximo)) + NewLine()"
+                            "ContagemMelhorias",
+                            "+",
+                            "1"
                           ]
                         }
                       ]
@@ -15082,12 +15363,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "StringVariable"
+                        "value": "NumberVariable"
                       },
                       "parameters": [
-                        "ResumoMelhorias",
-                        "=",
-                        "\"\""
+                        "ContagemMelhorias",
+                        ">",
+                        "0"
                       ]
                     }
                   ],
@@ -15099,7 +15380,34 @@
                       "parameters": [
                         "ResumoMelhorias",
                         "=",
-                        "\"nenhuma ainda\""
+                        "\"Melhorias conquistadas\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ContagemMelhorias",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "ResumoMelhorias",
+                        "=",
+                        "\"Nenhuma melhoria conquistada\""
                       ]
                     }
                   ]
@@ -15126,7 +15434,7 @@
                       "parameters": [
                         "TextoResumo",
                         "=",
-                        "\"Onda \" + ToString(Variable(Onda)) + \"     Nível \" + ToString(Variable(Nivel)) + \"     Tempo \" + ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2) + NewLine() + NewLine() + \"Melhorias\" + NewLine() + VariableString(ResumoMelhorias)"
+                        "\"Onda \" + ToString(Variable(Onda)) + \"     Nível \" + ToString(Variable(Nivel)) + \"     Tempo \" + ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2) + NewLine() + NewLine() + VariableString(ResumoMelhorias)"
                       ]
                     }
                   ]
@@ -15153,7 +15461,7 @@
                       "parameters": [
                         "TextoResumo",
                         "=",
-                        "\"Onda \" + ToString(Variable(Onda)) + \"     Nível \" + ToString(Variable(Nivel)) + NewLine() + \"Inimigos abatidos \" + ToString(Variable(Abates)) + \"     Tempo \" + ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2) + NewLine() + NewLine() + \"Melhorias\" + NewLine() + VariableString(ResumoMelhorias)"
+                        "\"Onda \" + ToString(Variable(Onda)) + \"     Nível \" + ToString(Variable(Nivel)) + NewLine() + \"Inimigos abatidos \" + ToString(Variable(Abates)) + \"     Tempo \" + ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2) + NewLine() + NewLine() + VariableString(ResumoMelhorias)"
                       ]
                     }
                   ]
@@ -15172,6 +15480,323 @@
                         "CameraCenterX(\"HUD\") - TextoResumo.Width() / 2"
                       ]
                     }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PainelMontado",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "IconeResumo",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TextoNivelResumo",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PosicaoResumo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "IndiceResumo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PainelMontado",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::While",
+                      "infiniteLoopWarning": true,
+                      "whileConditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "IndiceResumo",
+                            "<",
+                            "VariableChildCount(Melhorias)"
+                          ]
+                        }
+                      ],
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Melhorias[Variable(IndiceResumo)].Escolhas",
+                                ">",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "IconeResumo",
+                                "CameraCenterX(\"HUD\") - Variable(ContagemMelhorias) * 80 / 2 + Variable(PosicaoResumo) * 80 + 12",
+                                "360",
+                                "\"HUD\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "IconeResumo",
+                                "Resizable",
+                                "=",
+                                "56"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                              },
+                              "parameters": [
+                                "IconeResumo",
+                                "Resizable",
+                                "=",
+                                "56"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                              },
+                              "parameters": [
+                                "IconeResumo",
+                                "Animation",
+                                "=",
+                                "Variable(IndiceResumo)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetZOrder"
+                              },
+                              "parameters": [
+                                "IconeResumo",
+                                "=",
+                                "103"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "TextoNivelResumo",
+                                "0",
+                                "420",
+                                "\"HUD\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "TextoNivelResumo",
+                                "=",
+                                "ToString(Variable(Melhorias[Variable(IndiceResumo)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(IndiceResumo)].Maximo))"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "TextoNivelResumo",
+                                "=",
+                                "CameraCenterX(\"HUD\") - Variable(ContagemMelhorias) * 80 / 2 + Variable(PosicaoResumo) * 80 + 40 - TextoNivelResumo.Width() / 2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetZOrder"
+                              },
+                              "parameters": [
+                                "TextoNivelResumo",
+                                "=",
+                                "103"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "PosicaoResumo",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "IndiceResumo",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PainelMontado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "IconeResumo",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TextoNivelResumo",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PainelMontado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "IconeResumo",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TextoNivelResumo",
+                    ""
                   ]
                 }
               ]
