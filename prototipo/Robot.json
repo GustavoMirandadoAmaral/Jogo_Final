@@ -759,6 +759,134 @@
         "name": "imagens/cartao-melhoria.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/moverdireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/moverdireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/moverdireita-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/moverdireita-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/moverdireita-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/moverdireita-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/moverdireita-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/moverdireita-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/moveresquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/moveresquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/moveresquerda-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/moveresquerda-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/moveresquerda-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/moveresquerda-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/moveresquerda-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/moveresquerda-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/pulardireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/pulardireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/pulardireita-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/pulardireita-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/pulardireita-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/pulardireita-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/pulardireita-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/pulardireita-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/pularesquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/pularesquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/pularesquerda-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/pularesquerda-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/pularesquerda-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/pularesquerda-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/saltador-animado/pularesquerda-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/saltador-animado/pularesquerda-04.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5726,6 +5854,24 @@
               "persistentUuid": "2d3cc9f7-eeee-43cd-91c3-401d3e6a32cf",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "AlvoRotaX",
+              "persistentUuid": "1f285caa-6e57-40a1-9f5e-19667280499b",
+              "type": "number",
+              "value": -99999
+            },
+            {
+              "name": "MelhorRotaScore",
+              "persistentUuid": "dcd857df-65c0-48f5-b582-48bbdfb0d6c9",
+              "type": "number",
+              "value": 999999
+            },
+            {
+              "name": "TemPlataformaAlvo",
+              "persistentUuid": "80a20d3c-4e69-496f-a069-30a7f74269a2",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -5744,7 +5890,7 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "maxSpeed": 200,
+              "maxSpeed": 150,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
@@ -5754,16 +5900,16 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "MoverDireita",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.14,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/saltador.png",
+                      "image": "prototipo/imagens/saltador-animado/moverdireita-01.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5779,20 +5925,596 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 30,
+                            "y": 40
                           },
                           {
-                            "x": 32,
-                            "y": 0
+                            "x": 62,
+                            "y": 40
                           },
                           {
-                            "x": 32,
-                            "y": 32
+                            "x": 62,
+                            "y": 72
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/moverdireita-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/moverdireita-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/moverdireita-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MoverEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.14,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/moveresquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/moveresquerda-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/moveresquerda-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/moveresquerda-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "PularDireita",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/pulardireita-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/pulardireita-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/pulardireita-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/pulardireita-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "PularEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/pularesquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/pularesquerda-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/pularesquerda-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/saltador-animado/pularesquerda-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 40
+                          },
+                          {
+                            "x": 62,
+                            "y": 72
+                          },
+                          {
+                            "x": 30,
+                            "y": 72
                           }
                         ]
                       ]
@@ -13062,7 +13784,7 @@
                                 "Saltador",
                                 "PlatformerObject",
                                 "=",
-                                "200 * Saltador.MultiplicadorVelocidade"
+                                "150 * Saltador.MultiplicadorVelocidade"
                               ]
                             },
                             {
@@ -13208,7 +13930,7 @@
                                 "Saltador",
                                 "PlatformerObject",
                                 "=",
-                                "200 * Saltador.MultiplicadorVelocidade"
+                                "150 * Saltador.MultiplicadorVelocidade"
                               ]
                             },
                             {
@@ -15141,7 +15863,8 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Saltador: persegue o robô na arena inteira lendo as posições, sem rota fixa (os três setores trocam de plataformas entre as ondas). Ele anda na direção do robô e só pula com motivo: para subir quando o robô está mais alto, num salto de ataque quando está perto e na mesma altura, ou para atravessar o vão na beira de uma plataforma. Quando o robô está logo abaixo, ele desce atravessando a plataforma. TempoPulo evita pulos seguidos."
+              "comment": "Saltador: persegue o robô na arena inteira lendo as posições, sem rota fixa (os três setores trocam de plataformas entre as ondas). Ele anda na direção do robô e só pula com motivo: para subir quando o robô está mais alto, num salto de ataque quando está perto e na mesma altura, ou para atravessar o vão na beira de uma plataforma. Quando o robô está logo abaixo, ele desce atravessando a plataforma. TempoPulo evita pulos seguidos.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -15150,8 +15873,51 @@
               "actions": [],
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "comment": "Escolher plataformas ativas, incluindo esteiras, pelo avanço em direção ao Robô. Aceitar subidas e travessias laterais/descidas; desvios para trás só em subidas próximas do destino. Aterrissar com o corpo inteiro apoiado e manter o alvo no ar."
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "AlvoRotaX",
+                        "<",
+                        "-10000"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "AlvoRotaX",
+                        "=",
+                        "Robo.CenterX()-Saltador.Width()/2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -15171,12 +15937,380 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "AlvoRotaX",
+                        "=",
+                        "Robo.CenterX()-Saltador.Width()/2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "MelhorRotaScore",
+                        "=",
+                        "999999"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TemPlataformaAlvo",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "PlataformasMoveis",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "PlataformasMoveis",
+                        "Ativa",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BehaviorActivated"
+                      },
+                      "parameters": [
+                        "PlataformasMoveis",
+                        "Platform"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "PlataformasMoveis"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsObjectOnGivenFloor",
+                            "inverted": true
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject",
+                            "PlataformasMoveis",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "PlataformasMoveis.Width()",
+                            ">=",
+                            "Saltador.Width()+40"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "Robo.CenterY()-Saltador.CenterY()",
+                            "<",
+                            "-60"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "Saltador.Y()+Saltador.Height()-PlataformasMoveis.Y()",
+                            ">=",
+                            "50"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "Saltador.Y()+Saltador.Height()-PlataformasMoveis.Y()",
+                            "<=",
+                            "280"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "PlataformasMoveis.Y()",
+                            ">=",
+                            "Robo.Y()+Robo.Height()-25"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(clamp(Saltador.X(), PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)-Saltador.X())",
+                            "<=",
+                            "max(0, Saltador.PlatformerObject::MaxSpeed()*((850+sqrt(max(0, 850*850-2*1000*(Saltador.Y()+Saltador.Height()-PlataformasMoveis.Y()))))/1000-Saltador.PlatformerObject::MaxSpeed()/1500)-12)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)+Saltador.Width()/2-Robo.CenterX()) + 0.75*abs(PlataformasMoveis.Y()-(Robo.Y()+Robo.Height())) + 0.15*abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)-Saltador.X())",
+                            "<",
+                            "Saltador.MelhorRotaScore"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)+Saltador.Width()/2-Robo.CenterX())",
+                            "<=",
+                            "max(200, abs(Saltador.CenterX()-Robo.CenterX())-40)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "MelhorRotaScore",
+                            "=",
+                            "abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)+Saltador.Width()/2-Robo.CenterX()) + 0.75*abs(PlataformasMoveis.Y()-(Robo.Y()+Robo.Height())) + 0.15*abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)-Saltador.X())"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "AlvoRotaX",
+                            "=",
+                            "clamp(Saltador.X(), PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "TemPlataformaAlvo",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsObjectOnGivenFloor",
+                            "inverted": true
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject",
+                            "PlataformasMoveis",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "PlataformasMoveis.Width()",
+                            ">=",
+                            "Saltador.Width()+40"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "Robo.CenterY()-Saltador.CenterY()",
+                            "<",
+                            "-60"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "Saltador.Y()+Saltador.Height()-PlataformasMoveis.Y()",
+                            ">=",
+                            "-280"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "Saltador.Y()+Saltador.Height()-PlataformasMoveis.Y()",
+                            "<",
+                            "50"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "PlataformasMoveis.Y()",
+                            ">=",
+                            "Robo.Y()+Robo.Height()-25"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(clamp(Saltador.X(), PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)-Saltador.X())",
+                            "<=",
+                            "max(0, Saltador.PlatformerObject::MaxSpeed()*((850+sqrt(max(0, 850*850-2*1000*(Saltador.Y()+Saltador.Height()-PlataformasMoveis.Y()))))/1000-Saltador.PlatformerObject::MaxSpeed()/1500)-12)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)+Saltador.Width()/2-Robo.CenterX()) + 0.75*abs(PlataformasMoveis.Y()-(Robo.Y()+Robo.Height())) + 0.15*abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)-Saltador.X())",
+                            "<",
+                            "Saltador.MelhorRotaScore"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)+Saltador.Width()/2-Robo.CenterX())",
+                            "<=",
+                            "abs(Saltador.CenterX()-Robo.CenterX())-40"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "MelhorRotaScore",
+                            "=",
+                            "abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)+Saltador.Width()/2-Robo.CenterX()) + 0.75*abs(PlataformasMoveis.Y()-(Robo.Y()+Robo.Height())) + 0.15*abs(clamp(Robo.CenterX()-Saltador.Width()/2, PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)-Saltador.X())"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "AlvoRotaX",
+                            "=",
+                            "clamp(Saltador.X(), PlataformasMoveis.X()+20, PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-20)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "TemPlataformaAlvo",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "PosX"
                       },
                       "parameters": [
                         "Saltador",
                         "<",
-                        "Robo.CenterX() - Saltador.Width() / 2 - 20"
+                        "Saltador.AlvoRotaX - 3"
                       ]
                     }
                   ],
@@ -15202,7 +16336,7 @@
                       "parameters": [
                         "Saltador",
                         ">",
-                        "Robo.CenterX() - Saltador.Width() / 2 + 20"
+                        "Saltador.AlvoRotaX + 3"
                       ]
                     }
                   ],
@@ -15220,26 +16354,20 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Subir: robô mais de 60 px acima."
+                  "comment": "Esteira empurrando para longe do Robô: saltar para escapar, sem mudar a velocidade da esteira."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
+                        "value": "PlatformBehavior::IsObjectOnGivenFloor"
                       },
                       "parameters": [
                         "Saltador",
-                        "PlatformerObject"
+                        "PlatformerObject",
+                        "Esteira",
+                        ""
                       ]
                     },
                     {
@@ -15250,7 +16378,18 @@
                         "Saltador",
                         "TempoPulo",
                         ">=",
-                        "0.6"
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Esteira",
+                        "Velocidade",
+                        ">",
+                        "0"
                       ]
                     },
                     {
@@ -15258,9 +16397,79 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "Robo.CenterY() - Saltador.CenterY()",
+                        "Robo.CenterX()-Saltador.CenterX()",
                         "<",
-                        "-60"
+                        "-40"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsObjectOnGivenFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject",
+                        "Esteira",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        ">=",
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Esteira",
+                        "Velocidade",
+                        "<",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Robo.CenterX()-Saltador.CenterX()",
+                        ">",
+                        "40"
                       ]
                     }
                   ],
@@ -15297,7 +16506,89 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Salto de ataque: perto (até 140 px) e na mesma altura, no máximo a cada 1,5 s."
+                  "comment": "Subir: robô mais de 60 px acima.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        ">=",
+                        "0.6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Robo.CenterY() - Saltador.CenterY()",
+                        "<",
+                        "-60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TemPlataformaAlvo",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Salto de ataque: perto (até 140 px) e na mesma altura, após 1,5 s no chão desde o último salto.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -15376,7 +16667,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Descer: robô mais de 60 px abaixo e quase embaixo dele; a seta para baixo atravessa a plataforma."
+                  "comment": "Descer: robô mais de 60 px abaixo e quase embaixo dele; a seta para baixo atravessa a plataforma.",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -15433,7 +16725,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Beira da plataforma: indo na direção do robô, pula para atravessar o vão, a não ser que o robô esteja embaixo (aí ele só cai da beira)."
+                  "comment": "Beira da plataforma: indo na direção do robô, pula para atravessar o vão, a não ser que o robô esteja embaixo (aí ele só cai da beira).",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -15459,6 +16752,16 @@
                         "<=",
                         "60"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Robo.CenterY() - Saltador.CenterY()",
+                        ">=",
+                        "-60"
+                      ]
                     }
                   ],
                   "actions": [],
@@ -15473,7 +16776,7 @@
                           "parameters": [
                             "Saltador",
                             "<",
-                            "Robo.X() - 40"
+                            "Saltador.AlvoRotaX - 40"
                           ]
                         },
                         {
@@ -15540,7 +16843,7 @@
                           "parameters": [
                             "Saltador",
                             ">",
-                            "Robo.X() + 40"
+                            "Saltador.AlvoRotaX + 40"
                           ]
                         },
                         {
@@ -15595,6 +16898,233 @@
                             "0"
                           ]
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "<=",
+                        "Saltador.AlvoRotaX"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "Animation",
+                        "=",
+                        "\"MoverDireita\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        ">",
+                        "Saltador.AlvoRotaX"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "Animation",
+                        "=",
+                        "\"MoverEsquerda\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor",
+                        "inverted": true
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "<=",
+                        "Saltador.AlvoRotaX"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "Animation",
+                        "=",
+                        "\"PularDireita\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor",
+                        "inverted": true
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        ">",
+                        "Saltador.AlvoRotaX"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "Animation",
+                        "=",
+                        "\"PularEsquerda\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "comment": "O Saltador pisca em vermelho quando chega perto do Robô e pode causar dano por contato."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "\"255;255;255\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Saltador.Distance(Robo)",
+                        "<=",
+                        "100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Vida",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "TempoInvulneravel",
+                        "<=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "mod(floor(TimeFromStart()*8),2)",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "\"255;120;120\""
                       ]
                     }
                   ]
