@@ -16,6 +16,7 @@ Esta pasta reúne a direção visual do jogo: o protagonista aprovado, sua evolu
 | [Engrenagem de XP](xp-engrenagem/README.md) | Peça dourada coletável que representa experiência | Nova proposta |
 | [Disparo do herói](disparo-heroi/README.md) | Projétil alongado claro com borda âmbar | Nova proposta |
 | [Disparo do inimigo](disparo-inimigo/README.md) | Projétil vermelho arredondado com rastros triangulares | Nova proposta |
+| [Interface de melhorias](interface/README.md) | Moldura reutilizável, sete ícones e painel de telas | PNGs em tamanho final |
 | [Plataformas e elementos da arena](plataformas/README.md) | Prateleira, esteira, andaime, cabo de sustentação, chão e óleo | Artes-base com guia de recorte e preparação |
 
 ## Estrutura
@@ -57,6 +58,7 @@ imagens/
 ├── xp-engrenagem/
 ├── disparo-heroi/
 ├── disparo-inimigo/
+├── interface/
 └── plataformas/
     ├── README.md
     ├── PREPARACAO.md
