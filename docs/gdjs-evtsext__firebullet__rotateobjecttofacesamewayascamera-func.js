@@ -10,7 +10,7 @@ gdjs.evtsExt__FireBullet__RotateObjectToFaceSameWayAsCamera.idToCallbackMap = ne
 gdjs.evtsExt__FireBullet__RotateObjectToFaceSameWayAsCamera.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__FireBullet__RotateObjectToFaceSameWayAsCamera.userFunc0xc22d98 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__FireBullet__RotateObjectToFaceSameWayAsCamera.userFunc0x9c4a08 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 
@@ -25,7 +25,7 @@ gdjs.evtsExt__FireBullet__RotateObjectToFaceSameWayAsCamera.eventsList0 = functi
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__FireBullet__RotateObjectToFaceSameWayAsCamera.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__FireBullet__RotateObjectToFaceSameWayAsCamera.GDObjectObjects1;
-gdjs.evtsExt__FireBullet__RotateObjectToFaceSameWayAsCamera.userFunc0xc22d98(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__FireBullet__RotateObjectToFaceSameWayAsCamera.userFunc0x9c4a08(runtimeScene, objects, eventsFunctionContext);
 
 }
 

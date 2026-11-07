@@ -3164,7 +3164,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15539084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15531380);
 }
 }
 }
@@ -3256,7 +3256,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15544412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15536708);
 }
 }
 }
@@ -3348,7 +3348,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15548636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15540932);
 }
 }
 }
