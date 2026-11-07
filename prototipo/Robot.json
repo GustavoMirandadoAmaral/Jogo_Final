@@ -2023,6 +2023,31 @@
               ]
             }
           ]
+        },
+        {
+          "name": "DanoTiro",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "CadenciaBase",
+          "type": "number",
+          "value": 0.1
+        },
+        {
+          "name": "RecargaDashBase",
+          "type": "number",
+          "value": 3
+        },
+        {
+          "name": "RaioIma",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "VelocidadeAplicada",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -4753,6 +4778,18 @@
               "persistentUuid": "b290a634-378c-4d8d-8c6f-7db24487f3db",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "VidaMaxima",
+              "type": "number",
+              "value": 5,
+              "persistentUuid": "989a6f77-26a1-42cf-b36a-3deb6af62daa"
+            },
+            {
+              "name": "RecargaDash",
+              "type": "number",
+              "value": 0,
+              "persistentUuid": "9e7d8bf7-992f-403d-96c0-bb20545ce2b9"
             }
           ],
           "effects": [],
@@ -4809,7 +4846,7 @@
               "DashSustainGravity": 0,
               "DashDecceleration": 3000,
               "DashGravity": 1000,
-              "CoolDownDuration": 3,
+              "CoolDownDuration": 0.5,
               "LastDirectionIsLeft": false,
               "DashKeyIsPressed": false,
               "IsSustainning": false,
@@ -4876,25 +4913,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 127.0,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 280
                           },
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 280
                           }
                         ]
@@ -4918,25 +4955,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 127.0,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 280
                           },
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 280
                           }
                         ]
@@ -4960,25 +4997,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 127.0,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 280
                           },
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 280
                           }
                         ]
@@ -5002,25 +5039,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 127.0,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 280
                           },
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 280
                           }
                         ]
@@ -5044,25 +5081,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 127.0,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 280
                           },
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 280
                           }
                         ]
@@ -5086,25 +5123,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 127.0,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 280
                           },
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 280
                           }
                         ]
@@ -5140,25 +5177,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 127.0,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 280
                           },
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 280
                           }
                         ]
@@ -5195,26 +5232,26 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 140.5,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
-                            "y": 12
+                            "x": 55.5,
+                            "y": 11.5
                           },
                           {
-                            "x": 214,
-                            "y": 12
+                            "x": 225.5,
+                            "y": 11.5
                           },
                           {
-                            "x": 214,
-                            "y": 280
+                            "x": 225.5,
+                            "y": 279.5
                           },
                           {
-                            "x": 44,
-                            "y": 280
+                            "x": 55.5,
+                            "y": 279.5
                           }
                         ]
                       ]
@@ -5237,26 +5274,26 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 151.5,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
-                            "y": 12
+                            "x": 66.5,
+                            "y": 12.5
                           },
                           {
-                            "x": 214,
-                            "y": 12
+                            "x": 236.5,
+                            "y": 12.5
                           },
                           {
-                            "x": 214,
-                            "y": 280
+                            "x": 236.5,
+                            "y": 280.5
                           },
                           {
-                            "x": 44,
-                            "y": 280
+                            "x": 66.5,
+                            "y": 280.5
                           }
                         ]
                       ]
@@ -5279,26 +5316,26 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 150.5,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
-                            "y": 12
+                            "x": 65.5,
+                            "y": 12.5
                           },
                           {
-                            "x": 214,
-                            "y": 12
+                            "x": 235.5,
+                            "y": 12.5
                           },
                           {
-                            "x": 214,
-                            "y": 280
+                            "x": 235.5,
+                            "y": 280.5
                           },
                           {
-                            "x": 44,
-                            "y": 280
+                            "x": 65.5,
+                            "y": 280.5
                           }
                         ]
                       ]
@@ -5321,26 +5358,26 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 143.0,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
-                            "y": 12
+                            "x": 58.0,
+                            "y": 13
                           },
                           {
-                            "x": 214,
-                            "y": 12
+                            "x": 228.0,
+                            "y": 13
                           },
                           {
-                            "x": 214,
-                            "y": 280
+                            "x": 228.0,
+                            "y": 281
                           },
                           {
-                            "x": 44,
-                            "y": 280
+                            "x": 58.0,
+                            "y": 281
                           }
                         ]
                       ]
@@ -5363,26 +5400,26 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 152.5,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
-                            "y": 12
+                            "x": 67.5,
+                            "y": 20
                           },
                           {
-                            "x": 214,
-                            "y": 12
+                            "x": 237.5,
+                            "y": 20
                           },
                           {
-                            "x": 214,
-                            "y": 280
+                            "x": 237.5,
+                            "y": 288
                           },
                           {
-                            "x": 44,
-                            "y": 280
+                            "x": 67.5,
+                            "y": 288
                           }
                         ]
                       ]
@@ -5405,26 +5442,26 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 146,
+                        "x": 151.5,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
-                            "y": 12
+                            "x": 66.5,
+                            "y": 18
                           },
                           {
-                            "x": 214,
-                            "y": 12
+                            "x": 236.5,
+                            "y": 18
                           },
                           {
-                            "x": 214,
-                            "y": 280
+                            "x": 236.5,
+                            "y": 286
                           },
                           {
-                            "x": 44,
-                            "y": 280
+                            "x": 66.5,
+                            "y": 286
                           }
                         ]
                       ]
@@ -5459,25 +5496,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 127,
+                        "x": 127.0,
                         "y": 175
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 12
                           },
                           {
-                            "x": 214,
+                            "x": 212.0,
                             "y": 280
                           },
                           {
-                            "x": 44,
+                            "x": 42.0,
                             "y": 280
                           }
                         ]
@@ -13925,6 +13962,375 @@
                     "0"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UltimaMelhoria",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "VidaMaxima",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Vida",
+                        "=",
+                        "min(Robo.Vida + 1, Robo.VidaMaxima)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UltimaMelhoria",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Vida",
+                        "=",
+                        "min(Robo.Vida + 1, Robo.VidaMaxima)"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Efeitos contínuos, recalculados a cada quadro a partir de quantas vezes cada melhoria foi escolhida (n = Melhorias[i].Escolhas): dano do tiro 1 + 0,2n (Canhão reforçado), intervalo entre tiros CadenciaBase / (1 + 0,1n) (Engrenagem rápida), raio do ímã 150 + 60n px (0 sem a melhoria).",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DanoTiro",
+                    "=",
+                    "1 + 0.2 * Variable(Melhorias[0].Escolhas)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::SetCooldown"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "FireBullet",
+                    "Variable(CadenciaBase) / (1 + 0.1 * Variable(Melhorias[1].Escolhas))",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RaioIma",
+                    "=",
+                    "min(1, Variable(Melhorias[5].Escolhas)) * (150 + 60 * Variable(Melhorias[5].Escolhas))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Rodas lubrificadas: velocidade usual x (1 + 0,1n), pela pilha de configuração do dash (identificador \"Rodas\"), assim o fim do dash não volta para a velocidade antiga. Aplicada fora do dash, quando o nível muda.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AdvancedJump::HorizontalDash::IsDashing",
+                    "inverted": true
+                  },
+                  "parameters": [
+                    "Robo",
+                    "HorizontalDash",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "VelocidadeAplicada",
+                    "!=",
+                    "Variable(Melhorias[3].Escolhas)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AdvancedJump::PlatformerConfigurationStack::ConfigureMaxSpeed"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "PlatformerConfigurationStack",
+                    "Robo.PlatformerConfigurationStack::UsualMaxSpeed() * (1 + 0.1 * Variable(Melhorias[3].Escolhas))",
+                    "\"Rodas\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VelocidadeAplicada",
+                    "=",
+                    "Variable(Melhorias[3].Escolhas)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Caldeira extra: recarga do dash RecargaDashBase x 0,85^n. O Shift só dispara o dash com Robo.RecargaDash <= 0, e ela recomeça quando o dash começa (a recarga interna da extensão ficou em 0,5 s, menor que a nossa).",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "RecargaDash",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "RecargaDash",
+                    "-",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AdvancedJump::HorizontalDash::IsDashing"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "HorizontalDash",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "RecargaDash",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "RecargaDash",
+                    "=",
+                    "Variable(RecargaDashBase) * pow(0.85, Variable(Melhorias[4].Escolhas))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Ímã: peça dentro do raio desliga a física de plataforma e voa até o robô a 500 px/s (a coleta continua sendo pelo contato). Saindo do raio, ela volta a cair normalmente.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Peca",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Peca.Distance(Robo)",
+                        "<=",
+                        "Variable(RaioIma)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Peca",
+                        "PlatformerObject",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Peca",
+                        "+",
+                        "cos(atan2(Robo.CenterY() - Peca.CenterY(), Robo.CenterX() - Peca.CenterX())) * 500 * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Peca",
+                        "+",
+                        "sin(atan2(Robo.CenterY() - Peca.CenterY(), Robo.CenterX() - Peca.CenterX())) * 500 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Peca.Distance(Robo)",
+                        ">",
+                        "Variable(RaioIma)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Peca",
+                        "PlatformerObject",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -14236,7 +14642,7 @@
                     "Inimigos",
                     "Vida",
                     "-",
-                    "1"
+                    "Variable(DanoTiro)"
                   ]
                 },
                 {
@@ -22530,7 +22936,7 @@
                   "parameters": [
                     "TextoVida",
                     "=",
-                    "\"Vida: \" + ToString(Robo.Vida)"
+                    "\"Vida: \" + ToString(Robo.Vida) + \"/\" + ToString(Robo.VidaMaxima)"
                   ]
                 }
               ]
@@ -26000,6 +26406,17 @@
                     "=",
                     "\"Jogando\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "RecargaDash",
+                    "<=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -27294,7 +27711,7 @@
                   "parameters": [
                     "TextoChefao",
                     "=",
-                    "\"Máquina-mãe: \" + ToString(MaquinaMae.Vida) + \"/30\""
+                    "\"Máquina-mãe: \" + ToString(ceil(MaquinaMae.Vida)) + \"/30\""
                   ]
                 }
               ]
@@ -27335,7 +27752,7 @@
                     "MaquinaMae",
                     "Vida",
                     "-",
-                    "1"
+                    "Variable(DanoTiro)"
                   ]
                 },
                 {
