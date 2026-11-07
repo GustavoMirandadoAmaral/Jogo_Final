@@ -5049,7 +5049,7 @@
               "name": "Vida",
               "persistentUuid": "eb542972-adfb-4d73-a4ef-fbc6b3b909ff",
               "type": "number",
-              "value": 10
+              "value": 8
             },
             {
               "name": "XPDrop",
@@ -5062,6 +5062,12 @@
               "persistentUuid": "7853f866-0196-4e21-afef-d1a22a2982d2",
               "type": "number",
               "value": 100
+            },
+            {
+              "name": "MultiplicadorVelocidade",
+              "persistentUuid": "0b534f44-0e7e-4f40-acf9-f6c43638b2e5",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
@@ -5668,7 +5674,7 @@
               "name": "Vida",
               "persistentUuid": "d9e4d4e5-7003-4a30-b9ec-bd8c2bddc6fd",
               "type": "number",
-              "value": 15
+              "value": 12
             },
             {
               "name": "XPDrop",
@@ -5681,6 +5687,12 @@
               "persistentUuid": "cf4b0d57-f28b-4e2b-9241-6bd445e3ca72",
               "type": "number",
               "value": 150
+            },
+            {
+              "name": "MultiplicadorVelocidade",
+              "persistentUuid": "2d3cc9f7-eeee-43cd-91c3-401d3e6a32cf",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
@@ -6556,7 +6568,7 @@
               "name": "Vida",
               "persistentUuid": "79e12c5a-a7b6-4d75-b292-d4b6835184d1",
               "type": "number",
-              "value": 8
+              "value": 6
             },
             {
               "name": "XPDrop",
@@ -6575,6 +6587,12 @@
               "persistentUuid": "310d843e-72a9-41da-8ada-c3cc189b4dda",
               "type": "number",
               "value": -1
+            },
+            {
+              "name": "MultiplicadorVelocidade",
+              "persistentUuid": "062bddd2-5919-4cfe-9d56-10ecea78afff",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
@@ -6642,7 +6660,7 @@
               "name": "Vida",
               "persistentUuid": "ead2f861-5a8f-4336-9f72-2c3e986a8a8f",
               "type": "number",
-              "value": 25
+              "value": 20
             },
             {
               "name": "XPDrop",
@@ -6661,6 +6679,12 @@
               "persistentUuid": "8fbc0ee6-42e0-4db5-b5b4-0d121bcd9864",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "MultiplicadorVelocidade",
+              "persistentUuid": "a7bdbcbb-4f9e-405f-9741-395fb8cec427",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
@@ -6751,7 +6775,7 @@
               "name": "Vida",
               "persistentUuid": "d787060d-6f4a-4e73-91e7-de517bdaee45",
               "type": "number",
-              "value": 10
+              "value": 8
             },
             {
               "name": "XPDrop",
@@ -6770,6 +6794,12 @@
               "persistentUuid": "efe249b0-3e02-40d5-a941-41c59d8d918d",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "MultiplicadorVelocidade",
+              "persistentUuid": "c358f921-c516-4144-aa1d-b2ec0f42ae80",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
@@ -12605,6 +12635,28 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "PlatformerObject",
+                                "=",
+                                "120 * Andador.MultiplicadorVelocidade"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -12631,7 +12683,7 @@
                                 "Andador",
                                 "Vida",
                                 "=",
-                                "10"
+                                "8"
                               ]
                             },
                             {
@@ -12707,6 +12759,28 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Andador",
+                                "PlatformerObject",
+                                "=",
+                                "120 * Andador.MultiplicadorVelocidade"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -12733,7 +12807,7 @@
                                 "Andador",
                                 "Vida",
                                 "=",
-                                "10"
+                                "8"
                               ]
                             },
                             {
@@ -12910,6 +12984,28 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "PlatformerObject",
+                                "=",
+                                "200 * Saltador.MultiplicadorVelocidade"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -12936,7 +13032,7 @@
                                 "Saltador",
                                 "Vida",
                                 "=",
-                                "15"
+                                "12"
                               ]
                             },
                             {
@@ -13034,6 +13130,28 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Saltador",
+                                "PlatformerObject",
+                                "=",
+                                "200 * Saltador.MultiplicadorVelocidade"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -13060,7 +13178,7 @@
                                 "Saltador",
                                 "Vida",
                                 "=",
-                                "15"
+                                "12"
                               ]
                             },
                             {
@@ -13259,6 +13377,17 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -13285,7 +13414,7 @@
                                 "Voador",
                                 "Vida",
                                 "=",
-                                "8"
+                                "6"
                               ]
                             },
                             {
@@ -13361,6 +13490,17 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Voador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -13387,7 +13527,7 @@
                                 "Voador",
                                 "Vida",
                                 "=",
-                                "8"
+                                "6"
                               ]
                             },
                             {
@@ -13564,6 +13704,28 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "PlatformerObject",
+                                "=",
+                                "65 * Pesado.MultiplicadorVelocidade"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -13590,7 +13752,7 @@
                                 "Pesado",
                                 "Vida",
                                 "=",
-                                "25"
+                                "20"
                               ]
                             },
                             {
@@ -13677,6 +13839,28 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Pesado",
+                                "PlatformerObject",
+                                "=",
+                                "65 * Pesado.MultiplicadorVelocidade"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -13703,7 +13887,7 @@
                                 "Pesado",
                                 "Vida",
                                 "=",
-                                "25"
+                                "20"
                               ]
                             },
                             {
@@ -14009,6 +14193,28 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "PlatformerObject",
+                                "=",
+                                "100 * Atirador.MultiplicadorVelocidade"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -14035,7 +14241,7 @@
                                 "Atirador",
                                 "Vida",
                                 "=",
-                                "10"
+                                "8"
                               ]
                             },
                             {
@@ -14240,6 +14446,28 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "PlatformerObject",
+                                "=",
+                                "100 * Atirador.MultiplicadorVelocidade"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -14266,7 +14494,7 @@
                                 "Atirador",
                                 "Vida",
                                 "=",
-                                "10"
+                                "8"
                               ]
                             },
                             {
@@ -14369,6 +14597,28 @@
                                 "0",
                                 "0",
                                 ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "PlatformerObject",
+                                "=",
+                                "100 * Atirador.MultiplicadorVelocidade"
                               ]
                             },
                             {
@@ -14399,7 +14649,7 @@
                                 "Atirador",
                                 "Vida",
                                 "=",
-                                "10"
+                                "8"
                               ]
                             },
                             {
@@ -14506,6 +14756,28 @@
                             },
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "MultiplicadorVelocidade",
+                                "=",
+                                "RandomFloatInRange(0.5, 1.25)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "PlatformerObject",
+                                "=",
+                                "100 * Atirador.MultiplicadorVelocidade"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetX"
                               },
                               "parameters": [
@@ -14532,7 +14804,7 @@
                                 "Atirador",
                                 "Vida",
                                 "=",
-                                "10"
+                                "8"
                               ]
                             },
                             {
@@ -14651,7 +14923,7 @@
                           "parameters": [
                             "InimigosTerrestres",
                             "=",
-                            "min(0, InimigosTerrestres.X() + 140 * TimeDelta())"
+                            "min(0, InimigosTerrestres.X() + 140 * InimigosTerrestres.MultiplicadorVelocidade * TimeDelta())"
                           ]
                         }
                       ],
@@ -14727,7 +14999,7 @@
                           "parameters": [
                             "InimigosTerrestres",
                             "=",
-                            "max(Variable(LarguraArena) - InimigosTerrestres.Width(), InimigosTerrestres.X() - 140 * TimeDelta())"
+                            "max(Variable(LarguraArena) - InimigosTerrestres.Width(), InimigosTerrestres.X() - 140 * InimigosTerrestres.MultiplicadorVelocidade * TimeDelta())"
                           ]
                         }
                       ],
@@ -15605,7 +15877,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
+              "type": "BuiltinCommonInstructions::ForEach",
               "conditions": [
                 {
                   "type": {
@@ -15627,11 +15899,12 @@
                   "parameters": [
                     "Voador",
                     "Robo",
-                    "110",
+                    "110 * Voador.MultiplicadorVelocidade",
                     "0"
                   ]
                 }
-              ]
+              ],
+              "object": "Voador"
             }
           ],
           "parameters": []
@@ -24333,9 +24606,20 @@
                   },
                   "parameters": [
                     "Voador",
+                    "MultiplicadorVelocidade",
+                    "=",
+                    "RandomFloatInRange(0.5, 1.25)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
                     "Vida",
                     "=",
-                    "8"
+                    "6"
                   ]
                 },
                 {
@@ -24426,9 +24710,20 @@
                   },
                   "parameters": [
                     "Voador",
+                    "MultiplicadorVelocidade",
+                    "=",
+                    "RandomFloatInRange(0.5, 1.25)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
                     "Vida",
                     "=",
-                    "8"
+                    "6"
                   ]
                 },
                 {
