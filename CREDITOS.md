@@ -21,7 +21,6 @@ Preparação: as texturas das plataformas foram recortadas da arte original num 
 
 Os efeitos da arena usam apenas recursos que vêm com o GDevelop, sem extensões externas:
 
-- **Efeito Old Film** (filme antigo) nas camadas de cenário e do mundo;
 - **Emissor de partículas** para o vapor das máquinas;
 - **Tween** para a queda do andaime, a chegada do óleo e o tremor da câmera;
 - **Comportamentos de plataforma** (plataforma e objeto que anda sobre plataformas) para chão, prateleiras, esteiras, andaimes e peças;

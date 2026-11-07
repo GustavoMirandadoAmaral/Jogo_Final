@@ -72,12 +72,9 @@ A peça nasce no centro do inimigo abatido (sem sair da arena) e cai até o chã
 - as peças que ficaram no chão são engolidas pelo óleo;
 - uma peça que cai no óleo ainda no ar vai para a prateleira mais próxima.
 
-### Visual de filme antigo
+### Vapor
 
-- As camadas de cenário e do Mundo têm o efeito **Old Film** do GDevelop: leve sépia e cantos escuros.
-- Granulação e riscos de filme ficam só no fundo distante.
-- O HUD fica sem efeito, para os textos continuarem nítidos.
-- O vapor das máquinas é um emissor de partículas (objeto `Vapor`).
+O vapor das máquinas é um emissor de partículas (objeto `Vapor`). As camadas não usam efeitos de filtro: um efeito de filme antigo chegou a ser testado, mas deixava o jogo acinzentado e foi retirado.
 
 ## Ciclo da partida e melhorias
 

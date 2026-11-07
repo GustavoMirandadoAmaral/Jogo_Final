@@ -33665,26 +33665,7 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Effects::OldFilm",
-              "name": "Filme antigo",
-              "doubleParameters": {
-                "animationFrequency": 12,
-                "noise": 0.12,
-                "noiseSize": 1,
-                "scratch": 0.5,
-                "scratchDensity": 0.25,
-                "scratchWidth": 1,
-                "sepia": 0.2,
-                "vignetting": 0.3,
-                "vignettingAlpha": 0.7,
-                "vignettingBlur": 0.3
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 200,
@@ -33713,26 +33694,7 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Effects::OldFilm",
-              "name": "Filme antigo",
-              "doubleParameters": {
-                "animationFrequency": 12,
-                "noise": 0,
-                "noiseSize": 1,
-                "scratch": 0,
-                "scratchDensity": 0,
-                "scratchWidth": 1,
-                "sepia": 0.2,
-                "vignetting": 0.3,
-                "vignettingAlpha": 0.7,
-                "vignettingBlur": 0.3
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 200,
@@ -33798,24 +33760,6 @@
               "booleanParameters": {
                 "isCastingShadow": true
               }
-            },
-            {
-              "effectType": "Effects::OldFilm",
-              "name": "Filme antigo",
-              "doubleParameters": {
-                "animationFrequency": 12,
-                "noise": 0,
-                "noiseSize": 1,
-                "scratch": 0,
-                "scratchDensity": 0,
-                "scratchWidth": 1,
-                "sepia": 0.2,
-                "vignetting": 0.3,
-                "vignettingAlpha": 0.7,
-                "vignettingBlur": 0.3
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
             }
           ]
         },
