@@ -1143,6 +1143,118 @@
         "name": "prototipo/imagens/atirador-animado/moveresquerda-06.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/paradodireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/paradodireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/paradoesquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/paradoesquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moverdireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moverdireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moverdireita-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moverdireita-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moverdireita-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moverdireita-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moverdireita-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moverdireita-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moverdireita-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moverdireita-05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moverdireita-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moverdireita-06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moveresquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moveresquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moveresquerda-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moveresquerda-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moveresquerda-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moveresquerda-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moveresquerda-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moveresquerda-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moveresquerda-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moveresquerda-05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/pesado-animado/moveresquerda-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/pesado-animado/moveresquerda-06.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -8200,6 +8312,18 @@
               "persistentUuid": "a7bdbcbb-4f9e-405f-9741-395fb8cec427",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "PreparandoImpacto",
+              "persistentUuid": "f213f45f-c713-466a-8c5d-c5ef4c112f0a",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Movendo",
+              "persistentUuid": "16004a30-1b00-4785-bf14-3c30f44e8373",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -8229,16 +8353,16 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "ParadoDireita",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.15,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/pesado.png",
+                      "image": "prototipo/imagens/pesado-animado/paradodireita-01.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8254,20 +8378,836 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 34,
+                            "y": 68
                           },
                           {
-                            "x": 48,
-                            "y": 0
+                            "x": 78,
+                            "y": 68
                           },
                           {
-                            "x": 48,
-                            "y": 48
+                            "x": 78,
+                            "y": 100
                           },
                           {
-                            "x": 0,
-                            "y": 48
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ParadoEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.15,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/paradoesquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MoverDireita",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MoverEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "PrepararImpactoDireita",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moverdireita-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "PrepararImpactoEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/pesado-animado/moveresquerda-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 68
+                          },
+                          {
+                            "x": 78,
+                            "y": 100
+                          },
+                          {
+                            "x": 34,
+                            "y": 100
                           }
                         ]
                       ]
@@ -13918,6 +14858,221 @@
               "colorR": 95,
               "creationTime": 0,
               "folded": true,
+              "name": "Teste temporário: F4 inicia a onda 4",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Teste: F4 limpa os inimigos e tiros, restaura o Robô e aciona a transição normal para a onda 4."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"F4\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoAtivo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoDerrotado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Inimigos",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Tiro",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "ExplosaoVoador",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CotaPesado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CotaAtirador",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PesadosCriados",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "AtiradoresCriados",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoSurgimentoPesado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoSurgimentoAtirador",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LayoutAtual",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Vida",
+                        "=",
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "TempoInvulneravel",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Onda",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EsperaProximaOnda",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 95,
+              "colorG": 95,
+              "colorR": 95,
+              "creationTime": 0,
+              "folded": true,
               "name": "Teste temporário: F5 inicia a onda 5",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -19303,6 +20458,23 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Movendo",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -19312,6 +20484,17 @@
                     "Pesado",
                     "<",
                     "Robo.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    "<=",
+                    "0"
                   ]
                 }
               ],
@@ -19323,6 +20506,17 @@
                   "parameters": [
                     "Pesado",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Movendo",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -19339,6 +20533,17 @@
                     ">",
                     "Robo.X()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    "<=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -19349,6 +20554,369 @@
                   "parameters": [
                     "Pesado",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Movendo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Movendo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    ">=",
+                    "Pesado.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Animation",
+                    "=",
+                    "\"ParadoDireita\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Movendo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    "<",
+                    "Pesado.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Animation",
+                    "=",
+                    "\"ParadoEsquerda\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Movendo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    ">=",
+                    "Pesado.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Animation",
+                    "=",
+                    "\"MoverDireita\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Movendo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    "<",
+                    "Pesado.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Animation",
+                    "=",
+                    "\"MoverEsquerda\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Movendo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    ">=",
+                    "Pesado.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Animation",
+                    "=",
+                    "\"PrepararImpactoDireita\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Movendo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    "<",
+                    "Pesado.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "Animation",
+                    "=",
+                    "\"PrepararImpactoEsquerda\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "\"255;255;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "mod(floor(TimeFromStart()*8),2)",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "\"255;185;120\""
                   ]
                 }
               ]
@@ -19389,6 +20957,35 @@
                   "parameters": [
                     "Pesado",
                     "RecargaImpacto",
+                    "-",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pesado",
+                    "PreparandoImpacto",
                     "-",
                     "TimeDelta()"
                   ]
@@ -19523,6 +21120,17 @@
                         "RecargaImpacto",
                         "=",
                         "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Pesado",
+                        "PreparandoImpacto",
+                        "=",
+                        "2"
                       ]
                     }
                   ]
@@ -19793,6 +21401,17 @@
                         "RecargaImpacto",
                         "=",
                         "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Pesado",
+                        "PreparandoImpacto",
+                        "=",
+                        "2"
                       ]
                     }
                   ]
