@@ -1031,6 +1031,118 @@
         "name": "prototipo/imagens/explosao-voador/explosao-04.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/paradodireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/paradodireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/paradoesquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/paradoesquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moverdireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moverdireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moverdireita-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moverdireita-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moverdireita-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moverdireita-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moverdireita-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moverdireita-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moverdireita-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moverdireita-05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moverdireita-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moverdireita-06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moveresquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moveresquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moveresquerda-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moveresquerda-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moveresquerda-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moveresquerda-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moveresquerda-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moveresquerda-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moveresquerda-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moveresquerda-05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/atirador-animado/moveresquerda-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/atirador-animado/moveresquerda-06.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -8203,6 +8315,24 @@
               "persistentUuid": "c358f921-c516-4144-aa1d-b2ec0f42ae80",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "DirecaoVisual",
+              "persistentUuid": "d5659354-4c4c-408e-83a0-317b814c8a9a",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "TempoFlashTiro",
+              "persistentUuid": "a76eedf7-977f-4531-a883-6c48f6151a97",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Movendo",
+              "persistentUuid": "a64fa79b-9356-44e3-9515-86ae499bdd15",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -8232,16 +8362,16 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "ParadoDireita",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.125,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/atirador.png",
+                      "image": "prototipo/imagens/atirador-animado/paradodireita-01.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8257,20 +8387,524 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 20,
+                            "y": 35
                           },
                           {
-                            "x": 32,
-                            "y": 0
+                            "x": 52,
+                            "y": 35
                           },
                           {
-                            "x": 32,
-                            "y": 32
+                            "x": 52,
+                            "y": 65
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ParadoEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/paradoesquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MoverDireita",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moverdireita-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moverdireita-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moverdireita-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moverdireita-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moverdireita-05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moverdireita-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MoverEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moveresquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moveresquerda-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moveresquerda-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moveresquerda-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moveresquerda-05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/atirador-animado/moveresquerda-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 35
+                          },
+                          {
+                            "x": 52,
+                            "y": 65
+                          },
+                          {
+                            "x": 20,
+                            "y": 65
                           }
                         ]
                       ]
@@ -13279,6 +13913,221 @@
               "parameters": []
             },
             {
+              "colorB": 95,
+              "colorG": 95,
+              "colorR": 95,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Teste temporário: F5 inicia a onda 5",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Teste: F5 limpa inimigos e tiros, restaura a vida do Robô e aciona a transição para a onda 5. A onda configura as cotas e o óleo segue sua regra normal."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"F5\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoAtivo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChefaoDerrotado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Inimigos",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Tiro",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "ExplosaoVoador",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CotaPesado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CotaAtirador",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PesadosCriados",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "AtiradoresCriados",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoSurgimentoPesado",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "TempoSurgimentoAtirador",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "LayoutAtual",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Vida",
+                        "=",
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "TempoInvulneravel",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Onda",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EsperaProximaOnda",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15785,6 +16634,39 @@
                                 "=",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "DirecaoVisual",
+                                "=",
+                                "-1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "TempoFlashTiro",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "Animation",
+                                "=",
+                                "\"ParadoEsquerda\""
+                              ]
                             }
                           ]
                         },
@@ -16038,6 +16920,39 @@
                                 "=",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "DirecaoVisual",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "TempoFlashTiro",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "Animation",
+                                "=",
+                                "\"ParadoDireita\""
+                              ]
                             }
                           ]
                         },
@@ -16193,6 +17108,39 @@
                                 "=",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "DirecaoVisual",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "TempoFlashTiro",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "Animation",
+                                "=",
+                                "\"ParadoDireita\""
+                              ]
                             }
                           ]
                         },
@@ -16347,6 +17295,39 @@
                                 "SurgimentoConcluido",
                                 "=",
                                 "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "DirecaoVisual",
+                                "=",
+                                "-1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "TempoFlashTiro",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Atirador",
+                                "Animation",
+                                "=",
+                                "\"ParadoEsquerda\""
                               ]
                             }
                           ]
@@ -18845,6 +19826,23 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Movendo",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -18886,6 +19884,17 @@
                   "parameters": [
                     "Atirador",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Movendo",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -18933,6 +19942,17 @@
                   "parameters": [
                     "Atirador",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Movendo",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -19001,6 +20021,17 @@
                     "Atirador",
                     "PlatformerObject"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Movendo",
+                    "=",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -19067,6 +20098,17 @@
                   "parameters": [
                     "Atirador",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Movendo",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -19282,6 +20324,206 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Movendo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    ">=",
+                    "Atirador.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "DirecaoVisual",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Animation",
+                    "=",
+                    "\"ParadoDireita\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Movendo",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    "<",
+                    "Atirador.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "DirecaoVisual",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Animation",
+                    "=",
+                    "\"ParadoEsquerda\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Movendo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    ">=",
+                    "Atirador.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "DirecaoVisual",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Animation",
+                    "=",
+                    "\"MoverDireita\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Movendo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    "<",
+                    "Atirador.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "DirecaoVisual",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Atirador",
+                    "Animation",
+                    "=",
+                    "\"MoverEsquerda\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -19301,6 +20543,59 @@
               "conditions": [],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Atirador",
+                        "\"255;255;255\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Atirador",
+                        "TempoFlashTiro",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Atirador",
+                        "TempoFlashTiro",
+                        "-",
+                        "TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Atirador",
+                        "\"255;220;140\""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
@@ -19341,8 +20636,8 @@
                       "parameters": [
                         "",
                         "TiroInimigo",
-                        "Atirador.X()+10",
-                        "Atirador.Y()+10",
+                        "Atirador.CenterX()+Atirador.DirecaoVisual*30",
+                        "Atirador.Y()+34",
                         ""
                       ]
                     },
@@ -19377,6 +20672,17 @@
                         "RecargaTiro",
                         "=",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Atirador",
+                        "TempoFlashTiro",
+                        "=",
+                        "0.18"
                       ]
                     }
                   ]
