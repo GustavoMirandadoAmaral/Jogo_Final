@@ -9623,6 +9623,119 @@
               "comment2": ""
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "O jogo adapta a largura à janela: em telas mais largas que 16:9 a área passa de 1280 px. Por isso o véu e a vinheta do óleo cobrem a câmera do HUD inteira a cada quadro, e as cartas se posicionam pelo centro dela (Indice 1, 2, 3 = esquerda, meio, direita).",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "VeuTela",
+                    "=",
+                    "CameraBorderLeft(\"HUD\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "VeuTela",
+                    "=",
+                    "CameraBorderTop(\"HUD\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "VeuTela",
+                    "Resizable",
+                    "=",
+                    "CameraWidth(\"HUD\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "VeuTela",
+                    "Resizable",
+                    "=",
+                    "CameraHeight(\"HUD\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "AlertaOleo",
+                    "=",
+                    "CameraBorderLeft(\"HUD\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "AlertaOleo",
+                    "=",
+                    "CameraBorderTop(\"HUD\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "AlertaOleo",
+                    "Resizable",
+                    "=",
+                    "CameraWidth(\"HUD\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "AlertaOleo",
+                    "Resizable",
+                    "=",
+                    "CameraHeight(\"HUD\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Cartao",
+                    "=",
+                    "CameraCenterX(\"HUD\") - 500 + 350 * (Cartao.Indice - 1)"
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -9741,7 +9854,7 @@
                   "parameters": [
                     "TextoTitulo",
                     "=",
-                    "(SceneWindowWidth() - TextoTitulo.Width()) / 2"
+                    "CameraCenterX(\"HUD\") - TextoTitulo.Width() / 2"
                   ]
                 }
               ]
@@ -9902,7 +10015,7 @@
                       "parameters": [
                         "TextoCartao",
                         "=",
-                        "290 - TextoCartao.Width() / 2"
+                        "CameraCenterX(\"HUD\") - 350 - TextoCartao.Width() / 2"
                       ]
                     }
                   ]
@@ -9940,7 +10053,7 @@
                       "parameters": [
                         "TextoCartao",
                         "=",
-                        "640 - TextoCartao.Width() / 2"
+                        "CameraCenterX(\"HUD\") - TextoCartao.Width() / 2"
                       ]
                     }
                   ]
@@ -9978,7 +10091,7 @@
                       "parameters": [
                         "TextoCartao",
                         "=",
-                        "990 - TextoCartao.Width() / 2"
+                        "CameraCenterX(\"HUD\") + 350 - TextoCartao.Width() / 2"
                       ]
                     }
                   ]
@@ -10081,7 +10194,7 @@
                   "parameters": [
                     "TextoTitulo",
                     "=",
-                    "(SceneWindowWidth() - TextoTitulo.Width()) / 2"
+                    "CameraCenterX(\"HUD\") - TextoTitulo.Width() / 2"
                   ]
                 },
                 {
@@ -10091,7 +10204,7 @@
                   "parameters": [
                     "TextoSubtitulo",
                     "=",
-                    "(SceneWindowWidth() - TextoSubtitulo.Width()) / 2"
+                    "CameraCenterX(\"HUD\") - TextoSubtitulo.Width() / 2"
                   ]
                 }
               ]
@@ -18416,7 +18529,24 @@
                     "=",
                     "Robo.PointY(\"Ombro\")"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "RotateTowardPosition"
@@ -18443,6 +18573,16 @@
                     "<",
                     "Robo.X()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
                 }
               ],
               "actions": [
@@ -18465,7 +18605,23 @@
                     "Flippable",
                     "yes"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Flippable"
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "SetX"
@@ -18489,6 +18645,16 @@
                     "CursorX()",
                     ">",
                     "Robo.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
                   ]
                 }
               ],
