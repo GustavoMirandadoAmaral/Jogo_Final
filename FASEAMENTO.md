@@ -635,6 +635,18 @@ Marcar somente depois que a implementação estiver integrada e outro integrante
 | E10 | A definir | A iniciar | A preencher |
 | E11 | A definir | A iniciar | A preencher |
 
+### 13.1. Pendências registradas
+
+Itens adiados de propósito, com o motivo e o momento de retomar. Remover a linha quando o item for concluído e testado.
+
+| Entrega | Pendência | Responsável | Por que está pendente | Quando retomar |
+| --- | --- | --- | --- | --- |
+| E01 | Revisar a largura da arena (hoje 2560 px; avaliar entre 1920 e 2240 px) | C | O mapa pareceu grande demais no primeiro teste, mas o tamanho certo depende de jogar com as ondas e os cinco inimigos integrados | E05 ou balanceamento da E09 |
+| E01 | Adaptar surgimentos, limites do Atirador e rota do Saltador à arena maior | B | Os eventos usam coordenadas fixas da arena antiga (surgimento em X 100 e 1100, Atirador entre 20 e 1230, rota com X das prateleiras originais). Podem usar a variável `LarguraArena` | Junto com a revisão da largura |
+| E02 | Garantir que as peças de XP caiam em local seguro do chão (passo 9) | C | Depende do tiro (A) e do abate/recompensa definitivos (B); hoje a peça nasce na posição do inimigo e cai com gravidade | Depois da integração da E02 |
+| E03 | Testar a câmera junto com HUD, pausa e escolha de melhorias | C | Depende da interface e dos estados da partida da E03 (D) | Depois da integração da E03 |
+| E04 | Verificar a mira com a câmera deslocada (passo 8) | C | Depende do tiro com mira no mouse (A, E02) | Depois da integração da E02 |
+
 Checklist da entrega acadêmica:
 
 - [ ] Quatro integrantes identificados e contribuições explicáveis.
