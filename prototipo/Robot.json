@@ -767,6 +767,22 @@
         "name": "imagens/robo/parado-sem-braco.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/veu-tela.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/veu-tela.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/cartao-melhoria.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/cartao-melhoria.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1228,6 +1244,278 @@
           "persistentUuid": "4c207adf-3677-47d7-9dd8-a7e02be4f5a6",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "EstadoJogo",
+          "persistentUuid": "b5da2b16-0898-4bc0-8aec-8e177bcde515",
+          "type": "string",
+          "value": "Jogando"
+        },
+        {
+          "name": "ProximoEstado",
+          "persistentUuid": "67055b9c-82da-4954-8fe6-c557a9ce3d1d",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "XP",
+          "persistentUuid": "328a687e-2003-4b83-8d4a-cb6250bd2991",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Nivel",
+          "persistentUuid": "ee9da482-77bd-47ab-b88a-e3b2c5a39737",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "XPProximoNivel",
+          "persistentUuid": "4a55b6c1-3d99-4830-8cab-8ce84faeb921",
+          "type": "number",
+          "value": 10
+        },
+        {
+          "name": "CrescimentoXP",
+          "persistentUuid": "e0a5765c-dcd2-4a85-9049-53ac7d0be6be",
+          "type": "number",
+          "value": 5
+        },
+        {
+          "name": "Opcao1",
+          "persistentUuid": "9db398c1-8d97-4fcc-9f5d-f7a530d82adf",
+          "type": "number",
+          "value": -1
+        },
+        {
+          "name": "Opcao2",
+          "persistentUuid": "d59cc14d-8e31-45b6-b4d1-5c8c9e3ce920",
+          "type": "number",
+          "value": -1
+        },
+        {
+          "name": "Opcao3",
+          "persistentUuid": "7fa70ad2-4308-42ab-9e81-046ba254725a",
+          "type": "number",
+          "value": -1
+        },
+        {
+          "name": "Sorteio",
+          "persistentUuid": "78821462-b0fb-4507-9208-7aa4c3a0509d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Tentativas",
+          "persistentUuid": "b3ccff2a-49c8-4bf0-9451-ca901463fef9",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "UltimaMelhoria",
+          "persistentUuid": "a91138a7-e1ec-4561-9872-e31fd26c086c",
+          "type": "number",
+          "value": -1
+        },
+        {
+          "name": "MelhoriaPendente",
+          "persistentUuid": "3c8884d4-c4c0-4153-a382-b16015ad68af",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "AguardandoSoltarMouse",
+          "persistentUuid": "526449ad-3f50-401f-9d97-bff595f46d35",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TempoFimPartida",
+          "persistentUuid": "e8299c28-866d-4c34-ad45-a076337eb74a",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Melhorias",
+          "persistentUuid": "765e7fdd-5b20-4b2c-bb76-9feb78b6053a",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Nome",
+                  "type": "string",
+                  "value": "Canhão reforçado"
+                },
+                {
+                  "name": "Descricao",
+                  "type": "string",
+                  "value": "+20% de dano"
+                },
+                {
+                  "name": "Escolhas",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "Maximo",
+                  "type": "number",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Nome",
+                  "type": "string",
+                  "value": "Engrenagem rápida"
+                },
+                {
+                  "name": "Descricao",
+                  "type": "string",
+                  "value": "Atira 10% mais rápido"
+                },
+                {
+                  "name": "Escolhas",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "Maximo",
+                  "type": "number",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Nome",
+                  "type": "string",
+                  "value": "Placa de blindagem"
+                },
+                {
+                  "name": "Descricao",
+                  "type": "string",
+                  "value": "+1 de vida máxima\ne recupera 1 de vida"
+                },
+                {
+                  "name": "Escolhas",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "Maximo",
+                  "type": "number",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Nome",
+                  "type": "string",
+                  "value": "Rodas lubrificadas"
+                },
+                {
+                  "name": "Descricao",
+                  "type": "string",
+                  "value": "+10% de velocidade"
+                },
+                {
+                  "name": "Escolhas",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "Maximo",
+                  "type": "number",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Nome",
+                  "type": "string",
+                  "value": "Caldeira extra"
+                },
+                {
+                  "name": "Descricao",
+                  "type": "string",
+                  "value": "Dash recarrega\n15% mais rápido"
+                },
+                {
+                  "name": "Escolhas",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "Maximo",
+                  "type": "number",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Nome",
+                  "type": "string",
+                  "value": "Ímã"
+                },
+                {
+                  "name": "Descricao",
+                  "type": "string",
+                  "value": "Puxa as peças\nde mais longe"
+                },
+                {
+                  "name": "Escolhas",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "Maximo",
+                  "type": "number",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "Nome",
+                  "type": "string",
+                  "value": "Reparo imediato"
+                },
+                {
+                  "name": "Descricao",
+                  "type": "string",
+                  "value": "Recupera 1 de vida"
+                },
+                {
+                  "name": "Escolhas",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "Maximo",
+                  "type": "number",
+                  "value": 999
+                }
+              ]
+            }
+          ]
         }
       ],
       "instances": [
@@ -3128,6 +3416,192 @@
               "persistentUuid": "0156d290-f402-4999-aaf9-c434678418c4",
               "type": "number",
               "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "HUD",
+          "name": "VeuTela",
+          "persistentUuid": "33f134ef-aaaa-499f-bbb1-b549832aba0a",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoTitulo",
+          "persistentUuid": "d9835ea1-f0ad-4426-a201-7140c722af88",
+          "width": 0,
+          "x": 0,
+          "y": 150,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoSubtitulo",
+          "persistentUuid": "8bfef4cc-5323-4f61-814b-fe152b7619dd",
+          "width": 0,
+          "x": 0,
+          "y": 225,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 210,
+          "layer": "HUD",
+          "name": "Cartao",
+          "persistentUuid": "9a3d2995-3e3f-4809-9e9b-5454bfa99004",
+          "width": 300,
+          "x": 140,
+          "y": 300,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "40f5a5a3-6bc9-4e6d-a7b2-8fb97293ea66",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoCartao",
+          "persistentUuid": "13ff8df3-d3ed-4ef0-abdc-f22067472427",
+          "width": 0,
+          "x": 290,
+          "y": 340,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "f2ff6889-d5b8-4434-a0ed-ae23191eaf3e",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 210,
+          "layer": "HUD",
+          "name": "Cartao",
+          "persistentUuid": "06106662-9b54-4faa-a271-285dae041cbb",
+          "width": 300,
+          "x": 490,
+          "y": 300,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "362c6ab6-0cc6-41bb-ae41-1dcce6aa5c3e",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoCartao",
+          "persistentUuid": "442b6bc6-91d5-492a-9bcb-d32e154b9752",
+          "width": 0,
+          "x": 640,
+          "y": 340,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "a2a45f5a-3744-4753-b253-4b3424e684d9",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 210,
+          "layer": "HUD",
+          "name": "Cartao",
+          "persistentUuid": "91fca75d-e042-478c-a239-d26b421facc0",
+          "width": 300,
+          "x": 840,
+          "y": 300,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "017063c6-b253-4734-a2d2-5abff1342346",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoCartao",
+          "persistentUuid": "13947749-a622-4a04-ae33-09d7d674a666",
+          "width": 0,
+          "x": 990,
+          "y": 340,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "164bc1b5-ff97-443e-9490-149c3ba172fe",
+              "type": "number",
+              "value": 3
             }
           ]
         }
@@ -7360,6 +7834,236 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "VeuTela",
+          "persistentUuid": "0ad4517a-07c7-4bb5-982b-abc1f0ba84ad",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/veu-tela.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoTitulo",
+          "persistentUuid": "b1821fa5-3bae-4480-985a-07e7a1a8af60",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 48,
+          "color": {
+            "r": 255,
+            "g": 240,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 48,
+            "lineHeight": 0,
+            "color": "255;240;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoSubtitulo",
+          "persistentUuid": "191d77a3-bf47-47e5-a770-211b006e6111",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 22,
+          "color": {
+            "r": 255,
+            "g": 240,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 22,
+            "lineHeight": 0,
+            "color": "255;240;210"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Cartao",
+          "persistentUuid": "337b86ea-df34-487f-848f-064c3784f6cb",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "4f35ae7f-762f-4c4e-b994-e3afd1b2a3d4",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/cartao-melhoria.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoCartao",
+          "persistentUuid": "a90d7f0f-97a2-4bb3-a329-e540537a4c0b",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "fb377b44-074c-4998-b485-9db22a2b068f",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 22,
+          "color": {
+            "r": 255,
+            "g": 240,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 22,
+            "lineHeight": 0,
+            "color": "255;240;210"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -7481,10 +8185,1972 @@
           },
           {
             "objectName": "ExplosaoVoador"
+          },
+          {
+            "objectName": "VeuTela"
+          },
+          {
+            "objectName": "TextoTitulo"
+          },
+          {
+            "objectName": "TextoSubtitulo"
+          },
+          {
+            "objectName": "Cartao"
+          },
+          {
+            "objectName": "TextoCartao"
           }
         ]
       },
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": false,
+          "name": "Ciclo da partida",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "parameters": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Estado da partida (variável EstadoJogo): Jogando, Pausado, EscolhendoUpgrade, Derrota ou Vitoria. Fora de Jogando a escala de tempo vai a 0: tudo que usa TimeDelta, os comportamentos, os Tweens e as partículas congelam. Os comandos do robô só valem em Jogando, e depois de qualquer tela o tiro espera o botão do mouse ser solto (AguardandoSoltarMouse), para o clique da tela não virar tiro.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "!=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoPartida",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AguardandoSoltarMouse",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed",
+                    "inverted": true
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AguardandoSoltarMouse",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pausa: Esc entra e sai (ProximoEstado evita que a mesma tecla pause e despause no mesmo quadro). Clicar em \"Continuar\" também sai.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Escape\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EstadoJogo",
+                        "=",
+                        "\"Jogando\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "ProximoEstado",
+                        "=",
+                        "\"Pausado\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EstadoJogo",
+                        "=",
+                        "\"Pausado\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "ProximoEstado",
+                        "=",
+                        "\"Jogando\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Pausado\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ProximoEstado",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "ProximoEstado",
+                    "=",
+                    "\"Pausado\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Pausado\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ProximoEstado",
+                    "=",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "ProximoEstado",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AguardandoSoltarMouse",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ProximoEstado",
+                    "=",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Coleta: o robô encostando numa peça soma o ValorXP dela ao XP, e a peça some.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Peca",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Peca",
+                    "Robo",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "XP",
+                    "+",
+                    "Peca.ValorXP"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Peca",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Nível: com XP suficiente, o excedente fica guardado, o nível sobe, o próximo nível pede CrescimentoXP a mais, e o jogo para na escolha de melhoria. As 3 cartas recebem melhorias diferentes que ainda não chegaram ao máximo (lista Melhorias); a última da lista é a reserva, que só aparece se faltar opção. Se o XP der para mais de um nível, a próxima escolha vem logo depois.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "XP",
+                    ">=",
+                    "Variable(XPProximoNivel)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "XP",
+                    "-",
+                    "Variable(XPProximoNivel)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Nivel",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "XPProximoNivel",
+                    "+",
+                    "Variable(CrescimentoXP)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Opcao1",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Opcao2",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Opcao3",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Tentativas",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::While",
+                  "infiniteLoopWarning": true,
+                  "whileConditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Opcao1",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ],
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Sorteio",
+                        "=",
+                        "RandomInRange(0, 5)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Tentativas",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Melhorias[Variable(Sorteio)].Escolhas",
+                            "<",
+                            "Variable(Melhorias[Variable(Sorteio)].Maximo)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Opcao1",
+                            "=",
+                            "Variable(Sorteio)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Tentativas",
+                            ">=",
+                            "60"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Opcao1",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::While",
+                  "infiniteLoopWarning": true,
+                  "whileConditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Opcao2",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ],
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Sorteio",
+                        "=",
+                        "RandomInRange(0, 5)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Tentativas",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Melhorias[Variable(Sorteio)].Escolhas",
+                            "<",
+                            "Variable(Melhorias[Variable(Sorteio)].Maximo)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Sorteio",
+                            "!=",
+                            "Variable(Opcao1)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Opcao2",
+                            "=",
+                            "Variable(Sorteio)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Tentativas",
+                            ">=",
+                            "60"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Opcao2",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::While",
+                  "infiniteLoopWarning": true,
+                  "whileConditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Opcao3",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ],
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Sorteio",
+                        "=",
+                        "RandomInRange(0, 5)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Tentativas",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Melhorias[Variable(Sorteio)].Escolhas",
+                            "<",
+                            "Variable(Melhorias[Variable(Sorteio)].Maximo)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Sorteio",
+                            "!=",
+                            "Variable(Opcao1)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Sorteio",
+                            "!=",
+                            "Variable(Opcao2)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Opcao3",
+                            "=",
+                            "Variable(Sorteio)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Tentativas",
+                            ">=",
+                            "60"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Opcao3",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Escolha: clicar numa carta ou apertar 1, 2 ou 3. A escolha conta mais uma para aquela melhoria, liga MelhoriaPendente por um quadro (o efeito é aplicado no grupo \"Melhorias: efeitos\") e volta ao jogo.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Num1\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "UltimaMelhoria",
+                    "=",
+                    "Variable(Opcao1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MelhoriaPendente",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Num2\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "UltimaMelhoria",
+                    "=",
+                    "Variable(Opcao2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MelhoriaPendente",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Num3\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "UltimaMelhoria",
+                    "=",
+                    "Variable(Opcao3)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MelhoriaPendente",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Cartao",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Cartao",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Cartao",
+                        "Indice",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "UltimaMelhoria",
+                        "=",
+                        "Variable(Opcao1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MelhoriaPendente",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Cartao",
+                        "Indice",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "UltimaMelhoria",
+                        "=",
+                        "Variable(Opcao2)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MelhoriaPendente",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Cartao",
+                        "Indice",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "UltimaMelhoria",
+                        "=",
+                        "Variable(Opcao3)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MelhoriaPendente",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "MelhoriaPendente",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Melhorias[Variable(UltimaMelhoria)].Escolhas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AguardandoSoltarMouse",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Fim provisório (até as cenas Derrota e Vitoria existirem): vida zerada = Derrota; Máquina-mãe derrotada e óleo escoado (3,5 s depois) = Vitoria. Nas duas, Enter recomeça a cena do zero.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Derrota\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoDerrotado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EtapaOleo",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoFimPartida",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoFimPartida",
+                    ">=",
+                    "3.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Vitoria\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EstadoJogo",
+                        "=",
+                        "\"Derrota\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Arena\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EstadoJogo",
+                        "=",
+                        "\"Vitoria\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Arena\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Telas provisórias no HUD (VeuTela, TextoTitulo, TextoSubtitulo e as cartas), mostradas conforme o estado. TextoXP mostra XP e nível até o HUD definitivo ficar pronto.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoXP",
+                    "=",
+                    "\"XP: \" + ToString(Variable(XP)) + \" / \" + ToString(Variable(XPProximoNivel)) + \"   Nível \" + ToString(Variable(Nivel))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "VeuTela"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoTitulo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Cartao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoCartao"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "!=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "VeuTela"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoTitulo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoTitulo",
+                    "=",
+                    "(SceneWindowWidth() - TextoTitulo.Width()) / 2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "!=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Cartao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoCartao"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Pausado\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoTitulo",
+                    "=",
+                    "\"PAUSADO\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "=",
+                    "\"[ Continuar ]   ou Esc\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoTitulo",
+                    "=",
+                    "\"NÍVEL \" + ToString(Variable(Nivel)) + \"!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "=",
+                    "\"Escolha uma melhoria: clique numa carta ou aperte 1, 2 ou 3\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Cartao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoCartao"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TextoCartao",
+                        "Indice",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TextoCartao",
+                        "=",
+                        "VariableString(Melhorias[Variable(Opcao1)].Nome) + \"\\n\\n\" + VariableString(Melhorias[Variable(Opcao1)].Descricao) + \"\\n\\n(\" + ToString(Variable(Melhorias[Variable(Opcao1)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(Opcao1)].Maximo)) + \")\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "TextoCartao",
+                        "=",
+                        "290 - TextoCartao.Width() / 2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TextoCartao",
+                        "Indice",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TextoCartao",
+                        "=",
+                        "VariableString(Melhorias[Variable(Opcao2)].Nome) + \"\\n\\n\" + VariableString(Melhorias[Variable(Opcao2)].Descricao) + \"\\n\\n(\" + ToString(Variable(Melhorias[Variable(Opcao2)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(Opcao2)].Maximo)) + \")\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "TextoCartao",
+                        "=",
+                        "640 - TextoCartao.Width() / 2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TextoCartao",
+                        "Indice",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TextoCartao",
+                        "=",
+                        "VariableString(Melhorias[Variable(Opcao3)].Nome) + \"\\n\\n\" + VariableString(Melhorias[Variable(Opcao3)].Descricao) + \"\\n\\n(\" + ToString(Variable(Melhorias[Variable(Opcao3)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(Opcao3)].Maximo)) + \")\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "TextoCartao",
+                        "=",
+                        "990 - TextoCartao.Width() / 2"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Derrota\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoTitulo",
+                    "=",
+                    "\"ROBÔ DESLIGADO\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "=",
+                    "\"Enter para recomeçar\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Vitoria\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoTitulo",
+                    "=",
+                    "\"OFICINA CONSERTADA!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "=",
+                    "\"Enter para jogar de novo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "!=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoTitulo",
+                    "=",
+                    "(SceneWindowWidth() - TextoTitulo.Width()) / 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "=",
+                    "(SceneWindowWidth() - TextoSubtitulo.Width()) / 2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": false,
+          "name": "Melhorias: efeitos",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "parameters": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Ponto de encaixe dos efeitos das melhorias. Quando MelhoriaPendente = 1 (um quadro, logo depois da escolha), UltimaMelhoria diz qual foi: 0 Canhão reforçado, 1 Engrenagem rápida, 2 Placa de blindagem, 3 Rodas lubrificadas, 4 Caldeira extra, 5 Ímã, 6 Reparo imediato (reserva). Quantas vezes cada uma já foi escolhida: Melhorias[i].Escolhas. Colocar aqui um evento por melhoria, com as condições MelhoriaPendente = 1 e UltimaMelhoria = i, ANTES do evento que zera MelhoriaPendente.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "MelhoriaPendente",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MelhoriaPendente",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "colorB": 95,
           "colorG": 95,
@@ -15882,6 +18548,26 @@
                     "Robo",
                     "Flippable"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AguardandoSoltarMouse",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -15932,6 +18618,26 @@
                   "parameters": [
                     "Robo",
                     "Flippable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AguardandoSoltarMouse",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -16015,6 +18721,16 @@
                     "",
                     "\"Right\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
                 }
               ],
               "actions": [
@@ -16040,6 +18756,16 @@
                   "parameters": [
                     "",
                     "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
                   ]
                 }
               ],
@@ -16067,6 +18793,16 @@
                     "",
                     "\"d\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
                 }
               ],
               "actions": [
@@ -16092,6 +18828,16 @@
                   "parameters": [
                     "",
                     "\"a\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
                   ]
                 }
               ],
@@ -16204,6 +18950,16 @@
                     "",
                     "\"a\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
                 }
               ],
               "actions": [
@@ -16239,6 +18995,16 @@
                   "parameters": [
                     "",
                     "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
                   ]
                 }
               ],
@@ -16276,6 +19042,16 @@
                     "",
                     "\"d\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
                 }
               ],
               "actions": [
@@ -16311,6 +19087,16 @@
                   "parameters": [
                     "",
                     "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
                   ]
                 }
               ],
@@ -16360,6 +19146,16 @@
                     "",
                     "\"w\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
                 }
               ],
               "actions": [
@@ -16385,6 +19181,16 @@
                     "",
                     "\"Space\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
                 }
               ],
               "actions": [
@@ -16409,6 +19215,16 @@
                   "parameters": [
                     "",
                     "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
                   ]
                 }
               ],
@@ -16446,6 +19262,16 @@
                   "parameters": [
                     "",
                     "\"LShift\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
                   ]
                 }
               ],
