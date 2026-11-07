@@ -1319,6 +1319,38 @@
         "name": "imagens/interface/icones/reparo-imediato-v1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "imagens/interface/hud/onda-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/hud/onda-v1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/hud/nivel-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/hud/nivel-v1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/hud/tempo-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/hud/tempo-v1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/hud/abatidos-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/hud/abatidos-v1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ]
   },
@@ -2137,6 +2169,11 @@
           "name": "PosicaoResumo",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NumeroEstatisticas",
+          "type": "number",
+          "value": 3
         }
       ],
       "instances": [
@@ -4935,7 +4972,7 @@
           "persistentUuid": "044d0a76-239b-4f29-babd-8002f09115fb",
           "width": 0,
           "x": 0,
-          "y": 240,
+          "y": 305,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -12653,6 +12690,179 @@
             "lineHeight": 0,
             "color": "225;210;185"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeEstatistica",
+          "persistentUuid": "49471f8b-5d9d-4972-9609-0b8c03df0e5f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "onda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/onda-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "nivel",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/nivel-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "tempo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/tempo-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "abatidos",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/abatidos-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoEstatistica",
+          "persistentUuid": "56cc455d-71f6-408a-8777-38de1223e7f7",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 210,
+            "g": 240,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "255;240;210"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -12810,6 +13020,12 @@
           },
           {
             "objectName": "TextoNivelResumo"
+          },
+          {
+            "objectName": "IconeEstatistica"
+          },
+          {
+            "objectName": "TextoEstatistica"
           }
         ]
       },
@@ -15199,7 +15415,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Painel das telas de pausa, derrota e vitória: centralizado na câmera do HUD, com o título em cima, o resumo da partida no meio e o subtítulo (Continuar / Enter) embaixo. Abaixo do resumo, uma fileira com o ícone e o nível de cada melhoria conquistada (IconeResumo e TextoNivelResumo, criados uma vez por abertura do painel; PainelMontado volta a 0 quando o jogo ou as cartas voltam).",
+              "comment": "Painel das telas de pausa, derrota e vitória: centralizado na câmera do HUD, com o título em cima e o subtítulo (Continuar / Enter) embaixo. No meio, a fileira dos números da partida com os ícones do HUD (onda, nível, tempo e, na derrota e na vitória, abatidos), o rótulo das melhorias e a fileira com o ícone e o nível de cada melhoria conquistada. As fileiras são criadas uma vez por abertura do painel; PainelMontado volta a 0 quando o jogo ou as cartas voltam.",
               "comment2": ""
             },
             {
@@ -15414,18 +15630,7 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "EstadoJogo",
-                        "=",
-                        "\"Pausado\""
-                      ]
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
@@ -15434,34 +15639,7 @@
                       "parameters": [
                         "TextoResumo",
                         "=",
-                        "\"Onda \" + ToString(Variable(Onda)) + \"     Nível \" + ToString(Variable(Nivel)) + \"     Tempo \" + ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2) + NewLine() + NewLine() + VariableString(ResumoMelhorias)"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "EstadoJogo",
-                        "!=",
-                        "\"Pausado\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "TextoResumo",
-                        "=",
-                        "\"Onda \" + ToString(Variable(Onda)) + \"     Nível \" + ToString(Variable(Nivel)) + NewLine() + \"Inimigos abatidos \" + ToString(Variable(Abates)) + \"     Tempo \" + ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2) + NewLine() + NewLine() + VariableString(ResumoMelhorias)"
+                        "VariableString(ResumoMelhorias)"
                       ]
                     }
                   ]
@@ -15497,6 +15675,34 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "IconeEstatistica",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TextoEstatistica",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "NumeroEstatisticas",
+                        "=",
+                        "4"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Delete"
@@ -15547,6 +15753,328 @@
                     }
                   ],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "EstadoJogo",
+                            "=",
+                            "\"Pausado\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "NumeroEstatisticas",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "IconeEstatistica",
+                            "CameraCenterX(\"HUD\") - Variable(NumeroEstatisticas) * 170 / 2 + 10",
+                            "236",
+                            "\"HUD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                          },
+                          "parameters": [
+                            "IconeEstatistica",
+                            "Animation",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "IconeEstatistica",
+                            "=",
+                            "103"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "TextoEstatistica",
+                            "CameraCenterX(\"HUD\") - Variable(NumeroEstatisticas) * 170 / 2 + 10 + 42",
+                            "240",
+                            "\"HUD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "TextoEstatistica",
+                            "=",
+                            "\"Onda \" + ToString(Variable(Onda))"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "TextoEstatistica",
+                            "=",
+                            "103"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "IconeEstatistica",
+                            "CameraCenterX(\"HUD\") - Variable(NumeroEstatisticas) * 170 / 2 + 180",
+                            "236",
+                            "\"HUD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                          },
+                          "parameters": [
+                            "IconeEstatistica",
+                            "Animation",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "IconeEstatistica",
+                            "=",
+                            "103"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "TextoEstatistica",
+                            "CameraCenterX(\"HUD\") - Variable(NumeroEstatisticas) * 170 / 2 + 180 + 42",
+                            "240",
+                            "\"HUD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "TextoEstatistica",
+                            "=",
+                            "\"Nível \" + ToString(Variable(Nivel))"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "TextoEstatistica",
+                            "=",
+                            "103"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "IconeEstatistica",
+                            "CameraCenterX(\"HUD\") - Variable(NumeroEstatisticas) * 170 / 2 + 350",
+                            "236",
+                            "\"HUD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                          },
+                          "parameters": [
+                            "IconeEstatistica",
+                            "Animation",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "IconeEstatistica",
+                            "=",
+                            "103"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "TextoEstatistica",
+                            "CameraCenterX(\"HUD\") - Variable(NumeroEstatisticas) * 170 / 2 + 350 + 42",
+                            "240",
+                            "\"HUD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "TextoEstatistica",
+                            "=",
+                            "ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "TextoEstatistica",
+                            "=",
+                            "103"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "EstadoJogo",
+                            "!=",
+                            "\"Pausado\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "IconeEstatistica",
+                            "CameraCenterX(\"HUD\") - Variable(NumeroEstatisticas) * 170 / 2 + 520",
+                            "236",
+                            "\"HUD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                          },
+                          "parameters": [
+                            "IconeEstatistica",
+                            "Animation",
+                            "=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "IconeEstatistica",
+                            "=",
+                            "103"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "TextoEstatistica",
+                            "CameraCenterX(\"HUD\") - Variable(NumeroEstatisticas) * 170 / 2 + 520 + 42",
+                            "240",
+                            "\"HUD\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "TextoEstatistica",
+                            "=",
+                            "ToString(Variable(Abates)) + \" abatidos\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "TextoEstatistica",
+                            "=",
+                            "103"
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::While",
                       "infiniteLoopWarning": true,
@@ -15753,6 +16281,24 @@
                     "TextoNivelResumo",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "IconeEstatistica",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TextoEstatistica",
+                    ""
+                  ]
                 }
               ]
             },
@@ -15796,6 +16342,24 @@
                   },
                   "parameters": [
                     "TextoNivelResumo",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "IconeEstatistica",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TextoEstatistica",
                     ""
                   ]
                 }
