@@ -1,6 +1,6 @@
 # Geração das imagens da interface
 
-As nove peças foram geradas individualmente pela ferramenta de imagens integrada ao Codex, com a opção de fundo transparente. Os PNGs foram exportados nas dimensões finais, com amostragem por vizinho mais próximo para preservar as bordas da pixel art.
+As nove peças das cartas e telas foram geradas individualmente pela ferramenta de imagens integrada ao Codex, com a opção de fundo transparente. Os PNGs foram exportados nas dimensões finais, com amostragem por vizinho mais próximo para preservar as bordas da pixel art.
 
 ## Base dos sete ícones
 
@@ -62,4 +62,38 @@ Use case: ui-mockup. Asset type: one reusable upgrade card plate for Oficina em 
 
 ```text
 Use case: ui-mockup. Asset type: one empty reusable pause / victory / defeat panel for Oficina em Pane, a steam factory game. Landscape aspect ratio very close to 14:9, final delivery 700×450 px. Generate a straight-on flat 2D game UI sprite with real transparent alpha beyond the silhouette, no floor shadow, no perspective. Authentic pixel art with visible pixel stair stepping and clustered metal highlights. One wide rectangular dark gunmetal plate occupying almost the full canvas, subtly clipped metal corners, warm aged thin brass double rim, small copper rivets in the four corners and optionally at top and bottom center integrated into the border. Black outlines, light from upper left, muted brass and copper highlights, dark iron. A large uninterrupted, low-contrast and nearly uniform dark interior, empty from top to bottom for a future centered title and buttons, only subtle shading at the edges. No internal separator, no circular icon socket, no pipes or extensions, no emblem, no text, no buttons, no watermark. Thin restrained border with a strong clear silhouette, engineered in a steampunk workshop.
+```
+
+## Ícones do HUD
+
+Os quatro ícones foram gerados individualmente pela ferramenta de imagens integrada ao Codex. A engrenagem rápida e a caldeira extra serviram de referência para a paleta e o estilo. Os PNGs foram exportados em 32 × 32 px com transparência.
+
+### Estilo comum
+
+```text
+Create one isolated transparent PNG HUD icon for the game Oficina em Pane. Style references are the existing gear and copper boiler upgrade icons, provided for palette and pixel technique only. Use warm brass, aged copper and rust, black-brown outline, top-left warm highlights and orange accent, chunky hand-placed pixel clusters. This asset will ship at exactly 32×32 pixels. Draw as authentic native 32×32 pixel art enlarged by nearest neighbor, with an implied square pixel grid, a thick one-native-pixel outline, clear bold silhouette, four to eight colors per material and no fine texture. Design the visible object to fit roughly 26×26 native pixels and centered with transparent margin around it. One symbol only. Real alpha background, no background color, no checkerboard drawn in, no card, no round badge behind the object, no text, no numerals, no letters, no watermark, no shadow underneath, no blur.
+```
+
+### Onda
+
+```text
+Subject: A small rust-orange warning pennant on a short upright dark brass flagpole. Bold slightly waving rectangular flag shape, with a single high-contrast pale gold toothed cogwheel emblem on the fabric, visibly a gear even at 32 pixels. Make the cloth broad enough to read; keep the pole and cog simple.
+```
+
+### Nível
+
+```text
+Subject: An unmistakable thick vertical upward-pointing brass arrow with a broad triangular head and a short rectangular stem, lit on the upper left. One small bright ivory-gold five-point star beside its upper right, distinct from the arrow silhouette. The arrow is the dominant symbol. No pedestal.
+```
+
+### Tempo
+
+```text
+Subject: A front-facing round copper pocket watch, a large warm ivory clock face with two dark obvious hands, simple four tick marks, dark outline and a small winding crown with a loop at the top. The round silhouette, copper case, and hands should be instantly readable. No numerals and no chain.
+```
+
+### Abatidos
+
+```text
+Subject: Front-facing robotic skull in aged iron and copper with large paired black eye sockets, three squared metal teeth along a small jaw and two visible brass slotted bolts, one at each temple. Mechanical plates and the wide eye sockets make the robot skull recognizable even at 32 px. Flat bold silhouette. No crossbones.
 ```

@@ -7,7 +7,7 @@ Os ícones e as molduras são PNGs independentes com transparência. A carta usa
 | [Moldura da carta](moldura-carta-v1.png) | 300 × 300 px |
 | [Painel para pausa, vitória e derrota](painel-telas-v1.png) | 700 × 450 px |
 
-## Ícones
+## Ícones das cartas
 
 Todos têm 128 × 128 px. A primeira coluna segue a ordem de `UltimaMelhoria` no protótipo.
 
@@ -21,7 +21,18 @@ Todos têm 128 × 128 px. A primeira coluna segue a ordem de `UltimaMelhoria` no
 | 5 | [Ímã](icones/ima-v1.png) | Ímã vermelho e prata atraindo peças metálicas |
 | 6 | [Reparo imediato](icones/reparo-imediato-v1.png) | Chave inglesa e chave de fenda com brilho verde |
 
-## Encaixe no GDevelop
+## Ícones do HUD
+
+Cada ícone é um PNG de **32 × 32 px** com fundo transparente. Os rótulos e valores do HUD podem ser montados como objetos de texto separados.
+
+| Ícone | Elemento visual |
+| --- | --- |
+| [Onda](hud/onda-v1.png) | Bandeira de alerta com engrenagem |
+| [Nível](hud/nivel-v1.png) | Seta de latão para cima com estrela |
+| [Tempo](hud/tempo-v1.png) | Relógio de bolso de cobre |
+| [Abatidos](hud/abatidos-v1.png) | Caveira de robô com parafusos |
+
+## Encaixe das cartas no GDevelop
 
 Com a carta no tamanho original e as origens no canto superior esquerdo, coloque o ícone em **X + 86, Y + 23**, em relação à posição da moldura. O centro do nicho fica em **(150, 87)**. A área de texto vai aproximadamente de **Y + 175** a **Y + 275**, com centro horizontal em **X + 150**. Use a mesma moldura em todas as opções e troque o ícone pelo ID da melhoria.
 
