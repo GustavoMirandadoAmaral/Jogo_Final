@@ -753,14 +753,6 @@
         "userAdded": false
       },
       {
-        "file": "imagens/cartao-melhoria.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "imagens/cartao-melhoria.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "imagens/saltador-animado/moverdireita-01.png",
         "kind": "image",
         "metadata": "",
@@ -1255,6 +1247,78 @@
         "name": "prototipo/imagens/pesado-animado/moveresquerda-06.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/interface/moldura-carta-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/moldura-carta-v1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/painel-telas-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/painel-telas-v1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/icones/canhao-reforcado-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/icones/canhao-reforcado-v1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/icones/engrenagem-rapida-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/icones/engrenagem-rapida-v1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/icones/placa-blindagem-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/icones/placa-blindagem-v1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/icones/rodas-lubrificadas-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/icones/rodas-lubrificadas-v1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/icones/caldeira-extra-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/icones/caldeira-extra-v1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/icones/ima-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/icones/ima-v1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "imagens/interface/icones/reparo-imediato-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/icones/reparo-imediato-v1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
@@ -1820,7 +1884,7 @@
                   "name": "Descricao",
                   "persistentUuid": "8079852b-f3ce-4b2c-987c-b2d161496c47",
                   "type": "string",
-                  "value": "+20% de dano"
+                  "value": "Cada tiro causa\n+20% de dano"
                 },
                 {
                   "name": "Escolhas",
@@ -1850,7 +1914,7 @@
                   "name": "Descricao",
                   "persistentUuid": "d0d67d0d-146f-426a-97ec-7ed218029fcf",
                   "type": "string",
-                  "value": "Atira 10% mais rápido"
+                  "value": "O canhão dispara\n10% mais rápido"
                 },
                 {
                   "name": "Escolhas",
@@ -1910,7 +1974,7 @@
                   "name": "Descricao",
                   "persistentUuid": "254a6d88-f5c0-4611-9c98-908818fc92c3",
                   "type": "string",
-                  "value": "+10% de velocidade"
+                  "value": "O robô anda\n10% mais rápido"
                 },
                 {
                   "name": "Escolhas",
@@ -1940,7 +2004,7 @@
                   "name": "Descricao",
                   "persistentUuid": "1f0a584f-8fb4-413f-8925-76579e35a1f5",
                   "type": "string",
-                  "value": "Dash recarrega\n15% mais rápido"
+                  "value": "O dash recarrega\n15% mais rápido"
                 },
                 {
                   "name": "Escolhas",
@@ -1970,7 +2034,7 @@
                   "name": "Descricao",
                   "persistentUuid": "efc5138a-0415-4903-aaa8-4b8d01040891",
                   "type": "string",
-                  "value": "Puxa as peças\nde mais longe"
+                  "value": "Puxa as peças de XP\nde mais longe"
                 },
                 {
                   "name": "Escolhas",
@@ -2000,7 +2064,7 @@
                   "name": "Descricao",
                   "persistentUuid": "6f86b7ee-26ed-4a8f-bb4d-52553b8979fe",
                   "type": "string",
-                  "value": "Recupera 1 de vida"
+                  "value": "Conserta o robô:\nrecupera 1 de vida"
                 },
                 {
                   "name": "Escolhas",
@@ -2046,6 +2110,16 @@
         },
         {
           "name": "VelocidadeAplicada",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ResumoMelhorias",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "IndiceResumo",
           "type": "number",
           "value": 0
         }
@@ -4003,13 +4077,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 210,
+          "height": 300,
           "layer": "HUD",
           "name": "Cartao",
           "persistentUuid": "9a3d2995-3e3f-4809-9e9b-5454bfa99004",
           "width": 300,
           "x": 140,
-          "y": 300,
+          "y": 270,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -4032,7 +4106,7 @@
           "persistentUuid": "13ff8df3-d3ed-4ef0-abdc-f22067472427",
           "width": 0,
           "x": 290,
-          "y": 340,
+          "y": 450,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -4049,13 +4123,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 210,
+          "height": 300,
           "layer": "HUD",
           "name": "Cartao",
           "persistentUuid": "06106662-9b54-4faa-a271-285dae041cbb",
           "width": 300,
           "x": 490,
-          "y": 300,
+          "y": 270,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -4078,7 +4152,7 @@
           "persistentUuid": "442b6bc6-91d5-492a-9bcb-d32e154b9752",
           "width": 0,
           "x": 640,
-          "y": 340,
+          "y": 450,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -4095,13 +4169,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 210,
+          "height": 300,
           "layer": "HUD",
           "name": "Cartao",
           "persistentUuid": "91fca75d-e042-478c-a239-d26b421facc0",
           "width": 300,
           "x": 840,
-          "y": 300,
+          "y": 270,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -4124,7 +4198,7 @@
           "persistentUuid": "13947749-a622-4a04-ae33-09d7d674a666",
           "width": 0,
           "x": 990,
-          "y": 340,
+          "y": 450,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -4750,6 +4824,176 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "HUD",
+          "name": "IconeCarta",
+          "persistentUuid": "f4628d0c-5258-41bf-802b-4c70000615bb",
+          "width": 128,
+          "x": 226,
+          "y": 293,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "25911059-0980-465e-a060-1db527cdbb6e",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "HUD",
+          "name": "IconeCarta",
+          "persistentUuid": "8c0eb8af-3c68-4b35-b60f-9b1ae731892e",
+          "width": 128,
+          "x": 576,
+          "y": 293,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "0e2e524f-c9af-4aa8-9664-14b1732ccb86",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "HUD",
+          "name": "IconeCarta",
+          "persistentUuid": "354d3eaf-8221-4a44-8fd4-eb32c7f38198",
+          "width": 128,
+          "x": 926,
+          "y": 293,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "9775ceb4-df00-431b-a730-a4d3684a39a3",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 450,
+          "layer": "HUD",
+          "name": "PainelTela",
+          "persistentUuid": "b4eac34b-5da4-42d0-8a56-3a6c9d91697f",
+          "width": 700,
+          "x": 290,
+          "y": 135,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoResumo",
+          "persistentUuid": "044d0a76-239b-4f29-babd-8002f09115fb",
+          "width": 0,
+          "x": 0,
+          "y": 240,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoDescricaoCarta",
+          "persistentUuid": "6776ef78-affa-41bf-9003-13d880b8a7cb",
+          "width": 0,
+          "x": 290,
+          "y": 480,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "e96f6a44-59ff-4452-9c79-71a5537f6284",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoDescricaoCarta",
+          "persistentUuid": "faf425db-f8db-4ba9-9062-10bf63e6e7f8",
+          "width": 0,
+          "x": 640,
+          "y": 480,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "42fc53b0-8a7a-4a13-b600-a7479912b4d8",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoDescricaoCarta",
+          "persistentUuid": "12cbc343-aa05-40c7-83b4-5153c2553414",
+          "width": 0,
+          "x": 990,
+          "y": 480,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "af516dd4-1b03-45be-ae0a-8b2b1ef55b2c",
+              "type": "number",
+              "value": 3
+            }
+          ]
         }
       ],
       "objects": [
@@ -11683,7 +11927,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imagens/cartao-melhoria.png",
+                      "image": "imagens/interface/moldura-carta-v1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11726,7 +11970,7 @@
           "string": "",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 22,
+          "characterSize": 20,
           "color": {
             "b": 210,
             "g": 240,
@@ -11750,7 +11994,7 @@
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 22,
+            "characterSize": 20,
             "lineHeight": 0,
             "color": "255;240;210"
           }
@@ -11774,6 +12018,366 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeCarta",
+          "persistentUuid": "30067107-b6e5-436e-a165-ccfa5c6d8f31",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "47bc98cd-29ff-4a42-8a3d-95bdff13a83c",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "canhao-reforcado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/canhao-reforcado-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "engrenagem-rapida",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/engrenagem-rapida-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "placa-blindagem",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/placa-blindagem-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "rodas-lubrificadas",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/rodas-lubrificadas-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "caldeira-extra",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/caldeira-extra-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ima",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/ima-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "reparo-imediato",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/icones/reparo-imediato-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PainelTela",
+          "persistentUuid": "bb68cc49-bb91-452f-9e2e-6a1f01330f69",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/painel-telas-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoResumo",
+          "persistentUuid": "bfe44dd4-934d-4f11-97cf-059c8da2973b",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 210,
+            "g": 240,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "255;240;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextoDescricaoCarta",
+          "persistentUuid": "cbf329d4-ba7d-4cb8-a8f2-e5d5a3cbc906",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "Indice",
+              "persistentUuid": "78ce728f-26c2-4004-b74f-0a32b0bcdf8c",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 15,
+          "color": {
+            "b": 185,
+            "g": 210,
+            "r": 225
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 15,
+            "lineHeight": 0,
+            "color": "225;210;185"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -11913,6 +12517,18 @@
           },
           {
             "objectName": "BaseChefao"
+          },
+          {
+            "objectName": "IconeCarta"
+          },
+          {
+            "objectName": "PainelTela"
+          },
+          {
+            "objectName": "TextoResumo"
+          },
+          {
+            "objectName": "TextoDescricaoCarta"
           }
         ]
       },
@@ -11997,6 +12613,38 @@
                     "TempoPartida",
                     "+",
                     "TimeDelta()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IconeCarta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PainelTela"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoResumo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoDescricaoCarta"
                   ]
                 }
               ]
@@ -13592,6 +14240,22 @@
                   "parameters": [
                     "TextoCartao"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IconeCarta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoDescricaoCarta"
+                  ]
                 }
               ]
             },
@@ -13682,6 +14346,58 @@
                   "parameters": [
                     "TextoCartao"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "IconeCarta"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PainelTela"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoResumo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TextoTitulo",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "=",
+                    "225"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoDescricaoCarta"
+                  ]
                 }
               ],
               "events": [
@@ -13708,7 +14424,7 @@
                       "parameters": [
                         "TextoCartao",
                         "=",
-                        "VariableString(Melhorias[Variable(Opcao1)].Nome) + \"\\n\\n\" + VariableString(Melhorias[Variable(Opcao1)].Descricao) + \"\\n\\n(\" + ToString(Variable(Melhorias[Variable(Opcao1)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(Opcao1)].Maximo)) + \")\""
+                        "VariableString(Melhorias[Variable(Opcao1)].Nome)"
                       ]
                     },
                     {
@@ -13746,7 +14462,7 @@
                       "parameters": [
                         "TextoCartao",
                         "=",
-                        "VariableString(Melhorias[Variable(Opcao2)].Nome) + \"\\n\\n\" + VariableString(Melhorias[Variable(Opcao2)].Descricao) + \"\\n\\n(\" + ToString(Variable(Melhorias[Variable(Opcao2)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(Opcao2)].Maximo)) + \")\""
+                        "VariableString(Melhorias[Variable(Opcao2)].Nome)"
                       ]
                     },
                     {
@@ -13784,7 +14500,7 @@
                       "parameters": [
                         "TextoCartao",
                         "=",
-                        "VariableString(Melhorias[Variable(Opcao3)].Nome) + \"\\n\\n\" + VariableString(Melhorias[Variable(Opcao3)].Descricao) + \"\\n\\n(\" + ToString(Variable(Melhorias[Variable(Opcao3)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(Opcao3)].Maximo)) + \")\""
+                        "VariableString(Melhorias[Variable(Opcao3)].Nome)"
                       ]
                     },
                     {
@@ -13795,6 +14511,323 @@
                         "TextoCartao",
                         "=",
                         "CameraCenterX(\"HUD\") + 350 - TextoCartao.Width() / 2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TextoDescricaoCarta",
+                        "Indice",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TextoDescricaoCarta",
+                        "=",
+                        "VariableString(Melhorias[Variable(Opcao1)].Descricao) + NewLine() + \"Nível \" + ToString(Variable(Melhorias[Variable(Opcao1)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(Opcao1)].Maximo))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "TextoDescricaoCarta",
+                        "=",
+                        "CameraCenterX(\"HUD\") - 350 - TextoDescricaoCarta.Width() / 2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TextoDescricaoCarta",
+                        "Indice",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TextoDescricaoCarta",
+                        "=",
+                        "VariableString(Melhorias[Variable(Opcao2)].Descricao) + NewLine() + \"Nível \" + ToString(Variable(Melhorias[Variable(Opcao2)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(Opcao2)].Maximo))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "TextoDescricaoCarta",
+                        "=",
+                        "CameraCenterX(\"HUD\") - TextoDescricaoCarta.Width() / 2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TextoDescricaoCarta",
+                        "Indice",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TextoDescricaoCarta",
+                        "=",
+                        "VariableString(Melhorias[Variable(Opcao3)].Descricao) + NewLine() + \"Nível \" + ToString(Variable(Melhorias[Variable(Opcao3)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(Opcao3)].Maximo))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "TextoDescricaoCarta",
+                        "=",
+                        "CameraCenterX(\"HUD\") + 350 - TextoDescricaoCarta.Width() / 2"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Ícone de cada carta: a animação do IconeCarta é o ID da melhoria sorteada (mesma ordem de Melhorias). A carta sob o mouse fica acesa; as outras, um pouco escuras.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeCarta",
+                    "=",
+                    "CameraCenterX(\"HUD\") - 500 + 350 * (IconeCarta.Indice - 1) + 86"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Cartao",
+                    "\"170;170;170\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "IconeCarta",
+                    "\"170;170;170\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "IconeCarta",
+                        "Indice",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "IconeCarta",
+                        "Animation",
+                        "=",
+                        "Variable(Opcao1)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "IconeCarta",
+                        "Indice",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "IconeCarta",
+                        "Animation",
+                        "=",
+                        "Variable(Opcao2)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "IconeCarta",
+                        "Indice",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "IconeCarta",
+                        "Animation",
+                        "=",
+                        "Variable(Opcao3)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "Cartao",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Cartao",
+                        "\"255;255;255\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "IconeCarta",
+                            "Indice",
+                            "=",
+                            "Cartao.Indice"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "IconeCarta",
+                            "\"255;255;255\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -13871,6 +14904,274 @@
                     "TextoSubtitulo",
                     "=",
                     "\"Enter para jogar de novo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Painel das telas de pausa, derrota e vitória: centralizado na câmera do HUD, com o título em cima, o resumo da partida no meio e o subtítulo (Continuar / Enter) embaixo. ResumoMelhorias lista as melhorias já escolhidas com o nível de cada uma.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "!=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "!=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "PainelTela"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoResumo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "PainelTela",
+                    "=",
+                    "CameraCenterX(\"HUD\") - 350"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TextoTitulo",
+                    "=",
+                    "165"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "=",
+                    "515"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "ResumoMelhorias",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "IndiceResumo",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::While",
+                  "infiniteLoopWarning": true,
+                  "whileConditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "IndiceResumo",
+                        "<",
+                        "VariableChildCount(Melhorias)"
+                      ]
+                    }
+                  ],
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Melhorias[Variable(IndiceResumo)].Escolhas",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "ResumoMelhorias",
+                            "=",
+                            "VariableString(ResumoMelhorias) + VariableString(Melhorias[Variable(IndiceResumo)].Nome) + \"  \" + ToString(Variable(Melhorias[Variable(IndiceResumo)].Escolhas)) + \"/\" + ToString(Variable(Melhorias[Variable(IndiceResumo)].Maximo)) + NewLine()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "IndiceResumo",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "ResumoMelhorias",
+                        "=",
+                        "\"\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "ResumoMelhorias",
+                        "=",
+                        "\"nenhuma ainda\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EstadoJogo",
+                        "=",
+                        "\"Pausado\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TextoResumo",
+                        "=",
+                        "\"Onda \" + ToString(Variable(Onda)) + \"     Nível \" + ToString(Variable(Nivel)) + \"     Tempo \" + ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2) + NewLine() + NewLine() + \"Melhorias\" + NewLine() + VariableString(ResumoMelhorias)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EstadoJogo",
+                        "!=",
+                        "\"Pausado\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TextoResumo",
+                        "=",
+                        "\"Onda \" + ToString(Variable(Onda)) + \"     Nível \" + ToString(Variable(Nivel)) + NewLine() + \"Inimigos abatidos \" + ToString(Variable(Abates)) + \"     Tempo \" + ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2) + NewLine() + NewLine() + \"Melhorias\" + NewLine() + VariableString(ResumoMelhorias)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "TextoResumo",
+                        "=",
+                        "CameraCenterX(\"HUD\") - TextoResumo.Width() / 2"
+                      ]
+                    }
                   ]
                 }
               ]
