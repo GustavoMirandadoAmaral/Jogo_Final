@@ -505,10 +505,10 @@
         "userAdded": true
       },
       {
-        "file": "../imagens/spritesheets/heroi/arma-tres-estagios/arma1.png",
+        "file": "imagens/robo/arma.png",
         "kind": "image",
         "metadata": "",
-        "name": "../imagens/spritesheets/heroi/arma-tres-estagios/arma1.png",
+        "name": "imagens/robo/arma.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -517,14 +517,6 @@
         "kind": "image",
         "metadata": "",
         "name": "arma1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "../imagens/spritesheets/heroi/caminhada-tres-estagios/enferrujado/heroi-enferrujado-spritesheet-v3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../imagens/spritesheets/heroi/caminhada-tres-estagios/enferrujado/heroi-enferrujado-spritesheet-v3.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -573,22 +565,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Robo6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "../../../../Downloads/exemplo sem braco.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../../../../Downloads/exemplo sem braco.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "../imagens/spritesheets/heroi/parado-tres-estagios/parado_enferrujado_sem_braco.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../imagens/spritesheets/heroi/parado-tres-estagios/parado_enferrujado_sem_braco.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1883,7 +1859,7 @@
           "width": 2560,
           "x": 0,
           "y": 720,
-          "zOrder": 126,
+          "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2242,7 +2218,7 @@
           "persistentUuid": "f7c87f95-b55f-4b52-bbd3-6328f4571b88",
           "width": 400,
           "x": 2130,
-          "y": 293,
+          "y": 299,
           "zOrder": 130,
           "numberProperties": [],
           "stringProperties": [],
@@ -2386,7 +2362,7 @@
           "persistentUuid": "f7f96760-4cde-4e6c-8c5a-1b9abfd18539",
           "width": 400,
           "x": 2130,
-          "y": 293,
+          "y": 299,
           "zOrder": 130,
           "numberProperties": [],
           "stringProperties": [],
@@ -3604,6 +3580,620 @@
               "value": 3
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "801dc15a-a65f-4b01-a2a5-4a765c67d083",
+          "width": 200,
+          "x": 40,
+          "y": 560,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "884f2432-0bc7-41e5-bd1c-8fc4ce155f99",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "3a44d20d-24de-4f2a-b82f-b9ef8c4d4f86",
+          "width": 160,
+          "x": 180,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "c97595fc-1c84-4835-922e-7c2cc77f72bd",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "24ac6445-343a-4de6-8fce-9c5c1881d3d3",
+          "width": 180,
+          "x": 400,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "a55027b5-0522-4813-bb73-1d8d8b8b5662",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "a251b888-1865-4cfc-830e-c29a8474bbd3",
+          "width": 200,
+          "x": 640,
+          "y": 560,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "fb9113ab-6bbc-40aa-b8b8-b99ebdb9c22e",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "dadc71d1-9190-4e3f-94ba-ba60a7ee1dd3",
+          "width": 160,
+          "x": 620,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "c134655e-c949-4981-8471-7f566f2a3c89",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "8993ddc0-df80-4536-8adc-9856c863c9ca",
+          "width": 200,
+          "x": 960,
+          "y": 560,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "e5d66422-197b-48bf-ba82-7989985b0715",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "0facfec6-bc9b-4144-a6ec-90375fd60341",
+          "width": 180,
+          "x": 1120,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "816ffe3c-17a0-4bd9-830c-35ad21618cba",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "74e7502a-b446-4b3a-9f22-4fa9f34b5957",
+          "width": 200,
+          "x": 1340,
+          "y": 560,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "efe9c8ed-e7f6-4af2-8615-c634b5cbcedb",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "3cd9b5b2-b73e-4def-8810-1a9b9dfb5b33",
+          "width": 160,
+          "x": 1400,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "40d28fae-6377-45ee-808f-d895890229cf",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "3eec8313-a3c8-4fc7-901b-02757fa4bd01",
+          "width": 160,
+          "x": 1560,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "e163c421-9956-4956-a3d0-01c5a801478d",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "b3d8d278-78b0-45fe-ad3a-56b1e7283509",
+          "width": 200,
+          "x": 1760,
+          "y": 560,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "150ca2e3-797f-4e3d-ab85-723c39d802b8",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "19176433-9241-440a-8cee-0a9fd1d2b57d",
+          "width": 160,
+          "x": 1880,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "869442d0-c1a6-4c18-b279-f0846419d352",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "da133a51-c1f4-4799-acc2-f7c40c1489d0",
+          "width": 140,
+          "x": 1760,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "52d52a15-aaf2-4cb5-9e55-12ae4e8419f9",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "1e2a6774-75f9-4e99-9f11-3bb29e797516",
+          "width": 8,
+          "x": 136.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "c1508041-1aa0-48d7-adc4-5c363dcbd0e2",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "d9794f7c-9f3b-494c-838e-436a9791e30f",
+          "width": 8,
+          "x": 256.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "32949aaa-8af9-48d5-a364-30269f2af3b7",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 324,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "bb724c5c-b423-46ba-88fe-70672cebad1d",
+          "width": 8,
+          "x": 486.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "a0e69859-4e85-4592-99a2-3563e905fd08",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "8e3b4067-d6b0-4521-91bd-a017b728fc9a",
+          "width": 8,
+          "x": 736.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "a4f66281-bc1f-4d86-b136-57866acb9fa3",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "cd08b465-c682-485c-b3dd-0ed11b092305",
+          "width": 8,
+          "x": 696.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "34899a91-798a-41ff-8310-32f47fab19be",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "01753520-edad-45fc-9947-93577f90ae4a",
+          "width": 8,
+          "x": 1056.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "2e072354-6a54-4318-b3e2-39b7e78eecb2",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "50d521c4-cd55-490d-a71f-687878851295",
+          "width": 8,
+          "x": 1206.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "f50d91f1-a853-4550-8048-690a08864b9c",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 212,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "98761d94-d23f-4232-a1e3-6b1bc7f5fbb1",
+          "width": 8,
+          "x": 1436.0,
+          "y": 352,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "92d6fd23-03d8-447f-b90b-9c3db3b481ce",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 324,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "1b78f432-5b48-4fb4-91c9-08867b5cf0b6",
+          "width": 8,
+          "x": 1476.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "f445b6fd-496e-4b72-bc98-84dc78711041",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "5108bf8e-19a2-4794-ae5d-461282838bd1",
+          "width": 8,
+          "x": 1636.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "553f2da0-56c6-4e79-8eb5-05afe9188603",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 212,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "375f8e11-f692-48d3-8783-0024dd3fd0e1",
+          "width": 8,
+          "x": 1856.0,
+          "y": 352,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "773f6405-35c8-4972-abf9-094cd49709c6",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "6871ef30-e355-4a42-87bd-3bedcc00e8b7",
+          "width": 8,
+          "x": 1956.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "dca8eed6-9f02-4ecd-880a-dd4aac3fed74",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 324,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "4a03abd4-f811-4626-8c14-0768a888ed5f",
+          "width": 8,
+          "x": 1826.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "7becf9d0-9ecf-406e-8363-8be13573c620",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "BaseChefao",
+          "persistentUuid": "aa903efb-a841-429b-982c-4fdcf505af62",
+          "width": 320,
+          "x": 2170,
+          "y": 560,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -7741,7 +8331,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "../imagens/spritesheets/heroi/arma-tres-estagios/arma1.png",
+                      "image": "imagens/robo/arma.png",
                       "points": [
                         {
                           "name": "Ponta",
@@ -8064,6 +8654,26 @@
             "lineHeight": 0,
             "color": "255;240;210"
           }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BaseChefao",
+          "persistentUuid": "7a3f1912-5ee5-4766-8129-1de6e4c57ce8",
+          "texture": "prototipo/imagens/chao.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 33,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8200,6 +8810,9 @@
           },
           {
             "objectName": "TextoCartao"
+          },
+          {
+            "objectName": "BaseChefao"
           }
         ]
       },
@@ -17223,6 +17836,16 @@
                 },
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Onda",
+                    "<",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -17272,6 +17895,16 @@
                 },
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Onda",
+                    "<",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -17307,6 +17940,124 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EsperaProximaOnda",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Onda",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Layout",
+                    "=",
+                    "Variable(LayoutAtual)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "Layout",
+                    "!=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "PlataformasMoveis",
+                    "=",
+                    "140 + 115 * sin(Variable(EsperaProximaOnda) * 20)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EsperaProximaOnda",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Onda",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Layout",
+                    "=",
+                    "Variable(LayoutAtual)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Layout",
+                    "!=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "=",
+                    "140 + 115 * sin(Variable(EsperaProximaOnda) * 20)"
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -17316,11 +18067,21 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Troca: quando a onda vira, LayoutAtual passa a ser o layout da nova onda (no primeiro quadro do jogo isso ativa o layout 1)."
+              "comment": "Troca: quando a onda vira, LayoutAtual passa a ser o layout da nova onda (no primeiro quadro do jogo isso ativa o layout 1). Na luta com a Máquina-mãe (ChefaoAtivo = 1, e depois ChefaoDerrotado = 1) entra o layout 3, feito para ela: setor direito livre embaixo da máquina, prateleiras acima do óleo e na altura dela para mirar. Na espera antes dela entrar, piscam as plataformas que vão sair."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(ChefaoAtivo) + Variable(ChefaoDerrotado)",
+                    "=",
+                    "0"
+                  ]
+                },
                 {
                   "type": {
                     "value": "NumberVariable"
@@ -17341,6 +18102,182 @@
                     "LayoutAtual",
                     "=",
                     "mod(Variable(Onda) - 1, Variable(NumeroLayouts)) + 1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Na troca, as prateleiras derrubadas pelo Pesado voltam firmes. As fixas (Layout 0) reaparecem aqui, junto com os fios fixos; as dos layouts reaparecem quando o layout delas for ativado."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "Layout",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "Platform",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "=",
+                        "Prateleira.XOrigemImpacto"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "EstadoImpacto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Prateleira",
+                        "TempoAbalo",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Fio",
+                        "Layout",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Fio",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(ChefaoAtivo) + Variable(ChefaoDerrotado)",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "LayoutAtual",
+                    "!=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "LayoutAtual",
+                    "=",
+                    "3"
                   ]
                 }
               ],
@@ -17828,6 +18765,93 @@
                     "Ativa",
                     "=",
                     "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment2": "",
+              "comment": "Fio sem plataforma: cada fio do layout atual só aparece se a plataforma na ponta de baixo dele (a que ele segura) estiver visível. Assim o fio some junto quando a prensa da Máquina-mãe ou o Pesado derrubam a prateleira, ou quando o andaime cai, e volta quando ela volta."
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Fio",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Fio",
+                    "Layout",
+                    "=",
+                    "Variable(LayoutAtual)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Fio"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Fio",
+                        "PlataformasMoveis",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "PlataformasMoveis",
+                        ">",
+                        "Fio.Y() + Fio.Height() - 20"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "PlataformasMoveis"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Fio"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -21018,6 +22042,136 @@
                   },
                   "parameters": [
                     "ColunaVaporChefao"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment2": "",
+              "comment": "Base da Máquina-mãe (BaseChefao): bloco de metal embaixo dela, atrás do óleo. Só aparece junto com ela, na luta e depois da derrota. Durante a luta não tem colisão; depois da derrota vira plataforma sólida (assim que o robô não estiver encostando nela) para o robô poder subir."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(ChefaoAtivo) + Variable(ChefaoDerrotado)",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BaseChefao"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(ChefaoAtivo) + Variable(ChefaoDerrotado)",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BaseChefao"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoDerrotado",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "BaseChefao",
+                    "Platform",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoDerrotado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP",
+                    "inverted": true
+                  },
+                  "parameters": [
+                    "BaseChefao",
+                    "Robo",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "BaseChefao",
+                    "Platform",
+                    "yes"
                   ]
                 }
               ]
