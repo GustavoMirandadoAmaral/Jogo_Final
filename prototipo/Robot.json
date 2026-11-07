@@ -4247,16 +4247,16 @@
               "value": 5
             },
             {
-              "name": "TempoInvulneravel",
-              "persistentUuid": "0772e371-4566-4926-9a09-f829d9d3c72c",
-              "type": "number",
-              "value": 0
-            },
-            {
               "name": "DirecaoDash",
               "persistentUuid": "b1c2d3e4-f5a6-4789-b012-c3d4e5f6a004",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "TempoInvulneravel",
+              "persistentUuid": "b290a634-378c-4d8d-8c6f-7db24487f3db",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -4293,13 +4293,11 @@
               "RandomizedAngle": 0
             },
             {
-              "name": "FlashEffect",
-              "type": "Flash::FlashEffect",
-              "Effect": "Effect",
+              "name": "Flash",
+              "type": "Flash::Flash",
               "HalfPeriodTime": 0.1,
               "IsFlashing": false,
-              "FlashDuration": 0,
-              "EffectName": ""
+              "FlashDuration": 0
             },
             {
               "isFolded": true,
@@ -8354,7 +8352,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -15331,7 +15337,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Voador: movimento e explosão",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15527,29 +15532,6 @@
                             "Vida",
                             "=",
                             "max(0, Robo.Vida - 2)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Robo",
-                            "TempoInvulneravel",
-                            "=",
-                            "1.5"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Flash::FlashEffect::Flash"
-                          },
-                          "parameters": [
-                            "Robo",
-                            "FlashEffect",
-                            "1.5",
-                            "",
-                            ""
                           ]
                         }
                       ]
@@ -16685,7 +16667,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Disparos do Atirador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16882,29 +16863,6 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "TempoInvulneravel",
-                    "=",
-                    "1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Flash::FlashEffect::Flash"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "FlashEffect",
-                    "1.5",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -17036,7 +16994,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Arena e câmera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20584,13 +20541,23 @@
                 },
                 {
                   "type": {
-                    "value": "Flash::FlashEffect::Flash"
+                    "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
                     "Robo",
-                    "FlashEffect",
+                    "Flash",
                     "3",
-                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Arma",
+                    "Flash",
+                    "3",
                     ""
                   ]
                 }
@@ -20659,14 +20626,53 @@
                 },
                 {
                   "type": {
-                    "value": "Flash::FlashEffect::Flash"
+                    "value": "Flash::Flash::Flash"
                   },
                   "parameters": [
                     "Robo",
-                    "FlashEffect",
+                    "Flash",
                     "3",
-                    "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Arma",
+                    "Flash",
+                    "3",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "-",
+                    "TimeDelta()"
                   ]
                 }
               ]
@@ -25379,8 +25385,8 @@
           "type": "FireBullet::FireBullet"
         },
         {
-          "name": "FlashEffect",
-          "type": "Flash::FlashEffect"
+          "name": "Flash",
+          "type": "Flash::Flash"
         },
         {
           "name": "Flippable",
