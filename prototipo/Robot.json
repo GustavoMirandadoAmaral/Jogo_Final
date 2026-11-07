@@ -1250,70 +1250,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 32,
-          "layer": "",
-          "name": "Prateleira",
-          "persistentUuid": "a63fd959-313e-4ae0-8721-43757769f2d5",
-          "width": 256,
-          "x": 100,
-          "y": 560,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 32,
-          "layer": "",
-          "name": "Prateleira",
-          "persistentUuid": "3c4634b4-a0b8-4f9b-8e55-21e97fc2a27e",
-          "width": 256,
-          "x": 924,
-          "y": 560,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 32,
-          "layer": "",
-          "name": "Prateleira",
-          "persistentUuid": "105215fa-3b9c-44c5-a04c-17f796cd7a12",
-          "width": 320,
-          "x": 476,
-          "y": 517,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 32,
-          "layer": "",
-          "name": "Prateleira",
-          "persistentUuid": "f82e7ce9-4549-46dc-9c30-66e6829585f3",
-          "width": 160,
-          "x": 557,
-          "y": 397,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 91.62,
           "layer": "",
@@ -1703,22 +1639,6 @@
           "height": 32,
           "layer": "",
           "name": "Prateleira",
-          "persistentUuid": "5d1725b4-1be8-4497-beaf-c094d385bfe9",
-          "width": 200,
-          "x": 300,
-          "y": 320,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 32,
-          "layer": "",
-          "name": "Prateleira",
           "persistentUuid": "653fd21e-ec3a-4f7c-ba5f-c09f6f910b3b",
           "width": 200,
           "x": 1150,
@@ -1827,38 +1747,6 @@
           "height": 32,
           "layer": "",
           "name": "Prateleira",
-          "persistentUuid": "6b759085-d40c-4131-b1b6-452f7f1b102e",
-          "width": 160,
-          "x": 20,
-          "y": 440,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 32,
-          "layer": "",
-          "name": "Prateleira",
-          "persistentUuid": "0dd5193c-de21-4436-ac27-f4f2144b938a",
-          "width": 110,
-          "x": 810,
-          "y": 440,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 32,
-          "layer": "",
-          "name": "Prateleira",
           "persistentUuid": "5db4d2f2-4c8b-41b3-ac49-a459b025fba7",
           "width": 160,
           "x": 1480,
@@ -1939,509 +1827,6 @@
             {
               "name": "Layout",
               "persistentUuid": "b92c894c-47c0-4aa3-8038-cd9c10a1d61f",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 564,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "24c68566-4cf9-4d33-ae9a-aa4769a45507",
-          "width": 8,
-          "x": 224,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 564,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "3995b479-8014-4fa3-8a35-3f995bb91199",
-          "width": 8,
-          "x": 1048,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 92,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "79b7bf8e-3c72-4eb1-ae4c-1073be416b82",
-          "width": 8,
-          "x": 632,
-          "y": 429,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 401,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "162614f8-73a3-4d24-9609-76117e6698d5",
-          "width": 8,
-          "x": 633,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 92,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "839aca98-e2f7-4fb6-99e8-0bc0053b66a1",
-          "width": 8,
-          "x": 1524,
-          "y": 472,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "b4690ef3-c43b-4841-ae17-e055a34437b8",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 92,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "65c4e77c-24b5-463c-a356-4011aa7311ce",
-          "width": 8,
-          "x": 1826,
-          "y": 472,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "68d5437a-748c-44f9-9b07-310535f5880f",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 334,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "de3de6ce-535b-41a5-8dc6-936922940651",
-          "width": 8,
-          "x": 2086,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "4d4e2555-183e-44a3-8801-7910087ca427",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 92,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "e8d6b2e5-c6d1-45d3-baf7-697314db348f",
-          "width": 8,
-          "x": 2324,
-          "y": 472,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "26879b5f-22f5-4f70-9531-3c7fa5782cfe",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 92,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "4f1b7130-ab37-4486-a41c-1198f0b50877",
-          "width": 8,
-          "x": 1316,
-          "y": 472,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "d604871e-f8ab-4a22-ac6e-7dc41a45141e",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 334,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "1c7fcd84-6313-4bd7-9a5c-451828db1c58",
-          "width": 8,
-          "x": 1566,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "7f3c8cd3-9e6d-4680-aaaf-ebaaf8365f81",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 92,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "659a7ed4-17b8-4984-9b5a-f50c4fe3597a",
-          "width": 8,
-          "x": 1884,
-          "y": 472,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "bd84cd2e-6a5f-460e-833d-d299aeaaf3fe",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 92,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "f79401ee-4322-4212-a8b9-82f518f409ff",
-          "width": 8,
-          "x": 2176,
-          "y": 472,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "c372b275-9b74-4f99-9ab4-f2fbf1350e8b",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 334,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "6270c568-9b37-4edc-9304-698ea71b6327",
-          "width": 8,
-          "x": 2426,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "b9874dd6-63f7-4140-b048-f136abb6632d",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 324,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "a030cd1f-87f2-4414-aaa8-b089f217fc21",
-          "width": 8,
-          "x": 396,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "6b701b77-8683-4c13-96d2-abb72ebbc2de",
-          "width": 8,
-          "x": 1246,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "301fdc34-69d9-4d35-acbb-317d8c322f1e",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "97d5599d-f5ab-449d-bfce-73f9cff021f5",
-          "width": 8,
-          "x": 2326,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "9e554b22-d1c3-4a12-82b6-c84a27506f8d",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "13470cf8-1a22-4079-8190-4c976dfbdbcb",
-          "width": 8,
-          "x": 1346,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "2edab93e-0371-46a7-936d-9ee5abc32f1a",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "8b34da72-47a9-4950-aa3a-210bcffcb0c5",
-          "width": 8,
-          "x": 2206,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "830f293b-d508-45fb-b9ff-777ec3af7d78",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "27c743da-f267-48ad-ba73-9a74635965e7",
-          "width": 8,
-          "x": 96,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "69c25bc8-eb3c-4c32-96a2-b814451f4d89",
-          "width": 8,
-          "x": 861,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "ff9e6593-6b1c-4e49-b395-e12aff073fec",
-          "width": 8,
-          "x": 1556,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "dbfde019-7087-40b8-8868-e5fa045d08ae",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 324,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "a6484254-fa28-4741-b957-3bfbad94f819",
-          "width": 8,
-          "x": 1371,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "7df05420-dbee-465c-af46-a214db16b55f",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "9ff31545-1be4-4a36-b05b-aca4f637d5ad",
-          "width": 8,
-          "x": 1826,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "d2c09d9c-adeb-4e56-ad81-281ab49c4805",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 444,
-          "layer": "",
-          "name": "Fio",
-          "persistentUuid": "09d1c44c-2170-4924-a5f8-d22e3324ddca",
-          "width": 8,
-          "x": 1876,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Layout",
-              "persistentUuid": "68943a57-c2a2-4a13-9097-06ecb922b3b0",
               "type": "number",
               "value": 2
             }
@@ -2750,6 +2135,1001 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "08193d43-c666-4228-85d6-af80226593ea",
+          "width": 200,
+          "x": 40,
+          "y": 560,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "2095ec65-065d-4cc8-834f-d5c140314703",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "eba32af4-338c-41a7-8cdd-6498927bcc2a",
+          "width": 160,
+          "x": 180,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "fe8f871f-34fa-442b-bcf9-7ef9944a6d75",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Andaime",
+          "persistentUuid": "c291bdba-9c0f-4981-a742-1d9a42b1e414",
+          "width": 180,
+          "x": 400,
+          "y": 330,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "4c018f07-3b89-42c7-a2b3-9b3f7776058b",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "4d8e00c9-b6d0-4d5e-ab69-ef26bbda22f7",
+          "width": 200,
+          "x": 640,
+          "y": 560,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "10bf8896-c7c7-4bfe-bb85-8117bdd90100",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "6a88b07b-9841-4a8c-853b-5a33ae2f2988",
+          "width": 160,
+          "x": 620,
+          "y": 440,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "541a62da-9e50-4b6a-8d47-9cd49921e439",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "78aeaaa5-c285-413b-9b3e-9a834e627db4",
+          "width": 200,
+          "x": 900,
+          "y": 560,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "48bbce7b-c127-49f6-a9be-c52a4b30b3b5",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "5a1d8360-3b64-4133-843a-69f662280328",
+          "width": 220,
+          "x": 120,
+          "y": 560,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "2c4007cf-1c84-48f8-8c55-588bd1553dcc",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "9eef4e8b-aee2-475d-bdba-905800b9a5a6",
+          "width": 160,
+          "x": 40,
+          "y": 440,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "f5ac36a4-0dac-4a3b-983d-425c92f5e1a0",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "5e9a7844-b8c8-4a96-a48e-585c61b53139",
+          "width": 180,
+          "x": 260,
+          "y": 320,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "991e39be-9236-4770-9c44-455d9b20bffd",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Esteira",
+          "persistentUuid": "1fd08edb-8fe2-46cd-9c4b-ce7e5ffafe5b",
+          "width": 256,
+          "x": 480,
+          "y": 560,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "4693c768-469c-494b-926a-a293f6722768",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Velocidade",
+              "persistentUuid": "90021022-91fc-4786-85af-627076368de5",
+              "type": "number",
+              "value": -180
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "bafa150c-1921-46d1-a214-94f24ed5d888",
+          "width": 180,
+          "x": 560,
+          "y": 440,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "af088489-e53c-4535-af88-854d3d54971b",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "733e7c9d-5cb0-446c-8832-edd963f0f0de",
+          "width": 160,
+          "x": 900,
+          "y": 440,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "1839408e-5366-4cde-9175-a776469b1d25",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "Prateleira",
+          "persistentUuid": "b4d58844-08fc-4cc0-994a-8007c20f23ab",
+          "width": 180,
+          "x": 960,
+          "y": 560,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "36d9300c-a17e-4d5f-a60f-adf9e3cade80",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "3ac3b1ab-b077-47c1-9b80-d49d790a26a6",
+          "width": 8,
+          "x": 1524.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "d82dff17-7e9c-4a53-9f38-9ba3e03af091",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "e0ec8767-ec3f-4e14-bb2f-dfb120517afe",
+          "width": 8,
+          "x": 1826.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "62b09f56-8012-4387-a4b5-f2e6d5164e35",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 334,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "58aed61d-cfb8-4434-8e1b-77141aa9ea66",
+          "width": 8,
+          "x": 2086.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "bb58f4fc-d3a2-4fb1-827f-134875816f19",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "a1d9c506-f25c-449f-be42-ff499df2635a",
+          "width": 8,
+          "x": 2324.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "eaee7033-ea79-4650-89b7-b5f38619738b",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "3315d5cd-a822-40e9-9539-2768cdd1eb02",
+          "width": 8,
+          "x": 1316.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "ee4853df-7ffe-4094-aae3-1300e1d62167",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 334,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "b4b89949-7128-46d1-b887-3cdf823cfcdd",
+          "width": 8,
+          "x": 1566.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "2578f57f-32ad-46bc-968a-1983521500b0",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "39028676-a0cc-4b14-819b-293a25ffa821",
+          "width": 8,
+          "x": 1884.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "5911997b-4d7d-4765-bdf0-2bbd0ebc410e",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "ad5a1431-b808-4b4a-928c-f38d6c3f7e25",
+          "width": 8,
+          "x": 2176.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "a29ca60e-f85c-4025-bae7-c51d05c8b77c",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 334,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "698aa2e8-2a35-4047-ab70-04902cfc3a5a",
+          "width": 8,
+          "x": 2426.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "d6c773a5-70f9-4c3d-bca1-af4cc8a12e62",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "a32da5a6-651f-435d-a01f-21b5eb0e4dd9",
+          "width": 8,
+          "x": 1246.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "b7d21e75-6f2d-40e9-87a2-39a046f802dc",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "e27bce38-ff33-441d-b6b3-369b38795ca2",
+          "width": 8,
+          "x": 2326.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "dc4a1962-f768-4fc6-918f-73157a681ebe",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "be62c8d9-7cf2-4552-a8ef-e8b41dd59981",
+          "width": 8,
+          "x": 1346.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "d570960c-1143-468c-9f12-340c235e7a3a",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "81a51fa2-d920-4cf0-a869-81d60e4083a0",
+          "width": 8,
+          "x": 2206.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "d9a2daff-5395-411a-b833-3c5aeee26f38",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "f15df438-0868-44b9-ab17-7b7b62d2d1b6",
+          "width": 8,
+          "x": 1556.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "39cb0a5f-5a86-4a32-9307-bf3937c17b51",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 324,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "0e4ec584-5bf3-4c7d-aca0-6a576ede06eb",
+          "width": 8,
+          "x": 1371.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "cce879dc-582c-4850-8a38-bcd6530df501",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "09746b89-26f9-44eb-b68c-ab64bc5ed78d",
+          "width": 8,
+          "x": 1826.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "53d9845b-f765-47e0-8ea3-a5eb3c05999a",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "fc530e44-03c8-453e-933a-d2d37b135cb6",
+          "width": 8,
+          "x": 1876.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "68954cd3-f7c4-4ac5-ad2f-1d58d50a609a",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "5a5279d5-9f07-406b-9b89-9c516a4849ed",
+          "width": 8,
+          "x": 136.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "d8837d32-a8a4-4cd6-94b9-3b332c5a29ca",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "8092ca95-8019-423f-949e-e45b90ba3f10",
+          "width": 8,
+          "x": 256.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "5bcacb78-e838-45f7-b52d-9577aac16460",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 334,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "89152bd2-f743-4203-94d8-0ba2eb9d8b3a",
+          "width": 8,
+          "x": 486.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "f4b28a78-40da-438e-ac47-85813413fd56",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "a3a0a9c3-5b3c-4ae6-80ce-d76ee0fcc006",
+          "width": 8,
+          "x": 736.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "da175076-f0fb-4638-bb30-4cebbfc83155",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "d2775555-9e83-4de7-9c64-be95ec270d2d",
+          "width": 8,
+          "x": 696.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "6181ae91-1b8d-4a7e-a30a-c60d5cb243f2",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "7a1f6adb-cb15-47ff-a3c1-23eacd2da4f3",
+          "width": 8,
+          "x": 996.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "6162831c-4adf-4bbe-aef8-ac32df47f228",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 564,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "b9d7d5d6-5466-4546-803c-ca70341c6085",
+          "width": 8,
+          "x": 226.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "84a2b9dc-3374-453c-a25b-3cd6032b69fa",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "d9c6a7d0-27c2-4e47-9c6a-d495c598d17d",
+          "width": 8,
+          "x": 116.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "130cef87-a1fe-4e25-8d56-2aac5e6a4c39",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 324,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "f4a64f1c-47c9-47fc-9cd2-7241f38777b0",
+          "width": 8,
+          "x": 346.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "e75b2e5f-9f3a-4d2f-8972-fa18c3f2f7d1",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "953d3338-b7e1-48c3-ac16-40f2a547fae1",
+          "width": 8,
+          "x": 604.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "8185be76-7062-4a5d-a847-c3f09c21e0f1",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "1ffd49e5-25ce-4d98-903d-54ecd9b3694d",
+          "width": 8,
+          "x": 646.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "13078afd-6972-4537-987a-7a0db2d89efc",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 444,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "3bf186ce-7ac0-4ad4-a19e-5f85952d1d57",
+          "width": 8,
+          "x": 976.0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "151101f0-bb72-4e81-92df-81dae40dec61",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 92,
+          "layer": "",
+          "name": "Fio",
+          "persistentUuid": "537f3039-7113-4890-874d-dbfa1c466b12",
+          "width": 8,
+          "x": 1046.0,
+          "y": 472,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Layout",
+              "persistentUuid": "0156d290-f402-4999-aaf9-c434678418c4",
+              "type": "number",
+              "value": 2
+            }
+          ]
         }
       ],
       "objects": [
@@ -11017,1210 +11397,22 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Saltador",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "<",
-                    "1200"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Robo.X()",
-                    "<",
-                    "1200"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        ">",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "<",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        ">=",
-                        "0.3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "620"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "Robo.X()",
-                        "<",
-                        "400"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        ">",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        ">=",
-                        "0.3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "620"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "Robo.X()",
-                        ">=",
-                        "400"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "Robo.X()",
-                        "<",
-                        "400"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "Robo.X()",
-                        ">=",
-                        "400"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "+",
-                        "TimeDelta()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        ">=",
-                        "0.6"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "940"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<",
-                        "940"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        ">=",
-                        "1.2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<=",
-                        "955"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<",
-                        "600"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "740"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<",
-                        "740"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        ">=",
-                        "1.2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<=",
-                        "760"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<",
-                        "530"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "Robo.X()",
-                        "<",
-                        "400"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        ">=",
-                        "1.2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<=",
-                        "650"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<",
-                        "550"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<",
-                        "Robo.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "Robo.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        ">=",
-                        "2.5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "Robo.Y()+40"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "Robo.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<",
-                        "Robo.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        ">=",
-                        "0.6"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<=",
-                        "380"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "Robo.Y()+40"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "Robo.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "EtapaRota",
-                        "=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<",
-                        "Robo.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Saltador: persegue o robô na arena inteira lendo as posições, sem rota fixa (os três setores trocam de plataformas entre as ondas). Ele anda na direção do robô e só pula com motivo: para subir quando o robô está mais alto, num salto de ataque quando está perto e na mesma altura, ou para atravessar o vão na beira de uma plataforma. Quando o robô está logo abaixo, ele desce atravessando a plataforma. TempoPulo evita pulos seguidos.",
+              "comment2": ""
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Saltador",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    ">=",
-                    "1200"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [],
               "events": [
                 {
@@ -12250,7 +11442,7 @@
                       "parameters": [
                         "Saltador",
                         "<",
-                        "Robo.X()-20"
+                        "Robo.CenterX() - Saltador.Width() / 2 - 20"
                       ]
                     }
                   ],
@@ -12276,7 +11468,7 @@
                       "parameters": [
                         "Saltador",
                         ">",
-                        "Robo.X()+20"
+                        "Robo.CenterX() - Saltador.Width() / 2 + 20"
                       ]
                     }
                   ],
@@ -12293,8 +11485,30 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Subir: robô mais de 60 px acima.",
+                  "comment2": ""
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "NumberObjectVariable"
@@ -12303,16 +11517,17 @@
                         "Saltador",
                         "TempoPulo",
                         ">=",
-                        "1.1"
+                        "0.6"
                       ]
                     },
                     {
                       "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
+                        "Robo.CenterY() - Saltador.CenterY()",
+                        "<",
+                        "-60"
                       ]
                     }
                   ],
@@ -12338,6 +11553,157 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Salto de ataque: perto (até 140 px) e na mesma altura, no máximo a cada 1,5 s.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        ">=",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "abs(Robo.CenterX() - Saltador.CenterX())",
+                        "<",
+                        "140"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "abs(Robo.CenterY() - Saltador.CenterY())",
+                        "<=",
+                        "60"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "TempoPulo",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Descer: robô mais de 60 px abaixo e quase embaixo dele; a seta para baixo atravessa a plataforma.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Robo.CenterY() - Saltador.CenterY()",
+                        ">",
+                        "60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "abs(Robo.CenterX() - Saltador.CenterX())",
+                        "<",
+                        "60"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateDownKey"
+                      },
+                      "parameters": [
+                        "Saltador",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Beira da plataforma: indo na direção do robô, pula para atravessar o vão, a não ser que o robô esteja embaixo (aí ele só cai da beira).",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -12353,6 +11719,16 @@
                         "PlataformasMoveis",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Robo.CenterY() - Saltador.CenterY()",
+                        "<=",
+                        "60"
+                      ]
                     }
                   ],
                   "actions": [],
@@ -12367,7 +11743,7 @@
                           "parameters": [
                             "Saltador",
                             "<",
-                            "Robo.X()-40"
+                            "Robo.X() - 40"
                           ]
                         },
                         {
@@ -12377,7 +11753,7 @@
                           "parameters": [
                             "Saltador",
                             ">=",
-                            "PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-35"
+                            "PlataformasMoveis.X() + PlataformasMoveis.Width() - Saltador.Width() - 35"
                           ]
                         },
                         {
@@ -12387,6 +11763,17 @@
                           "parameters": [
                             "Saltador",
                             "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Saltador",
+                            "TempoPulo",
+                            ">=",
+                            "0.3"
                           ]
                         }
                       ],
@@ -12423,7 +11810,7 @@
                           "parameters": [
                             "Saltador",
                             ">",
-                            "Robo.X()+40"
+                            "Robo.X() + 40"
                           ]
                         },
                         {
@@ -12433,7 +11820,7 @@
                           "parameters": [
                             "Saltador",
                             "<=",
-                            "PlataformasMoveis.X()+35"
+                            "PlataformasMoveis.X() + 35"
                           ]
                         },
                         {
@@ -12444,282 +11831,16 @@
                             "Saltador",
                             "PlatformerObject"
                           ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateJumpKey"
-                          },
-                          "parameters": [
-                            "Saltador",
-                            "PlatformerObject"
-                          ]
                         },
                         {
                           "type": {
-                            "value": "SetNumberObjectVariable"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
                             "Saltador",
                             "TempoPulo",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Saltador",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Saltador",
-                    "<",
-                    "1200"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Robo.X()",
-                    ">=",
-                    "1200"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "+",
-                        "TimeDelta()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "<",
-                        "Robo.X()-20"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        ">",
-                        "Robo.X()+20"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        ">=",
-                        "1.1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "TempoPulo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "PlataformasMoveis",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsObjectOnGivenFloor"
-                      },
-                      "parameters": [
-                        "Saltador",
-                        "PlatformerObject",
-                        "PlataformasMoveis",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "Saltador",
-                            "<",
-                            "Robo.X()-40"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "Saltador",
                             ">=",
-                            "PlataformasMoveis.X()+PlataformasMoveis.Width()-Saltador.Width()-35"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "Saltador",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateJumpKey"
-                          },
-                          "parameters": [
-                            "Saltador",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Saltador",
-                            "TempoPulo",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "Saltador",
-                            ">",
-                            "Robo.X()+40"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "Saltador",
-                            "<=",
-                            "PlataformasMoveis.X()+35"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "Saltador",
-                            "PlatformerObject"
+                            "0.3"
                           ]
                         }
                       ],
@@ -15294,7 +14415,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Mudança de plataformas: cada plataforma e cada fio têm a variável Layout (0 = fixa, sempre presente; 1, 2... = só existe naquele layout). O layout de cada onda é mod(Onda - 1, NumeroLayouts) + 1, então as ondas ímpares usam o 1 e as pares o 2. Só os setores do meio e da direita mudam: a esquerda fica fixa por causa da rota do Saltador. Ao criar um layout novo, respeitar a regra dos setores e dar a cada plataforma um fio com o mesmo Layout."
+              "comment": "Mudança de plataformas: cada plataforma e cada fio têm a variável Layout (0 = fixa, sempre presente; 1, 2... = só existe naquele layout). O layout de cada onda é mod(Onda - 1, NumeroLayouts) + 1, então as ondas ímpares usam o 1 e as pares o 2. Os três setores mudam (o Saltador lê as plataformas, sem rota fixa). Alturas: 560, 440 e 320 (andaime em 330). Ao criar um layout novo, respeitar a regra dos setores e dar a cada plataforma um fio com o mesmo Layout."
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
