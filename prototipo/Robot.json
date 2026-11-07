@@ -887,6 +887,150 @@
         "name": "prototipo/imagens/saltador-animado/pularesquerda-04.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/paradodireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/paradodireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/paradoesquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/paradoesquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moverdireita-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moverdireita-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moverdireita-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moverdireita-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moverdireita-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moverdireita-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moverdireita-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moverdireita-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moverdireita-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moverdireita-05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moverdireita-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moverdireita-06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moveresquerda-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moveresquerda-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moveresquerda-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moveresquerda-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moveresquerda-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moveresquerda-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moveresquerda-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moveresquerda-04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moveresquerda-05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moveresquerda-05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/voador-animado/moveresquerda-06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/voador-animado/moveresquerda-06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/explosao-voador/explosao-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/explosao-voador/explosao-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/explosao-voador/explosao-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/explosao-voador/explosao-02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/explosao-voador/explosao-03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/explosao-voador/explosao-03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/explosao-voador/explosao-04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/explosao-voador/explosao-04.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -7354,16 +7498,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "ParadoDireita",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/voador.png",
+                      "image": "prototipo/imagens/voador-animado/paradodireita-01.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7379,20 +7523,524 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 20,
+                            "y": 20
                           },
                           {
-                            "x": 32,
-                            "y": 0
+                            "x": 52,
+                            "y": 20
                           },
                           {
-                            "x": 32,
-                            "y": 32
+                            "x": 52,
+                            "y": 52
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ParadoEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/paradoesquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MoverDireita",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moverdireita-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moverdireita-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moverdireita-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moverdireita-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moverdireita-05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moverdireita-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MoverEsquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moveresquerda-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moveresquerda-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moveresquerda-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moveresquerda-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moveresquerda-05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/voador-animado/moveresquerda-06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 20
+                          },
+                          {
+                            "x": 52,
+                            "y": 52
+                          },
+                          {
+                            "x": 20,
+                            "y": 52
                           }
                         ]
                       ]
@@ -9171,52 +9819,100 @@
           ]
         },
         {
-          "additive": false,
-          "assetStoreId": "",
-          "destroyWhenNoParticles": true,
-          "emitterAngleA": 0,
-          "emitterAngleB": 360,
-          "emitterForceMax": 185,
-          "emitterForceMin": 100,
-          "flow": -1,
-          "jumpForwardInTimeOnCreation": 0,
-          "maxParticleNb": 28,
           "name": "ExplosaoVoador",
-          "particleAlpha1": 230,
-          "particleAlpha2": 0,
-          "particleAlphaRandomness1": 0,
-          "particleAlphaRandomness2": 0,
-          "particleAngle1": 0,
-          "particleAngle2": 0,
-          "particleAngleRandomness1": 0,
-          "particleAngleRandomness2": 0,
-          "particleBlue1": 95,
-          "particleBlue2": 20,
-          "particleColor1": "255;205;95",
-          "particleColor2": "210;60;20",
-          "particleGravityX": 0,
-          "particleGravityY": 25,
-          "particleGreen1": 205,
-          "particleGreen2": 60,
-          "particleLifeTimeMax": 0.42,
-          "particleLifeTimeMin": 0.23,
-          "particleRed1": 255,
-          "particleRed2": 210,
-          "particleSize1": 24,
-          "particleSize2": 4,
-          "particleSizeRandomness1": 8,
-          "particleSizeRandomness2": 1,
           "persistentUuid": "d3a2765d-85eb-4ae0-8143-d46e91fab5e6",
-          "rendererParam1": 6,
-          "rendererParam2": 1,
-          "rendererType": "Point",
-          "tank": 28,
-          "textureParticleName": "",
-          "type": "ParticleSystem::ParticleEmitter",
-          "zoneRadius": 4,
-          "variables": [],
+          "type": "Sprite",
+          "variables": [
+            {
+              "name": "TempoVida",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
-          "behaviors": []
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Explosao",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prototipo/imagens/explosao-voador/explosao-01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prototipo/imagens/explosao-voador/explosao-02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prototipo/imagens/explosao-voador/explosao-03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "prototipo/imagens/explosao-voador/explosao-04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -17271,8 +17967,8 @@
                       "parameters": [
                         "",
                         "ExplosaoVoador",
-                        "Voador.CenterX()",
-                        "Voador.CenterY()",
+                        "Voador.CenterX()-64",
+                        "Voador.CenterY()-64",
                         ""
                       ]
                     },
@@ -17485,6 +18181,131 @@
                 }
               ],
               "object": "Voador"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "TempoExplosao",
+                    "<",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    ">=",
+                    "Voador.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "Animation",
+                    "=",
+                    "\"MoverDireita\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "TempoExplosao",
+                    "<",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterX()",
+                    "<",
+                    "Voador.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Voador",
+                    "Animation",
+                    "=",
+                    "\"MoverEsquerda\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "ExplosaoVoador",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "ExplosaoVoador",
+                    "TempoVida",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "ExplosaoVoador",
+                        "TempoVida",
+                        ">=",
+                        "0.48"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "ExplosaoVoador",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
