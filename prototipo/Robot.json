@@ -792,7 +792,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740946,
+        "zoomFactor": 0.5117784035210191,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1317,177 +1317,212 @@
           "type": "array",
           "children": [
             {
+              "persistentUuid": "2f3438bf-7f2f-4998-a343-d45e6d5f22d5",
               "type": "structure",
               "children": [
                 {
-                  "name": "Nome",
-                  "type": "string",
-                  "value": "Canhão reforçado"
-                },
-                {
                   "name": "Descricao",
+                  "persistentUuid": "8079852b-f3ce-4b2c-987c-b2d161496c47",
                   "type": "string",
                   "value": "+20% de dano"
                 },
                 {
                   "name": "Escolhas",
+                  "persistentUuid": "a1c0166b-a571-473f-8223-19271321ad57",
                   "type": "number",
                   "value": 0
                 },
                 {
                   "name": "Maximo",
+                  "persistentUuid": "4d42107d-373a-48b9-979d-56dc864b504a",
                   "type": "number",
                   "value": 5
+                },
+                {
+                  "name": "Nome",
+                  "persistentUuid": "79cda643-8be4-454e-af5b-6e134ed73e52",
+                  "type": "string",
+                  "value": "Canhão reforçado"
                 }
               ]
             },
             {
+              "persistentUuid": "6a6266be-a90f-4bbe-9d28-2c0ab2775d51",
               "type": "structure",
               "children": [
                 {
-                  "name": "Nome",
-                  "type": "string",
-                  "value": "Engrenagem rápida"
-                },
-                {
                   "name": "Descricao",
+                  "persistentUuid": "d0d67d0d-146f-426a-97ec-7ed218029fcf",
                   "type": "string",
                   "value": "Atira 10% mais rápido"
                 },
                 {
                   "name": "Escolhas",
+                  "persistentUuid": "9a43a5ca-c629-4e0a-a4e3-80727e881c1d",
                   "type": "number",
                   "value": 0
                 },
                 {
                   "name": "Maximo",
+                  "persistentUuid": "a5a11805-7d33-4378-b097-ac63732f9183",
                   "type": "number",
                   "value": 5
+                },
+                {
+                  "name": "Nome",
+                  "persistentUuid": "8864b837-c6f6-4b14-a548-ae47b4bc2269",
+                  "type": "string",
+                  "value": "Engrenagem rápida"
                 }
               ]
             },
             {
+              "persistentUuid": "6ce635c7-a626-455a-8ab0-c02716db509e",
               "type": "structure",
               "children": [
                 {
-                  "name": "Nome",
-                  "type": "string",
-                  "value": "Placa de blindagem"
-                },
-                {
                   "name": "Descricao",
+                  "persistentUuid": "5b653d64-7a3c-46bb-82ae-c740d0f7e47d",
                   "type": "string",
                   "value": "+1 de vida máxima\ne recupera 1 de vida"
                 },
                 {
                   "name": "Escolhas",
+                  "persistentUuid": "7ee72f63-b226-4467-8690-ebd26565e30f",
                   "type": "number",
                   "value": 0
                 },
                 {
                   "name": "Maximo",
+                  "persistentUuid": "feddd8cc-4bae-47ce-9689-cbb0d3c0ed71",
                   "type": "number",
                   "value": 5
+                },
+                {
+                  "name": "Nome",
+                  "persistentUuid": "3175cbe3-5c66-44ed-835c-945aa1905205",
+                  "type": "string",
+                  "value": "Placa de blindagem"
                 }
               ]
             },
             {
+              "persistentUuid": "0fc0483f-8c01-4bf4-a586-3949fa543d29",
               "type": "structure",
               "children": [
                 {
-                  "name": "Nome",
-                  "type": "string",
-                  "value": "Rodas lubrificadas"
-                },
-                {
                   "name": "Descricao",
+                  "persistentUuid": "254a6d88-f5c0-4611-9c98-908818fc92c3",
                   "type": "string",
                   "value": "+10% de velocidade"
                 },
                 {
                   "name": "Escolhas",
+                  "persistentUuid": "57e37f9b-e350-460d-b006-63d67c163d55",
                   "type": "number",
                   "value": 0
                 },
                 {
                   "name": "Maximo",
+                  "persistentUuid": "56657207-3741-4b99-9403-b3e0aa9c0b34",
                   "type": "number",
                   "value": 4
+                },
+                {
+                  "name": "Nome",
+                  "persistentUuid": "15fa41e8-3f61-4de9-a9f1-42bc63660ea8",
+                  "type": "string",
+                  "value": "Rodas lubrificadas"
                 }
               ]
             },
             {
+              "persistentUuid": "5152fe80-997c-44d3-acce-ef565f1b0e36",
               "type": "structure",
               "children": [
                 {
-                  "name": "Nome",
-                  "type": "string",
-                  "value": "Caldeira extra"
-                },
-                {
                   "name": "Descricao",
+                  "persistentUuid": "1f0a584f-8fb4-413f-8925-76579e35a1f5",
                   "type": "string",
                   "value": "Dash recarrega\n15% mais rápido"
                 },
                 {
                   "name": "Escolhas",
+                  "persistentUuid": "89ce0645-5647-433e-93f4-8c4543020ac5",
                   "type": "number",
                   "value": 0
                 },
                 {
                   "name": "Maximo",
+                  "persistentUuid": "c740dd74-617f-434a-bcdc-8445e75fd9a2",
                   "type": "number",
                   "value": 5
+                },
+                {
+                  "name": "Nome",
+                  "persistentUuid": "7a1e921b-1f08-41e5-84bb-79c4bb6f45f2",
+                  "type": "string",
+                  "value": "Caldeira extra"
                 }
               ]
             },
             {
+              "persistentUuid": "659e4622-1c2f-4bc6-8a72-ff4235d5b886",
               "type": "structure",
               "children": [
                 {
-                  "name": "Nome",
-                  "type": "string",
-                  "value": "Ímã"
-                },
-                {
                   "name": "Descricao",
+                  "persistentUuid": "efc5138a-0415-4903-aaa8-4b8d01040891",
                   "type": "string",
                   "value": "Puxa as peças\nde mais longe"
                 },
                 {
                   "name": "Escolhas",
+                  "persistentUuid": "d6e3eb4e-3211-486b-befa-a7e0aa12476a",
                   "type": "number",
                   "value": 0
                 },
                 {
                   "name": "Maximo",
+                  "persistentUuid": "6ec89116-84a2-4813-8bba-33309691ce96",
                   "type": "number",
                   "value": 4
+                },
+                {
+                  "name": "Nome",
+                  "persistentUuid": "26c7507c-d39a-4f4a-a58a-60260eb84d86",
+                  "type": "string",
+                  "value": "Ímã"
                 }
               ]
             },
             {
+              "persistentUuid": "005e553b-8230-4a0f-b32c-6a5325b08290",
               "type": "structure",
               "children": [
                 {
-                  "name": "Nome",
-                  "type": "string",
-                  "value": "Reparo imediato"
-                },
-                {
                   "name": "Descricao",
+                  "persistentUuid": "6f86b7ee-26ed-4a8f-bb4d-52553b8979fe",
                   "type": "string",
                   "value": "Recupera 1 de vida"
                 },
                 {
                   "name": "Escolhas",
+                  "persistentUuid": "7c79d1bf-5b9e-48bd-8fe8-57a8127c7820",
                   "type": "number",
                   "value": 0
                 },
                 {
                   "name": "Maximo",
+                  "persistentUuid": "e1832634-e797-4fb2-b11d-2c55277e7564",
                   "type": "number",
                   "value": 999
+                },
+                {
+                  "name": "Nome",
+                  "persistentUuid": "803fc3a9-9203-41bd-a6b2-c861de711cbb",
+                  "type": "string",
+                  "value": "Reparo imediato"
                 }
               ]
             }
@@ -2714,7 +2749,7 @@
           "name": "Fio",
           "persistentUuid": "3ac3b1ab-b077-47c1-9b80-d49d790a26a6",
           "width": 8,
-          "x": 1524.0,
+          "x": 1524,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -2737,7 +2772,7 @@
           "name": "Fio",
           "persistentUuid": "e0ec8767-ec3f-4e14-bb2f-dfb120517afe",
           "width": 8,
-          "x": 1826.0,
+          "x": 1826,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -2760,7 +2795,7 @@
           "name": "Fio",
           "persistentUuid": "58aed61d-cfb8-4434-8e1b-77141aa9ea66",
           "width": 8,
-          "x": 2086.0,
+          "x": 2086,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -2783,7 +2818,7 @@
           "name": "Fio",
           "persistentUuid": "a1d9c506-f25c-449f-be42-ff499df2635a",
           "width": 8,
-          "x": 2324.0,
+          "x": 2324,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -2806,7 +2841,7 @@
           "name": "Fio",
           "persistentUuid": "3315d5cd-a822-40e9-9539-2768cdd1eb02",
           "width": 8,
-          "x": 1316.0,
+          "x": 1316,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -2829,7 +2864,7 @@
           "name": "Fio",
           "persistentUuid": "b4b89949-7128-46d1-b887-3cdf823cfcdd",
           "width": 8,
-          "x": 1566.0,
+          "x": 1566,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -2852,7 +2887,7 @@
           "name": "Fio",
           "persistentUuid": "39028676-a0cc-4b14-819b-293a25ffa821",
           "width": 8,
-          "x": 1884.0,
+          "x": 1884,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -2875,7 +2910,7 @@
           "name": "Fio",
           "persistentUuid": "ad5a1431-b808-4b4a-928c-f38d6c3f7e25",
           "width": 8,
-          "x": 2176.0,
+          "x": 2176,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -2898,7 +2933,7 @@
           "name": "Fio",
           "persistentUuid": "698aa2e8-2a35-4047-ab70-04902cfc3a5a",
           "width": 8,
-          "x": 2426.0,
+          "x": 2426,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -2921,7 +2956,7 @@
           "name": "Fio",
           "persistentUuid": "a32da5a6-651f-435d-a01f-21b5eb0e4dd9",
           "width": 8,
-          "x": 1246.0,
+          "x": 1246,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -2944,7 +2979,7 @@
           "name": "Fio",
           "persistentUuid": "e27bce38-ff33-441d-b6b3-369b38795ca2",
           "width": 8,
-          "x": 2326.0,
+          "x": 2326,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -2967,7 +3002,7 @@
           "name": "Fio",
           "persistentUuid": "be62c8d9-7cf2-4552-a8ef-e8b41dd59981",
           "width": 8,
-          "x": 1346.0,
+          "x": 1346,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -2990,7 +3025,7 @@
           "name": "Fio",
           "persistentUuid": "81a51fa2-d920-4cf0-a869-81d60e4083a0",
           "width": 8,
-          "x": 2206.0,
+          "x": 2206,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3013,7 +3048,7 @@
           "name": "Fio",
           "persistentUuid": "f15df438-0868-44b9-ab17-7b7b62d2d1b6",
           "width": 8,
-          "x": 1556.0,
+          "x": 1556,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3036,7 +3071,7 @@
           "name": "Fio",
           "persistentUuid": "0e4ec584-5bf3-4c7d-aca0-6a576ede06eb",
           "width": 8,
-          "x": 1371.0,
+          "x": 1371,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3059,7 +3094,7 @@
           "name": "Fio",
           "persistentUuid": "09746b89-26f9-44eb-b68c-ab64bc5ed78d",
           "width": 8,
-          "x": 1826.0,
+          "x": 1826,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3082,7 +3117,7 @@
           "name": "Fio",
           "persistentUuid": "fc530e44-03c8-453e-933a-d2d37b135cb6",
           "width": 8,
-          "x": 1876.0,
+          "x": 1876,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3105,7 +3140,7 @@
           "name": "Fio",
           "persistentUuid": "5a5279d5-9f07-406b-9b89-9c516a4849ed",
           "width": 8,
-          "x": 136.0,
+          "x": 136,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3128,7 +3163,7 @@
           "name": "Fio",
           "persistentUuid": "8092ca95-8019-423f-949e-e45b90ba3f10",
           "width": 8,
-          "x": 256.0,
+          "x": 256,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3151,7 +3186,7 @@
           "name": "Fio",
           "persistentUuid": "89152bd2-f743-4203-94d8-0ba2eb9d8b3a",
           "width": 8,
-          "x": 486.0,
+          "x": 486,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3174,7 +3209,7 @@
           "name": "Fio",
           "persistentUuid": "a3a0a9c3-5b3c-4ae6-80ce-d76ee0fcc006",
           "width": 8,
-          "x": 736.0,
+          "x": 736,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -3197,7 +3232,7 @@
           "name": "Fio",
           "persistentUuid": "d2775555-9e83-4de7-9c64-be95ec270d2d",
           "width": 8,
-          "x": 696.0,
+          "x": 696,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3220,7 +3255,7 @@
           "name": "Fio",
           "persistentUuid": "7a1f6adb-cb15-47ff-a3c1-23eacd2da4f3",
           "width": 8,
-          "x": 996.0,
+          "x": 996,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3243,7 +3278,7 @@
           "name": "Fio",
           "persistentUuid": "b9d7d5d6-5466-4546-803c-ca70341c6085",
           "width": 8,
-          "x": 226.0,
+          "x": 226,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3266,7 +3301,7 @@
           "name": "Fio",
           "persistentUuid": "d9c6a7d0-27c2-4e47-9c6a-d495c598d17d",
           "width": 8,
-          "x": 116.0,
+          "x": 116,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3289,7 +3324,7 @@
           "name": "Fio",
           "persistentUuid": "f4a64f1c-47c9-47fc-9cd2-7241f38777b0",
           "width": 8,
-          "x": 346.0,
+          "x": 346,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3312,7 +3347,7 @@
           "name": "Fio",
           "persistentUuid": "953d3338-b7e1-48c3-ac16-40f2a547fae1",
           "width": 8,
-          "x": 604.0,
+          "x": 604,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -3335,7 +3370,7 @@
           "name": "Fio",
           "persistentUuid": "1ffd49e5-25ce-4d98-903d-54ecd9b3694d",
           "width": 8,
-          "x": 646.0,
+          "x": 646,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3358,7 +3393,7 @@
           "name": "Fio",
           "persistentUuid": "3bf186ce-7ac0-4ad4-a19e-5f85952d1d57",
           "width": 8,
-          "x": 976.0,
+          "x": 976,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3381,7 +3416,7 @@
           "name": "Fio",
           "persistentUuid": "537f3039-7113-4890-874d-dbfa1c466b12",
           "width": 8,
-          "x": 1046.0,
+          "x": 1046,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -3889,7 +3924,7 @@
           "name": "Fio",
           "persistentUuid": "1e2a6774-75f9-4e99-9f11-3bb29e797516",
           "width": 8,
-          "x": 136.0,
+          "x": 136,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3912,7 +3947,7 @@
           "name": "Fio",
           "persistentUuid": "d9794f7c-9f3b-494c-838e-436a9791e30f",
           "width": 8,
-          "x": 256.0,
+          "x": 256,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3935,7 +3970,7 @@
           "name": "Fio",
           "persistentUuid": "bb724c5c-b423-46ba-88fe-70672cebad1d",
           "width": 8,
-          "x": 486.0,
+          "x": 486,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3958,7 +3993,7 @@
           "name": "Fio",
           "persistentUuid": "8e3b4067-d6b0-4521-91bd-a017b728fc9a",
           "width": 8,
-          "x": 736.0,
+          "x": 736,
           "y": 472,
           "zOrder": 0,
           "numberProperties": [],
@@ -3981,7 +4016,7 @@
           "name": "Fio",
           "persistentUuid": "cd08b465-c682-485c-b3dd-0ed11b092305",
           "width": 8,
-          "x": 696.0,
+          "x": 696,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -4004,7 +4039,7 @@
           "name": "Fio",
           "persistentUuid": "01753520-edad-45fc-9947-93577f90ae4a",
           "width": 8,
-          "x": 1056.0,
+          "x": 1056,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -4027,7 +4062,7 @@
           "name": "Fio",
           "persistentUuid": "50d521c4-cd55-490d-a71f-687878851295",
           "width": 8,
-          "x": 1206.0,
+          "x": 1206,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -4050,7 +4085,7 @@
           "name": "Fio",
           "persistentUuid": "98761d94-d23f-4232-a1e3-6b1bc7f5fbb1",
           "width": 8,
-          "x": 1436.0,
+          "x": 1436,
           "y": 352,
           "zOrder": 0,
           "numberProperties": [],
@@ -4073,7 +4108,7 @@
           "name": "Fio",
           "persistentUuid": "1b78f432-5b48-4fb4-91c9-08867b5cf0b6",
           "width": 8,
-          "x": 1476.0,
+          "x": 1476,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -4096,7 +4131,7 @@
           "name": "Fio",
           "persistentUuid": "5108bf8e-19a2-4794-ae5d-461282838bd1",
           "width": 8,
-          "x": 1636.0,
+          "x": 1636,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -4119,7 +4154,7 @@
           "name": "Fio",
           "persistentUuid": "375f8e11-f692-48d3-8783-0024dd3fd0e1",
           "width": 8,
-          "x": 1856.0,
+          "x": 1856,
           "y": 352,
           "zOrder": 0,
           "numberProperties": [],
@@ -4142,7 +4177,7 @@
           "name": "Fio",
           "persistentUuid": "6871ef30-e355-4a42-87bd-3bedcc00e8b7",
           "width": 8,
-          "x": 1956.0,
+          "x": 1956,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -4165,7 +4200,7 @@
           "name": "Fio",
           "persistentUuid": "4a03abd4-f811-4626-8c14-0768a888ed5f",
           "width": 8,
-          "x": 1826.0,
+          "x": 1826,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -4335,8 +4370,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 188.5,
+                          "y": 153.5
                         }
                       ],
                       "originPoint": {
@@ -4347,8 +4382,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4377,8 +4412,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 188.5,
+                          "y": 153.5
                         }
                       ],
                       "originPoint": {
@@ -4389,8 +4424,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4419,8 +4454,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 188.5,
+                          "y": 153.5
                         }
                       ],
                       "originPoint": {
@@ -4431,8 +4466,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4461,8 +4496,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 188.5,
+                          "y": 153.5
                         }
                       ],
                       "originPoint": {
@@ -4473,8 +4508,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4503,8 +4538,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 188.5,
+                          "y": 153.5
                         }
                       ],
                       "originPoint": {
@@ -4515,8 +4550,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4545,8 +4580,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 188.5,
+                          "y": 153.5
                         }
                       ],
                       "originPoint": {
@@ -4557,8 +4592,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4599,8 +4634,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 188.5,
+                          "y": 153.5
                         }
                       ],
                       "originPoint": {
@@ -4611,8 +4646,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4654,20 +4689,20 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 185,
+                          "y": 149.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 26.5,
-                        "y": 12
+                        "x": 40,
+                        "y": 11.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4696,20 +4731,20 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 188.5,
+                          "y": 153.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 26.5,
-                        "y": 12
+                        "x": 51,
+                        "y": 12.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4738,20 +4773,20 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 191.5,
+                          "y": 154
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 26.5,
-                        "y": 12
+                        "x": 50,
+                        "y": 12.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4780,20 +4815,20 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 186,
+                          "y": 151.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 26.5,
-                        "y": 12
+                        "x": 42.5,
+                        "y": 13
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4822,20 +4857,20 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 189.5,
+                          "y": 156
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 26.5,
-                        "y": 12
+                        "x": 52,
+                        "y": 20
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4864,20 +4899,20 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 190,
+                          "y": 158
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 26.5,
-                        "y": 12
+                        "x": 51,
+                        "y": 18
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
-                        "y": 175
+                        "x": 146,
+                        "y": 169.5
                       },
                       "customCollisionMask": [
                         [
@@ -4918,8 +4953,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 159.5,
-                          "y": 155
+                          "x": 153,
+                          "y": 157.5
                         }
                       ],
                       "originPoint": {
@@ -4930,7 +4965,7 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 129,
+                        "x": 127,
                         "y": 175
                       },
                       "customCollisionMask": [
@@ -8469,7 +8504,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "TextoTitulo",
           "persistentUuid": "b1821fa5-3bae-4480-985a-07e7a1a8af60",
@@ -8484,9 +8519,9 @@
           "textAlignment": "center",
           "characterSize": 48,
           "color": {
-            "r": 255,
+            "b": 210,
             "g": 240,
-            "b": 210
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -8513,7 +8548,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "TextoSubtitulo",
           "persistentUuid": "191d77a3-bf47-47e5-a770-211b006e6111",
@@ -8528,9 +8563,9 @@
           "textAlignment": "center",
           "characterSize": 22,
           "color": {
-            "r": 255,
+            "b": 210,
             "g": 240,
-            "b": 210
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -8606,7 +8641,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "TextoCartao",
           "persistentUuid": "a90d7f0f-97a2-4bb3-a329-e540537a4c0b",
@@ -8628,9 +8663,9 @@
           "textAlignment": "center",
           "characterSize": 22,
           "color": {
-            "r": 255,
+            "b": 210,
             "g": 240,
-            "b": 210
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -8822,11 +8857,10 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": false,
+          "folded": true,
           "name": "Ciclo da partida",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "parameters": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -8838,8 +8872,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Estado da partida (variável EstadoJogo): Jogando, Pausado, EscolhendoUpgrade, Derrota ou Vitoria. Fora de Jogando a escala de tempo vai a 0: tudo que usa TimeDelta, os comportamentos, os Tweens e as partículas congelam. Os comandos do robô só valem em Jogando, e depois de qualquer tela o tiro espera o botão do mouse ser solto (AguardandoSoltarMouse), para o clique da tela não virar tiro.",
-              "comment2": ""
+              "comment": "Estado da partida (variável EstadoJogo): Jogando, Pausado, EscolhendoUpgrade, Derrota ou Vitoria. Fora de Jogando a escala de tempo vai a 0: tudo que usa TimeDelta, os comportamentos, os Tweens e as partículas congelam. Os comandos do robô só valem em Jogando, e depois de qualquer tela o tiro espera o botão do mouse ser solto (AguardandoSoltarMouse), para o clique da tela não virar tiro."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8918,8 +8951,8 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed",
-                    "inverted": true
+                    "inverted": true,
+                    "value": "MouseButtonFromTextPressed"
                   },
                   "parameters": [
                     "",
@@ -8950,8 +8983,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Pausa: Esc entra e sai (ProximoEstado evita que a mesma tecla pause e despause no mesmo quadro). Clicar em \"Continuar\" também sai.",
-              "comment2": ""
+              "comment": "Pausa: Esc entra e sai (ProximoEstado evita que a mesma tecla pause e despause no mesmo quadro). Clicar em \"Continuar\" também sai."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9165,8 +9197,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Coleta: o robô encostando numa peça soma o ValorXP dela ao XP, e a peça some.",
-              "comment2": ""
+              "comment": "Coleta: o robô encostando numa peça soma o ValorXP dela ao XP, e a peça some."
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -9215,8 +9246,7 @@
                     ""
                   ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -9228,8 +9258,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Nível: com XP suficiente, o excedente fica guardado, o nível sobe, o próximo nível pede CrescimentoXP a mais, e o jogo para na escolha de melhoria. As 3 cartas recebem melhorias diferentes que ainda não chegaram ao máximo (lista Melhorias); a última da lista é a reserva, que só aparece se faltar opção. Se o XP der para mais de um nível, a próxima escolha vem logo depois.",
-              "comment2": ""
+              "comment": "Nível: com XP suficiente, o excedente fica guardado, o nível sobe, o próximo nível pede CrescimentoXP a mais, e o jogo para na escolha de melhoria. As 3 cartas recebem melhorias diferentes que ainda não chegaram ao máximo (lista Melhorias); a última da lista é a reserva, que só aparece se faltar opção. Se o XP der para mais de um nível, a próxima escolha vem logo depois."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9339,8 +9368,8 @@
               ],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::While",
                   "infiniteLoopWarning": true,
+                  "type": "BuiltinCommonInstructions::While",
                   "whileConditions": [
                     {
                       "type": {
@@ -9434,8 +9463,8 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::While",
                   "infiniteLoopWarning": true,
+                  "type": "BuiltinCommonInstructions::While",
                   "whileConditions": [
                     {
                       "type": {
@@ -9539,8 +9568,8 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::While",
                   "infiniteLoopWarning": true,
+                  "type": "BuiltinCommonInstructions::While",
                   "whileConditions": [
                     {
                       "type": {
@@ -9665,8 +9694,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Escolha: clicar numa carta ou apertar 1, 2 ou 3. A escolha conta mais uma para aquela melhoria, liga MelhoriaPendente por um quadro (o efeito é aplicado no grupo \"Melhorias: efeitos\") e volta ao jogo.",
-              "comment2": ""
+              "comment": "Escolha: clicar numa carta ou apertar 1, 2 ou 3. A escolha conta mais uma para aquela melhoria, liga MelhoriaPendente por um quadro (o efeito é aplicado no grupo \"Melhorias: efeitos\") e volta ao jogo."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10026,8 +10054,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Fim provisório (até as cenas Derrota e Vitoria existirem): vida zerada = Derrota; Máquina-mãe derrotada e óleo escoado (3,5 s depois) = Vitoria. Nas duas, Enter recomeça a cena do zero.",
-              "comment2": ""
+              "comment": "Fim provisório (até as cenas Derrota e Vitoria existirem): vida zerada = Derrota; Máquina-mãe derrotada e óleo escoado (3,5 s depois) = Vitoria. Nas duas, Enter recomeça a cena do zero."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10232,8 +10259,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Telas provisórias no HUD (VeuTela, TextoTitulo, TextoSubtitulo e as cartas), mostradas conforme o estado. TextoXP mostra XP e nível até o HUD definitivo ficar pronto.",
-              "comment2": ""
+              "comment": "Telas provisórias no HUD (VeuTela, TextoTitulo, TextoSubtitulo e as cartas), mostradas conforme o estado. TextoXP mostra XP e nível até o HUD definitivo ficar pronto."
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -10245,8 +10271,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "O jogo adapta a largura à janela: em telas mais largas que 16:9 a área passa de 1280 px. Por isso o véu e a vinheta do óleo cobrem a câmera do HUD inteira a cada quadro, e as cartas se posicionam pelo centro dela (Indice 1, 2, 3 = esquerda, meio, direita).",
-              "comment2": ""
+              "comment": "O jogo adapta a largura à janela: em telas mais largas que 16:9 a área passa de 1280 px. Por isso o véu e a vinheta do óleo cobrem a câmera do HUD inteira a cada quadro, e as cartas se posicionam pelo centro dela (Indice 1, 2, 3 = esquerda, meio, direita)."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10822,18 +10847,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": false,
+          "folded": true,
           "name": "Melhorias: efeitos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "parameters": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -10845,8 +10870,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Ponto de encaixe dos efeitos das melhorias. Quando MelhoriaPendente = 1 (um quadro, logo depois da escolha), UltimaMelhoria diz qual foi: 0 Canhão reforçado, 1 Engrenagem rápida, 2 Placa de blindagem, 3 Rodas lubrificadas, 4 Caldeira extra, 5 Ímã, 6 Reparo imediato (reserva). Quantas vezes cada uma já foi escolhida: Melhorias[i].Escolhas. Colocar aqui um evento por melhoria, com as condições MelhoriaPendente = 1 e UltimaMelhoria = i, ANTES do evento que zera MelhoriaPendente.",
-              "comment2": ""
+              "comment": "Ponto de encaixe dos efeitos das melhorias. Quando MelhoriaPendente = 1 (um quadro, logo depois da escolha), UltimaMelhoria diz qual foi: 0 Canhão reforçado, 1 Engrenagem rápida, 2 Placa de blindagem, 3 Rodas lubrificadas, 4 Caldeira extra, 5 Ímã, 6 Reparo imediato (reserva). Quantas vezes cada uma já foi escolhida: Melhorias[i].Escolhas. Colocar aqui um evento por melhoria, com as condições MelhoriaPendente = 1 e UltimaMelhoria = i, ANTES do evento que zera MelhoriaPendente."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10875,7 +10899,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 95,
@@ -11059,6 +11084,14 @@
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "O Andador pisca quando se aproxima do Robô e pode causar dano por contato. É um aviso visual; o dano continua no evento de combate."
             },
             {
@@ -11585,10 +11618,17 @@
               "name": "Teste temporário: F3 inicia a onda 3",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
-              "parameters": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Antes do chefão, pressione F3 para limpar os inimigos, recuperar a vida e chamar a transição normal para a onda 3 no mesmo quadro. Pode repetir o teste ao soltar e apertar a tecla novamente."
                 },
                 {
@@ -11781,7 +11821,8 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "parameters": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12469,14 +12510,29 @@
               "name": "Surgimentos fora da câmera",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
-              "parameters": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Os inimigos alternam os lados da câmera e nascem com uma margem fora da tela. Nas extremidades, eles podem nascer além das paredes da arena."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Atiradores tentam uma prateleira a cada dois surgimentos. Ela deve estar ativa, inteira, fora da tela e a até 400 px da borda da câmera. Sem uma candidata, a entrada acontece pelo chão. Os pontos acompanham as plataformas do layout atual."
                 },
                 {
@@ -12488,7 +12544,6 @@
                   "name": "Surgimento do Andador",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
-                  "parameters": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -12782,7 +12837,8 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
                   "colorB": 95,
@@ -12793,7 +12849,6 @@
                   "name": "Surgimento do Saltador",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
-                  "parameters": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -13131,7 +13186,8 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
                   "colorB": 95,
@@ -13142,7 +13198,6 @@
                   "name": "Surgimento do Voador",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
-                  "parameters": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -13436,7 +13491,8 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
                   "colorB": 95,
@@ -13447,7 +13503,6 @@
                   "name": "Surgimento do Pesado",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
-                  "parameters": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -13763,7 +13818,8 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
                   "colorB": 95,
@@ -13774,7 +13830,6 @@
                   "name": "Surgimento do Atirador",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
-                  "parameters": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -14602,7 +14657,8 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
                   "colorB": 95,
@@ -14613,10 +14669,17 @@
                   "name": "Entrada pelas laterais da arena",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
-                  "parameters": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
                       "comment": "A entrada desliza os inimigos terrestres através das paredes sem gravidade. O comportamento de plataforma volta quando o sprite está inteiro dentro da arena."
                     },
                     {
@@ -14771,9 +14834,11 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 }
-              ]
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -14798,8 +14863,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Saltador: persegue o robô na arena inteira lendo as posições, sem rota fixa (os três setores trocam de plataformas entre as ondas). Ele anda na direção do robô e só pula com motivo: para subir quando o robô está mais alto, num salto de ataque quando está perto e na mesma altura, ou para atravessar o vão na beira de uma plataforma. Quando o robô está logo abaixo, ele desce atravessando a plataforma. TempoPulo evita pulos seguidos.",
-              "comment2": ""
+              "comment": "Saltador: persegue o robô na arena inteira lendo as posições, sem rota fixa (os três setores trocam de plataformas entre as ondas). Ele anda na direção do robô e só pula com motivo: para subir quando o robô está mais alto, num salto de ataque quando está perto e na mesma altura, ou para atravessar o vão na beira de uma plataforma. Quando o robô está logo abaixo, ele desce atravessando a plataforma. TempoPulo evita pulos seguidos."
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -14886,8 +14950,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Subir: robô mais de 60 px acima.",
-                  "comment2": ""
+                  "comment": "Subir: robô mais de 60 px acima."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -14956,8 +15019,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Salto de ataque: perto (até 140 px) e na mesma altura, no máximo a cada 1,5 s.",
-                  "comment2": ""
+                  "comment": "Salto de ataque: perto (até 140 px) e na mesma altura, no máximo a cada 1,5 s."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -15036,8 +15098,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Descer: robô mais de 60 px abaixo e quase embaixo dele; a seta para baixo atravessa a plataforma.",
-                  "comment2": ""
+                  "comment": "Descer: robô mais de 60 px abaixo e quase embaixo dele; a seta para baixo atravessa a plataforma."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -15094,8 +15155,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Beira da plataforma: indo na direção do robô, pula para atravessar o vão, a não ser que o robô esteja embaixo (aí ele só cai da beira).",
-                  "comment2": ""
+                  "comment": "Beira da plataforma: indo na direção do robô, pula para atravessar o vão, a não ser que o robô esteja embaixo (aí ele só cai da beira)."
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -15278,6 +15338,14 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "O contato ou a aproximação a 32 px entre os centros arma cada Voador, mesmo com o robô sem vida. Ele para e pisca por 0,75 s. A detonação pode causar dano até 80 px e remove o Voador. Um abate por tiro passa antes pelo evento de recompensas."
             },
             {
@@ -16159,6 +16227,14 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "No chão, o Atirador busca distância do robô. Em prateleiras, esteiras ou andaimes, ele avança e recua dentro da superfície, respeitando as bordas mesmo antes do óleo."
             },
             {
@@ -18779,7 +18855,6 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment2": "",
               "comment": "Fio sem plataforma: cada fio do layout atual só aparece se a plataforma na ponta de baixo dele (a que ele segura) estiver visível. Assim o fio some junto quando a prensa da Máquina-mãe ou o Pesado derrubam a prateleira, ou quando o andaime cai, e volta quando ela volta."
             },
             {
@@ -19905,69 +19980,24 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                   },
                   "parameters": [
-                    "",
-                    "\"Right\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "EstadoJogo",
-                    "=",
-                    "\"Jogando\""
+                    "Robo",
+                    "PlatformerObject"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
                   },
                   "parameters": [
                     "Robo",
-                    "Flippable",
-                    "no"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "EstadoJogo",
+                    "Animation",
                     "=",
-                    "\"Jogando\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "Flippable",
-                    "yes"
+                    "1"
                   ]
                 }
               ]
@@ -19986,24 +20016,24 @@
                 },
                 {
                   "type": {
-                    "value": "StringVariable"
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
                   },
                   "parameters": [
-                    "EstadoJogo",
-                    "=",
-                    "\"Jogando\""
+                    "Robo",
+                    "Flippable"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
                   },
                   "parameters": [
                     "Robo",
-                    "Flippable",
-                    "no"
+                    "Animation",
+                    "=",
+                    "-1"
                   ]
                 }
               ]
@@ -20022,24 +20052,25 @@
                 },
                 {
                   "type": {
-                    "value": "StringVariable"
+                    "inverted": true,
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
                   },
                   "parameters": [
-                    "EstadoJogo",
-                    "=",
-                    "\"Jogando\""
+                    "Robo",
+                    "Flippable"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
                   },
                   "parameters": [
                     "Robo",
-                    "Flippable",
-                    "yes"
+                    "Animation",
+                    "=",
+                    "-1"
                   ]
                 }
               ]
@@ -22056,7 +22087,6 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment2": "",
               "comment": "Base da Máquina-mãe (BaseChefao): bloco de metal embaixo dela, atrás do óleo. Só aparece junto com ela, na luta e depois da derrota. Durante a luta não tem colisão; depois da derrota vira plataforma sólida (assim que o robô não estiver encostando nela) para o robô poder subir."
             },
             {
@@ -22151,8 +22181,8 @@
                 },
                 {
                   "type": {
-                    "value": "CollisionNP",
-                    "inverted": true
+                    "inverted": true,
+                    "value": "CollisionNP"
                   },
                   "parameters": [
                     "BaseChefao",
