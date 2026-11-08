@@ -26097,7 +26097,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Parallax: cada camada de fundo anda só uma fração do que a câmera do Mundo andou a partir do início (FundoDistante 0,2 com as janelas da fábrica; FundoMedio 0,4 com as máquinas). Quanto menor o fator, mais longe o fundo parece. As bordas da oficina ficam no próprio Mundo (100%). Cada camada precisa cobrir 1280 + (LarguraArena - 1280) x fator px; as imagens têm 1800. Este evento vem depois da câmera do Mundo, para usar a posição já atualizada."
+              "comment": "Parallax: cada camada de fundo anda só uma fração do que a câmera do Mundo andou a partir do início (FundoDistante 0,2 com as janelas da fábrica; FundoMedio 0,4 com as máquinas). Quanto menor o fator, mais longe o fundo parece. As bordas da oficina ficam no próprio Mundo (100%). Cada camada precisa cobrir 1280 + (LarguraArena - 1280) x fator px; as imagens têm 1800. Este evento vem depois da câmera do Mundo, para usar a posição já atualizada. A câmera de cada camada para quando a borda direita da imagem do fundo chega à borda da tela: em janelas mais largas que 16:9 (navegador), o fundo fica parado no último trecho em vez de mostrar um buraco."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -26110,7 +26110,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "SceneWindowWidth() / 2 + (CameraCenterX() - SceneWindowWidth() / 2) * Variable(FatorParallaxDistante)",
+                    "min(SceneWindowWidth() / 2 + (CameraCenterX() - SceneWindowWidth() / 2) * Variable(FatorParallaxDistante), FundoOficina.X() + FundoOficina.Width() - SceneWindowWidth() / 2)",
                     "\"FundoDistante\"",
                     "0"
                   ]
@@ -26122,7 +26122,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "SceneWindowWidth() / 2 + (CameraCenterX() - SceneWindowWidth() / 2) * Variable(FatorParallaxMedio)",
+                    "min(SceneWindowWidth() / 2 + (CameraCenterX() - SceneWindowWidth() / 2) * Variable(FatorParallaxMedio), FundoMaquinas.X() + FundoMaquinas.Width() - SceneWindowWidth() / 2)",
                     "\"FundoMedio\"",
                     "0"
                   ]
