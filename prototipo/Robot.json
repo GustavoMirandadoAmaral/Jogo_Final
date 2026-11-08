@@ -2174,6 +2174,11 @@
           "name": "NumeroEstatisticas",
           "type": "number",
           "value": 3
+        },
+        {
+          "name": "TempoVidaPeca",
+          "type": "number",
+          "value": 20
         }
       ],
       "instances": [
@@ -7317,6 +7322,12 @@
             {
               "name": "ValorXP",
               "persistentUuid": "924eb6ae-4bf4-4172-83ea-ea4da1307b39",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "TempoNoChao",
+              "persistentUuid": "e1113716-9250-4e15-8f97-09d54c1f10ea",
               "type": "number",
               "value": 0
             }
@@ -28442,6 +28453,102 @@
                         "Prateleira.Y() - 40"
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment2": "",
+              "comment": "Peça esquecida: TempoNoChao conta o tempo em que a peça está apoiada num piso (no ar ou puxada pelo ímã não conta; pausa e cartas não gastam, porque o tempo para). Nos últimos 3 s ela pisca e, em TempoVidaPeca segundos, some. Assim as peças não se acumulam sem limite numa partida longa."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Peca",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Peca",
+                    "TempoNoChao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Peca",
+                    "TempoNoChao",
+                    ">=",
+                    "Variable(TempoVidaPeca) - 3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Peca",
+                    "Opacity",
+                    "=",
+                    "80 + 175 * mod(floor(Peca.TempoNoChao * 8), 2)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Peca",
+                    "TempoNoChao",
+                    ">=",
+                    "Variable(TempoVidaPeca)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Peca",
+                    ""
                   ]
                 }
               ]
