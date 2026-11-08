@@ -5216,6 +5216,86 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "HUD",
+          "name": "IconeTempo",
+          "persistentUuid": "ceac9f23-edb7-486f-a5c1-838a0fc935ef",
+          "width": 0,
+          "x": 455,
+          "y": 20,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "HUD",
+          "name": "TextoTempo",
+          "persistentUuid": "f08f89b2-c408-4f0e-a467-8ce6ace8c29d",
+          "width": 0,
+          "x": 495,
+          "y": 25,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "HUD",
+          "name": "IconeOnda",
+          "persistentUuid": "b34698a9-27c9-482f-9a17-4e1d7242509b",
+          "width": 0,
+          "x": 585,
+          "y": 20,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "HUD",
+          "name": "TextoOnda",
+          "persistentUuid": "29e4d8b7-6f12-43cf-96ea-fc9253a562d6",
+          "width": 0,
+          "x": 625,
+          "y": 25,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "layer": "HUD",
+          "name": "TextoPontuacao",
+          "persistentUuid": "1f70a4d8-abf7-4c8e-a6cd-30e3b770a1cf",
+          "width": 0,
+          "x": 725,
+          "y": 25,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -8325,6 +8405,222 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeTempo",
+          "persistentUuid": "80094ddd-d50a-4802-80eb-e987cf76a7f8",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "tempo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/tempo-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeOnda",
+          "persistentUuid": "744c9854-a773-49d2-a036-3a2245726f1e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "onda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/onda-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoTempo",
+          "persistentUuid": "cf884ac6-329c-483c-8d43-426b85312ffc",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0:00",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "b": 210,
+            "g": 240,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0:00",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 18,
+            "lineHeight": 0,
+            "color": "255;240;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoOnda",
+          "persistentUuid": "3ca8dd15-e47a-4e1c-ac30-711be6fc4fc5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Onda 1",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "b": 210,
+            "g": 240,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Onda 1",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 18,
+            "lineHeight": 0,
+            "color": "255;240;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoPontuacao",
+          "persistentUuid": "a8028169-c6e2-4a14-801c-e8037e5dd5e8",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Pontos 0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "b": 210,
+            "g": 240,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Pontos 0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 18,
+            "lineHeight": 0,
+            "color": "255;240;210"
+          }
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -34575,7 +34871,7 @@
           "colorR": 95,
           "creationTime": 0,
           "folded": true,
-          "name": "HUD: vida e XP",
+          "name": "HUD",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -34635,6 +34931,104 @@
                     "TextoXP",
                     "=",
                     "\"Nível \" + ToString(Variable(Nivel))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Linha de status no topo do HUD: tempo, onda e pontuação. Como a largura do jogo acompanha a janela, a linha se centraliza pela câmera do HUD a cada quadro (o início fica 185 px à esquerda do centro). Os ícones são objetos próprios (IconeTempo, IconeOnda) porque IconeEstatistica é apagado sempre que o painel das telas fecha."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeTempo",
+                    "=",
+                    "CameraCenterX(\"HUD\") - 185"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoTempo",
+                    "=",
+                    "CameraCenterX(\"HUD\") - 185 + 40"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeOnda",
+                    "=",
+                    "CameraCenterX(\"HUD\") - 185 + 130"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoOnda",
+                    "=",
+                    "CameraCenterX(\"HUD\") - 185 + 170"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoPontuacao",
+                    "=",
+                    "CameraCenterX(\"HUD\") - 185 + 270"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoTempo",
+                    "=",
+                    "ToString(floor(Variable(TempoPartida) / 60)) + \":\" + SubStr(\"0\" + ToString(mod(floor(Variable(TempoPartida)), 60)), StrLength(ToString(mod(floor(Variable(TempoPartida)), 60))) - 1, 2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoOnda",
+                    "=",
+                    "\"Onda \" + ToString(Variable(Onda))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoPontuacao",
+                    "=",
+                    "\"Pontos \" + ToString(Variable(Pontuacao))"
                   ]
                 }
               ]
