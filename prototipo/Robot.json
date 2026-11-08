@@ -1351,6 +1351,54 @@
         "name": "imagens/interface/hud/abatidos-v1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "mira-heroi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mira-heroi.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "disparo-heroi-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "disparo-heroi-v1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../imagens/disparo-heroi/explosao-disparo-heroi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../imagens/disparo-heroi/explosao-disparo-heroi.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._imagens_disparo-heroi_explosao-disparo-heroi.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "../imagens/disparo-heroi/explosao-disparo-heroi",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/disparo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "disparo",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/disparo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "disparo2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1384,7 +1432,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210191,
+        "zoomFactor": 0.5653158055126354,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2122,61 +2170,73 @@
         },
         {
           "name": "DanoTiro",
+          "persistentUuid": "fefee8d8-d195-4162-aebe-13e633e38d56",
           "type": "number",
           "value": 1
         },
         {
           "name": "CadenciaBase",
+          "persistentUuid": "4b494a7b-34ce-4010-9fa7-dfd7134429d5",
           "type": "number",
           "value": 0.1
         },
         {
           "name": "RecargaDashBase",
+          "persistentUuid": "db0cf50a-dfca-48fe-bfec-7d6a252ca2cc",
           "type": "number",
           "value": 3
         },
         {
           "name": "RaioIma",
+          "persistentUuid": "e900e853-df31-4afb-a9e2-21df615ab0ca",
           "type": "number",
           "value": 0
         },
         {
           "name": "VelocidadeAplicada",
+          "persistentUuid": "8e1036fa-98c8-4bd9-aa70-1d172279481a",
           "type": "number",
           "value": 0
         },
         {
           "name": "ResumoMelhorias",
+          "persistentUuid": "0e934be8-21b2-4b26-9c25-c9dffa40a8cb",
           "type": "string",
           "value": ""
         },
         {
           "name": "IndiceResumo",
+          "persistentUuid": "8e5d0a16-325d-4275-9c5f-a4bb47a60b0c",
           "type": "number",
           "value": 0
         },
         {
           "name": "PainelMontado",
+          "persistentUuid": "9a652732-4903-4074-a656-5a908efe07cf",
           "type": "number",
           "value": 0
         },
         {
           "name": "ContagemMelhorias",
+          "persistentUuid": "815f837a-ad11-4a6a-abdb-c271be9abb5c",
           "type": "number",
           "value": 0
         },
         {
           "name": "PosicaoResumo",
+          "persistentUuid": "00b7fac1-042d-4e94-96ab-c261b29fbb0e",
           "type": "number",
           "value": 0
         },
         {
           "name": "NumeroEstatisticas",
+          "persistentUuid": "a61d9610-dc18-41cc-84e5-8a2f2d82e92f",
           "type": "number",
           "value": 3
         },
         {
           "name": "TempoVidaPeca",
+          "persistentUuid": "47528beb-c553-49cb-a708-542e6a4f20a8",
           "type": "number",
           "value": 20
         }
@@ -5051,6 +5111,23 @@
               "value": 3
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mira",
+          "persistentUuid": "b4bf8633-c163-4e0c-af7f-475646dfa56a",
+          "width": 31,
+          "x": 861,
+          "y": -168,
+          "zOrder": 163,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5082,15 +5159,15 @@
             },
             {
               "name": "VidaMaxima",
+              "persistentUuid": "989a6f77-26a1-42cf-b36a-3deb6af62daa",
               "type": "number",
-              "value": 5,
-              "persistentUuid": "989a6f77-26a1-42cf-b36a-3deb6af62daa"
+              "value": 5
             },
             {
               "name": "RecargaDash",
+              "persistentUuid": "9e7d8bf7-992f-403d-96c0-bb20545ce2b9",
               "type": "number",
-              "value": 0,
-              "persistentUuid": "9e7d8bf7-992f-403d-96c0-bb20545ce2b9"
+              "value": 0
             }
           ],
           "effects": [],
@@ -5134,16 +5211,15 @@
               "FlashDuration": 0
             },
             {
-              "isFolded": true,
               "name": "HorizontalDash",
               "type": "AdvancedJump::HorizontalDash",
               "PlatformerCharacter": "PlatformerObject",
               "PlatformerConfigurationStack": "PlatformerConfigurationStack",
-              "DashInitialSpeed": 500,
+              "DashInitialSpeed": 1000,
               "DashSustainDurationMin": 0,
-              "DashSustainDurationMax": 0.2,
+              "DashSustainDurationMax": 1,
               "DashSustainAcceleration": 1500,
-              "DashSustainSpeedMax": 750,
+              "DashSustainSpeedMax": 1000,
               "DashSustainGravity": 0,
               "DashDecceleration": 3000,
               "DashGravity": 1000,
@@ -5214,25 +5290,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 127.0,
+                        "x": 127,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 280
                           },
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 280
                           }
                         ]
@@ -5256,25 +5332,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 127.0,
+                        "x": 127,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 280
                           },
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 280
                           }
                         ]
@@ -5298,25 +5374,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 127.0,
+                        "x": 127,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 280
                           },
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 280
                           }
                         ]
@@ -5340,25 +5416,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 127.0,
+                        "x": 127,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 280
                           },
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 280
                           }
                         ]
@@ -5382,25 +5458,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 127.0,
+                        "x": 127,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 280
                           },
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 280
                           }
                         ]
@@ -5424,25 +5500,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 127.0,
+                        "x": 127,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 280
                           },
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 280
                           }
                         ]
@@ -5478,25 +5554,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 127.0,
+                        "x": 127,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 280
                           },
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 280
                           }
                         ]
@@ -5659,25 +5735,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 143.0,
+                        "x": 143,
                         "y": 169.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 58.0,
+                            "x": 58,
                             "y": 13
                           },
                           {
-                            "x": 228.0,
+                            "x": 228,
                             "y": 13
                           },
                           {
-                            "x": 228.0,
+                            "x": 228,
                             "y": 281
                           },
                           {
-                            "x": 58.0,
+                            "x": 58,
                             "y": 281
                           }
                         ]
@@ -5797,25 +5873,25 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 127.0,
+                        "x": 127,
                         "y": 175
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 12
                           },
                           {
-                            "x": 212.0,
+                            "x": 212,
                             "y": 280
                           },
                           {
-                            "x": 42.0,
+                            "x": 42,
                             "y": 280
                           }
                         ]
@@ -7262,45 +7338,46 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "disparo",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/tiro.png",
+                      "image": "disparo2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 10.5,
+                        "y": 37
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 107.5,
+                        "y": 34
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 3,
+                            "y": 13
                           },
                           {
-                            "x": 8,
-                            "y": 0
+                            "x": 197,
+                            "y": 13
                           },
                           {
-                            "x": 8,
-                            "y": 8
+                            "x": 197,
+                            "y": 56
                           },
                           {
-                            "x": 0,
-                            "y": 8
+                            "x": 3,
+                            "y": 56
                           }
                         ]
                       ]
@@ -10624,8 +10701,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10666,8 +10743,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10816,8 +10893,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10828,20 +10905,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400.0,
-                            "y": 225.0
+                            "x": 400,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 225.0
+                            "x": 575,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 395.0
+                            "x": 575,
+                            "y": 395
                           },
                           {
-                            "x": 400.0,
-                            "y": 395.0
+                            "x": 400,
+                            "y": 395
                           }
                         ]
                       ]
@@ -10852,8 +10929,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10864,20 +10941,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400.0,
-                            "y": 225.0
+                            "x": 400,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 225.0
+                            "x": 575,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 395.0
+                            "x": 575,
+                            "y": 395
                           },
                           {
-                            "x": 400.0,
-                            "y": 395.0
+                            "x": 400,
+                            "y": 395
                           }
                         ]
                       ]
@@ -10900,8 +10977,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10912,20 +10989,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400.0,
-                            "y": 225.0
+                            "x": 400,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 225.0
+                            "x": 575,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 395.0
+                            "x": 575,
+                            "y": 395
                           },
                           {
-                            "x": 400.0,
-                            "y": 395.0
+                            "x": 400,
+                            "y": 395
                           }
                         ]
                       ]
@@ -10936,8 +11013,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10948,20 +11025,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400.0,
-                            "y": 225.0
+                            "x": 400,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 225.0
+                            "x": 575,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 395.0
+                            "x": 575,
+                            "y": 395
                           },
                           {
-                            "x": 400.0,
-                            "y": 395.0
+                            "x": 400,
+                            "y": 395
                           }
                         ]
                       ]
@@ -10984,8 +11061,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10996,20 +11073,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400.0,
-                            "y": 225.0
+                            "x": 400,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 225.0
+                            "x": 575,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 395.0
+                            "x": 575,
+                            "y": 395
                           },
                           {
-                            "x": 400.0,
-                            "y": 395.0
+                            "x": 400,
+                            "y": 395
                           }
                         ]
                       ]
@@ -11020,8 +11097,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -11032,20 +11109,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400.0,
-                            "y": 225.0
+                            "x": 400,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 225.0
+                            "x": 575,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 395.0
+                            "x": 575,
+                            "y": 395
                           },
                           {
-                            "x": 400.0,
-                            "y": 395.0
+                            "x": 400,
+                            "y": 395
                           }
                         ]
                       ]
@@ -11056,8 +11133,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -11068,20 +11145,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400.0,
-                            "y": 225.0
+                            "x": 400,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 225.0
+                            "x": 575,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 395.0
+                            "x": 575,
+                            "y": 395
                           },
                           {
-                            "x": 400.0,
-                            "y": 395.0
+                            "x": 400,
+                            "y": 395
                           }
                         ]
                       ]
@@ -11381,14 +11458,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": []
                     }
@@ -11423,14 +11500,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 590.0,
-                        "y": 285.0
+                        "x": 590,
+                        "y": 285
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 590.0,
-                        "y": 285.0
+                        "x": 590,
+                        "y": 285
                       },
                       "customCollisionMask": []
                     },
@@ -11440,14 +11517,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 590.0,
-                        "y": 285.0
+                        "x": 590,
+                        "y": 285
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 590.0,
-                        "y": 285.0
+                        "x": 590,
+                        "y": 285
                       },
                       "customCollisionMask": []
                     }
@@ -11578,8 +11655,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0.0,
-                        "y": 0.0
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -11590,20 +11667,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400.0,
-                            "y": 225.0
+                            "x": 400,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 225.0
+                            "x": 575,
+                            "y": 225
                           },
                           {
-                            "x": 575.0,
-                            "y": 395.0
+                            "x": 575,
+                            "y": 395
                           },
                           {
-                            "x": 400.0,
-                            "y": 395.0
+                            "x": 400,
+                            "y": 395
                           }
                         ]
                       ]
@@ -11639,14 +11716,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 256.0,
-                        "y": 750.0
+                        "x": 256,
+                        "y": 750
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 256.0,
-                        "y": 750.0
+                        "x": 256,
+                        "y": 750
                       },
                       "customCollisionMask": []
                     },
@@ -11656,14 +11733,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 256.0,
-                        "y": 750.0
+                        "x": 256,
+                        "y": 750
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 256.0,
-                        "y": 750.0
+                        "x": 256,
+                        "y": 750
                       },
                       "customCollisionMask": []
                     }
@@ -11749,9 +11826,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "ExplosaoVoador",
           "persistentUuid": "d3a2765d-85eb-4ae0-8143-d46e91fab5e6",
           "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [
             {
               "name": "TempoVida",
@@ -12886,6 +12966,129 @@
             "lineHeight": 0,
             "color": "255;240;210"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Mira",
+          "persistentUuid": "b43f5933-4fa6-4748-a87c-8f2be1b84743",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "mira-heroi.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 129,
+                            "y": 90
+                          },
+                          {
+                            "x": 1150,
+                            "y": 90
+                          },
+                          {
+                            "x": 1150,
+                            "y": 1124
+                          },
+                          {
+                            "x": 129,
+                            "y": 1124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Fogo_Disparo",
+          "persistentUuid": "94b9e5dc-0afb-4d7e-98d5-ba7f3a4d70d3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "../imagens/disparo-heroi/explosao-disparo-heroi",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "../imagens/disparo-heroi/explosao-disparo-heroi",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 45.5,
+                        "y": 43
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 68.5,
+                        "y": 62
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 13
+                          },
+                          {
+                            "x": 126,
+                            "y": 13
+                          },
+                          {
+                            "x": 126,
+                            "y": 100
+                          },
+                          {
+                            "x": 10,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -12896,6 +13099,12 @@
           },
           {
             "objectName": "Robo"
+          },
+          {
+            "objectName": "Mira"
+          },
+          {
+            "objectName": "Fogo_Disparo"
           },
           {
             "objectName": "Arma"
@@ -15161,8 +15370,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Ícone de cada carta: a animação do IconeCarta é o ID da melhoria sorteada (mesma ordem de Melhorias). A carta sob o mouse fica acesa; as outras, um pouco escuras.",
-              "comment2": ""
+              "comment": "Ícone de cada carta: a animação do IconeCarta é o ID da melhoria sorteada (mesma ordem de Melhorias). A carta sob o mouse fica acesa; as outras, um pouco escuras."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -15438,8 +15646,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Painel das telas de pausa, derrota e vitória: centralizado na câmera do HUD, com o título em cima e o subtítulo (Continuar / Enter) embaixo. No meio, a fileira dos números da partida com os ícones do HUD (onda, nível, tempo e, na derrota e na vitória, abatidos), o rótulo das melhorias e a fileira com o ícone e o nível de cada melhoria conquistada. As fileiras são criadas uma vez por abertura do painel; PainelMontado volta a 0 quando o jogo ou as cartas voltam.",
-              "comment2": ""
+              "comment": "Painel das telas de pausa, derrota e vitória: centralizado na câmera do HUD, com o título em cima e o subtítulo (Continuar / Enter) embaixo. No meio, a fileira dos números da partida com os ícones do HUD (onda, nível, tempo e, na derrota e na vitória, abatidos), o rótulo das melhorias e a fileira com o ícone e o nível de cada melhoria conquistada. As fileiras são criadas uma vez por abertura do painel; PainelMontado volta a 0 quando o jogo ou as cartas voltam."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -15535,8 +15742,8 @@
               ],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::While",
                   "infiniteLoopWarning": true,
+                  "type": "BuiltinCommonInstructions::While",
                   "whileConditions": [
                     {
                       "type": {
@@ -16099,8 +16306,8 @@
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::While",
                       "infiniteLoopWarning": true,
+                      "type": "BuiltinCommonInstructions::While",
                       "whileConditions": [
                         {
                           "type": {
@@ -16556,8 +16763,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Efeitos contínuos, recalculados a cada quadro a partir de quantas vezes cada melhoria foi escolhida (n = Melhorias[i].Escolhas): dano do tiro 1 + 0,2n (Canhão reforçado), intervalo entre tiros CadenciaBase / (1 + 0,1n) (Engrenagem rápida), raio do ímã 150 + 60n px (0 sem a melhoria).",
-              "comment2": ""
+              "comment": "Efeitos contínuos, recalculados a cada quadro a partir de quantas vezes cada melhoria foi escolhida (n = Melhorias[i].Escolhas): dano do tiro 1 + 0,2n (Canhão reforçado), intervalo entre tiros CadenciaBase / (1 + 0,1n) (Engrenagem rápida), raio do ímã 150 + 60n px (0 sem a melhoria)."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -16606,16 +16812,15 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Rodas lubrificadas: velocidade usual x (1 + 0,1n), pela pilha de configuração do dash (identificador \"Rodas\"), assim o fim do dash não volta para a velocidade antiga. Aplicada fora do dash, quando o nível muda.",
-              "comment2": ""
+              "comment": "Rodas lubrificadas: velocidade usual x (1 + 0,1n), pela pilha de configuração do dash (identificador \"Rodas\"), assim o fim do dash não volta para a velocidade antiga. Aplicada fora do dash, quando o nível muda."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "AdvancedJump::HorizontalDash::IsDashing",
-                    "inverted": true
+                    "inverted": true,
+                    "value": "AdvancedJump::HorizontalDash::IsDashing"
                   },
                   "parameters": [
                     "Robo",
@@ -16669,8 +16874,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Caldeira extra: recarga do dash RecargaDashBase x 0,85^n. O Shift só dispara o dash com Robo.RecargaDash <= 0, e ela recomeça quando o dash começa (a recarga interna da extensão ficou em 0,5 s, menor que a nossa).",
-              "comment2": ""
+              "comment": "Caldeira extra: recarga do dash RecargaDashBase x 0,85^n. O Shift só dispara o dash com Robo.RecargaDash <= 0, e ela recomeça quando o dash começa (a recarga interna da extensão ficou em 0,5 s, menor que a nossa)."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -16750,8 +16954,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Ímã: peça dentro do raio desliga a física de plataforma e voa até o robô a 500 px/s (a coleta continua sendo pelo contato). Saindo do raio, ela volta a cair normalmente.",
-              "comment2": ""
+              "comment": "Ímã: peça dentro do raio desliga a física de plataforma e voa até o robô a 500 px/s (a coleta continua sendo pelo contato). Saindo do raio, ela volta a cair normalmente."
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -16869,7 +17072,6 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment2": "",
               "comment": "Patrulha: se o robô fica mais de 100 px acima do Andador por 2 s (TempoNoAlto), o Andador para de perseguir o X do robô e vai e volta numa faixa de 150 px para cada lado dele, em vez de esperar parado embaixo. Quando o robô desce, TempoNoAlto zera e ele volta a perseguir; a patrulha seguinte começa para o lado oposto ao robô, para os Andadores se espalharem."
             },
             {
@@ -17568,11 +17770,46 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Combate e recompensas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideCursor"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Mira",
+                    "=",
+                    "CursorX()",
+                    "=",
+                    "CursorY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Mira",
+                    "=",
+                    "100"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -17608,55 +17845,6 @@
                   "parameters": [
                     "Tiro",
                     ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "IsCursorOnObject"
-                  },
-                  "parameters": [
-                    "Inimigos",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Right\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Inimigos",
-                    "CursorX()",
-                    "CursorY()",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Inimigos",
-                    "Vida",
-                    "-",
-                    "1"
                   ]
                 }
               ]
@@ -22057,8 +22245,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Saltador: persegue o robô na arena inteira lendo as posições, sem rota fixa (os três setores trocam de plataformas entre as ondas). Ele anda na direção do robô e só pula com motivo: para subir quando o robô está mais alto, num salto de ataque quando está perto e na mesma altura, ou para atravessar o vão na beira de uma plataforma. Quando o robô está logo abaixo, ele desce atravessando a plataforma. TempoPulo evita pulos seguidos.",
-              "comment2": ""
+              "comment": "Saltador: persegue o robô na arena inteira lendo as posições, sem rota fixa (os três setores trocam de plataformas entre as ondas). Ele anda na direção do robô e só pula com motivo: para subir quando o robô está mais alto, num salto de ataque quando está perto e na mesma altura, ou para atravessar o vão na beira de uma plataforma. Quando o robô está logo abaixo, ele desce atravessando a plataforma. TempoPulo evita pulos seguidos."
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -22068,6 +22255,14 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Escolher plataformas ativas, incluindo esteiras, pelo avanço em direção ao Robô. Aceitar subidas e travessias laterais/descidas; desvios para trás só em subidas próximas do destino. Aterrissar com o corpo inteiro apoiado e manter o alvo no ar."
                 },
                 {
@@ -22215,8 +22410,8 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::IsObjectOnGivenFloor",
-                            "inverted": true
+                            "inverted": true,
+                            "value": "PlatformBehavior::IsObjectOnGivenFloor"
                           },
                           "parameters": [
                             "Saltador",
@@ -22356,8 +22551,8 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::IsObjectOnGivenFloor",
-                            "inverted": true
+                            "inverted": true,
+                            "value": "PlatformBehavior::IsObjectOnGivenFloor"
                           },
                           "parameters": [
                             "Saltador",
@@ -22548,6 +22743,14 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Esteira empurrando para longe do Robô: saltar para escapar, sem mudar a velocidade da esteira."
                 },
                 {
@@ -22700,8 +22903,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Subir: robô mais de 60 px acima.",
-                  "comment2": ""
+                  "comment": "Subir: robô mais de 60 px acima."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -22781,8 +22983,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Salto de ataque: perto (até 140 px) e na mesma altura, após 1,5 s no chão desde o último salto.",
-                  "comment2": ""
+                  "comment": "Salto de ataque: perto (até 140 px) e na mesma altura, após 1,5 s no chão desde o último salto."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -22861,8 +23062,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Descer: robô mais de 60 px abaixo e quase embaixo dele; a seta para baixo atravessa a plataforma.",
-                  "comment2": ""
+                  "comment": "Descer: robô mais de 60 px abaixo e quase embaixo dele; a seta para baixo atravessa a plataforma."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -22919,8 +23119,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Beira da plataforma: indo na direção do robô, pula para atravessar o vão, a não ser que o robô esteja embaixo (aí ele só cai da beira).",
-                  "comment2": ""
+                  "comment": "Beira da plataforma: indo na direção do robô, pula para atravessar o vão, a não ser que o robô esteja embaixo (aí ele só cai da beira)."
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -23175,8 +23374,8 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::IsOnFloor",
-                        "inverted": true
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsOnFloor"
                       },
                       "parameters": [
                         "Saltador",
@@ -23213,8 +23412,8 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::IsOnFloor",
-                        "inverted": true
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsOnFloor"
                       },
                       "parameters": [
                         "Saltador",
@@ -23248,6 +23447,14 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "O Saltador pisca em vermelho quando chega perto do Robô e pode causar dano por contato."
                 },
                 {
@@ -23333,6 +23540,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Voador: movimento e explosão",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23652,6 +23860,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Voador",
               "conditions": [
                 {
                   "type": {
@@ -23677,8 +23886,7 @@
                     "0"
                   ]
                 }
-              ],
-              "object": "Voador"
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -25514,6 +25722,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Disparos do Atirador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25905,6 +26114,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Arena e câmera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28467,7 +28677,6 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment2": "",
               "comment": "Peça esquecida: TempoNoChao conta o tempo em que a peça está apoiada num piso (no ar ou puxada pelo ímã não conta; pausa e cartas não gastam, porque o tempo para). Nos últimos 3 s ela pisca e, em TempoVidaPeca segundos, some. Assim as peças não se acumulam sem limite numa partida longa."
             },
             {
@@ -28770,16 +28979,6 @@
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "Flippable"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "StringVariable"
                   },
                   "parameters": [
@@ -28825,76 +29024,66 @@
                     "=",
                     "5"
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "Create"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "Flippable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "EstadoJogo",
-                    "=",
-                    "\"Jogando\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "AguardandoSoltarMouse",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FireBullet::FireBullet::FireTowardPosition"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "FireBullet",
+                    "Fogo_Disparo",
                     "Arma.PointX(\"Ponta\")",
                     "Arma.PointY(\"Ponta\")",
-                    "Tiro",
-                    "MouseX()",
-                    "MouseY()",
-                    "800",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetZOrder"
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Fogo_Disparo",
+                    "=",
+                    "Arma.Angle()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
                   },
                   "parameters": [
                     "Tiro",
+                    "Scale",
                     "=",
-                    "5"
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Fogo_Disparo",
+                    "Scale",
+                    "=",
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.05"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Fogo_Disparo",
+                    ""
                   ]
                 }
               ]
