@@ -134,6 +134,17 @@ As telas ficam na camada `HUD` e acompanham a largura real da janela: o véu cob
 
 As artes das cartas, do painel e dos ícones são do catálogo [imagens/interface](imagens/interface/README.md).
 
+## HUD
+
+Grupo de eventos **HUD: vida e XP**, na cena `Arena`. Tudo fica na camada `HUD`, que não acompanha a câmera do Mundo.
+
+| Elemento | Objetos | O que mostra |
+| --- | --- | --- |
+| Barra de vida | `MolduraBarra`, `BarraVida`, `TextoVida` | `Robo.Vida` em relação a `Robo.VidaMaxima`, e os dois números ao lado |
+| Barra de XP | `MolduraBarra`, `BarraXP`, `TextoXP` | `XP` em relação a `XPProximoNivel`, e o `Nivel` ao lado |
+
+A moldura fica parada e o preenchimento muda de largura a cada quadro: 240 px é a barra cheia. Quando a Placa de blindagem aumenta a vida máxima, a barra continua do mesmo tamanho e só a proporção muda.
+
 ## Cuidados ao editar o projeto
 
 Problemas que já aconteceram e como evitá-los:
