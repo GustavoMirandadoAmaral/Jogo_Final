@@ -5930,6 +5930,18 @@
               "persistentUuid": "0b534f44-0e7e-4f40-acf9-f6c43638b2e5",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "TempoNoAlto",
+              "persistentUuid": "c895b013-1072-43b1-905e-3295f2cffe37",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "DirecaoPatrulha",
+              "persistentUuid": "fd1788d3-6eec-4ad1-ac71-70f61859a8e3",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
@@ -16837,8 +16849,418 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment2": "",
+              "comment": "Patrulha: se o robô fica mais de 100 px acima do Andador por 2 s (TempoNoAlto), o Andador para de perseguir o X do robô e vai e volta numa faixa de 150 px para cada lado dele, em vez de esperar parado embaixo. Quando o robô desce, TempoNoAlto zera e ele volta a perseguir; a patrulha seguinte começa para o lado oposto ao robô, para os Andadores se espalharem."
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterY()",
+                    "<",
+                    "Andador.CenterY() - 100"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterY()",
+                    ">=",
+                    "Andador.CenterY() - 100"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterY()",
+                    ">=",
+                    "Andador.CenterY() - 100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Andador.CenterX()",
+                    "<",
+                    "Robo.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "DirecaoPatrulha",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Robo.CenterY()",
+                    ">=",
+                    "Andador.CenterY() - 100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Andador.CenterX()",
+                    ">=",
+                    "Robo.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "DirecaoPatrulha",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    ">",
+                    "Robo.X() + 150"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "DirecaoPatrulha",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "<",
+                    "Robo.X() - 150"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "DirecaoPatrulha",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "<=",
+                    "20"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "DirecaoPatrulha",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Andador",
+                    ">=",
+                    "Variable(LarguraArena) - Andador.Width() - 20"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "DirecaoPatrulha",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "DirecaoPatrulha",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "Animation",
+                    "=",
+                    "\"MoverDireita\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "DirecaoPatrulha",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "Animation",
+                    "=",
+                    "\"MoverEsquerda\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    "<",
+                    "2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PosX"
@@ -16878,6 +17300,17 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    "<",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PosX"
                   },
                   "parameters": [
@@ -16913,6 +17346,17 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    "<",
+                    "2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PosX"
@@ -16961,6 +17405,17 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Andador",
+                    "TempoNoAlto",
+                    "<",
+                    "2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PosX"
