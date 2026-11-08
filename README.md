@@ -74,6 +74,8 @@ A peça nasce no centro do inimigo abatido (sem sair da arena) e cai até o chã
 - as peças que ficaram no chão são engolidas pelo óleo;
 - uma peça que cai no óleo ainda no ar vai para a prateleira mais próxima.
 
+**Peça esquecida:** a peça parada num piso (chão ou plataforma) por 17 s começa a piscar e, aos `TempoVidaPeca` segundos (20), some. O tempo no ar, puxada pelo ímã, na pausa ou nas cartas não conta. Assim as peças não se acumulam sem limite numa partida longa.
+
 ### Vapor
 
 O vapor das máquinas é um emissor de partículas (objeto `Vapor`). As camadas não usam efeitos de filtro: um efeito de filme antigo chegou a ser testado, mas deixava o jogo acinzentado e foi retirado.
