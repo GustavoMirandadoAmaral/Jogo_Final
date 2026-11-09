@@ -37,4 +37,8 @@ _A preencher._
 
 ## Interface, menus e áudio
 
-_A preencher._
+### Imagens
+
+| Recurso no jogo | Arquivo no projeto | Origem |
+| --- | --- | --- |
+| Moldura e preenchimentos das barras de vida e XP | `prototipo/imagens/interface/hud/barra-moldura.png`, `barra-vida.png`, `barra-xp.png` | Feitas pelo grupo com um script, nas cores dos ícones do HUD |
