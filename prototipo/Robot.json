@@ -1423,6 +1423,56 @@
         "name": "imagens/interface/hud/barra-xp.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "disparo_robo_oficina_em_pane.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "disparo_robo_oficina_em_pane.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/disparo_robo_oficina_em_pane.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "../../../../Downloads/disparo_robo_oficina_em_pane.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "disparo_robo_oficina_em_pane2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "disparo_robo_oficina_em_pane2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "disparo_robo_oficina_em_pane.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "disparo_robo_oficina_em_pane.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "tiro.m4a",
+        "kind": "audio",
+        "metadata": "",
+        "name": "tiro.m4a",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -29241,6 +29291,19 @@
                   "parameters": [
                     "Fogo_Disparo",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "tiro.m4a",
+                    "1",
+                    "",
+                    "30",
+                    "1"
                   ]
                 }
               ]
