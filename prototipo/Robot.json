@@ -5142,7 +5142,7 @@
           "depth": 1,
           "height": 30,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "Mira",
           "persistentUuid": "b4bf8633-c163-4e0c-af7f-475646dfa56a",
           "width": 31,
