@@ -1473,6 +1473,54 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "../imagens/spritesheets/heroi/parado-tres-estagios/parado_intermediario_sem_braco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../imagens/spritesheets/heroi/parado-tres-estagios/parado_intermediario_sem_braco.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../imagens/spritesheets/heroi/parado-tres-estagios/parado_enferrujado_sem_braco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../imagens/spritesheets/heroi/parado-tres-estagios/parado_enferrujado_sem_braco.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "arma2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arma2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "arma3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arma3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../imagens/spritesheets/heroi/arma-tres-estagios/arma2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../imagens/spritesheets/heroi/arma-tres-estagios/arma2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../imagens/spritesheets/heroi/arma-tres-estagios/arma3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../imagens/spritesheets/heroi/arma-tres-estagios/arma3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -12038,6 +12086,114 @@
                         "name": "centre",
                         "x": 25,
                         "y": 58
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 9
+                          },
+                          {
+                            "x": 133,
+                            "y": 9
+                          },
+                          {
+                            "x": 133,
+                            "y": 105
+                          },
+                          {
+                            "x": 10,
+                            "y": 105
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "../imagens/spritesheets/heroi/arma-tres-estagios/arma2.png",
+                      "points": [
+                        {
+                          "name": "Ponta",
+                          "x": 102.5,
+                          "y": 51
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 21.5,
+                        "y": 51
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 21.5,
+                        "y": 51
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 9
+                          },
+                          {
+                            "x": 133,
+                            "y": 9
+                          },
+                          {
+                            "x": 133,
+                            "y": 105
+                          },
+                          {
+                            "x": 10,
+                            "y": 105
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "../imagens/spritesheets/heroi/arma-tres-estagios/arma3.png",
+                      "points": [
+                        {
+                          "name": "Ponta",
+                          "x": 103.5,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 19,
+                        "y": 51.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 19,
+                        "y": 51.5
                       },
                       "customCollisionMask": [
                         [
@@ -29480,7 +29636,7 @@
                     "Robo",
                     "Animation",
                     "=",
-                    "\"parado sem braco\""
+                    "\"parado sem braco 1\""
                   ]
                 }
               ]
