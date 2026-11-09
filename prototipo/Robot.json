@@ -5142,7 +5142,7 @@
           "depth": 1,
           "height": 30,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "Mira",
           "persistentUuid": "b4bf8633-c163-4e0c-af7f-475646dfa56a",
           "width": 31,
@@ -5432,325 +5432,6 @@
           ],
           "animations": [
             {
-              "name": "andar",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "andar",
-                      "points": [
-                        {
-                          "name": "Ombro",
-                          "x": 188.5,
-                          "y": 153.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26.5,
-                        "y": 12
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 127,
-                        "y": 169.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 42,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 280
-                          },
-                          {
-                            "x": 42,
-                            "y": 280
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "andar2",
-                      "points": [
-                        {
-                          "name": "Ombro",
-                          "x": 188.5,
-                          "y": 153.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26.5,
-                        "y": 12
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 127,
-                        "y": 169.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 42,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 280
-                          },
-                          {
-                            "x": 42,
-                            "y": 280
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "andar3",
-                      "points": [
-                        {
-                          "name": "Ombro",
-                          "x": 188.5,
-                          "y": 153.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26.5,
-                        "y": 12
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 127,
-                        "y": 169.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 42,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 280
-                          },
-                          {
-                            "x": 42,
-                            "y": 280
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "andar4",
-                      "points": [
-                        {
-                          "name": "Ombro",
-                          "x": 188.5,
-                          "y": 153.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26.5,
-                        "y": 12
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 127,
-                        "y": 169.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 42,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 280
-                          },
-                          {
-                            "x": 42,
-                            "y": 280
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "andar5",
-                      "points": [
-                        {
-                          "name": "Ombro",
-                          "x": 188.5,
-                          "y": 153.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26.5,
-                        "y": 12
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 127,
-                        "y": 169.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 42,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 280
-                          },
-                          {
-                            "x": 42,
-                            "y": 280
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "andar6",
-                      "points": [
-                        {
-                          "name": "Ombro",
-                          "x": 188.5,
-                          "y": 153.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26.5,
-                        "y": 12
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 127,
-                        "y": 169.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 42,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 280
-                          },
-                          {
-                            "x": 42,
-                            "y": 280
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "parado",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imagens/robo/parado.png",
-                      "points": [
-                        {
-                          "name": "Ombro",
-                          "x": 188.5,
-                          "y": 153.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26.5,
-                        "y": 12
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 127,
-                        "y": 169.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 42,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 12
-                          },
-                          {
-                            "x": 212,
-                            "y": 280
-                          },
-                          {
-                            "x": 42,
-                            "y": 280
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "andar sem braco",
               "useMultipleDirections": false,
               "directions": [
@@ -5765,8 +5446,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 185,
-                          "y": 149.5
+                          "x": 189,
+                          "y": 152.5
                         }
                       ],
                       "originPoint": {
@@ -6029,8 +5710,8 @@
                       "points": [
                         {
                           "name": "Ombro",
-                          "x": 153,
-                          "y": 157.5
+                          "x": 168,
+                          "y": 157
                         }
                       ],
                       "originPoint": {
@@ -7520,13 +7201,13 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 10.5,
-                        "y": 37
+                        "x": 70.5,
+                        "y": 34
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 107.5,
+                        "x": 70.5,
                         "y": 34
                       },
                       "customCollisionMask": [
@@ -12293,19 +11974,19 @@
                       "points": [
                         {
                           "name": "Ponta",
-                          "x": 106.5,
-                          "y": 41
+                          "x": 105.5,
+                          "y": 57.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 12,
-                        "y": 14.5
+                        "x": 25,
+                        "y": 58
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 65,
+                        "x": 25,
                         "y": 58
                       },
                       "customCollisionMask": [
@@ -13564,14 +13245,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 45.5,
-                        "y": 43
+                        "x": 42.5,
+                        "y": 70.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 68.5,
-                        "y": 62
+                        "x": 42.5,
+                        "y": 70.5
                       },
                       "customCollisionMask": [
                         [
@@ -13768,6 +13449,30 @@
           },
           {
             "objectName": "TextoEstatistica"
+          },
+          {
+            "objectName": "MolduraBarra"
+          },
+          {
+            "objectName": "BarraVida"
+          },
+          {
+            "objectName": "BarraXP"
+          },
+          {
+            "objectName": "IconeTempo"
+          },
+          {
+            "objectName": "IconeOnda"
+          },
+          {
+            "objectName": "TextoTempo"
+          },
+          {
+            "objectName": "TextoOnda"
+          },
+          {
+            "objectName": "TextoPontuacao"
           }
         ]
       },
@@ -18287,19 +17992,9 @@
                   "parameters": [
                     "Mira",
                     "=",
-                    "CursorX()",
+                    "CursorX(\"HUD\")",
                     "=",
-                    "CursorY()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetZOrder"
-                  },
-                  "parameters": [
-                    "Mira",
-                    "=",
-                    "100"
+                    "CursorY(\"HUD\")"
                   ]
                 }
               ]
@@ -29363,32 +29058,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "Flippable"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetX"
-                  },
-                  "parameters": [
-                    "Arma",
-                    "-",
-                    "15"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
@@ -29473,6 +29142,16 @@
                     "AguardandoSoltarMouse",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::IsReadyToShoot"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "FireBullet",
+                    ""
                   ]
                 }
               ],
