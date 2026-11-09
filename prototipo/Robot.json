@@ -1967,7 +1967,7 @@
           "name": "AguardandoSoltarMouse",
           "persistentUuid": "526449ad-3f50-401f-9d97-bff595f46d35",
           "type": "number",
-          "value": 0
+          "value": 1
         },
         {
           "name": "TempoFimPartida",
@@ -5293,6 +5293,22 @@
           "x": 725,
           "y": 25,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoPontuacaoFinal",
+          "persistentUuid": "b83f760c-bd31-4ff6-812d-1b6a970d582e",
+          "width": 0,
+          "x": 0,
+          "y": 462,
+          "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12995,6 +13011,50 @@
         },
         {
           "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoPontuacaoFinal",
+          "persistentUuid": "3ff27efe-f5b2-4a7c-a76a-c19151392e5b",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Pontuação: 0",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 26,
+          "color": {
+            "b": 210,
+            "g": 240,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "247;1;1",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Pontuação: 0",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "255;240;210"
+          }
+        },
+        {
+          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "TextoDescricaoCarta",
@@ -15006,7 +15066,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Fim provisório (até as cenas Derrota e Vitoria existirem): vida zerada = Derrota; Máquina-mãe derrotada e óleo escoado (3,5 s depois) = Vitoria. Nas duas, Enter recomeça a cena do zero."
+              "comment": "Fim da partida: vida zerada = Derrota; Máquina-mãe derrotada e óleo escoado (3,5 s depois) = Vitoria. Nas duas, Enter ou um clique em \"[ Jogar de novo ]\" recomeça a cena do zero. O clique só conta ao soltar o botão, como no \"Continuar\" da pausa, e AguardandoSoltarMouse começa em 1, então o clique nunca vira tiro na partida nova."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -15140,6 +15200,88 @@
                   "parameters": [
                     "",
                     "\"Return\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EstadoJogo",
+                        "=",
+                        "\"Derrota\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Arena\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "EstadoJogo",
+                        "=",
+                        "\"Vitoria\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Arena\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
                   ]
                 }
               ],
@@ -16088,7 +16230,35 @@
                   "parameters": [
                     "TextoSubtitulo",
                     "=",
-                    "\"Enter para recomeçar\""
+                    "\"[ Jogar de novo ]   ou Enter\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoPontuacaoFinal"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoPontuacaoFinal",
+                    "=",
+                    "\"Pontuação: \" + ToString(Variable(Pontuacao))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoPontuacaoFinal",
+                    "=",
+                    "CameraCenterX(\"HUD\") - TextoPontuacaoFinal.Width() / 2"
                   ]
                 }
               ]
@@ -16125,7 +16295,70 @@
                   "parameters": [
                     "TextoSubtitulo",
                     "=",
-                    "\"Enter para jogar de novo\""
+                    "\"[ Jogar de novo ]   ou Enter\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoPontuacaoFinal"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextoPontuacaoFinal",
+                    "=",
+                    "\"Pontuação: \" + ToString(Variable(Pontuacao))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoPontuacaoFinal",
+                    "=",
+                    "CameraCenterX(\"HUD\") - TextoPontuacaoFinal.Width() / 2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "!=",
+                    "\"Derrota\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "!=",
+                    "\"Vitoria\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoPontuacaoFinal"
                   ]
                 }
               ]

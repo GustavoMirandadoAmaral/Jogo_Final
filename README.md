@@ -93,12 +93,12 @@ A variável `EstadoJogo` diz em que momento a partida está.
 | `Jogando` | Início, ou ao sair de uma das telas | — |
 | `Pausado` | Esc | Esc, ou clique em "Continuar" |
 | `EscolhendoUpgrade` | O XP chega ao valor do próximo nível | Clique numa carta, ou teclas 1, 2 e 3 |
-| `Derrota` | A vida do robô chega a 0 | Enter recomeça a partida |
-| `Vitoria` | 3,5 s depois de a Máquina-mãe cair (o tempo do escoamento) | Enter recomeça a partida |
+| `Derrota` | A vida do robô chega a 0 | Enter, ou clique em "Jogar de novo", recomeça a partida |
+| `Vitoria` | 3,5 s depois de a Máquina-mãe cair (o tempo do escoamento) | Enter, ou clique em "Jogar de novo", recomeça a partida |
 
 - **Fora de `Jogando`:** a escala de tempo vai a 0. Tudo que depende do tempo para: movimentos, comportamentos, Tweens e partículas.
 - **Comandos do robô:** só funcionam em `Jogando`, e a mira também fica parada nas telas.
-- **Depois de uma tela:** o tiro só volta depois de soltar o botão do mouse (`AguardandoSoltarMouse`), para o clique da carta não virar um disparo.
+- **Depois de uma tela:** o tiro só volta depois de soltar o botão do mouse (`AguardandoSoltarMouse`), para o clique da carta não virar um disparo. A variável começa em 1, então o mesmo vale para o início de cada partida, como depois do clique em "Jogar de novo".
 
 ### XP e nível
 
@@ -130,7 +130,8 @@ As telas ficam na camada `HUD` e acompanham a largura real da janela: o véu cob
 - **Painel de pausa, derrota e vitória** (`PainelTela`):
   - números da partida com os ícones do HUD: onda, nível, tempo e, na derrota e na vitória, inimigos abatidos;
   - embaixo, os ícones das melhorias conquistadas com o nível de cada uma, ou "Nenhuma melhoria conquistada";
-  - os ícones e textos são criados quando o painel abre e apagados quando o jogo volta.
+  - os ícones e textos são criados quando o painel abre e apagados quando o jogo volta;
+  - na derrota e na vitória, a pontuação final (`TextoPontuacaoFinal`) aparece embaixo das melhorias, e o subtítulo vira o botão "[ Jogar de novo ]". Como o "Continuar" da pausa, o clique só conta ao soltar o botão do mouse.
 
 As artes das cartas, do painel e dos ícones são do catálogo [imagens/interface](imagens/interface/README.md).
 
