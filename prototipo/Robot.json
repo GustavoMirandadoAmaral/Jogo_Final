@@ -11300,13 +11300,13 @@
               "name": "Vida",
               "persistentUuid": "c6a0821e-78df-4596-9234-8d218daadaf4",
               "type": "number",
-              "value": 30
+              "value": 300
             },
             {
               "name": "VidaMaxima",
               "persistentUuid": "2cd9ec03-6ec5-433b-b8a4-4c7eb275e0e0",
               "type": "number",
-              "value": 30
+              "value": 300
             }
           ],
           "effects": [],
@@ -26590,8 +26590,8 @@
                   "parameters": [
                     "Robo",
                     "Vida",
-                    "-",
-                    "1"
+                    "=",
+                    "max(0, Robo.Vida - 1 - TiroInimigo.DoChefao)"
                   ]
                 },
                 {
@@ -30631,6 +30631,19 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment2": "",
+              "comment": "A vida da Máquina-mãe (300) fica só na variável VidaMaxima do objeto MaquinaMae: a entrada da luta, o atalho F8 e o texto usam esse valor. Os projéteis da rajada (DoChefao = 1) e o jato de vapor tiram 2 de vida."
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -30874,7 +30887,7 @@
                     "MaquinaMae",
                     "Vida",
                     "=",
-                    "30"
+                    "MaquinaMae.VidaMaxima"
                   ]
                 },
                 {
@@ -31299,7 +31312,7 @@
                         "MaquinaMae",
                         "Vida",
                         "=",
-                        "30"
+                        "MaquinaMae.VidaMaxima"
                       ]
                     },
                     {
@@ -31685,7 +31698,7 @@
                   "parameters": [
                     "TextoChefao",
                     "=",
-                    "\"Máquina-mãe: \" + ToString(ceil(MaquinaMae.Vida)) + \"/30\""
+                    "\"Máquina-mãe: \" + ToString(ceil(MaquinaMae.Vida)) + \"/\" + ToString(MaquinaMae.VidaMaxima)"
                   ]
                 }
               ]
@@ -33969,8 +33982,8 @@
                   "parameters": [
                     "Robo",
                     "Vida",
-                    "-",
-                    "1"
+                    "=",
+                    "max(0, Robo.Vida - 2)"
                   ]
                 },
                 {
