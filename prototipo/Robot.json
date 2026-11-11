@@ -1521,6 +1521,106 @@
         "name": "../imagens/spritesheets/heroi/arma-tres-estagios/arma3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Video Project2.m4a",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Video Project2.m4a",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../imagens/heroi/heroi-tomando-dano.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../imagens/heroi/heroi-tomando-dano.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dano.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dano",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dano2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dano2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dano3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dano3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dano4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dano4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dano5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dano5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "dano_robo_impacto_metalico.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dano_robo_impacto_metalico.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dano6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dano6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dano7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dano7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dano8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dano8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dano9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dano9",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2391,7 +2491,7 @@
           "width": 71.5,
           "x": 610,
           "y": 279,
-          "zOrder": 6,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3264,7 +3364,7 @@
           "width": 28,
           "x": 803,
           "y": -166,
-          "zOrder": 162,
+          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5240,7 +5340,7 @@
           "depth": 1,
           "height": 30,
           "keepRatio": true,
-          "layer": "",
+          "layer": "HUD",
           "name": "Mira",
           "persistentUuid": "b4bf8633-c163-4e0c-af7f-475646dfa56a",
           "width": 31,
@@ -5840,6 +5940,55 @@
                           {
                             "x": 42,
                             "y": 280
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "dano",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "dano9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 282.5
+                          },
+                          {
+                            "x": 17.5,
+                            "y": 0.5
+                          },
+                          {
+                            "x": 332.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 330,
+                            "y": 283.5
                           }
                         ]
                       ]
@@ -7299,13 +7448,13 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 70.5,
+                        "x": 101.5,
                         "y": 34
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 70.5,
+                        "x": 101.5,
                         "y": 34
                       },
                       "customCollisionMask": [
@@ -13389,14 +13538,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 639,
+                        "y": 617
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 639,
+                        "y": 617
                       },
                       "customCollisionMask": [
                         [
@@ -18175,6 +18324,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Combate e recompensas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29359,6 +29509,17 @@
                     "FireBullet",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "<=",
+                    "2"
+                  ]
                 }
               ],
               "actions": [
@@ -29429,7 +29590,7 @@
                     "Fogo_Disparo",
                     "Scale",
                     "=",
-                    "0.2"
+                    "0.3"
                   ]
                 },
                 {
@@ -29636,7 +29797,7 @@
                     "Robo",
                     "Animation",
                     "=",
-                    "\"parado sem braco 1\""
+                    "\"parado sem braco\""
                   ]
                 }
               ]
@@ -30046,6 +30207,19 @@
                     "HorizontalDash",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "Video Project2.m4a",
+                    "1",
+                    "",
+                    "30",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -30113,6 +30287,25 @@
                 },
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Animation",
+                    "=",
+                    "\"dano\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Arma"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
@@ -30124,24 +30317,15 @@
                 },
                 {
                   "type": {
-                    "value": "Flash::Flash::Flash"
+                    "value": "PlaySoundOnChannel"
                   },
                   "parameters": [
-                    "Robo",
-                    "Flash",
-                    "3",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Flash::Flash::Flash"
-                  },
-                  "parameters": [
-                    "Arma",
-                    "Flash",
-                    "3",
-                    ""
+                    "",
+                    "dano_robo_impacto_metalico.wav",
+                    "2",
+                    "",
+                    "30",
+                    "1"
                   ]
                 }
               ]
@@ -30209,24 +30393,15 @@
                 },
                 {
                   "type": {
-                    "value": "Flash::Flash::Flash"
+                    "value": "PlaySoundOnChannel"
                   },
                   "parameters": [
-                    "Robo",
-                    "Flash",
-                    "3",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Flash::Flash::Flash"
-                  },
-                  "parameters": [
-                    "Arma",
-                    "Flash",
-                    "3",
-                    ""
+                    "",
+                    "dano_robo_impacto_metalico.wav",
+                    "2",
+                    "",
+                    "30",
+                    "1"
                   ]
                 }
               ]
@@ -30256,6 +30431,109 @@
                     "TempoInvulneravel",
                     "-",
                     "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    ">",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Animation",
+                    "=",
+                    "\"dano\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Arma"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Arma",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Flash",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Arma",
+                    "Flash",
+                    "2",
+                    ""
                   ]
                 }
               ]
