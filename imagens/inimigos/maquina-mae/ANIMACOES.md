@@ -11,7 +11,7 @@ Integradas em `prototipo/Robot.json` em 04/11/2026. PNGs em `prototipo/imagens/c
 | `clarao-a.png`, `clarao-b.png` | Dois quadros do clarão da rajada. |
 | `vapor-a.png`, `vapor-b.png` | Coluna de vapor branco subindo, dois quadros em ciclo durante o ataque. |
 
-Os três novos quadros do corpo mantêm canvas de 1536 × 1024, a escala de jogo 400 × 267 e a mesma máscara da fornalha. A prensa usa canvas 1024 × 1536 e tamanho de jogo 200 × 300. Os clarões usam canvas 1536 × 1024, tamanho de jogo 180 × 120 e pivô junto à saída do disparo.
+Os três novos quadros do corpo mantêm canvas de 1536 × 1024 (no projeto, as imagens foram reduzidas à metade, 768 × 512), a escala de jogo 400 × 267 e a mesma máscara de dano. A máscara cobre o corpo central inteiro, do topo do tanque até os pés, sem os braços laterais e sem a fumaça das chaminés: no início ela era só a fornalha, mas o alvo ficava pequeno e o tiro no resto do corpo passava direto. A prensa usa canvas 1024 × 1536 e tamanho de jogo 200 × 300. Os clarões usam canvas 1536 × 1024, tamanho de jogo 180 × 120 e pivô junto à saída do disparo.
 
 O grupo **Máquina-mãe: animações e efeitos** escolhe uma única animação por quadro para não reiniciar os ciclos a cada evento. Também controla o clarão, a reação breve de dano, o desligamento visual de 0,7 s e os rastros dos projéteis. O vapor usa a coluna animada de dois PNGs. Os emissores de vapor dos ataques e da convocação foram removidos; as nuvens da máquina ficam representadas nos quadros da arte. Poeira acompanha o impacto da prensa. As partículas são finitas e se removem ao terminar.
 
@@ -49,7 +49,7 @@ Use case: precise-object-edit. ONE standalone frame B of this same leftward muzz
 
 ## Conferência na prévia
 
-Abrir o projeto, iniciar a prévia e pressionar F8. Observar o ciclo da caldeira sem atirar, o clarão da rajada, a prensa tocando a plataforma, o vapor e as nuvens da convocação. Um tiro na fornalha deve provocar breve mudança de cor; ao derrotar o chefe, a imagem escurece, solta vapor e desaparece. Conferir também a remoção das partículas e a leitura dos efeitos sobre o cenário.
+Abrir o projeto, iniciar a prévia e pressionar F8. Observar o ciclo da caldeira sem atirar, o clarão da rajada, a prensa tocando a plataforma, o vapor e as nuvens da convocação. Um tiro no corpo deve provocar breve mudança de cor; um tiro nos braços laterais ou na fumaça passa direto; ao derrotar o chefe, a imagem escurece, solta vapor e desaparece. Conferir também a remoção das partículas e a leitura dos efeitos sobre o cenário.
 
 ## Complemento: arte do vapor
 
