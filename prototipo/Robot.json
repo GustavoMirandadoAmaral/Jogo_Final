@@ -18494,6 +18494,19 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment2": "",
+              "comment": "Balanceamento: a cada nova onda o robô recupera 1 de vida (sem passar de VidaMaxima). Ondas 3 e 4 com menos inimigos e Voadores a cada 5 s. A explosão do Voador e o tiro do Atirador também dão 3 s de invulnerabilidade, para vários danos não se somarem no mesmo instante."
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -18670,6 +18683,17 @@
                     "EsperaProximaOnda",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    "=",
+                    "min(Robo.VidaMaxima, Robo.Vida + 1)"
                   ]
                 }
               ]
@@ -19419,7 +19443,7 @@
                   "parameters": [
                     "CotaAndador",
                     "=",
-                    "14"
+                    "10"
                   ]
                 },
                 {
@@ -19429,7 +19453,7 @@
                   "parameters": [
                     "CotaSaltador",
                     "=",
-                    "10"
+                    "8"
                   ]
                 },
                 {
@@ -19439,7 +19463,7 @@
                   "parameters": [
                     "CotaVoador",
                     "=",
-                    "6"
+                    "4"
                   ]
                 },
                 {
@@ -19449,7 +19473,7 @@
                   "parameters": [
                     "LimiteVivos",
                     "=",
-                    "12"
+                    "10"
                   ]
                 },
                 {
@@ -19520,6 +19544,17 @@
                     "EsperaProximaOnda",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    "=",
+                    "min(Robo.VidaMaxima, Robo.Vida + 1)"
                   ]
                 }
               ]
@@ -19634,7 +19669,7 @@
                   "parameters": [
                     "CotaAndador",
                     "=",
-                    "12"
+                    "10"
                   ]
                 },
                 {
@@ -19644,7 +19679,7 @@
                   "parameters": [
                     "CotaSaltador",
                     "=",
-                    "10"
+                    "8"
                   ]
                 },
                 {
@@ -19654,7 +19689,7 @@
                   "parameters": [
                     "CotaVoador",
                     "=",
-                    "8"
+                    "6"
                   ]
                 },
                 {
@@ -19674,7 +19709,7 @@
                   "parameters": [
                     "LimiteVivos",
                     "=",
-                    "14"
+                    "11"
                   ]
                 },
                 {
@@ -19765,6 +19800,17 @@
                     "EsperaProximaOnda",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    "=",
+                    "min(Robo.VidaMaxima, Robo.Vida + 1)"
                   ]
                 }
               ]
@@ -20050,6 +20096,17 @@
                     "EsperaProximaOnda",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    "=",
+                    "min(Robo.VidaMaxima, Robo.Vida + 1)"
                   ]
                 }
               ]
@@ -20888,7 +20945,7 @@
                           "parameters": [
                             "TempoSurgimentoVoador",
                             ">=",
-                            "3.5"
+                            "5"
                           ]
                         },
                         {
@@ -24282,6 +24339,17 @@
                             "=",
                             "max(0, Robo.Vida - 2)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Robo",
+                            "TempoInvulneravel",
+                            "=",
+                            "3"
+                          ]
                         }
                       ]
                     },
@@ -26524,6 +26592,17 @@
                     "Vida",
                     "-",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "TempoInvulneravel",
+                    "=",
+                    "3"
                   ]
                 },
                 {
