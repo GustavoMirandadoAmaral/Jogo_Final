@@ -1669,6 +1669,36 @@
         "name": "prototipo/imagens/chefao/projetil-rajada.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "sons/maquina_mae_disparo.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/maquina_mae_disparo.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sons/maquina_mae_vapor.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/maquina_mae_vapor.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sons/maquina_mae_prensa.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/maquina_mae_prensa.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -33202,6 +33232,19 @@
                     "ClaraoRajadaChefao",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "sons/maquina_mae_disparo.wav",
+                    "10+Variable(DisparosRajadaChefao)",
+                    "",
+                    "27",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -33752,6 +33795,19 @@
                         "TempoDescargaChefao",
                         "=",
                         "0.36"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundOnChannel"
+                      },
+                      "parameters": [
+                        "",
+                        "sons/maquina_mae_prensa.wav",
+                        "16",
+                        "",
+                        "32",
+                        "1"
                       ]
                     }
                   ]
@@ -34489,6 +34545,19 @@
                   "parameters": [
                     "ColunaVaporChefao",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "sons/maquina_mae_vapor.wav",
+                    "15",
+                    "",
+                    "27",
+                    "1"
                   ]
                 }
               ]
