@@ -1765,6 +1765,12 @@
             },
             {
               "name": "Saltador"
+            },
+            {
+              "name": "TiroInimigo"
+            },
+            {
+              "name": "ExplosaoVoador"
             }
           ]
         },
@@ -6040,8 +6046,8 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14,
-                            "y": 278
+                            "x": 12.5,
+                            "y": 295
                           },
                           {
                             "x": 17.5,
@@ -6052,8 +6058,8 @@
                             "y": 0
                           },
                           {
-                            "x": 330.5,
-                            "y": 277.5
+                            "x": 332,
+                            "y": 294
                           }
                         ]
                       ]
@@ -10816,6 +10822,30 @@
               "persistentUuid": "a3568dc6-6978-407c-a820-a06fcff9fb2d",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Vida",
+              "persistentUuid": "eb542972-adfb-4d73-a4ef-fbc6b3b909ff",
+              "type": "number",
+              "value": 8
+            },
+            {
+              "name": "XPDrop",
+              "persistentUuid": "a30c2a0a-14e5-4ec5-9317-f3adc675f14b",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "PontosAbate",
+              "persistentUuid": "7853f866-0196-4e21-afef-d1a22a2982d2",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "name": "MultiplicadorVelocidade",
+              "persistentUuid": "0b534f44-0e7e-4f40-acf9-f6c43638b2e5",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
@@ -12504,6 +12534,30 @@
               "name": "TempoVida",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Vida",
+              "persistentUuid": "eb542972-adfb-4d73-a4ef-fbc6b3b909ff",
+              "type": "number",
+              "value": 8
+            },
+            {
+              "name": "XPDrop",
+              "persistentUuid": "a30c2a0a-14e5-4ec5-9317-f3adc675f14b",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "PontosAbate",
+              "persistentUuid": "7853f866-0196-4e21-afef-d1a22a2982d2",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "name": "MultiplicadorVelocidade",
+              "persistentUuid": "0b534f44-0e7e-4f40-acf9-f6c43638b2e5",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
@@ -26754,7 +26808,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Disparos do Atirador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31081,7 +31134,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Máquina-mãe: entrada e derrota",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31615,7 +31667,6 @@
               "colorG": 95,
               "colorR": 95,
               "creationTime": 0,
-              "folded": true,
               "name": "Teste temporário: F8 inicia a luta",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
