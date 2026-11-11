@@ -6034,32 +6034,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 50,
+                        "y": 22
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 150.5,
+                        "y": 185
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12.5,
-                            "y": 295
+                            "x": 65.5,
+                            "y": 22
                           },
                           {
-                            "x": 17.5,
-                            "y": 0.5
+                            "x": 235.5,
+                            "y": 22
                           },
                           {
-                            "x": 332.5,
-                            "y": 0
+                            "x": 235.5,
+                            "y": 290
                           },
                           {
-                            "x": 332,
-                            "y": 294
+                            "x": 65.5,
+                            "y": 290
                           }
                         ]
                       ]
@@ -27140,48 +27140,6 @@
                   "parameters": [
                     "TiroInimigo",
                     ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 95,
-          "colorG": 95,
-          "colorR": 95,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Vida do Robo",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "TempoInvulneravel",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "TempoInvulneravel",
-                    "-",
-                    "TimeDelta()"
                   ]
                 }
               ]
