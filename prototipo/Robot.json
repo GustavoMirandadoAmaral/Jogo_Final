@@ -1621,6 +1621,46 @@
         "name": "dano9",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "coleta_xp_chime.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coleta_xp_chime.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Pressure_Valve_Breach.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Pressure_Valve_Breach.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "abate_inimigo_pesado.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "abate_inimigo_pesado.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "abate_inimigo_leve.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "abate_inimigo_leve.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -1737,6 +1777,31 @@
             {
               "name": "Saltador"
             },
+            {
+              "name": "Pesado"
+            },
+            {
+              "name": "Atirador"
+            }
+          ]
+        },
+        {
+          "name": "InimigosLeves",
+          "objects": [
+            {
+              "name": "Saltador"
+            },
+            {
+              "name": "Andador"
+            },
+            {
+              "name": "Voador"
+            }
+          ]
+        },
+        {
+          "name": "InimigosPesados",
+          "objects": [
             {
               "name": "Pesado"
             },
@@ -5976,7 +6041,7 @@
                         [
                           {
                             "x": 14,
-                            "y": 282.5
+                            "y": 278
                           },
                           {
                             "x": 17.5,
@@ -5987,8 +6052,8 @@
                             "y": 0
                           },
                           {
-                            "x": 330,
-                            "y": 283.5
+                            "x": 330.5,
+                            "y": 277.5
                           }
                         ]
                       ]
@@ -13908,6 +13973,46 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Iniciar música para o jogo enquanto estiver jogando"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "Pressure_Valve_Breach.mp3",
+                    "9",
+                    "yes",
+                    "20",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Estado da partida (variável EstadoJogo): Jogando, Pausado, EscolhendoUpgrade, Derrota ou Vitoria. Fora de Jogando a escala de tempo vai a 0: tudo que usa TimeDelta, os comportamentos, os Tweens e as partículas congelam. Os comandos do robô só valem em Jogando, e depois de qualquer tela o tiro espera o botão do mouse ser solto (AguardandoSoltarMouse), para o clique da tela não virar tiro."
             },
             {
@@ -14256,6 +14361,81 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Pausado\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseSoundChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "9"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResumeSoundChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "9"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSoundChannelVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "9",
+                    "=",
+                    "20"
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -14312,6 +14492,19 @@
                   "parameters": [
                     "Peca",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "coleta_xp_chime.wav",
+                    "4",
+                    "",
+                    "30",
+                    "1"
                   ]
                 }
               ]
@@ -15108,6 +15301,49 @@
                     "AguardandoSoltarMouse",
                     "=",
                     "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"EscolhendoUpgrade\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResumeSoundChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "9"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSoundChannelVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "9",
+                    "=",
+                    "10"
                   ]
                 }
               ]
@@ -18519,6 +18755,156 @@
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "Inimigos.ObjectName()",
+                            "=",
+                            "\"Andador\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundOnChannel"
+                          },
+                          "parameters": [
+                            "",
+                            "abate_inimigo_leve.wav",
+                            "8",
+                            "",
+                            "25",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "Inimigos.ObjectName()",
+                            "=",
+                            "\"Saltador\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundOnChannel"
+                          },
+                          "parameters": [
+                            "",
+                            "abate_inimigo_leve.wav",
+                            "8",
+                            "",
+                            "25",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "Inimigos.ObjectName()",
+                            "=",
+                            "\"Voador\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundOnChannel"
+                          },
+                          "parameters": [
+                            "",
+                            "abate_inimigo_leve.wav",
+                            "8",
+                            "",
+                            "25",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "Inimigos.ObjectName()",
+                            "=",
+                            "\"Pesado\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundOnChannel"
+                          },
+                          "parameters": [
+                            "",
+                            "abate_inimigo_pesado.wav",
+                            "8",
+                            "",
+                            "25",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "Inimigos.ObjectName()",
+                            "=",
+                            "\"Atirador\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundOnChannel"
+                          },
+                          "parameters": [
+                            "",
+                            "abate_inimigo_pesado.wav",
+                            "8",
+                            "",
+                            "25",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
                         {
@@ -18559,7 +18945,6 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment2": "",
               "comment": "Balanceamento: ao terminar as ondas 3 e 4 o robô recupera 1 de vida (sem passar de VidaMaxima); nas ondas 1 e 2 não recupera. Quando a Máquina-mãe entra, a vida volta inteira. Ondas 3 e 4 com menos inimigos e Voadores a cada 5 s. A explosão do Voador e o tiro do Atirador também dão 3 s de invulnerabilidade, para vários danos não se somarem no mesmo instante."
             },
             {
@@ -30328,7 +30713,7 @@
                   "parameters": [
                     "",
                     "Video Project2.m4a",
-                    "1",
+                    "3",
                     "",
                     "30",
                     "1"
@@ -30396,25 +30781,6 @@
                     "Vida",
                     "=",
                     "max(0, Robo.Vida - 2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "Animation",
-                    "=",
-                    "\"dano\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Arma"
                   ]
                 },
                 {
@@ -30583,6 +30949,62 @@
                     "Arma"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorX()",
+                        "<",
+                        "Robo.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorX()",
+                        ">",
+                        "Robo.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Robo",
+                        "Flippable",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -30674,7 +31096,6 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment2": "",
               "comment": "A vida da Máquina-mãe (300) fica só na variável VidaMaxima do objeto MaquinaMae: a entrada da luta, o atalho F8 e o texto usam esse valor. Só os projéteis da rajada (DoChefao = 1) tiram 2 de vida; o jato de vapor e os Voadores convocados tiram 1 (na explosão do Voador o dano é 2 - ChefaoAtivo). Quando ela entra, o robô recupera a vida inteira. A rajada tem recarga de 7 s, contada a partir de cada disparo, e a primeira sai entre 2 e 4 s depois que ela entra (RecargaRajadaChefao começa em 7 - RandomFloatInRange(2, 4))."
             },
             {
