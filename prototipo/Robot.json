@@ -11343,20 +11343,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400,
-                            "y": 225
+                            "x": 205,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 225
+                            "x": 565,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 395
+                            "x": 645,
+                            "y": 290
                           },
                           {
-                            "x": 400,
-                            "y": 395
+                            "x": 660,
+                            "y": 500
+                          },
+                          {
+                            "x": 110,
+                            "y": 500
+                          },
+                          {
+                            "x": 160,
+                            "y": 290
                           }
                         ]
                       ]
@@ -11379,20 +11387,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400,
-                            "y": 225
+                            "x": 205,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 225
+                            "x": 565,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 395
+                            "x": 645,
+                            "y": 290
                           },
                           {
-                            "x": 400,
-                            "y": 395
+                            "x": 660,
+                            "y": 500
+                          },
+                          {
+                            "x": 110,
+                            "y": 500
+                          },
+                          {
+                            "x": 160,
+                            "y": 290
                           }
                         ]
                       ]
@@ -11427,20 +11443,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400,
-                            "y": 225
+                            "x": 205,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 225
+                            "x": 565,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 395
+                            "x": 645,
+                            "y": 290
                           },
                           {
-                            "x": 400,
-                            "y": 395
+                            "x": 660,
+                            "y": 500
+                          },
+                          {
+                            "x": 110,
+                            "y": 500
+                          },
+                          {
+                            "x": 160,
+                            "y": 290
                           }
                         ]
                       ]
@@ -11463,20 +11487,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400,
-                            "y": 225
+                            "x": 205,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 225
+                            "x": 565,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 395
+                            "x": 645,
+                            "y": 290
                           },
                           {
-                            "x": 400,
-                            "y": 395
+                            "x": 660,
+                            "y": 500
+                          },
+                          {
+                            "x": 110,
+                            "y": 500
+                          },
+                          {
+                            "x": 160,
+                            "y": 290
                           }
                         ]
                       ]
@@ -11511,20 +11543,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400,
-                            "y": 225
+                            "x": 205,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 225
+                            "x": 565,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 395
+                            "x": 645,
+                            "y": 290
                           },
                           {
-                            "x": 400,
-                            "y": 395
+                            "x": 660,
+                            "y": 500
+                          },
+                          {
+                            "x": 110,
+                            "y": 500
+                          },
+                          {
+                            "x": 160,
+                            "y": 290
                           }
                         ]
                       ]
@@ -11547,20 +11587,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400,
-                            "y": 225
+                            "x": 205,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 225
+                            "x": 565,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 395
+                            "x": 645,
+                            "y": 290
                           },
                           {
-                            "x": 400,
-                            "y": 395
+                            "x": 660,
+                            "y": 500
+                          },
+                          {
+                            "x": 110,
+                            "y": 500
+                          },
+                          {
+                            "x": 160,
+                            "y": 290
                           }
                         ]
                       ]
@@ -11583,20 +11631,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 400,
-                            "y": 225
+                            "x": 205,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 225
+                            "x": 565,
+                            "y": 180
                           },
                           {
-                            "x": 575,
-                            "y": 395
+                            "x": 645,
+                            "y": 290
                           },
                           {
-                            "x": 400,
-                            "y": 395
+                            "x": 660,
+                            "y": 500
+                          },
+                          {
+                            "x": 110,
+                            "y": 500
+                          },
+                          {
+                            "x": 160,
+                            "y": 290
                           }
                         ]
                       ]
@@ -18504,7 +18560,7 @@
                 "textR": 0
               },
               "comment2": "",
-              "comment": "Balanceamento: a cada nova onda o robô recupera 1 de vida (sem passar de VidaMaxima). Ondas 3 e 4 com menos inimigos e Voadores a cada 5 s. A explosão do Voador e o tiro do Atirador também dão 3 s de invulnerabilidade, para vários danos não se somarem no mesmo instante."
+              "comment": "Balanceamento: ao terminar as ondas 3 e 4 o robô recupera 1 de vida (sem passar de VidaMaxima); nas ondas 1 e 2 não recupera. Quando a Máquina-mãe entra, a vida volta inteira. Ondas 3 e 4 com menos inimigos e Voadores a cada 5 s. A explosão do Voador e o tiro do Atirador também dão 3 s de invulnerabilidade, para vários danos não se somarem no mesmo instante."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -18683,17 +18739,6 @@
                     "EsperaProximaOnda",
                     "=",
                     "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "Vida",
-                    "=",
-                    "min(Robo.VidaMaxima, Robo.Vida + 1)"
                   ]
                 }
               ]
@@ -19544,17 +19589,6 @@
                     "EsperaProximaOnda",
                     "=",
                     "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Robo",
-                    "Vida",
-                    "=",
-                    "min(Robo.VidaMaxima, Robo.Vida + 1)"
                   ]
                 }
               ]
@@ -24337,7 +24371,7 @@
                             "Robo",
                             "Vida",
                             "=",
-                            "max(0, Robo.Vida - 2)"
+                            "max(0, Robo.Vida - 2 + Variable(ChefaoAtivo))"
                           ]
                         },
                         {
@@ -30641,7 +30675,7 @@
                 "textR": 0
               },
               "comment2": "",
-              "comment": "A vida da Máquina-mãe (300) fica só na variável VidaMaxima do objeto MaquinaMae: a entrada da luta, o atalho F8 e o texto usam esse valor. Os projéteis da rajada (DoChefao = 1) e o jato de vapor tiram 2 de vida."
+              "comment": "A vida da Máquina-mãe (300) fica só na variável VidaMaxima do objeto MaquinaMae: a entrada da luta, o atalho F8 e o texto usam esse valor. Só os projéteis da rajada (DoChefao = 1) tiram 2 de vida; o jato de vapor e os Voadores convocados tiram 1 (na explosão do Voador o dano é 2 - ChefaoAtivo). Quando ela entra, o robô recupera a vida inteira. A rajada tem recarga de 7 s, contada a partir de cada disparo, e a primeira sai entre 2 e 4 s depois que ela entra (RecargaRajadaChefao começa em 7 - RandomFloatInRange(2, 4))."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -30935,7 +30969,7 @@
                   "parameters": [
                     "RecargaRajadaChefao",
                     "=",
-                    "0"
+                    "7 - RandomFloatInRange(2, 4)"
                   ]
                 },
                 {
@@ -31140,6 +31174,17 @@
                   },
                   "parameters": [
                     "ColunaVaporChefao"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Robo",
+                    "Vida",
+                    "=",
+                    "Robo.VidaMaxima"
                   ]
                 }
               ]
@@ -31414,7 +31459,7 @@
                       "parameters": [
                         "RecargaRajadaChefao",
                         "=",
-                        "0"
+                        "7 - RandomFloatInRange(2, 4)"
                       ]
                     },
                     {
@@ -32245,7 +32290,7 @@
                   "parameters": [
                     "RecargaRajadaChefao",
                     ">=",
-                    "3.5"
+                    "7"
                   ]
                 },
                 {
@@ -33983,7 +34028,7 @@
                     "Robo",
                     "Vida",
                     "=",
-                    "max(0, Robo.Vida - 2)"
+                    "max(0, Robo.Vida - 1)"
                   ]
                 },
                 {
