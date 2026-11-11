@@ -1661,6 +1661,14 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "imagens/chefao/projetil-rajada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prototipo/imagens/chefao/projetil-rajada.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2532,6 +2540,18 @@
           "persistentUuid": "47528beb-c553-49cb-a708-542e6a4f20a8",
           "type": "number",
           "value": 20
+        },
+        {
+          "name": "TempoEntreTirosChefao",
+          "persistentUuid": "4da5698f-fa81-4ed5-a266-1688ec4b4ad8",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "DisparosRajadaChefao",
+          "persistentUuid": "0ce01920-fd46-4c35-b9e6-2a99a6bf1f55",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -10898,6 +10918,54 @@
                           {
                             "x": 0,
                             "y": 12
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "RajadaChefao",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prototipo/imagens/chefao/projetil-rajada.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 8
+                          },
+                          {
+                            "x": 39,
+                            "y": 8
+                          },
+                          {
+                            "x": 39,
+                            "y": 32
+                          },
+                          {
+                            "x": 15,
+                            "y": 32
                           }
                         ]
                       ]
@@ -24823,6 +24891,19 @@
                             "=",
                             "3"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundOnChannel"
+                          },
+                          "parameters": [
+                            "",
+                            "dano_robo_impacto_metalico.wav",
+                            "2",
+                            "",
+                            "30",
+                            "1"
+                          ]
                         }
                       ]
                     },
@@ -27084,6 +27165,19 @@
                   "parameters": [
                     "TiroInimigo",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "dano_robo_impacto_metalico.wav",
+                    "2",
+                    "",
+                    "30",
+                    "1"
                   ]
                 }
               ]
@@ -29486,6 +29580,19 @@
                     "TempoInvulneravel",
                     "=",
                     "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "dano_robo_impacto_metalico.wav",
+                    "2",
+                    "",
+                    "30",
+                    "1"
                   ]
                 }
               ]
@@ -32850,170 +32957,32 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "TiroInimigo",
-                    "MaquinaMae.X()+35",
-                    "MaquinaMae.Y()+150",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "DoChefao",
+                    "AvisoRajadaChefao",
                     "=",
-                    "1"
+                    "2"
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "TiroInimigo",
-                    "TempoRastro",
+                    "TempoEntreTirosChefao",
                     "=",
                     "0"
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "TiroInimigo",
-                    "TempoVida",
+                    "DisparosRajadaChefao",
                     "=",
                     "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "AngleBetweenPositions(MaquinaMae.X()+35, MaquinaMae.Y()+150, Robo.CenterX(), Robo.CenterY())-18",
-                    "360",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "TiroInimigo",
-                    "MaquinaMae.X()+35",
-                    "MaquinaMae.Y()+150",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "DoChefao",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "TempoRastro",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "TempoVida",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "AngleBetweenPositions(MaquinaMae.X()+35, MaquinaMae.Y()+150, Robo.CenterX(), Robo.CenterY())",
-                    "360",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "TiroInimigo",
-                    "MaquinaMae.X()+35",
-                    "MaquinaMae.Y()+150",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "DoChefao",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "TempoRastro",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "TempoVida",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "TiroInimigo",
-                    "AngleBetweenPositions(MaquinaMae.X()+35, MaquinaMae.Y()+150, Robo.CenterX(), Robo.CenterY())+18",
-                    "360",
-                    "1"
                   ]
                 },
                 {
@@ -33023,7 +32992,244 @@
                   "parameters": [
                     "TextoAvisoRajadaChefao"
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
                 },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoEntreTirosChefao",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DisparosRajadaChefao",
+                    "<",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "TempoEntreTirosChefao",
+                    ">=",
+                    "0.2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "TiroInimigo",
+                    "MaquinaMae.X()+35",
+                    "MaquinaMae.Y()+150",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "Animation",
+                    "=",
+                    "\"RajadaChefao\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "DoChefao",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "TempoRastro",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "TempoVida",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "TiroInimigo",
+                    "AngleBetweenPositions(MaquinaMae.X()+35, MaquinaMae.Y()+150, Robo.CenterX(), Robo.CenterY())+(Variable(DisparosRajadaChefao)-2)*9",
+                    "260",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "DisparosRajadaChefao",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoEntreTirosChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoClaraoChefao",
+                    "=",
+                    "0.15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TempoDescargaChefao",
+                    "=",
+                    "0.25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "ClaraoRajadaChefao",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AvisoRajadaChefao",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "DisparosRajadaChefao",
+                    ">=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -33049,38 +33255,9 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "TempoClaraoChefao",
-                    "=",
-                    "0.20"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TempoDescargaChefao",
-                    "=",
-                    "0.36"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "ClaraoRajadaChefao",
+                    "TempoEntreTirosChefao",
                     "=",
                     "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "ClaraoRajadaChefao",
-                    ""
                   ]
                 }
               ]
@@ -34471,6 +34648,19 @@
                     "=",
                     "1.5"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "dano_robo_impacto_metalico.wav",
+                    "2",
+                    "",
+                    "30",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -35075,7 +35265,7 @@
                   },
                   "parameters": [
                     "AvisoRajadaChefao",
-                    "=",
+                    ">=",
                     "1"
                   ]
                 }
