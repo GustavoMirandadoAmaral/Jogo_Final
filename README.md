@@ -105,7 +105,7 @@ Para evitar que efeitos simultâneos cortem uns aos outros durante ondas intensa
 | Canal | Uso |
 | --- | --- |
 | `1 da cena "Arena"` | Trilha sonora da cena `Arena` em loop (`musica_oficina.mp3`) |
-| `1 da cena "MenuInicial"` | Trilha sonora da cena `MenuInicial` em loop (`musica_menu.mp3`) |
+| `1 da cena "MenuInicial"` | Trilha sonora da cena `MenuInicial` em loop (`prototipo/sons/musica_menu.mp3`) |
 | `2` | Impacto metálico de dano sofrido pelo robô (`dano_robo_impacto_metalico.wav`) |
 | `3` | Dash do robô (`dash_robo.m4a`) |
 | `4` | Peça de XP coletada pelo robô (`coleta_xp_chime.wav`) |

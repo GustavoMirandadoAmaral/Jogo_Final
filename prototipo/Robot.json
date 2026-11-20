@@ -1679,10 +1679,10 @@
         "userAdded": false
       },
       {
-        "file": "musica_menu.mp3",
+        "file": "sons/musica_menu.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "musica_menu.mp3",
+        "name": "sons/musica_menu.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -2174,7 +2174,7 @@
               },
               "parameters": [
                 "",
-                "musica_menu.mp3",
+                "sons/musica_menu.mp3",
                 "1",
                 "yes",
                 "20",

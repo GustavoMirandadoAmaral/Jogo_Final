@@ -100,7 +100,7 @@ Os efeitos sonoros foram gerados via IA com **ChatGPT**, enquanto as trilhas mus
 | Recurso no jogo | Arquivo(s) no projeto | Canal | Origem e licença |
 | --- | --- | --- | --- |
 | Trilha sonora da cena `Arena` (em loop) | `musica_oficina.mp3` | `1` (cena `Arena`) | Gerada por IA via **Gemini** (uso livre no projeto acadêmico) |
-| Trilha sonora da cena `MenuInicial` (em loop) | `musica_menu.mp3` | `1` (cena `MenuInicial`) | Gerada por IA via **Gemini** (uso livre no projeto acadêmico) |
+| Trilha sonora da cena `MenuInicial` (em loop) | `prototipo/sons/musica_menu.mp3` | `1` (cena `MenuInicial`) | Gerada por IA via **Gemini** (uso livre no projeto acadêmico) |
 | Impacto metálico de dano sofrido pelo robô | `dano_robo_impacto_metalico.wav` | `2` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
 | Dash do robô | `dash_robo.m4a` | `3` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
 | Peça de XP coletada pelo robô | `coleta_xp_chime.wav` | `4` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
