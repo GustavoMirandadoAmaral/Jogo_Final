@@ -13,6 +13,62 @@ As artes conceituais do catálogo foram geradas por IA com a ferramenta de image
 
 A origem de cada recurso usado no jogo está em [CREDITOS.md](CREDITOS.md).
 
+## Inimigos, ondas e Máquina-mãe
+
+Esta frente foi implementada e integrada por **Lucas Ciampi**, na cena `Arena` de `prototipo/Robot.json`. Os inimigos combinam perseguição, saltos, voo, resistência e ataques à distância para exigir movimentação entre chão e plataformas. As animações distinguem movimento e preparação de ataques; os avisos visuais dão tempo para reagir.
+
+### Os cinco inimigos
+
+| Inimigo | Vida inicial | Comportamento |
+| --- | --- | --- |
+| Andador | 8 | Persegue o robô pelo chão e causa 1 de dano por contato. Quando o robô permanece no alto, passa a patrulhar uma faixa horizontal, em vez de ficar parado embaixo dele. Pisca ao se aproximar para sinalizar o perigo |
+| Saltador | 12 | Persegue o robô usando saltos para alcançar plataformas, atravessar vãos ou atacar de perto. Também pode descer por superfícies atravessáveis. Causa 1 de dano por contato e pisca próximo do herói |
+| Voador | 6 | Voa em direção ao robô, sem depender das plataformas. Ao encostar ou chegar muito perto, para, pisca por 0,75 s e explode, consumindo a própria unidade. A explosão causa 2 de dano nas ondas comuns e 1 durante a luta com a Máquina-mãe |
+| Pesado | 20 | Avança pelo chão, causa 2 de dano por contato e ameaça a sustentação do robô: pode provocar a queda da plataforma ocupada acima dele. A preparação do impacto tem animação e recarga para evitar quedas sucessivas imediatas |
+| Atirador | 8 | Aproxima-se ou recua para manter distância, ficando voltado ao robô. Em plataformas, limita o deslocamento às bordas. Dispara projéteis que causam 1 de dano e atravessam as plataformas; os tiros têm tempo de vida limitado |
+
+Cada inimigo recebe seu próprio `MultiplicadorVelocidade`, sorteado entre 0,5 e 1,25 da velocidade base. Isso varia a aproximação das unidades sem criar novos tipos. O dano recebido pelo robô respeita sua invulnerabilidade temporária para evitar perdas de vida a cada quadro.
+
+### Ondas e surgimento
+
+As ondas usam **cotas totais por tipo** e um **limite de inimigos vivos ao mesmo tempo**. Matar um inimigo libera espaço para os restantes da cota; não gera uma reposição infinita daquele tipo. Cada tipo possui seu intervalo de surgimento.
+
+| Onda | Andadores | Saltadores | Voadores | Pesados | Atiradores | Máximo de vivos |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 10 | 0 | 0 | 0 | 0 | 8 |
+| 2 | 12 | 8 | 0 | 0 | 0 | 10 |
+| 3 | 10 | 8 | 4 | 0 | 0 | 10 |
+| 4 | 10 | 8 | 6 | 4 | 0 | 11 |
+| 5 | 0 | 12 | 8 | 0 | 8 | 16 |
+
+Os valores representam o balanceamento atual. A próxima onda começa depois que todas as cotas foram criadas, os inimigos foram eliminados e a espera de transição terminou. Ao concluir as ondas 3 e 4, o robô recupera 1 de vida, até seu máximo.
+
+As entradas alternam os lados e ficam fora da área visível da câmera, inclusive quando isso exige nascer além da borda da arena. A entrada dos inimigos terrestres permite atravessar o limite antes de reativar a física de plataforma. Atiradores também podem surgir em prateleiras elegíveis fora da tela, evitando limitar todos os encontros ao chão.
+
+### Máquina-mãe
+
+Depois de concluir a onda 5, a Máquina-mãe entra com **300 de vida**, o robô recupera toda a vida atual máxima e começa o aviso de subida do óleo. A barra acima da máquina acompanha a proporção `Vida / VidaMaxima`; um indicador ajuda a localizá-la quando está fora da câmera.
+
+A luta reúne quatro habilidades, com avisos, recargas e mudanças na animação da máquina:
+
+- **Rajada:** cinco projéteis visíveis, disparados em sequência com intervalo de 0,2 s e velocidade de 260 px/s. Os disparos da máquina causam 2 de dano.
+- **Prensa:** marca uma plataforma ocupada, prepara o impacto e retira temporariamente sua sustentação. A plataforma retorna após o intervalo previsto para esse ataque.
+- **Vapor:** marca uma posição da arena e libera uma coluna de vapor que causa dano ao robô dentro da área ativa.
+- **Convocação:** cria Voadores durante a luta, acrescentando pressão enquanto o jogador desvia dos outros ataques.
+
+Quando a vida da máquina chega a zero, `ChefaoDerrotado` sinaliza o encerramento, o óleo escoa e o jogo apresenta a vitória com pontuação, abates, onda, tempo e nível. A duração da partida depende de concluir as ondas e derrotar o chefe, não apenas de sobreviver a um relógio.
+
+### Pontos importantes da implementação
+
+A lógica fica organizada nos grupos `Movimento do Andador`, `Rota do Saltador`, `Voador: movimento e explosão`, `Movimento do Pesado`, `Movimento do Atirador`, `Disparos do Atirador`, `Ondas`, `Combate e recompensas` e nos grupos de habilidades da Máquina-mãe.
+
+- **Dados por instância:** `Vida`, `XPDrop`, `PontosAbate` e os controles de ataque pertencem a cada inimigo. Eventos que repetem por instância mantêm recargas e mortes independentes.
+- **Dano e recompensa:** a colisão seleciona o inimigo atingido e consome o tiro. O abate soma `PontosAbate` à pontuação, incrementa `Abates` e cria uma peça cujo `ValorXP` recebe `XPDrop`. Pontuação e experiência são contadores separados.
+- **Controle das ondas:** `CotaAndador`, `CotaSaltador` e as demais cotas definem o total; contadores como `AndadoresCriados` registram o que já nasceu, enquanto `LimiteVivos` controla a ocupação simultânea.
+- **Navegação do Saltador:** os eventos avaliam as posições e larguras das plataformas ativas, incluindo esteiras, para escolher um alvo alcançável. `MelhorRotaScore` compara candidatos e `AlvoRotaX` orienta o movimento; `TempoPulo` conta a espera no chão, evitando acumular a recarga durante o voo. A escolha considera espaço para apoiar o corpo e conserva o alvo durante o salto, em vez de seguir uma sequência fixa de coordenadas.
+
+Lucas utilizou **auxílio do ChatGPT na elaboração e no refinamento da lógica de navegação do Saltador**, especialmente na avaliação de plataformas e alcance dos saltos. A integração e os ajustes foram acompanhados de testes no GDevelop.
+
 ## Cenário, câmera e arena
 
 Tudo fica na cena `Arena` do projeto `prototipo/Robot.json`, nos grupos de eventos **Arena e câmera**, **Óleo** e **Peças de XP**. Os números ajustáveis são variáveis de cena.
