@@ -6,6 +6,8 @@
 
 Este documento transforma o [GDD](GDD.md) em tarefas para uma equipe que está começando no GDevelop. Cada entrega informa o que aprender, o que implementar, quem participa e como verificar se terminou. O GDD continua sendo a referência de design; este arquivo organiza a execução.
 
+> **Revisão de andamento em 20/11/2026:** consultar a seção 13 para distinguir implementação presente, adaptações adotadas, pendências e validações finais. As etapas abaixo preservam o planejamento original; notas de revisão prevalecem sobre propostas antigas.
+
 > Comecem pela **E00**. Não é necessário dominar todo o GDevelop para começar. Aprendam os recursos de cada entrega, implementem uma parte pequena e testem antes de seguir.
 
 Para consultar durante o trabalho: [divisão da equipe](#3-como-vamos-nos-dividir), [calendário](#7-calendário-de-entregas), [passo a passo](#8-passo-a-passo-de-cada-entrega), [testes](#10-testes-manuais-que-devem-acompanhar-as-entregas) e [controle de andamento](#13-controle-de-andamento-e-checklist-final).
@@ -47,7 +49,19 @@ Para demonstrar conteúdos das aulas, este plano também propõe **uma animaçã
 
 Parry, várias arenas, recorde persistente, mais de seis melhorias e efeitos elaborados ficam para depois da versão completa. Não entram no caminho principal das entregas.
 
+### 1.3. Decisões revisadas em 20/11/2026
+
+- **Vida extra de recuperação: descartada por decisão de design.** A proposta original era consumir uma tentativa para reviver após a vida chegar a zero. Não será implementada nesta versão e não deve ser tratada como pendência. Permanecem a melhoria de vida máxima, o Reparo imediato, a recuperação de 1 ponto ao concluir as ondas 3 e 4 (transições 3 → 4 e 4 → 5) e a recuperação completa na entrada da Máquina-mãe. Essas mecânicas não são vidas extras; a vida zerada continua levando à derrota.
+- **Projeto oficial:** `prototipo/Robot.json`, em arquivo único. Não foi adotado o nome `OficinaEmPane.json`, nem a separação em folhas externas. Coordenar a edição do JSON entre os integrantes.
+- **Fluxo de telas:** `MenuInicial` → `Introducao` → `Arena`. Pausa, escolha de melhorias, derrota e vitória são estados/interface da própria `Arena`; não exigem cenas separadas.
+- **Pastas adotadas:** `imagens/` guarda originais, conceitos e spritesheets; `prototipo/imagens/` e `prototipo/assets/` guardam imagens preparadas; `prototipo/sons/` guarda sons e trilha. `docs/` continua reservado à exportação web. A proposta `assets/jogo/` não foi adotada.
+- **Ondas e surgimentos:** cotas totais por tipo, intervalo próprio e limite simultâneo de vivos. A progressão depende de terminar a onda, não de atingir quatro minutos. Inimigos entram pelas bordas da câmera, inclusive além das bordas da arena; Atiradores também podem nascer em plataformas elegíveis.
+- **Ataques e perigos:** os tiros do Atirador atravessam as plataformas; cobertura contra eles deixou de ser um critério de aceite. O Voador arma uma explosão com aviso de 0,75 s. A Máquina-mãe possui rajada, prensa, vapor e convocação de inimigos; o óleo começa com a entrada dela, após a onda 5.
+- **Colisões:** laterais do Pesado ampliadas para acompanhar melhor o corpo; Voador mantido com máscara no corpo central, sem hélices e fumaça. A decisão foi aprovada após teste.
+
 ## 2. Situação atual e ponto de partida
+
+**Registro histórico de 31/10/2026:** a tabela abaixo descreve o ponto de partida, não o estado atual. O projeto evoluiu; ver as decisões revisadas na seção 1.3 e o andamento na seção 13.
 
 Na conferência dos arquivos em 31/10/2026:
 
@@ -203,7 +217,7 @@ Em `EV_Inicializacao`, colocar a condição “no início da cena” nas regras 
 | Cena | `Pontuacao`, `Abates` | 0, 0 | B registra abates; D exibe resultado |
 | Cena | `ChefaoAtivo`, `ChefaoDerrotado` | falso, falso | B sinaliza início e fim do chefe; D realiza a transição final |
 | Cena | `LimiteInimigos` | 20 | B limita surgimento; testar até 40, conforme desempenho |
-| Cena | `VidasExtras` | 1 | A consome a recuperação; D mostra no HUD |
+| Cena | `VidasExtras` | Proposta descartada | Registro histórico; não criar reserva de tentativas nesta versão (seção 1.3) |
 | Jogador | `Vida`, `VidaMaxima` | 100, 100 | A aplica dano; upgrades de D modificam a vida respeitando o limite |
 | Jogador | `DanoTiro`, `IntervaloTiro` | 10, 0,30 s | A utiliza; D altera por melhorias |
 | Jogador | `VelocidadeBase`, `RecargaDash` | 300 px/s, 2 s | A utiliza; D altera por melhorias |
@@ -228,7 +242,7 @@ Em `EV_Inicializacao`, colocar a condição “no início da cena” nas regras 
 
 Ao pausar, usar escala de tempo da cena igual a 0 para mecânicas dependentes do tempo **e** bloquear eventos de tiro, dano, criação de inimigos e coleta com `EstadoJogo = "Jogando"`. A escala de tempo não impede toda ação de evento. A interface de pausa deve responder a entrada sem depender de um timer/tween congelado. Retomar com escala 1 e sem somar o tempo em que ficou parado. [Timers e escala de tempo no GDevelop](https://wiki.gdevelop.io/gdevelop5/all-features/timers/).
 
-Prioridade proposta para situações simultâneas: resolver morte/vida extra; se houve derrota, encerrar a atualização; depois resolver vitória; somente durante jogo ainda ativo abrir upgrades. Se ganhar XP para vários níveis de uma vez, guardar o excedente e apresentar uma escolha por vez. Esc não fecha a escolha de upgrade nem a transforma em pausa comum.
+Prioridade revisada para situações simultâneas: resolver morte (vida extra descartada); se houve derrota, encerrar a atualização; depois resolver vitória; somente durante jogo ainda ativo abrir upgrades. Se ganhar XP para vários níveis de uma vez, guardar o excedente e apresentar uma escolha por vez. Esc não fecha a escolha de upgrade nem a transforma em pausa comum.
 
 ## 7. Calendário de entregas
 
@@ -242,7 +256,7 @@ Os intervalos abaixo são metas internas. A última data oficial continua sendo 
 | E03 | 06 a 07/11 | Ciclo jogável: XP, escolha de melhoria, HUD, pausa, derrota e reinício | E02 |
 | E04 | 08 a 09/11 | Pulo duplo, dash, câmera suave e parallax inicial | E03 |
 | E05 | 10 a 11/11 | Cinco tipos de inimigo e ondas crescentes | E04 |
-| E06 | 12 a 13/11 | Plataformas dinâmicas, seis melhorias, vida extra e evolução visual | E05 |
+| E06 | 12 a 13/11 | Plataformas dinâmicas, seis melhorias e evolução visual; vida extra descartada | E05 |
 | E07 | 14 a 15/11 | Óleo, chefão e vitória; escopo funcional completo | E06 |
 | E08 | 16 a 17/11 | Arte integrada, animação por quadros, áudio e telas acabadas | E07; recursos preparados em paralelo |
 | E09 | 18 a 19/11 | Balanceamento, desempenho e versão jogável publicada para testes | E08 |
@@ -266,7 +280,7 @@ Os intervalos abaixo são metas internas. A última data oficial continua sendo 
 6. Em outra pequena experiência, criar um Sprite, colocar duas instâncias, adicionar um texto e criar um evento que muda esse texto ao apertar uma tecla.
 7. Criar o projeto oficial e testar a colaboração da seção 5. Documentar no README qual arquivo abrir.
 8. C listar recursos visuais preparados e pendentes; A e B conferir suas artes; D iniciar a lista de sons e créditos. Definir como serão produzidos os quadros da animação.
-9. Confirmar as propostas de pontuação, uma vida extra e animação por quadros. Criar a lista de tarefas da próxima entrega.
+9. Confirmar as propostas de pontuação, uma vida extra e animação por quadros. Criar a lista de tarefas da próxima entrega. **Revisão:** pontuação e animações adotadas; vida extra descartada (seção 1.3).
 
 **Concluída quando:**
 
@@ -311,7 +325,7 @@ Referência para este aprendizado: [Platform e Platformer Character](https://wik
 7. Vida do inimigo chega a zero → gerar peças, somar pontuação/abate uma única vez e removê-lo. Começar com uma peça cujo `ValorXP` recebe o `XPDrop` do inimigo. Se criar várias, distribuir o total entre elas: um inimigo de 5 XP não deve soltar três peças de 5 XP por acidente. Inicializar todas as variáveis no momento de criar cada instância.
 8. Contato com inimigo → descontar vida do jogador e iniciar invulnerabilidade curta. O contato não pode tirar vida em todos os quadros.
 9. C colocar provisoriamente as peças no chão seguro, abaixo do inimigo; se implementarem queda animada, tratar colisão com piso e impedir que sumam abaixo da arena.
-10. D mostrar vida, abates e XP em textos provisórios. A vida extra entra depois; por enquanto vida zero leva à derrota.
+10. D mostrar vida, abates e XP em textos provisórios. **Regra adotada:** vida zero leva à derrota; a proposta posterior de vida extra foi descartada.
 
 Depois de validar o Andador, B pode preparar os outros tipos em laboratório entre E02 e E04, usando os mesmos contratos. A integração e os testes conjuntos continuam na E05; assim os quatro tipos novos não precisam começar do zero em dois dias.
 
@@ -371,6 +385,8 @@ Referências: [movimentos de plataforma](https://wiki.gdevelop.io/gdevelop5/beha
 
 ### E05 - Adicionar variedade de inimigos e ondas
 
+> **Revisão:** implementada com adaptações. Surgimentos acompanham as bordas da câmera; ondas usam cotas e abates, em vez de progressão apenas por tempo; tiros do Atirador atravessam plataformas. Os passos originais abaixo não substituem essas regras atuais.
+
 **Aprender:** comportamento por tipo, timers por instância e criação controlada. **Dono:** B; A revisa combate, C valida navegação e D informa a onda.
 
 1. Manter o Andador validado como base de dano, recompensa e exclusão. Implementar um tipo novo por vez.
@@ -387,7 +403,7 @@ Referências: [movimentos de plataforma](https://wiki.gdevelop.io/gdevelop5/beha
 
 - [ ] Cada um dos cinco tipos muda a decisão do jogador, mesmo com arte provisória.
 - [ ] Dois atiradores não compartilham indevidamente a mesma recarga.
-- [ ] Plataformas sólidas realmente oferecem a cobertura prevista para tiros inimigos.
+- [ ] Critério revisado: tiros do Atirador atravessam plataformas e podem atingir o robô; colisão com chão/robô e expiração devem seguir a regra atual dos disparos.
 - [ ] O limite de inimigos é respeitado e as ondas só avançam com o jogo ativo.
 - [ ] Todos podem ser atingidos, morrer e dar recompensa sem duplicação.
 
@@ -400,8 +416,8 @@ Referências: [movimentos de plataforma](https://wiki.gdevelop.io/gdevelop5/beha
 3. Fazer ao menos uma mudança controlada de plataformas entre ondas. Marcar locais seguros; não remover a única rota de saída nem colocar uma superfície dentro do jogador.
 4. D completar as seis melhorias da tabela abaixo. Ao mudar uma variável, atualizar também a propriedade efetiva usada pelo comportamento ou evento: velocidade máxima do Platformer, limite do timer do dash, intervalo de tiro etc. Conferir o efeito no jogo, não apenas o número no depurador. Sortear três opções distintas e excluir opções que atingiram o limite.
 5. Se houver menos de três melhorias elegíveis, usar opções de reserva, como reparo imediato, garantindo três cartões selecionáveis. Registrar esse comportamento.
-6. A implementar uma vida extra: ao chegar a vida zero, se houver reserva, consumi-la, reposicionar em local seguro, restaurar vida e dar breve proteção; sem reserva, encerrar a partida.
-7. Se o óleo já cobriu o ponto inicial, usar um ponto de retorno seguro acima dele. Não reiniciar XP, onda ou melhorias ao consumir vida extra.
+6. **Descartado em 20/11/2026:** implementar vida extra para consumir uma reserva, reviver e continuar a partida. Proposta preservada como histórico; não implementar. Motivo e recuperações adotadas na seção 1.3.
+7. **Não aplicável:** o ponto de retorno acima do óleo dependia da vida extra descartada. Não há retorno após morte nesta versão.
 8. A trocar os três estágios visuais do herói em níveis propostos 1, 3 e 5, caso os arquivos preparados já existam. Se não existirem, deixar o gatilho pronto e integrar a arte na E08.
 
 | Melhoria inicial | Efeito proposto por escolha | Limite inicial para teste |
@@ -420,10 +436,12 @@ Esses números são hipóteses de balanceamento. No Ímã, aproximar peças dent
 - [ ] Esteira só empurra objetos apoiados; andaime avisa antes de cair.
 - [ ] Pesado consegue provocar a queda prevista e a arena continua navegável.
 - [ ] As seis melhorias mudam atributos verificáveis e respeitam seus limites.
-- [ ] Uma vida extra produz exatamente uma recuperação; a morte seguinte leva à derrota.
-- [ ] Recuperação não reposiciona dentro do óleo; evolução visual não desloca o robô nem altera colisão.
+- **Descartado:** teste de recuperação por vida extra; a vida zerada leva diretamente à derrota.
+- [ ] Evolução visual não desloca o robô nem altera colisão. Reposicionamento após morte não se aplica: vida extra descartada.
 
 ### E07 - Encerrar a partida com óleo, chefão e vitória
+
+> **Revisão:** chefe implementado com quatro habilidades (rajada, prensa, vapor e convocação), barra de vida e avisos visuais. Surge após concluir a onda 5; o óleo começa com sua entrada. A proposta de dois ataques e entrada aos quatro minutos foi substituída. Os atalhos de teste ainda devem ser desativados ou protegidos na versão final.
 
 **Aprender:** pequenos estados de um chefe e transição de fim. **Donos:** B para chefe; C para óleo; D para vitória; A valida combate.
 
@@ -439,7 +457,7 @@ Esses números são hipóteses de balanceamento. No Ímã, aproximar peças dent
 **Teste de aceite:**
 
 - [ ] Óleo sobe apenas durante jogo ativo e não elimina todas as rotas.
-- [ ] Chefe surge uma vez, alterna dois ataques legíveis e pode ser derrotado.
+- [ ] Chefe surge uma vez, executa as quatro habilidades adotadas com avisos legíveis e pode ser derrotado.
 - [ ] Existe vitória real, com reinício/menu; sobreviver ao relógio sozinho não vence.
 - [ ] Vitória e derrota não aparecem simultaneamente.
 
@@ -544,12 +562,12 @@ Esta tabela orienta a implementação e a apresentação. As equivalências são
 | Aula25–26 | Colisões e resposta ao contato | Plataformas, acerto de tiros, dano e coleta | E01/E02: máscaras e eventos |
 | Aula27–28 | Ator principal e arquitetura de pausa | Suspender entrada, tempo, sistemas e manter UI de retorno | E03: teste de pausa completa |
 | Aula29–30 | Animação de entidades e explosões | Quadros de explosão, exclusão após fim e efeitos de dano | E08: sequência e limpeza |
-| Aula31–32 | Vidas extras e fim de jogo | Reserva de recuperação, reposicionamento e derrota após esgotar | E06: vida extra separada da barra |
+| Aula31–32 | Vidas extras e fim de jogo | Fim de jogo implementado; reserva de tentativas e reposicionamento descartados | Decisão de escopo na seção 1.3; não alegar implementação de vida extra |
 | Aula33–34 | Música, efeitos e controle de reprodução | Trilha, sons pontuais, volume, pausa e reinício | E08: áudio em navegador |
 
 **Atenção à animação:** mover, girar ou deformar uma única imagem com Tween não demonstra, por si só, uma animação por spritesheet. Manter pelo menos uma sequência de quadros distintos para explicar esse conteúdo.
 
-**Atenção às vidas:** a barra de energia não é o mesmo que a quantidade de tentativas. A recuperação proposta usa o conceito da aula de vidas extras com uma quantidade inicial simplificada; o exemplo do professor usa outra quantidade.
+**Atenção às vidas:** a barra de energia não é o mesmo que a quantidade de tentativas. A proposta de vida extra foi descartada. Melhorias de vida e curas entre ondas não demonstram a mecânica de reviver; não apresentá-las como equivalentes.
 
 ## 10. Testes manuais que devem acompanhar as entregas
 
@@ -569,7 +587,7 @@ Usar esta lista no editor e repetir os cenários relevantes na versão web. Regi
 | T10 | Coletar XP suficiente para mais de um nível | Excedente preservado; escolhas apresentadas sequencialmente |
 | T11 | Atingir limite de uma melhoria | Limite respeitado; sorteio mantém opções válidas |
 | T12 | Subir em esteira/andaime e trazer um Pesado | Efeitos aplicados às instâncias corretas; aviso antes da queda |
-| T13 | Morrer com e sem vida extra, inclusive após subida do óleo | Recuperação segura uma vez; depois derrota |
+| T13 | Proposta original: morrer com e sem vida extra, inclusive após subida do óleo | Não aplicável: vida extra descartada. Conferir derrota com vida zero, inclusive no óleo, sem reviver |
 | T14 | Trocar estágio visual perto de borda/plataforma | Posição, encaixe da arma e colisão preservados |
 | T15 | Enfrentar cinco tipos e chegar ao chefão | Comportamentos distintos, chefe único e limite respeitado |
 | T16 | Derrotar o chefe enquanto há projéteis/perigos ativos | Vitória única; dano e surgimentos interrompidos |
@@ -618,22 +636,49 @@ Para uma tarefa nova, podem pedir: **“Me guie pela E01, passo 3, explicando on
 
 ## 13. Controle de andamento e checklist final
 
-Marcar somente depois que a implementação estiver integrada e outro integrante tiver feito o teste de aceite. A criação deste planejamento não significa que as entregas já foram implementadas.
+Revisão de 20/11/2026 baseada no projeto local, nos arquivos do repositório e nos testes relatados nesta sessão. **Implementado** indica que o sistema existe; não significa que toda a bateria de aceite foi repetida. **Parcial** indica pendências identificadas. **A confirmar** indica falta de evidência de validação externa. Os checklists originais sem marca continuam sendo roteiros de teste, não uma afirmação de ausência da funcionalidade.
 
-| Entrega | Responsável pela integração | Situação inicial | Evidência/versão |
-| --- | --- | --- | --- |
-| E00 | A definir | A iniciar | A preencher |
-| E01 | A definir | A iniciar | A preencher |
-| E02 | A definir | A iniciar | A preencher |
-| E03 | A definir | A iniciar | A preencher |
-| E04 | A definir | A iniciar | A preencher |
-| E05 | A definir | A iniciar | A preencher |
-| E06 | A definir | A iniciar | A preencher |
-| E07 | A definir | A iniciar | A preencher |
-| E08 | A definir | A iniciar | A preencher |
-| E09 | A definir | A iniciar | A preencher |
-| E10 | A definir | A iniciar | A preencher |
-| E11 | A definir | A iniciar | A preencher |
+| Entrega | Situação na revisão | Evidência e pendências |
+| --- | --- | --- |
+| E00 | Adotada com adaptações; registros parciais | Projeto oficial em `prototipo/Robot.json`; arquivo único e grupos por sistema. Nomes dos responsáveis e versão do editor ainda precisam constar na documentação final |
+| E01 | Implementada; aceite final a confirmar | `MenuInicial`, `Introducao`, `Arena`, robô com plataforma, chão, prateleiras e limites. Exportação existente em `docs/` não comprova publicação atualizada |
+| E02 | Implementada; aceite final a confirmar | Tiro com mouse, seleção de alvo, vida por inimigo, abates, pontuação, peças e invulnerabilidade. Repetir teste da mira nos dois extremos na versão final |
+| E03 | Implementada; aceite final a confirmar | `Ciclo da partida`, cartas, XP, seis melhorias mais reparo, HUD, pausa e reinício. Telas de resultado novas e integração de `telas-resultado` concluídas |
+| E04 | Parcial: pulo duplo a confirmar | Dash, câmera suave e parallax presentes. Não foi localizada regra/comportamento de segundo salto no ar do Robo; confirmar em teste antes de marcar T02 como aprovado |
+| E05 | Implementada com adaptações; refinamentos possíveis | Cinco tipos com animações, cotas por onda, limite de vivos e entrada fora da câmera. Saltador ainda tem refinamento de navegação relatado; não declarar percurso perfeito em todo layout |
+| E06 | Implementada com adaptação; aceite final a confirmar | Esteiras, andaimes, layouts, melhorias e evolução visual presentes. Vida extra descartada; recuperações entre ondas e no chefe mantidas |
+| E07 | Implementada com adaptações; aceite final a confirmar | Máquina-mãe com quatro habilidades, barra de vida, óleo e vitória. Encerramento já testado na sessão; repetir na exportação final e revisar atalhos de teste |
+| E08 | Implementação presente; fechamento parcial | Herói/inimigos/chefe animados, explosões, menu, introdução, pausa, resultados e sons presentes. 18 registros ausentes removidos; 199 recursos locais encontrados. Créditos/licenças incompletos; opção de desligar áudio não localizada |
+| E09 | Em andamento | Balanceamento e testes incrementais realizados; existe exportação web. Faltam evidências atuais de desempenho, teste externo e publicação correspondente à versão final |
+| E10 | Pendente de fechamento | README ainda precisa de instruções completas, equipe/versão, capturas reais e link jogável; concluir créditos, cópia limpa, versão final e ensaio |
+| E11 | Pendente de confirmação da equipe | Conferência pública, envio ao professor, confirmação da data de apresentação e cópia de contingência não verificados nesta revisão |
+
+### 13.1. O que já foi realizado
+
+- Fluxo menu → introdução → partida → derrota/vitória → reinício ou menu.
+- Pausa com botão Continuar, telas finais ilustradas, pontuação e estatísticas com ícones; ícone de pontuação apenas no topo da partida.
+- Cinco inimigos com comportamentos distintos e animações; dano, recompensas, ondas por cotas e surgimentos acompanhando a câmera.
+- Máquina-mãe com barra de vida e quatro habilidades com efeitos visuais e sons.
+- Arena ampliada, câmera, parallax, plataformas dinâmicas, óleo e tratamento das peças de XP.
+- Progressão por XP, seis melhorias principais e Reparo imediato; recuperação ao concluir as ondas 3 e 4 e vida completa na entrada do chefe.
+- Limpeza de 18 registros sem arquivo, organização dos sons/imagens soltos e revisão de comentários. Arquivos de origem das animações preservados.
+- Revisão das colisões: Pesado ampliado nas laterais; Voador mantido após avaliação.
+
+### 13.2. Pendências e confirmações antes da entrega
+
+1. **Pulo duplo (E04/T02):** confirmar com A se existe ou se foi retirado. No Robo atual há salto comum via Platformer e dash; não foi localizado controle de segundo salto. Caso seja removido do escopo, registrar a decisão no GDD.
+2. **Saltador:** repetir os percursos nos layouts atuais, incluindo esteiras e plataformas intermediárias. O refinamento relatado continua em aberto.
+3. **Atalhos de teste:** revisar F3/F4/F5/F8, desativando ou protegendo o acesso na versão final.
+4. **Áudio:** confirmar a necessidade da opção de ativar/desativar prevista na E08; não localizada nesta revisão. Conferir todos os efeitos e pausa/retomada na exportação web.
+5. **Créditos:** botão de créditos do menu ainda desativado; combinar se será implementado. `CREDITOS.md` tem seção do jogador a preencher e atribuições de sons/recursos a completar. A tela pode ser opcional, mas os créditos dos recursos no repositório precisam ser concluídos.
+6. **README:** completar quatro integrantes, versão do GDevelop, controles, instalação/abertura do `Robot.json`, link jogável e capturas reais; atualizar descrições antigas das telas e caminhos reorganizados.
+7. **Validação final:** executar T01–T20 com T13 revisado, incluindo reinícios, vitória com perigos ativos, pausa, câmera, evolução visual, desempenho e navegador alternativo. Não marcar aprovação apenas pela presença dos eventos.
+8. **Fonte e publicação:** testar cópia limpa fora da pasta habitual, gerar exportação atualizada em `docs/`, confirmar acesso público e versão correspondente ao fonte. A presença de `docs/index.html` não confirma o estado do site.
+9. **Entrega:** identificar versão final, ensaiar com os quatro, guardar cópia local e registrar envio ao professor. Responsáveis e confirmações ficam com a equipe.
+
+### 13.3. Ideia descartada
+
+**Vida extra (E06): descartada em 20/11/2026.** Não implementar reserva, retorno seguro ou ressurreição nesta versão. Manter a derrota ao zerar a vida e as formas atuais de cura. A decisão não deve permanecer como tarefa pendente nem ser marcada como funcionalidade implementada.
 
 Checklist da entrega acadêmica:
 
