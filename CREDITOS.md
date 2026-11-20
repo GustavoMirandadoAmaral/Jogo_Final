@@ -2,6 +2,8 @@
 
 Origem de cada recurso usado no jogo. Cada integrante registra a parte que integrou: artes geradas por IA, sons (com fonte e licença) e recursos de exemplos reutilizados.
 
+ChatGPT também foi utilizado como apoio ao brainstorming de ideias, discutidas e refinadas pela equipe. As decisões de design permaneceram sob responsabilidade do grupo; o auxílio específico na lógica do Saltador está descrito abaixo.
+
 ## Participação de Lucas Ciampi
 
 Lucas atuou na implementação, integração, testes e balanceamento da frente de inimigos, ondas, recompensas e Máquina-mãe. Isso inclui os cinco tipos de inimigo, surgimentos acompanhando a câmera, dano e pontuação por abates, animações, efeitos e as quatro habilidades do chefe. Na navegação do Saltador, utilizou auxílio do ChatGPT para elaborar e refinar a lógica de escolha de plataformas e alcance dos saltos, com testes e ajustes no GDevelop.
