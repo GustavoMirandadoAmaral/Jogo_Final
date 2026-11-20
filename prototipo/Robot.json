@@ -5802,7 +5802,7 @@
           "name": "AguardandoSoltarMouse",
           "persistentUuid": "526449ad-3f50-401f-9d97-bff595f46d35",
           "type": "number",
-          "value": 0
+          "value": 1
         },
         {
           "name": "TempoFimPartida",

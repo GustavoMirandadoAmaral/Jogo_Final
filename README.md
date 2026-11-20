@@ -93,12 +93,12 @@ A variável `EstadoJogo` diz em que momento a partida está.
 | `Jogando` | Início, ou ao sair de uma das telas | — |
 | `Pausado` | Esc | Esc, ou clique em "Continuar" |
 | `EscolhendoUpgrade` | O XP chega ao valor do próximo nível | Clique numa carta, ou teclas 1, 2 e 3 |
-| `Derrota` | A vida do robô chega a 0 | Enter recomeça a partida |
-| `Vitoria` | 3,5 s depois de a Máquina-mãe cair (o tempo do escoamento) | Enter recomeça a partida |
+| `Derrota` | A vida do robô chega a 0 | Enter ou o botão "Jogar de novo" reiniciam; "Menu inicial" ou Esc voltam ao menu |
+| `Vitoria` | 3,5 s depois de a Máquina-mãe cair (o tempo do escoamento) | Enter ou o botão "Jogar de novo" reiniciam; "Menu inicial" ou Esc voltam ao menu |
 
 - **Fora de `Jogando`:** a escala de tempo vai a 0. Tudo que depende do tempo para: movimentos, comportamentos, Tweens e partículas.
 - **Comandos do robô:** só funcionam em `Jogando`, e a mira também fica parada nas telas.
-- **Depois de uma tela:** o tiro só volta depois de soltar o botão do mouse (`AguardandoSoltarMouse`), para o clique da carta não virar um disparo.
+- **Depois de uma tela:** o tiro só volta depois de soltar o botão do mouse (`AguardandoSoltarMouse`), para o clique da carta não virar um disparo. A variável também começa em 1 em cada partida, protegendo a entrada pelo menu e o reinício pelo botão "Jogar de novo".
 
 ### XP e nível
 
