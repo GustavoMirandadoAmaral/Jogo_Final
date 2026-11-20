@@ -20350,18 +20350,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Iniciar música para o jogo enquanto estiver jogando"
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -20820,18 +20808,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Coleta: o robô encostando numa peça soma o ValorXP dela ao XP, e a peça some."
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -21744,7 +21720,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Fim provisório (até as cenas Derrota e Vitoria existirem): vida zerada = Derrota; Máquina-mãe derrotada e óleo escoado (3,5 s depois) = Vitoria. Nas duas, Enter recomeça a cena do zero."
+              "comment": "Fim da partida: vida zerada leva a Derrota; Maquina-mae derrotada e oleo escoado levam a Vitoria apos 3,5 s. As telas finais ficam nos grupos \"Derrota: apresentacao e botoes\" e \"Vitoria: apresentacao e botoes\". Enter ou \"Jogar de novo\" reiniciam; Esc ou \"Menu inicial\" voltam ao menu."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -21949,7 +21925,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Telas provisórias no HUD (VeuTela, TextoTitulo, TextoSubtitulo e as cartas), mostradas conforme o estado."
+              "comment": "Base das telas no HUD: veu, titulo, subtitulo e cartas seguem EstadoJogo. Os grupos de apresentacao de derrota e vitoria ocultam os elementos antigos e mostram seus paineis proprios."
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -22878,7 +22854,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Painel das telas de pausa, derrota e vitória: centralizado na câmera do HUD, com o título em cima e o subtítulo (Continuar / Enter) embaixo. No meio, a fileira dos números da partida com os ícones do HUD (onda, nível, tempo e, na derrota e na vitória, abatidos), o rótulo das melhorias e a fileira com o ícone e o nível de cada melhoria conquistada. As fileiras são criadas uma vez por abertura do painel; PainelMontado volta a 0 quando o jogo ou as cartas voltam."
+              "comment": "Painel de estatisticas e melhorias usado na pausa. PainelMontado evita recriar os icones a cada quadro e volta a 0 ao retornar ao jogo ou as cartas. As telas finais usam os paineis proprios TelaDerrota e TelaVitoria; seus grupos de apresentacao ocultam este painel."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -30301,18 +30277,6 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Subir: robô mais de 60 px acima."
-                },
-                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -34878,18 +34842,6 @@
               ],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Na troca, as prateleiras derrubadas pelo Pesado voltam firmes. As fixas (Layout 0) reaparecem aqui, junto com os fios fixos; as dos layouts reaparecem quando o layout delas for ativado."
-                },
-                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -36230,18 +36182,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Posicionar arma no ombro do robô"
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -36381,18 +36321,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Disparos do robô com o botão esquerdo do mouse"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -36578,18 +36506,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Movimentação do próprio robô"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -37148,18 +37064,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Dano no robô"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -42201,7 +42105,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Linha de status no topo do HUD: tempo, onda e pontuação. Como a largura do jogo acompanha a janela, a linha se centraliza pela câmera do HUD a cada quadro (o início fica 185 px à esquerda do centro). Os ícones são objetos próprios (IconeTempo, IconeOnda) porque IconeEstatistica é apagado sempre que o painel das telas fecha."
+              "comment": "Linha de status do HUD: tempo, onda e pontuacao acompanham CameraCenterX(\"HUD\"). IconeTempo, IconeOnda e IconePontuacao sao objetos proprios; nao usam IconeEstatistica, cujas instancias sao apagadas quando o painel fecha."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
