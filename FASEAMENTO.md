@@ -1,20 +1,42 @@
-# Oficina em Pane - Planejamento de desenvolvimento e entregas
+# Oficina em Pane — Planejamento, entregas e fechamento
 
-**Base do planejamento:** 31/10/2026. **Equipe:** 4 integrantes. **Ferramenta:** GDevelop desktop.
+**Planejamento inicial:** 31/10/2026. **Revisão de andamento:** 20/11/2026. **Equipe:** quatro integrantes. **Ferramenta:** GDevelop desktop.
 
-**Entrega oficial:** repositório público no GitHub até **23/11/2026, às 23h59**. **Apresentações:** 24 e 25/11/2026, em sala. Horários considerados: Brasília.
+**Entrega oficial:** repositório público no GitHub até **23/11/2026, às 23h59**. **Apresentações:** 24 e 25/11/2026, em sala. Horários de Brasília. A meta interna de envio continua sendo 20h de 23/11, para reservar tempo de conferência.
 
-Este documento transforma o [GDD](GDD.md) em tarefas para uma equipe que está começando no GDevelop. Cada entrega informa o que aprender, o que implementar, quem participa e como verificar se terminou. O GDD continua sendo a referência de design; este arquivo organiza a execução.
+O [GDD](GDD.md) descreve o jogo adotado; o [README](README.md) explica execução e funcionamento; [CREDITOS.md](CREDITOS.md) reúne contribuições e origem dos recursos. Este arquivo organiza responsabilidades, entregas, critérios de aceite e fechamento.
 
-> **Revisão de andamento em 20/11/2026:** consultar a seção 13 para distinguir implementação presente, adaptações adotadas, pendências e validações finais. As etapas abaixo preservam o planejamento original; notas de revisão prevalecem sobre propostas antigas.
+**Leitura rápida:** [situação e prioridades](#1-situação-atual-e-prioridades) → [requisitos](#2-requisitos-da-entrega-acadêmica) → [equipe](#3-equipe-e-responsabilidades) → [projeto adotado](#4-projeto-arquivos-e-regras-compartilhadas) e [escopo](#5-decisões-de-escopo) → [calendário](#7-calendário-e-andamento-das-entregas) e [registro das etapas](#8-registro-de-cada-entrega) → [testes](#10-testes-manuais) → [checklist final](#13-controle-de-andamento-e-checklist-final).
 
-> Comecem pela **E00**. Não é necessário dominar todo o GDevelop para começar. Aprendam os recursos de cada entrega, implementem uma parte pequena e testem antes de seguir.
+## 1. Situação atual e prioridades
 
-Para consultar durante o trabalho: [divisão da equipe](#3-como-vamos-nos-dividir), [calendário](#7-calendário-de-entregas), [passo a passo](#8-passo-a-passo-de-cada-entrega), [testes](#10-testes-manuais-que-devem-acompanhar-as-entregas) e [controle de andamento](#13-controle-de-andamento-e-checklist-final).
+O escopo funcional está implementado. E00 a E09 têm critérios de aceite confirmados pela equipe; E10 está em fechamento, com ensaio ainda pendente; E11 depende da conferência e do envio oficial.
 
-## 1. O que o professor exige e o que o grupo escolheu
+As marcações deste documento preservam os testes e conclusões informados pela equipe. Não representam uma nova execução automática de toda a bateria. Itens descartados ou não aplicáveis não devem ser contados como funcionalidades implementadas nem como testes aprovados.
 
-### 1.1. Exigências confirmadas nos PDFs do trabalho
+### Já concluído
+
+- Jogo com menu, introdução, partida, pausa, escolha de melhorias, derrota, vitória e reinício.
+- Robô com controles e combate; cinco inimigos, ondas por cotas, Máquina-mãe com quatro habilidades e óleo.
+- Arena ampliada, plataformas dinâmicas, câmera suave, parallax e tratamento de peças de XP.
+- HUD, animações, trilhas e efeitos sonoros integrados.
+- Recursos ausentes removidos, sons organizados e comentários revisados.
+- README com enredo, objetivo, instruções de execução, oito capturas e dois vídeos de partidas.
+- Quatro frentes identificadas e créditos reorganizados por integrante, com origem das artes e dos sons.
+
+### Prioridades de fechamento
+
+1. Conectar o botão Créditos do menu à apresentação da equipe e dos recursos.
+2. Informar a versão do GDevelop e inserir o endereço jogável no README.
+3. Gerar a exportação final em `docs/` depois das últimas correções e revisar os atalhos de teste F3/F4/F5/F8.
+4. Revalidar os fluxos afetados pelas alterações recentes: áudio, retorno ao menu, créditos e reinício. Rever percursos do Saltador nos layouts finais se houver mudanças de navegação/plataformas.
+5. Ensaiar com os quatro, guardar uma cópia local, confirmar apresentação e registrar o envio ao professor.
+
+A cópia limpa e o acesso público já foram informados como testados nos critérios da E10. A publicação final deve corresponder ao fonte após as últimas alterações. Clipes adicionais e opção de desligar áudio podem ser discutidos como acabamento; não são declarados implementados nesta revisão.
+
+## 2. Requisitos da entrega acadêmica
+
+A tabela abaixo preserva as exigências identificadas nos PDFs da disciplina. As funcionalidades específicas do jogo são escolhas do grupo, descritas no GDD. As datas e a forma de entrega não se confundem com as metas internas do calendário.
 
 | ID | Exigência | Onde vamos atendê-la | Como conferir |
 | --- | --- | --- | --- |
@@ -23,7 +45,7 @@ Para consultar durante o trabalho: [divisão da equipe](#3-como-vamos-nos-dividi
 | R03 | Grupos 03 e 04: jogo de plataforma em GDevelop | Movimento lateral, gravidade, chão e plataformas | Jogador anda e pula sobre superfícies com colisão |
 | R04 | Desenvolver um jogo completo, aplicando design, programação, jogabilidade e experiência do usuário | Fluxo menu → partida → derrota/vitória → reinício | É possível jogar uma partida completa sem intervenção no editor |
 | R05 | Publicar em repositório público no GitHub até 23/11/2026, às 23h59 | E10 e E11 | Abrir o repositório em janela anônima, sem login |
-| R06 | Entregar o código-fonte completo | Projeto GDevelop, arquivos gerados pelo modo de múltiplos arquivos e recursos usados | Baixar uma cópia limpa e abrir sem arquivos faltando |
+| R06 | Entregar o código-fonte completo | Projeto GDevelop e todos os recursos usados | Baixar uma cópia limpa e abrir sem arquivos faltando |
 | R07 | README com nome, descrição geral, enredo, objetivos e ferramenta | E10 | Todos esses tópicos aparecem no README da raiz |
 | R08 | README com instruções de instalação e execução | E10 | Um colega segue o texto sem ajuda de quem o escreveu |
 | R09 | README com capturas de tela ou GIFs demonstrativos | E10 | Imagens reais da implementação aparecem corretamente no GitHub |
@@ -31,309 +53,144 @@ Para consultar durante o trabalho: [divisão da equipe](#3-como-vamos-nos-dividi
 | R11 | Compartilhar o link do repositório com o professor | E11 | Grupo registra a entrega pelo canal combinado na disciplina |
 | R12 | Apresentação em sala em 24 e 25/11/2026 | Ensaio na E10 e apresentação na data atribuída ao grupo | Demonstração e explicação distribuídas entre os quatro |
 
-O trabalho vale **50 pontos**. Os PDFs consultados não apresentam uma distribuição desses pontos por mecânica, nem uma lista dizendo que dash, chefão, parallax ou determinada quantidade de inimigos sejam obrigatórios. Esses recursos vêm do GDD e dos conteúdos estudados. O perfil indicado para compartilhar o repositório é [github.com/christienrachid](https://github.com/christienrachid); o grupo deve usar o canal de entrega orientado pelo professor, pois um perfil do GitHub não define sozinho esse procedimento.
+O trabalho vale **50 pontos**. Os PDFs consultados não distribuem esses pontos por mecânica específica. Dash, chefe, parallax e quantidade de inimigos vêm das decisões do jogo e dos conteúdos estudados. O perfil indicado para compartilhar o repositório é [github.com/christienrachid](https://github.com/christienrachid); o envio deve seguir o canal combinado com o professor.
 
-### 1.2. Compromissos do nosso jogo
-
-O objetivo é implementar o escopo mínimo já definido no GDD:
-
-- Robô com andar, pulo e dash (pulo duplo descartado nesta versão); mira pelo mouse e tiro ao segurar o botão esquerdo.
-- Arena lateral maior que a tela, câmera horizontal suave e fundo com parallax.
-- Prateleiras atravessáveis, esteiras e andaimes que desabam.
-- Andador, Saltador, Voador, Pesado e Atirador; ondas crescentes e limite de inimigos.
-- Peças de XP, níveis, escolha de 1 entre 3 melhorias e pelo menos 6 melhorias implementadas.
-- Óleo subindo, Máquina-mãe ao final e vitória ao derrotá-la.
-- Menu, instruções, HUD, pausa, derrota, vitória, reinício, trilha e efeitos sonoros.
-
-Para demonstrar conteúdos das aulas, este plano também propõe **uma animação real por quadros/spritesheet**, **pontuação separada do XP** e **uma vida extra de recuperação**. São decisões propostas para a implementação, não exigências adicionais encontradas nos PDFs. Confirmar essas três decisões na E00 e registrar qualquer ajuste no GDD.
-
-Parry, várias arenas, recorde persistente, mais de seis melhorias e efeitos elaborados ficam para depois da versão completa. Não entram no caminho principal das entregas.
-
-### 1.3. Decisões revisadas em 20/11/2026
-
-- **Evolução visual do robô: descontinuada.** O protagonista mantém uma única aparência durante a partida. XP, níveis e melhorias permanecem; não há troca de estágio visual. Conceitos de outras versões ficam como material de criação. T14 não se aplica.
-- **Pulo duplo: descartado nesta versão.** Mantidos o salto comum e o dash. O teste específico de segundo salto (T02) deixa de ser aplicável.
-- **Enredo:** a introdução atual foi considerada suficiente. Nome, origem do robô e causa detalhada da pane não serão acrescentados nesta entrega.
-- **Imagens por IA:** aceitação confirmada com o professor, com crédito à IA em `CREDITOS.md`. Créditos das demais fontes continuam sob responsabilidade de cada frente.
-- **Vida extra de recuperação: descartada por decisão de design.** A proposta original era consumir uma tentativa para reviver após a vida chegar a zero. Não será implementada nesta versão e não deve ser tratada como pendência. Permanecem a melhoria de vida máxima, o Reparo imediato, a recuperação de 1 ponto ao concluir as ondas 3 e 4 (transições 3 → 4 e 4 → 5) e a recuperação completa na entrada da Máquina-mãe. Essas mecânicas não são vidas extras; a vida zerada continua levando à derrota.
-- **Projeto oficial:** `prototipo/Robot.json`, em arquivo único. Não foi adotado o nome `OficinaEmPane.json`, nem a separação em folhas externas. Coordenar a edição do JSON entre os integrantes.
-- **Fluxo de telas:** `MenuInicial` → `Introducao` → `Arena`. Pausa, escolha de melhorias, derrota e vitória são estados/interface da própria `Arena`; não exigem cenas separadas.
-- **Pastas adotadas:** `imagens/` guarda originais, conceitos e spritesheets; `prototipo/imagens/` e `prototipo/assets/` guardam imagens preparadas; `prototipo/sons/` guarda sons e trilha. `docs/` continua reservado à exportação web. A proposta `assets/jogo/` não foi adotada.
-- **Ondas e surgimentos:** cotas totais por tipo, intervalo próprio e limite simultâneo de vivos. A progressão depende de terminar a onda, não de atingir quatro minutos. Inimigos entram pelas bordas da câmera, inclusive além das bordas da arena; Atiradores também podem nascer em plataformas elegíveis.
-- **Ataques e perigos:** os tiros do Atirador atravessam as plataformas; cobertura contra eles deixou de ser um critério de aceite. O Voador arma uma explosão com aviso de 0,75 s. A Máquina-mãe possui rajada, prensa, vapor e convocação de inimigos; o óleo começa com a entrada dela, após a onda 5.
-- **Colisões:** laterais do Pesado ampliadas para acompanhar melhor o corpo; Voador mantido com máscara no corpo central, sem hélices e fumaça. A decisão foi aprovada após teste.
-
-## 2. Situação atual e ponto de partida
-
-**Registro histórico de 31/10/2026:** a tabela abaixo descreve o ponto de partida, não o estado atual. O projeto evoluiu; ver as decisões revisadas na seção 1.3 e o andamento na seção 13.
-
-Na conferência dos arquivos em 31/10/2026:
-
-| Material existente | Situação | Como usar |
-| --- | --- | --- |
-| [GDD](GDD.md) | Ideia e mecânicas documentadas; há decisões de enredo e chefão pendentes | Referência de design |
-| [Catálogo visual](imagens/README.md) | Conceitos de herói, evolução, fundo, inimigos e chefão | Referência para preparar os recursos de jogo |
-| `prototipo/Robot.json` | Uma cena vazia, em 1280 × 720, sem objetos/eventos/recursos | Base simples para iniciar nosso projeto |
-| `Temporary Driving.json` | Exemplo de plataforma com movimento, câmera, chão e moedas; recursos presentes | Laboratório para estudar um recurso de cada vez |
-| `referencias/Famous Attack (Wave defense shooter).json` | Exemplo de combate visto de cima, com recursos presentes | Estudar ideias de ondas, vida e melhorias |
-| `Famous Attack (Wave defense shooter).json` da raiz | Experimento com recursos não encontrados nos caminhos atuais e mistura de movimentos | Preservar como experimento; não escolher como projeto oficial |
-| Arquivos `.autosave` | Recuperação do editor | Não tratar como versão oficial da entrega |
-
-**Projeto oficial proposto:** abrir `prototipo/Robot.json` e usar **Salvar como** para criar `OficinaEmPane.json` na raiz deste repositório. Fazer isso na E00, pelo editor. Este planejamento não altera os projetos existentes.
-
-Os projetos atuais estão salvos em arquivo único. Criar folhas de eventos externos, sozinho, não separa os arquivos do projeto. A preparação para trabalho paralelo está na seção 5.
-
-### 2.1. As imagens já existem; a preparação técnica ainda precisa entrar no prazo
-
-Não precisamos recomeçar a direção visual. Precisamos transformar os conceitos selecionados em arquivos que funcionem no jogo:
-
-| Recurso | Preparação necessária | Responsável principal |
-| --- | --- | --- |
-| Herói | Corpo lateral e braço-canhão separados; origem nos pés; ponto de encaixe e saída do tiro; colisão consistente | A, com apoio de C |
-| Três estágios do herói | Proposta descontinuada; preservar conceitos como material de criação, sem integrar trocas por nível | A |
-| Inimigos | Escala, origem, máscara de colisão e animações; separar hélice/arma apenas se necessário | B |
-| Fundo | Camada distante e intermediária independentes; cobrir todo o percurso da câmera | C |
-| Chão, prateleira, esteira e andaime | Imagens/objetos próprios; as plataformas pintadas no panorama são decoração | C |
-| Tiros, peças de XP, ícones e interface | Preparar versões simples e legíveis; não aparecem documentados como recursos finais prontos | A e D |
-| Animação por quadros | Pequena sequência, por exemplo explosão, com quadros distintos e tempo definido | B, com apoio de C |
-| Som | Selecionar ou produzir efeitos/trilha e registrar origem/licença | Cada frente prepara seus sons; D integra a trilha |
-
-Preservar os PNGs originais. Salvar cópias preparadas em `assets/jogo/`, com subpastas `jogador/`, `inimigos/`, `cenario/`, `interface/`, `efeitos/` e `audio/`. Essas pastas serão criadas durante a implementação.
-
-## 3. Como vamos nos dividir
-
-Responsáveis pelas quatro frentes identificados pela equipe. As letras são usadas nas referências às tarefas e revisões.
+## 3. Equipe e responsabilidades
 
 | Pessoa | Nome | Responsabilidade principal | Entregas que deve saber demonstrar | Revisor |
 | --- | --- | --- | --- | --- |
-| A | Gustavo Amaral | Jogador, controles, arma, tiros, dano e recuperação | Andar/pular/dash, mirar, disparar e receber dano corretamente | B |
+| A | Gustavo Miranda do Amaral | Jogador, controles, arma, tiros, dano e recuperação | Andar/pular/dash, mirar, disparar e receber dano corretamente | B |
 | B | Lucas Ciampi | Inimigos, ondas, chefão, pontuação por abates e explosões | Cinco comportamentos diferentes e Máquina-mãe com início e fim | A |
 | C | Vitor Rosa | Arena, plataformas, câmera, parallax, óleo e organização visual | Cenário navegável, perigos e profundidade sem falhas nas bordas | D |
 | D | Everton | HUD, menu, pausa, XP, melhorias e fluxo das telas | Partida completa, progressão e interface funcionando | C |
 
-**Documentação, preparação de arte e testes pertencem aos quatro.** Cada pessoa escreve a explicação e os créditos da própria parte. D reúne as seções do README; isso não transfere toda a documentação para D. A integração técnica terá um responsável nomeado na E00 e um substituto.
+A tabela registra a divisão de referência. As tarefas de interface e progressão da frente D foram compartilhadas pela equipe; a atribuição do trabalho efetivamente realizado está em `CREDITOS.md`. Documentação, preparação dos recursos, integração e testes são responsabilidades dos quatro.
 
-### 3.1. Carga de trabalho e rotina
+## 4. Projeto, arquivos e regras compartilhadas
 
-- Reservar, como hipótese inicial, **1h30 a 2h por integrante em cada dia de trabalho**, com uma revisão conjunta de 20 a 30 minutos por entrega. Ajustar na E00 à disponibilidade real. É uma previsão, não garantia de duração para iniciantes.
-- Cada tarefa deve caber, de preferência, em um bloco de 30 a 90 minutos. Se passar disso, dividir: criar objeto → criar evento → testar → registrar.
-- Cada pessoa mantém **uma tarefa em execução**. Antes de começar outra, entrega algo testável ou registra exatamente o impedimento.
-- Ao final de cada dia, informar: o que funciona, o que falta e de qual objeto/variável/decisão depende.
-- Se alguém ficar mais de 30 minutos sem entender um problema, pedir ajuda mostrando a cena, os eventos relevantes e o resultado esperado.
-- Reavaliar o prazo em 07/11 e 15/11. Se houver atraso, aplicar a ordem de simplificação da seção 11.
+### Estrutura adotada
 
-## 4. O mínimo de GDevelop que todos precisam entender
-
-| Termo | Significado prático no nosso jogo |
+| Item | Organização atual |
 | --- | --- |
-| Projeto | Conjunto do jogo: cenas, recursos, objetos, eventos e configurações |
-| Cena | Uma tela ou fase, como `Menu` ou `Jogo` |
-| Objeto | Definição de algo, como `Andador` |
-| Instância | Uma cópia colocada/criada na cena; dez andadores são dez instâncias |
-| Sprite | Objeto com imagem e, se preparado, animações por quadros |
-| Comportamento | Função pronta adicionada ao objeto, como gravidade e pulo do Platformer |
-| Evento | Regra visual composta por condições e ações |
-| Condição | Pergunta: “a tecla está pressionada?”, “houve colisão?”, “a vida chegou a zero?” |
-| Ação | O que acontece: mover, criar tiro, descontar vida, trocar de cena |
-| Subevento | Regra dentro de outra; aproveita as condições e a seleção de objetos do evento pai |
-| Variável da cena | Informação daquela partida: XP, nível, tempo, estado do jogo |
-| Variável de objeto | Informação de cada instância: vida de um inimigo, dano de um tiro |
-| Variável global | Informação entre cenas: configurações e resultado que a tela final precisa mostrar |
-| Timer | Relógio para recarga, intervalo entre disparos ou nascimento de inimigos |
-| Camada | Organização de desenho e câmera: fundo, mundo, interface |
-| Máscara de colisão | Área usada para detectar contato; não precisa incluir fumaça ou adornos da imagem |
-| Prévia / Preview | Execução para testar o jogo enquanto está sendo desenvolvido |
-| Depurador / Debugger | Inspeção das variáveis e objetos enquanto a prévia roda |
+| Projeto editável | `prototipo/Robot.json`, em arquivo único |
+| Cenas | `MenuInicial`, `Introducao` e `Arena` |
+| Pausa, melhorias e resultados | Estados e interface da própria `Arena`, sem cenas finais separadas |
+| Eventos | Grupos por sistema dentro das cenas; não foram adotadas folhas externas |
+| Camadas principais | `FundoDistante`, `FundoMedio`, mundo na camada base e `HUD` |
+| Imagens usadas pelo jogo | `prototipo/imagens/` e `prototipo/assets/` |
+| Sons e trilhas | `prototipo/sons/` |
+| Originais e conceitos | `imagens/`, incluindo spritesheets e prompts |
+| Exportação web | `docs/`; não substitui o fonte editável |
+| Evidências | `midia/capturas/` e `midia/videos/`, referenciadas pelo README |
+| Recuperação do editor | Arquivos `.autosave`; não são a versão oficial do projeto |
 
-Eventos são avaliados repetidamente enquanto a cena roda. Uma condição que permanece verdadeira pode criar centenas de objetos. Para ações únicas, planejar um gatilho de uma vez ou uma condição de transição; para tiro contínuo, usar intervalo de disparo. Os eventos também selecionam as instâncias às quais as ações se aplicam: acertar um andador deve ferir aquele andador. [Referência oficial sobre eventos](https://wiki.gdevelop.io/gdevelop5/events/).
+Não criar outro projeto oficial nem renomear o JSON para seguir o plano inicial. `OficinaEmPane.json`, `assets/jogo/` e o modo de múltiplos arquivos foram propostas de organização não adotadas. Preservar artes originais mesmo quando o jogo usa quadros separados.
 
-Antes de implementar uma regra, escrever em português: **“Quando [condições], fazer [ações], alterando [instâncias/variáveis]”.** Depois montar essa mesma regra no editor.
+### Nomes usados na integração
 
-## 5. Preparação para colaborar sem perder trabalho
+| Sistema | Referências atuais |
+| --- | --- |
+| Jogador e tiros | `Robo`, `Arma`, `Tiro`, `TiroInimigo` |
+| Inimigos | `Andador`, `Saltador`, `Voador`, `Pesado`, `Atirador`, `MaquinaMae` |
+| Arena e coleta | `Chao`, `Prateleira`, `Esteira`, `Andaime`, `Fio`, `Oleo`, `Peca` |
+| Estado e progressão | `EstadoJogo`, `TempoPartida`, `XP`, `Nivel`, `XPProximoNivel`, `Pontuacao`, `Abates` |
+| Ondas | `Onda`, `LimiteVivos`, cotas e contadores por tipo, `EsperaProximaOnda` |
+| Chefe e óleo | `ChefaoAtivo`, `ChefaoDerrotado`, `OleoAtivo`, `EtapaOleo` |
+| Dados por instância | Vida e recargas dos inimigos; `XPDrop`, `PontosAbate` e `Peca.ValorXP` |
 
-### 5.1. Uma versão oficial e arquivos separados
+O estado `Jogando` permite a atualização do combate; pausa e melhorias congelam o mundo e bloqueiam comandos, sem impedir a interface. O retorno espera o botão do mouse ser solto (`AguardandoSoltarMouse`). XP, pontuação e vida são informações distintas; os resultados permanecem na Arena.
 
-1. Todos instalam a mesma versão estável do GDevelop desktop e anotam a versão no README.
-2. Abrir o repositório já existente `Jogo_Final` no GitHub Desktop. Não criar outro repositório dentro dele.
-3. O responsável cria o `OficinaEmPane.json` oficial a partir da base vazia e faz uma versão salva antes da mudança de formato.
-4. Nas propriedades do projeto, procurar a opção de **salvar em múltiplos arquivos / projeto em pasta**, ativar e salvar.
-5. Fechar e reabrir o projeto, verificar os arquivos gerados e executar a prévia.
-6. Confirmar no GitHub Desktop que cenas e eventos externos passam a aparecer como arquivos distintos. Os nomes e diretórios efetivos devem ser os criados pelo editor; não montar essa estrutura à mão.
-7. Fazer um teste em dupla: cada integrante altera apenas uma folha externa diferente, junta as alterações e verifica se ambas continuam funcionando.
-8. Só depois liberar trabalho paralelo nesses arquivos. Recursos, definições de objetos, cenas e configurações compartilhadas continuam exigindo coordenação.
+## 5. Decisões de escopo
 
-Esse fluxo segue a [orientação oficial para equipes](https://wiki.gdevelop.io/gdevelop5/tutorials/how-to-use-gdevelop-as-a-team/). Como a pasta atual está no OneDrive, evitar sincronização ativa durante a edição; o GDevelop documenta conflitos de sincronização nessa situação. Combinem pausar a sincronização durante as sessões ou trabalhar em uma cópia local não sincronizada, mantendo o Git como histórico do grupo.
+### Adaptações implementadas
 
-**Alternativa se o modo de pasta não funcionar na versão usada:** um integrante por vez edita o projeto oficial, em horários combinados. Os demais preparam recursos, testes, documentação e pequenos experimentos em projetos de laboratório. O integrador transporta e testa cada contribuição. Não tratar quatro cópias divergentes do mesmo JSON como se fossem automaticamente mescláveis.
+| Proposta inicial | Decisão adotada |
+| --- | --- |
+| Progressão pelo tempo e chefe por volta de quatro minutos | Cinco ondas por cotas e abates; chefe após concluir a quinta |
+| Surgimentos em pontos fixos internos | Entradas alternadas fora da câmera; Atiradores também em plataformas elegíveis |
+| Plataformas como cobertura contra Atiradores | Projéteis atravessam plataformas; desviar continua necessário |
+| Chefe com dois ataques | Rajada, prensa, vapor e convocação, com avisos e animações |
+| Telas finais em cenas separadas | Estados de resultado na Arena, com reinício e retorno ao menu |
+| Estimativa de 20 a 40 inimigos simultâneos | Limites atuais entre 8 e 16 nas ondas, conforme balanceamento |
+| Óleo em certas ondas | Aviso e subida com a entrada da Máquina-mãe; escoamento após sua derrota |
 
-### 5.2. Regra diária de Git/GitHub Desktop
+### Propostas descartadas ou descontinuadas
 
-1. Salvar e fechar o projeto no GDevelop antes de receber alterações.
-2. No GitHub Desktop, usar **Fetch origin** e **Pull origin** na versão principal para baixar o trabalho integrado.
-3. Criar uma branch da tarefa, por exemplo `e02-tiro-manual`, e combinar quais arquivos serão alterados. Branch é uma linha de trabalho separada.
-4. Abrir o projeto, implementar e testar. Evitar renomear objetos/variáveis de outra frente sem combinar.
-5. Salvar; conferir a lista de arquivos alterados. Arquivo inesperado merece inspeção antes de continuar.
-6. Fazer um commit com descrição concreta, como `Adiciona recarga do tiro manual`, e enviar com **Push/Publish branch**. Commit registra uma versão; push envia essa versão ao GitHub.
-7. Abrir uma solicitação de integração, ou pull request, indicando o que mudou e como testar. O revisor testa e o integrador junta à versão principal.
-8. Os demais fecham o editor e atualizam a versão principal antes da próxima tarefa. Fechar evita salvar por cima de uma versão recém-baixada.
+| Item | Situação e consequência |
+| --- | --- |
+| Pulo duplo | Descartado. Mantidos salto comum e dash; T02 não aplicável |
+| Vida extra de recuperação | Descartada. Vida zero leva à derrota; T13 deve conferir essa regra, sem retorno após morte |
+| Evolução visual por nível | Descontinuada. Aparência única; T14 não aplicável. XP e melhorias permanecem |
+| Filtro de filme antigo | Testado e retirado por legibilidade |
+| Nome e origem detalhada do protagonista | Não serão acrescentados nesta entrega; a introdução atual é suficiente |
 
-Se aparecer conflito, preservar o trabalho dos dois lados e pedir ajuda. Não resolver escolhendo “aceitar tudo meu” sem saber o que será descartado. [Guia oficial de GDevelop com GitHub Desktop](https://wiki.gdevelop.io/gdevelop5/tutorials/using-github-desktop/).
+Imagens geradas por IA foram aceitas pelo professor com crédito à IA, registrado em `CREDITOS.md`. Parry, novas arenas, melhorias adicionais e recorde persistente ficam como possíveis evoluções futuras, sem compromisso para esta entrega.
 
-### 5.3. Combinados sobre arquivos compartilhados
+## 6. Colaboração e integração
 
-- O integrador coordena mudanças nas propriedades gerais, catálogo de recursos, definições compartilhadas de objetos e cena `Jogo`.
-- A edita a folha do jogador; B, inimigos e ondas; C, arena e câmera; D, interface e progressão.
-- Adicionar uma imagem pelo editor pode alterar o catálogo compartilhado de recursos. Preparar o arquivo na própria subpasta e combinar a importação com o integrador.
-- Ninguém troca simultaneamente nomes de objetos, comportamentos ou variáveis. Registrar a mudança e avisar as frentes afetadas.
-- `imagens/` guarda os conceitos; `assets/jogo/`, os recursos preparados. `docs/` será a exportação web, não a pasta do projeto editável.
-- Definir exclusões de arquivos temporários e cópias de recuperação com cuidado. Não excluir do Git recursos necessários, arquivos do modo de pasta ou a exportação usada no GitHub Pages.
-- Ao concluir uma entrega, registrar uma versão identificada, como `E03-ciclo-jogavel`, e manter a versão principal executável.
+1. Salvar e fechar o projeto antes de receber alterações de outro integrante.
+2. Atualizar o repositório e combinar quem altera `Robot.json`; o arquivo único exige edição coordenada.
+3. Implementar uma tarefa pequena, preservando nomes e contratos de outras frentes.
+4. Executar a prévia e repetir os testes relacionados à mudança.
+5. Conferir os arquivos alterados antes do commit; imagens e sons devem usar caminhos presentes no repositório.
+6. Integrar preservando o trabalho dos dois lados. Não resolver conflitos escolhendo uma versão inteira sem entender o que seria perdido.
+7. Fazer o commit e o envio combinados; os demais atualizam antes da próxima edição.
 
-## 6. Contratos do projeto: nomes e regras comuns
+A pasta está no OneDrive; manter atenção a alterações sincronizadas durante a edição. O Git registra o histórico da equipe. Mudança de nome de objeto, variável, recurso ou ordem de eventos deve considerar todos os sistemas que dependem dela.
 
-Esta é uma proposta inicial para evitar quatro soluções incompatíveis. Criar os nomes necessários progressivamente; a tabela não pede que todos os sistemas sejam feitos na E00.
+## 7. Calendário e andamento das entregas
 
-### 6.1. Cenas, camadas e folhas de eventos
+Os intervalos foram metas internas do planejamento inicial, não comprovação da data real de conclusão. O prazo oficial permanece 23/11/2026, às 23h59.
 
-| Tipo | Nomes propostos | Responsável |
-| --- | --- | --- |
-| Cenas | `Menu`, `Jogo`, `Derrota`, `Vitoria` | D; mudanças estruturais com integrador |
-| Camadas da cena Jogo, de trás para frente | `FundoDistante`, `FundoMedio`, `Mundo`, `HUD`, `Sobreposicao` | C e D |
-| Folhas externas | `EV_Inicializacao`, `EV_Jogador`, `EV_Combate`, `EV_Inimigos`, `EV_Ondas`, `EV_Arena`, `EV_Camera`, `EV_Progressao`, `EV_EntradaInterface`, `EV_AtualizacaoHUD`, `EV_Audio` | Dono de cada sistema |
-| Objetos principais | `Jogador`, `ArmaJogador`, `TiroJogador`, `TiroInimigo`, `Chao`, `Prateleira`, `Esteira`, `Andaime`, `PecaXP`, `Oleo` | Conforme frente |
-| Inimigos | `Andador`, `Saltador`, `Voador`, `Pesado`, `Atirador`, `MaquinaMae` | B |
-| Grupos de objetos | `InimigosComuns`, `AlvosDano`, `SuperficiesSolidas` | B e C, com integrador |
-
-Objetos físicos ficam no `Mundo`. O HUD tem câmera própria e permanece fixo; ele não recebe o deslocamento da câmera do mundo. As folhas externas precisam ser **vinculadas** aos eventos da cena: apenas criá-las não executa suas regras. [Como vincular eventos externos](https://wiki.gdevelop.io/gdevelop5/events/link/).
-
-Ordem inicial sugerida dos links: inicialização → entrada da interface/transições de estado → jogador → inimigos/ondas → combate → arena → progressão → câmera → atualização visual do HUD → áudio. Vincular cada folha uma única vez. D separa comandos em `EV_EntradaInterface` e atualização dos textos/barras em `EV_AtualizacaoHUD`. Cada sistema de jogabilidade também verifica o estado da partida; a ordem sozinha não garante a pausa.
-
-Em `EV_Inicializacao`, colocar a condição “no início da cena” nas regras que restauram valores iniciais. Sem essa condição, a vida e o XP poderiam ser redefinidos a cada quadro.
-
-### 6.2. Variáveis e quem pode alterá-las
-
-| Escopo | Nome | Valor inicial proposto | Uso e responsável |
+| Entrega | Meta inicial | Situação atual | Resultado |
 | --- | --- | --- | --- |
-| Cena | `EstadoJogo` | `"Jogando"` | D coordena transições para `Pausado`, `EscolhendoUpgrade`, `Derrota` e `Vitoria` |
-| Cena | `TempoPartida` | 0 | B acumula segundos apenas durante jogo ativo |
-| Cena | `Onda` | 1 | B determina tipos e intensidade de surgimento |
-| Cena | `XP`, `Nivel`, `XPProximoNivel` | 0, 1, 10 | D controla progressão; valores de balanceamento provisórios |
-| Cena | `Pontuacao`, `Abates` | 0, 0 | B registra abates; D exibe resultado |
-| Cena | `ChefaoAtivo`, `ChefaoDerrotado` | falso, falso | B sinaliza início e fim do chefe; D realiza a transição final |
-| Cena | `LimiteInimigos` | 20 | B limita surgimento; testar até 40, conforme desempenho |
-| Cena | `VidasExtras` | Proposta descartada | Registro histórico; não criar reserva de tentativas nesta versão (seção 1.3) |
-| Jogador | `Vida`, `VidaMaxima` | 100, 100 | A aplica dano; upgrades de D modificam a vida respeitando o limite |
-| Jogador | `DanoTiro`, `IntervaloTiro` | 10, 0,30 s | A utiliza; D altera por melhorias |
-| Jogador | `VelocidadeBase`, `RecargaDash` | 300 px/s, 2 s | A utiliza; D altera por melhorias |
-| Jogador | `EstagioVisual` | Proposta descontinuada | Não implementar troca de aparência por nível nesta versão |
-| Inimigo, por instância | `Vida`, `DanoContato`, `XPDrop`, `PontosAbate` | Conforme tipo | B inicializa ao criar cada inimigo |
-| Peça de XP, por instância | `ValorXP` | Definido ao criar a peça | B copia/distribui a recompensa do inimigo; D soma esse valor na coleta |
-| Tiro, por instância | `Dano`, `TempoDeVida` | Copiados na criação | A/B preservam o dano de cada projétil e limitam sua duração |
-| Global | `ResultadoFinal` | Estrutura ou valores combinados | D copia pontuação, nível, tempo e abates antes de trocar de cena |
-| Global | `AudioAtivo` | verdadeiro | D preserva a preferência entre cenas |
+| E00 | 31/10 a 01/11 | Concluída com adaptações | Equipe, projeto oficial e colaboração definidos |
+| E01 | 02 a 03/11 | Concluída conforme teste informado | Base de plataforma, arena, menu e exportação básica |
+| E02 | 04 a 05/11 | Concluída conforme teste informado | Mira, tiro, dano, abate e recompensa |
+| E03 | 06 a 07/11 | Concluída conforme teste informado | XP, cartas, HUD, pausa, derrota e reinício |
+| E04 | 08 a 09/11 | Concluída com redução de escopo | Dash, câmera e parallax; pulo duplo descartado |
+| E05 | 10 a 11/11 | Concluída com adaptações | Cinco inimigos, cotas, limites e surgimentos |
+| E06 | 12 a 13/11 | Concluída com redução de escopo | Plataformas dinâmicas e seis melhorias; vida extra e evolução visual retiradas |
+| E07 | 14 a 15/11 | Concluída conforme teste informado | Óleo, chefe com quatro habilidades e vitória |
+| E08 | 16 a 17/11 | Aceite confirmado; créditos documentados | Artes, animações, áudio, interface e recursos organizados |
+| E09 | 18 a 19/11 | Concluída conforme critérios informados | Balanceamento, controle de objetos e versão publicada para teste |
+| E10 | 20 a 22/11 | Em fechamento | Documentação e evidências atualizadas; versão/link no README, exportação final e ensaio a concluir |
+| E11 | 23/11 | Pendente de confirmação | Conferência pública, envio e preparação da apresentação |
 
-**Vida, vidas extras, XP, nível, pontuação e estágio visual são informações diferentes.** Subir de nível não significa recuperar toda a vida automaticamente; trocar de aparência não pode aumentar a área de colisão sem uma decisão de design.
+## 8. Registro de cada entrega
 
-### 6.3. Estado da partida e pausa
+Os registros abaixo substituem as instruções iniciais de criação pelo resultado adotado. As marcações dos critérios de aceite foram preservadas, incluindo os itens ainda desmarcados. A conclusão de uma etapa não dispensa conferir uma correção posterior que afete seu funcionamento.
 
-| Estado | Mundo, dano, ondas e XP | Interface permitida |
-| --- | --- | --- |
-| `Jogando` | Ativos | HUD e comando de pausa |
-| `Pausado` | Congelados | Continuar, áudio e voltar ao menu |
-| `EscolhendoUpgrade` | Congelados | Escolher exatamente uma das três opções |
-| `Derrota` | Encerrados | Exibir resultado e reiniciar/menu |
-| `Vitoria` | Encerrados | Exibir resultado e reiniciar/menu |
 
-Ao pausar, usar escala de tempo da cena igual a 0 para mecânicas dependentes do tempo **e** bloquear eventos de tiro, dano, criação de inimigos e coleta com `EstadoJogo = "Jogando"`. A escala de tempo não impede toda ação de evento. A interface de pausa deve responder a entrada sem depender de um timer/tween congelado. Retomar com escala 1 e sem somar o tempo em que ficou parado. [Timers e escala de tempo no GDevelop](https://wiki.gdevelop.io/gdevelop5/all-features/timers/).
+### E00 — Ambiente, equipe e projeto oficial
 
-Prioridade revisada para situações simultâneas: resolver morte (vida extra descartada); se houve derrota, encerrar a atualização; depois resolver vitória; somente durante jogo ainda ativo abrir upgrades. Se ganhar XP para vários níveis de uma vez, guardar o excedente e apresentar uma escolha por vez. Esc não fecha a escolha de upgrade nem a transforma em pausa comum.
+**Resultado adotado:** Equipe identificada, projeto oficial em Robot.json e edição coordenada do arquivo único. A proposta de projeto em pasta e eventos externos não foi adotada.
 
-## 7. Calendário de entregas
-
-Os intervalos abaixo são metas internas. A última data oficial continua sendo 23/11. Cada entrega pressupõe a anterior integrada; as tarefas de preparação visual, áudio e documentação podem avançar em paralelo.
-
-| Entrega | Meta | Resultado verificável | Dependência |
-| --- | --- | --- | --- |
-| E00 | 31/10 a 01/11 | Equipe, ambiente, projeto oficial e modo de colaboração definidos | Materiais atuais |
-| E01 | 02 a 03/11 | Robô anda/pula em arena simples; primeira exportação web testada | E00 |
-| E02 | 04 a 05/11 | Mira, tiro, um inimigo, dano, morte e peças | E01 |
-| E03 | 06 a 07/11 | Ciclo jogável: XP, escolha de melhoria, HUD, pausa, derrota e reinício | E02 |
-| E04 | 08 a 09/11 | Dash, câmera suave e parallax inicial; pulo duplo descartado | E03 |
-| E05 | 10 a 11/11 | Cinco tipos de inimigo e ondas crescentes | E04 |
-| E06 | 12 a 13/11 | Plataformas dinâmicas e seis melhorias; vida extra descartada e evolução visual descontinuada | E05 |
-| E07 | 14 a 15/11 | Óleo, chefão e vitória; escopo funcional completo | E06 |
-| E08 | 16 a 17/11 | Arte integrada, animação por quadros, áudio e telas acabadas | E07; recursos preparados em paralelo |
-| E09 | 18 a 19/11 | Balanceamento, desempenho e versão jogável publicada para testes | E08 |
-| E10 | 20 a 22/11 | Versão candidata final, README completo, créditos, teste de cópia limpa e ensaio | E09 |
-| E11 | 23/11 | Conferência pública e entrega registrada; meta interna até 20h | E10 |
-| Apresentação | 24 ou 25/11 | Demonstração do jogo e explicação pelos quatro | Data específica do grupo a confirmar |
-
-**Caminho principal:** plataforma → combate → coleta/progressão → variedade → arena final/chefão → acabamento → entrega. Uma funcionalidade bonita isolada ainda não equivale a uma partida completa.
-
-## 8. Passo a passo de cada entrega
-
-### E00 - Preparar o grupo e aprender o editor
-
-**Objetivo:** todos conseguem abrir, alterar, salvar e testar um projeto. **Participação:** os quatro. **Coordenação:** integrador escolhido pelo grupo.
-
-1. Preencher a tabela de nomes, escolher integrador/substituto e combinar um horário diário de integração.
-2. Ler juntos o pitch, controles e escopo mínimo do GDD. Fechar um enredo curto e o objetivo final. O nome do protagonista pode continuar provisório.
-3. **Concluído:** professor confirmou a aceitação de imagens geradas por IA, com atribuição à IA nos créditos.
-4. Instalar a mesma versão do GDevelop e configurar acesso ao repositório. Registrar a versão do editor.
-5. Cada pessoa, em um laboratório próprio, abrir `Temporary Driving.json`, localizar editor da cena, objetos, comportamentos e eventos, mover uma plataforma e executar a prévia. Preservar o exemplo original.
-6. Em outra pequena experiência, criar um Sprite, colocar duas instâncias, adicionar um texto e criar um evento que muda esse texto ao apertar uma tecla.
-7. Criar o projeto oficial e testar a colaboração da seção 5. Documentar no README qual arquivo abrir.
-8. C listar recursos visuais preparados e pendentes; A e B conferir suas artes; D iniciar a lista de sons e créditos. Definir como serão produzidos os quadros da animação.
-9. Confirmar as propostas de pontuação, uma vida extra e animação por quadros. Criar a lista de tarefas da próxima entrega. **Revisão:** pontuação e animações adotadas; vida extra descartada (seção 1.3).
-
-**Concluída quando:**
+**Critérios de aceite registrados:**
 
 - [x] Os quatro abriram e executaram a prévia em seus computadores.
 - [x] Há um único projeto oficial identificado, salvo e reaberto com sucesso.
 - [x] O teste de colaboração funcionou ou a edição por turnos está combinada.
 - [x] Nomes, versão do editor, horários e decisões iniciais estão registrados.
 
-### E01 - Construir a base de plataforma
 
-**Aprender:** cenas, Sprite, instância, Platformer Character e Platform. **Dono:** A; C prepara a arena, D as cenas, B revisa o movimento.
+### E01 — Base de plataforma
 
-1. D criar `Menu`, `Jogo`, `Derrota` e `Vitoria`; deixar `Menu` como cena inicial. Criar um botão/texto simples para começar.
-2. C configurar a cena de jogo em 1280 × 720 e propor uma arena inicial de 2560 px de largura. Esses números são ajustes de protótipo.
-3. Criar `Jogador` com imagem simples e máscara de colisão estável. Adicionar **Platformer Character**. Criar `Chao` com **Platform**.
-4. C colocar chão contínuo, limites laterais e três prateleiras acessíveis. Configurar as prateleiras como **Jumpthru**, para atravessar por baixo e pousar por cima.
-5. A configurar A/D ou setas para andar e Espaço/W/↑ para pular. Se simular controles por eventos, desativar os controles padrão para evitar comandos duplicados.
-6. Validar um salto comum antes de adicionar pulo duplo ou dash. Não adicionar movimento TopDown ao jogador de plataforma.
-7. C usar uma câmera horizontal simples que acompanhe o robô e não mostre fora da arena; suavização entra na E04.
-8. D colocar instruções provisórias na tela. O integrador fazer a primeira exportação HTML5 em pasta separada e testar pelo fluxo de prévia/servidor local, evitando depender de abrir `index.html` diretamente.
-9. A e C começar a preparar corpo, arma e cenário enquanto a lógica usa recursos simples.
+**Resultado adotado:** Robô com gravidade, salto, chão, plataformas atravessáveis e limites. Fluxo inicial implementado com MenuInicial e Introducao antes da Arena.
 
-**Teste de aceite:**
+**Critérios de aceite registrados:**
 
 - [x] O jogador anda para os dois lados, pula e volta ao chão sem atravessá-lo.
 - [x] As prateleiras deixam passar por baixo e sustentam o jogador por cima.
 - [x] Não há paredes invisíveis inesperadas nem saída acidental da arena.
 - [x] Menu inicia a partida e a exportação básica abre no navegador.
 
-Referência para este aprendizado: [Platform e Platformer Character](https://wiki.gdevelop.io/gdevelop5/behaviors/platformer/).
 
-### E02 - Fechar o primeiro combate
+### E02 — Combate e recompensas
 
-**Aprender:** criação/exclusão de instâncias, ponto de objeto, colisão, timers e variáveis de objeto. **Donos:** A para combate; B para Andador; C e D apoiam os testes.
+**Resultado adotado:** Mira com câmera deslocada, tiros com cadência, vida por inimigo, contato com invulnerabilidade e recompensa por abate.
 
-1. A adicionar `ArmaJogador`, acompanhar o ponto de encaixe no corpo e definir o ponto `BocaCano` para criar tiros.
-2. Fazer a arma apontar para a posição do mouse **nas coordenadas do Mundo**, levando em conta câmera e camada. Testar perto das duas extremidades da arena.
-3. Enquanto o botão esquerdo estiver pressionado e o jogo estiver ativo, criar um tiro somente quando o intervalo permitir. A direção fica definida no nascimento; o projétil não deve seguir o cursor depois de disparado.
-4. Copiar o dano atual da arma para a variável do tiro. Definir velocidade e exclusão por tempo de vida ou por sair dos limites da arena.
-5. B criar um Andador com vida própria. Fazer avançar em direção ao jogador, respeitando chão/colisão, sem subir prateleiras.
-6. Tiro colide com um inimigo selecionado → descontar vida daquele alvo e excluir aquele tiro. Começar sem perfuração.
-7. Vida do inimigo chega a zero → gerar peças, somar pontuação/abate uma única vez e removê-lo. Começar com uma peça cujo `ValorXP` recebe o `XPDrop` do inimigo. Se criar várias, distribuir o total entre elas: um inimigo de 5 XP não deve soltar três peças de 5 XP por acidente. Inicializar todas as variáveis no momento de criar cada instância.
-8. Contato com inimigo → descontar vida do jogador e iniciar invulnerabilidade curta. O contato não pode tirar vida em todos os quadros.
-9. C colocar provisoriamente as peças no chão seguro, abaixo do inimigo; se implementarem queda animada, tratar colisão com piso e impedir que sumam abaixo da arena.
-10. D mostrar vida, abates e XP em textos provisórios. **Regra adotada:** vida zero leva à derrota; a proposta posterior de vida extra foi descartada.
-
-Depois de validar o Andador, B pode preparar os outros tipos em laboratório entre E02 e E04, usando os mesmos contratos. A integração e os testes conjuntos continuam na E05; assim os quatro tipos novos não precisam começar do zero em dois dias.
-
-**Teste de aceite:**
+**Critérios de aceite registrados:**
 
 - [x] Segurar o clique produz tiros com intervalo; soltar interrompe os disparos.
 - [x] O tiro nasce na arma, mira corretamente com a câmera deslocada e atinge somente o alvo acertado.
@@ -341,21 +198,12 @@ Depois de validar o Andador, B pode preparar os outros tipos em laboratório ent
 - [x] Cada morte gera exatamente uma recompensa, e contato não esgota a vida instantaneamente.
 - [x] Tiros antigos são removidos; não há crescimento ilimitado de objetos.
 
-### E03 - Tornar o protótipo uma partida jogável
 
-**Aprender:** variáveis de cena, estados, HUD, pausa e escolhas. **Dono:** D; A/B adaptam seus sistemas e C testa a câmera/interface.
+### E03 — Partida, XP e estados
 
-1. Implementar `EstadoJogo` e aplicar a condição de jogo ativo a controles, tiros, dano, ondas, XP e tempo.
-2. Coletar `PecaXP` ao tocar nela: somar seu `ValorXP` ao XP da cena e excluir a peça coletada uma única vez.
-3. Quando alcançar o limite de XP, guardar excedente, avançar o nível e entrar em `EscolhendoUpgrade`.
-4. Criar três cartões provisórios e implementar inicialmente dano, cadência e vida máxima. Escolher um aplica uma melhoria e fecha as outras opções.
-5. Congelar a partida durante a escolha. Manter o clique de escolher uma melhoria sem produzir um tiro ao voltar: aguardar soltar o botão antes de reativar o disparo.
-6. Montar HUD com vida atual/máxima, XP, nível, tempo e pontuação na camada fixa.
-7. Implementar Esc para entrar/sair de pausa somente nos estados permitidos. Colocar “Pausado” e botão de continuar.
-8. Implementar derrota, resultado e reinício. Ao reiniciar, zerar tempo, XP, nível, abates, upgrades e timers; restaurar os atributos iniciais.
-9. Integrar surgimento simples e limitado de andadores para sustentar 60 a 90 segundos de jogo.
+**Resultado adotado:** Estados de jogo, coleta, nível com excedente de XP, três cartas, pausa, derrota e reinício integrados. Resultados receberam apresentação visual posterior.
 
-**Teste de aceite:**
+**Critérios de aceite registrados:**
 
 - [x] Jogar → matar → descer/coletar → subir de nível → escolher → continuar funciona.
 - [x] Durante pausa e escolha, não há dano, tiros, movimento, surgimento nem aumento do tempo.
@@ -363,47 +211,24 @@ Depois de validar o Andador, B pode preparar os outros tipos em laboratório ent
 - [x] Só uma opção é aplicada; XP excedente não desaparece.
 - [x] Derrota e reinício funcionam seguidas sem herdar melhorias.
 
-**Marco de 07/11:** já existe o núcleo jogável. Se não existir, reduzir acabamento e resolver esse ciclo antes de multiplicar conteúdo.
 
-### E04 - Completar o controle e a sensação de espaço
+### E04 — Dash, câmera e parallax
 
-**Aprender:** estados de movimento, recarga, câmera e camadas. **Donos:** A para pulo/dash; C para câmera/parallax.
+**Resultado adotado:** Dash com recarga, câmera horizontal suave e fundos em camadas integrados. Segundo salto retirado do escopo.
 
-1. **Proposta original descartada:** pulo duplo. Mantidos salto comum e dash; não implementar segundo impulso nesta versão.
-2. Implementar dash curto na direção horizontal combinada, com duração e recarga. Proposta: 0,15 s de duração, 2 s de recarga.
-3. Durante o dash, permitir atravessar inimigos e suspender dano de contato, sem atravessar chão/paredes. Definir com o grupo se projéteis também serão ignorados; a proposta inicial é ignorá-los durante o dash.
-4. Usar a extensão de movimentos avançados ou eventos próprios, conforme a versão instalada, escolhendo uma única abordagem. Fazer um experimento isolado antes de integrar.
-5. C substituir a câmera simples por acompanhamento horizontal suave com faixa central e limite nas bordas; manter Y estável inicialmente.
-6. Criar dois fundos temporários em camadas diferentes. Fazer a câmera distante percorrer uma fração do deslocamento do Mundo e a intermediária uma fração maior. Proposta inicial: 0,2 e 0,5.
-7. Preservar o alinhamento inicial dos fundos e cobrir as bordas durante todo o movimento; não deslocar chão/plataformas como decoração.
-8. Verificar novamente mira e HUD depois da mudança de câmera. Nenhum outro sistema deve disputar o controle da mesma câmera.
-
-**Teste de aceite:**
+**Critérios de aceite registrados:**
 
 - **Não aplicável:** teste de pulo duplo, descartado nesta versão. Testar o salto comum e o pouso nas plataformas.
 - [x] Dash tem início, fim e recarga; não atravessa superfícies sólidas.
 - [x] Pausar durante dash não deixa o robô permanentemente invulnerável.
 - [x] Câmera acompanha sem mostrar vazio; HUD fica parado; fundos têm deslocamentos distintos.
 
-Referências: [movimentos de plataforma](https://wiki.gdevelop.io/gdevelop5/behaviors/platformer/), [Smooth Camera](https://wiki.gdevelop.io/gdevelop5/extensions/smooth-camera/reference/) e [camadas e câmeras](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras/).
 
-### E05 - Adicionar variedade de inimigos e ondas
+### E05 — Inimigos e ondas
 
-> **Revisão:** implementada com adaptações. Surgimentos acompanham as bordas da câmera; ondas usam cotas e abates, em vez de progressão apenas por tempo; tiros do Atirador atravessam plataformas. Os passos originais abaixo não substituem essas regras atuais.
+**Resultado adotado:** Andador, Saltador, Voador, Pesado e Atirador integrados. Ondas por cotas, limite simultâneo e surgimentos acompanhando a câmera. Projéteis de Atiradores atravessam plataformas.
 
-**Aprender:** comportamento por tipo, timers por instância e criação controlada. **Dono:** B; A revisa combate, C valida navegação e D informa a onda.
-
-1. Manter o Andador validado como base de dano, recompensa e exclusão. Implementar um tipo novo por vez.
-2. Saltador: perseguir horizontalmente e pular com intervalo quando precisar alcançar o jogador acima. Cada instância precisa de seu próprio controle de salto.
-3. Voador: mover-se pelo ar em direção ao jogador, sem Platformer/gravidade e sem ficar preso nas prateleiras.
-4. Pesado: lento e resistente; quando estiver abaixo de um andaime, sinalizar seu desabamento. C implementa a resposta da plataforma na E06.
-5. Atirador: manter distância aproximada e disparar com intervalo. Seu projétil atinge jogador ou cobertura sólida e é removido após impacto/tempo limite.
-6. Criar pontos de surgimento dentro da arena, longe do jogador. Evitar nascer dentro de paredes, no óleo ou diretamente sobre o robô.
-7. B controlar a progressão pelo tempo ativo: começar com andadores e acrescentar saltadores, voadores, pesados e atiradores gradualmente.
-8. Limitar inimigos vivos e controlar intervalo de surgimento. O limite é por quantidade presente, não por quantidade total já criada.
-9. D mostrar onda/alerta; cada tipo deve conservar sua identidade visual e comportamento.
-
-**Teste de aceite:**
+**Critérios de aceite registrados:**
 
 - [x] Cada um dos cinco tipos muda a decisão do jogador, mesmo com arte provisória.
 - [x] Dois atiradores não compartilham indevidamente a mesma recarga.
@@ -411,31 +236,12 @@ Referências: [movimentos de plataforma](https://wiki.gdevelop.io/gdevelop5/beha
 - [x] O limite de inimigos é respeitado e as ondas só avançam com o jogo ativo.
 - [x] Todos podem ser atingidos, morrer e dar recompensa sem duplicação.
 
-### E06 - Completar plataformas, melhorias e recuperação
 
-**Donos:** C para cenário; D para melhorias; A para recuperação; B testa Pesado. Evolução visual descontinuada. Dividir em tarefas independentes.
+### E06 — Plataformas e melhorias
 
-1. C implementar esteira: deslocar quem está apoiado sobre ela com velocidade moderada. Saltar deve interromper esse empurrão.
-2. Andaime recebe o robô ou o sinal do Pesado → começa aviso visual → aguarda o tempo definido → perde sustentação/desaba → é removido ou reaparece após regra combinada.
-3. Fazer ao menos uma mudança controlada de plataformas entre ondas. Marcar locais seguros; não remover a única rota de saída nem colocar uma superfície dentro do jogador.
-4. D completar as seis melhorias da tabela abaixo. Ao mudar uma variável, atualizar também a propriedade efetiva usada pelo comportamento ou evento: velocidade máxima do Platformer, limite do timer do dash, intervalo de tiro etc. Conferir o efeito no jogo, não apenas o número no depurador. Sortear três opções distintas e excluir opções que atingiram o limite.
-5. Se houver menos de três melhorias elegíveis, usar opções de reserva, como reparo imediato, garantindo três cartões selecionáveis. Registrar esse comportamento.
-6. **Descartado em 20/11/2026:** implementar vida extra para consumir uma reserva, reviver e continuar a partida. Proposta preservada como histórico; não implementar. Motivo e recuperações adotadas na seção 1.3.
-7. **Não aplicável:** o ponto de retorno acima do óleo dependia da vida extra descartada. Não há retorno após morte nesta versão.
-8. **Descontinuado:** trocar estágios visuais do herói por nível. Manter uma única aparência durante a partida; preservar os conceitos originais como material de criação.
+**Resultado adotado:** Esteiras, andaimes, mudança de layouts e seis melhorias principais mais reparo implementados. Vida extra e evolução visual não fazem parte desta versão.
 
-| Melhoria inicial | Efeito proposto por escolha | Limite inicial para teste |
-| --- | --- | --- |
-| Canhão reforçado | +20% no dano atual | 5 escolhas |
-| Engrenagem rápida | Reduzir intervalo entre tiros em 10% | Intervalo mínimo de 0,10 s |
-| Placa de blindagem | +20 de vida máxima e +20 de vida atual, sem passar do máximo | 5 escolhas |
-| Rodas lubrificadas | +10% na velocidade de movimento | Até 1,5 vez a velocidade inicial |
-| Caldeira extra | Reduzir recarga do dash em 15% | Recarga mínima de 0,6 s |
-| Ímã | +40 px no raio de atração, inicialmente 80 px | Raio máximo de 240 px |
-
-Esses números são hipóteses de balanceamento. No Ímã, aproximar peças dentro do raio e conceder XP somente quando a peça for realmente coletada. A opção de reserva “reparo imediato” recupera vida sem alterar atributos permanentes; não conta entre as seis melhorias principais.
-
-**Teste de aceite:**
+**Critérios de aceite registrados:**
 
 - [x] Esteira só empurra objetos apoiados; andaime avisa antes de cair.
 - [x] Pesado consegue provocar a queda prevista e a arena continua navegável.
@@ -444,46 +250,24 @@ Esses números são hipóteses de balanceamento. No Ímã, aproximar peças dent
 - **Não aplicável:** teste de troca de estágio visual, pois a evolução visual foi descontinuada. Permanecem os testes normais das animações, do alinhamento e da colisão.
 - **Não aplicável:** reposicionamento após morte, pois a vida extra foi descartada.
 
-### E07 - Encerrar a partida com óleo, chefão e vitória
 
-> **Revisão:** chefe implementado com quatro habilidades (rajada, prensa, vapor e convocação), barra de vida e avisos visuais. Surge após concluir a onda 5; o óleo começa com sua entrada. A proposta de dois ataques e entrada aos quatro minutos foi substituída. Os atalhos de teste ainda devem ser desativados ou protegidos na versão final.
+### E07 — Óleo, Máquina-mãe e vitória
 
-**Aprender:** pequenos estados de um chefe e transição de fim. **Donos:** B para chefe; C para óleo; D para vitória; A valida combate.
+**Resultado adotado:** Chefe após a quinta onda, barra de vida, quatro habilidades, óleo, escoamento e resultado final. A entrada por tempo e a proposta de dois ataques foram substituídas.
 
-1. Fechar uma ficha curta da Máquina-mãe antes dos eventos: vida, posição, parte vulnerável, ataques, aviso de ataque, intervalo e condição de morte.
-2. Implementar a versão mais simples funcional: chefe grande numa área final, sem navegação complexa, com **dois ataques alternados**.
-3. Proposta de ataque 1: projéteis em leque, precedidos por brilho/aviso. Proposta de ataque 2: golpe/onda no piso, anunciado visualmente e evitável com pulo/plataforma.
-4. Garantir uma janela de reação e um caminho para evitar cada ataque. Começar com tempos generosos e ajustar depois.
-5. C iniciar o óleo no trecho final. Subir gradualmente, causar dano de modo controlado e parar numa altura que deixe superfícies utilizáveis para vencer o chefe.
-6. B fazer o chefe aparecer uma única vez, inicialmente aos 4 minutos. Limitar ou suspender novos inimigos comuns durante a luta, conforme teste de dificuldade.
-7. D mostrar barra do chefe e alerta. B sinalizar a derrota da Máquina-mãe; D congelar a jogabilidade, copiar o resultado e abrir `Vitoria`.
-8. Criar um modo de teste temporário para chegar rapidamente ao chefe. Desativá-lo na versão final e testar também uma partida desde o menu.
-
-**Teste de aceite:**
+**Critérios de aceite registrados:**
 
 - [x] Óleo sobe apenas durante jogo ativo e não elimina todas as rotas.
 - [x] Chefe surge uma vez, executa as quatro habilidades adotadas com avisos legíveis e pode ser derrotado.
 - [x] Existe vitória real, com reinício/menu; sobreviver ao relógio sozinho não vence.
 - [x] Vitória e derrota não aparecem simultaneamente.
 
-**Marco de 15/11:** todas as mecânicas previstas têm uma versão funcional integrada. Depois disso, priorizar correções e acabamento sobre novos sistemas.
 
-### E08 - Integrar arte, animações e som
+### E08 — Artes, animações, som e interface
 
-**Aprender:** animações do Sprite, pontos/origem, máscaras, Tween e canais de áudio. **Donos:** cada pessoa integra sua frente; C coordena consistência visual, D o fluxo de áudio.
+**Resultado adotado:** Animações por quadros, efeitos, trilhas, sons e telas integrados. Recursos ausentes removidos; sons em prototipo/sons/. Créditos dos quatro integrantes e das artes/áudios documentados.
 
-1. Substituir imagens provisórias por recursos preparados, um objeto por vez, repetindo seu teste de colisão e escala.
-2. No herói, conferir alinhamento corpo/arma, origem nos pés, espelhamento e mira para os dois lados. Manter pontos e colisão consistentes entre quadros das animações; não há troca de estágio por nível.
-3. Integrar as camadas do cenário e conferir o percurso inteiro da câmera. O panorama composto não cria parallax sozinho.
-4. Implementar uma animação por quadros distintos, por exemplo uma explosão com 4 a 6 quadros. Importar/cortar a sequência, definir velocidade, desativar repetição e excluir o efeito ao terminar.
-5. Usar Tween para balanço do voador, tremor de andaime ou pulso visual. Ele complementa a animação por quadros, sem substituir sua demonstração.
-6. Evitar deformar a máscara física do jogador a cada efeito: quando necessário, manter a colisão estável e animar uma parte visual separada.
-7. Integrar sons curtos de tiro, dano, morte, coleta, upgrade e dash, além da trilha. Disparar sons em transições/ocorrências, sem reiniciá-los a cada quadro.
-8. Reservar um canal para a trilha, iniciar após a interação do botão Jogar e permitir ativar/desativar áudio. Como padrão alinhado à aula, pausar a trilha junto com a partida e retomá-la do mesmo ponto ao continuar; tratar áudio explicitamente. Reduzir volume pode ser uma alternativa posterior de design.
-9. D concluir menu, instruções, cartões, pausa e telas finais; manter contraste e textos legíveis na resolução de jogo.
-10. Cada integrante registrar fontes/licenças de áudio, artes geradas por IA e recursos de exemplos efetivamente reutilizados em `CREDITOS.md`.
-
-**Teste de aceite:**
+**Critérios de aceite registrados:**
 
 - [x] Todos os recursos carregam sem caminho absoluto do computador de alguém.
 - [x] Explosão avança por quadros e se encerra sem deixar instâncias acumuladas.
@@ -491,68 +275,41 @@ Esses números são hipóteses de balanceamento. No Ímã, aproximar peças dent
 - [x] Trilha não reinicia continuamente; efeitos não se multiplicam sem controle.
 - [x] Áudio, pausa, reinício e vitória funcionam também na exportação web.
 
-Referências: [Sprite e animações](https://wiki.gdevelop.io/gdevelop5/objects/sprite/) e [áudio e canais](https://wiki.gdevelop.io/gdevelop5/all-features/audio/).
 
-### E09 - Balancear, testar e publicar uma versão para revisão
+### E09 — Balanceamento e versão de teste
 
-**Donos:** os quatro. Cada pessoa testa também uma frente que não desenvolveu.
+**Resultado adotado:** Ondas e atributos ajustados em rodadas de teste, com remoção de projéteis, peças e efeitos antigos. Existe versão publicada testada pela equipe; a exportação final precisa acompanhar as últimas correções.
 
-1. Jogar partidas completas e registrar o momento em que a dificuldade muda, frequência de níveis, causas de morte e tempo da luta final.
-2. Ajustar um conjunto pequeno de números por rodada. Não alterar simultaneamente vida de todos os inimigos, dano da arma e frequência de surgimento sem registrar.
-3. Confirmar a proposta de duração: chefe começa por volta dos 4 minutos, e a duração total depende da luta. Ajustar para a demonstração da disciplina.
-4. Testar 20 inimigos e aumentar gradualmente até 40 apenas se os computadores da equipe suportarem bem. Registrar desempenho observado no computador mais fraco.
-5. Limitar projéteis, peças e efeitos; remover o que venceu seu tempo ou saiu da arena. Não remover automaticamente todo inimigo que saiu da câmera, pois a arena é maior que a tela.
-6. Reduzir partículas, filtros e tamanho dos recursos se o combate perder fluidez. Usar os números de objetos/variáveis do depurador para localizar acúmulos.
-7. Exportar HTML5 para `docs/`. Configurar GitHub Pages para servir essa pasta da branch escolhida e testar a URL publicada. Não substituir o projeto editável pela exportação.
-8. Pedir a alguém que não implementou a interface para começar sem instrução verbal. Registrar onde se perde e corrigir o jogo ou as instruções.
-9. Fazer a bateria da seção 10 e corrigir primeiro travamentos, perda de progresso, impossibilidade de vencer e caminhos quebrados.
-
-**Concluída quando:**
+**Critérios de aceite registrados:**
 
 - [x] Uma partida completa até derrota e outra até vitória funcionam na versão publicada.
 - [x] O ciclo de subir para se proteger e descer para coletar é perceptível.
 - [x] Não há crescimento contínuo de objetos sem limite nem falhas que impeçam terminar.
 - [x] O grupo tem uma lista curta de correções, com responsável e prazo.
 
-Referência de exportação: [HTML5 em pasta local](https://wiki.gdevelop.io/gdevelop5/publishing/html5_game_in_a_local_folder/). Usar a opção de exportação web disponível na versão instalada; os nomes de botões podem variar.
 
-### E10 - Fechar a versão de entrega e ensaiar
+### E10 — Documentação e ensaio
 
-**Objetivo:** uma pessoa de fora consegue jogar ou abrir o fonte seguindo o README. **Donos:** todos; D reúne a documentação.
+**Resultado adotado:** README com funcionamento, instruções, capturas e vídeos; créditos por frente e GDD revisados. Critérios já aprovados continuam registrados; ensaio permanece pendente. Versão do editor e URL precisam constar no README.
 
-1. Congelar funcionalidades novas. Finalizar somente correções e pequenos ajustes necessários à entrega.
-2. Cada integrante escrever sua parte do README: A controles/combate; B inimigos/progressão das ondas; C cenário/câmera; D execução/fluxo. Revisar o texto juntos.
-3. Incluir nome, enredo, objetivo, ferramenta/versão, quatro integrantes, controles, URL jogável, como baixar/abrir o fonte e quais arquivos não são o projeto oficial.
-4. Inserir capturas reais ou GIFs do jogo: combate, escolha de melhoria e chefe/vitória. Identificar conceitos visuais como conceitos, sem apresentá-los como screenshots da implementação.
-5. Finalizar `CREDITOS.md`, declarar uso de IA e atribuir exemplos/recursos usados. Separar autoria da arte, da lógica própria e de material reaproveitado.
-6. Um colega baixar/clonar o repositório em outra pasta, abrir o projeto oficial e iniciar a prévia. Não usar os arquivos já existentes na máquina para mascarar recursos ausentes.
-7. Abrir repositório e jogo publicado sem login, conferir imagens, links e carregamento. Manter uma cópia local da exportação para apresentar se a rede da sala falhar.
-8. Identificar a versão final, por exemplo `v1.0-entrega`, e guardar uma cópia do fonte e da exportação correspondente.
-9. Ensaiar a demonstração. Proposta interna: 2 minutos de contexto/controles, 3 a 4 de jogo e 1 a 2 por pessoa para explicar seu sistema. Ajustar ao tempo que o professor autorizar.
-10. Preparar explicações que liguem o GDevelop às aulas: eventos/loop, entrada, colisões, câmera/parallax, animação, pausa, vidas e áudio. Todos devem entender o ciclo central.
-
-**Concluída quando:**
+**Critérios de aceite registrados:**
 
 - [x] README cobre R07, R08 e R09; fonte e jogo cobrem R06 e R10.
 - [x] Outra cópia abre sem recursos faltando; URL funciona publicamente.
 - [ ] Os quatro participaram do ensaio e sabem explicar suas contribuições.
 - [x] Não existe problema conhecido que impeça iniciar, jogar, vencer/perder e reiniciar.
 
-### E11 - Conferência e entrega oficial
 
-**Meta interna:** concluir até **20h de 23/11**. O prazo do professor é **23h59**.
+### E11 — Conferência e envio
 
-1. Conferir que a versão final está enviada ao repositório público e que o GitHub Pages terminou de publicar a exportação correspondente.
-2. Testar uma última vez o início do jogo pela URL e os links/imagens do README em janela anônima.
-3. Verificar a lista R01–R12 e o checklist final da seção 13.
-4. Compartilhar o link do repositório pelo canal combinado com o professor. Registrar confirmação/protocolo ou evidência de envio, conforme o canal permitir.
-5. Anotar a data de apresentação específica do grupo, computador que será usado e onde está a cópia local de contingência.
+**Resultado adotado:** Conferir fonte e exportação final, abrir a URL sem login, registrar envio pelo canal combinado, confirmar a data do grupo e guardar cópia local. Envio e apresentação não foram confirmados nesta revisão.
 
-Depois da entrega, evitar mudanças de funcionalidade na versão apresentada sem repetir os testes afetados.
+**Situação:** aguarda confirmação de conclusão pela equipe.
 
-## 9. Como cada parte demonstra o conteúdo das aulas
 
-Esta tabela orienta a implementação e a apresentação. As equivalências são adaptações dos conceitos de JS/Canvas para GDevelop, não uma afirmação de que o professor exigiu reescrever as classes das aulas.
+## 9. Relação com os conteúdos das aulas
+
+As equivalências abaixo ligam os conceitos estudados à implementação no GDevelop. Não implicam reescrever o jogo em JS/Canvas nem apresentar uma funcionalidade descartada como concluída.
 
 | Material/aula | Conceito estudado | Aplicação no jogo | Entrega/evidência |
 | --- | --- | --- | --- |
@@ -567,16 +324,14 @@ Esta tabela orienta a implementação e a apresentação. As equivalências são
 | Aula25–26 | Colisões e resposta ao contato | Plataformas, acerto de tiros, dano e coleta | E01/E02: máscaras e eventos |
 | Aula27–28 | Ator principal e arquitetura de pausa | Suspender entrada, tempo, sistemas e manter UI de retorno | E03: teste de pausa completa |
 | Aula29–30 | Animação de entidades e explosões | Quadros de explosão, exclusão após fim e efeitos de dano | E08: sequência e limpeza |
-| Aula31–32 | Vidas extras e fim de jogo | Fim de jogo implementado; reserva de tentativas e reposicionamento descartados | Decisão de escopo na seção 1.3; não alegar implementação de vida extra |
+| Aula31–32 | Vidas extras e fim de jogo | Fim de jogo implementado; reserva de tentativas e reposicionamento descartados | Proposta descartada; fim de jogo preservado (seção 5) |
 | Aula33–34 | Música, efeitos e controle de reprodução | Trilha, sons pontuais, volume, pausa e reinício | E08: áudio em navegador |
 
-**Atenção à animação:** mover, girar ou deformar uma única imagem com Tween não demonstra, por si só, uma animação por spritesheet. Manter pelo menos uma sequência de quadros distintos para explicar esse conteúdo.
+As animações por quadros estão integradas; Tween é complementar. Vida e curas não equivalem a uma reserva de tentativas: a vida extra foi descartada.
 
-**Atenção às vidas:** a barra de energia não é o mesmo que a quantidade de tentativas. A proposta de vida extra foi descartada. Melhorias de vida e curas entre ondas não demonstram a mecânica de reviver; não apresentá-las como equivalentes.
+## 10. Testes manuais
 
-## 10. Testes manuais que devem acompanhar as entregas
-
-Usar esta lista no editor e repetir os cenários relevantes na versão web. Registrar falha com passos, resultado esperado, resultado observado e responsável.
+Usar os IDs abaixo ao registrar problemas ou conferir alterações. Os aceites das etapas estão na seção 8; esta tabela define os procedimentos, sem inventar uma execução individual de cada teste. Repetir os cenários afetados no editor e na exportação final.
 
 | ID | Procedimento | Resultado esperado |
 | --- | --- | --- |
@@ -601,108 +356,62 @@ Usar esta lista no editor e repetir os cenários relevantes na versão web. Regi
 | T19 | Abrir a URL pública em Chrome e outro navegador disponível | Menu, recursos, áudio após interação e controles funcionando |
 | T20 | Baixar fonte em pasta nova e seguir o README | Projeto oficial abre e executa sem dependências locais ocultas |
 
-Modelo de registro de problema:
+Para registrar uma falha, informar: ID, versão, responsável, passos, resultado esperado, resultado observado, impacto e teste após a correção. T02 e T14 não se aplicam; T13 confere derrota sem reviver. Refinamentos adicionais do Saltador não invalidam automaticamente os critérios já aprovados.
 
-```text
-ID: BUG-___
-Entrega / versão:
-Responsável:
-Como reproduzir:
-Resultado esperado:
-O que aconteceu:
-Impacto: impede jogar / prejudica mecânica / apenas visual
-Correção e teste realizado:
-```
+## 11. Preparação da versão final
 
-## 11. O que fazer se o cronograma atrasar
+1. Concluir a navegação dos créditos e corrigir apenas problemas que afetem a entrega. Evitar ampliar o escopo.
+2. Conferir os caminhos, a origem dos recursos e as referências entre README, GDD, FASEAMENTO e CREDITOS.
+3. Revisar os atalhos de teste antes de exportar a versão que será entregue.
+4. Gerar HTML5 em `docs/`, preservando Robot.json e os recursos editáveis. A exportação deve corresponder ao fonte integrado.
+5. Conferir os fluxos alterados e confirmar que a URL oferece a versão final. A cópia limpa e a publicação já tiveram testes relatados; verificar novamente se novas alterações afetarem esses resultados.
+6. Identificar a versão final e guardar cópia do fonte e da exportação para contingência na apresentação.
+7. Ensaiar e registrar o envio conforme a seção 13. Sem confirmação, não marcar entrega acadêmica como concluída.
 
-O escopo do GDD é ambicioso para uma equipe iniciante. Primeiro simplificar a forma de implementar; qualquer retirada de uma mecânica do mínimo deve ser uma decisão explícita do grupo e aparecer no GDD.
+Se surgir um problema perto do prazo, priorizar início do jogo, combate, progressão, vitória/derrota, reinício, carregamento e publicação. Não adicionar funcionalidades secundárias para substituir a validação do que será apresentado.
 
-1. **Cortar extras:** parry, novas arenas, recorde persistente, melhorias adicionais e decoração animada.
-2. **Simplificar acabamento:** imagens estáticas com efeitos leves, menos partículas/filtros e interface simples, preservando leitura e uma animação por quadros.
-3. **Simplificar chefão e arena:** dois ataques claros, poucos pontos de plataforma, uma esteira e um andaime bem testados; óleo com um único trecho de subida.
-4. **Reduzir quantidade simultânea:** menos inimigos mais legíveis, preservando os cinco comportamentos e a dificuldade crescente.
-5. **Reavaliar volume de conteúdo:** se ainda não couber, registrar quais compromissos do GDD serão adiados. Proteger partida completa, ferramenta/plataforma exigidas, fonte, documentação, publicação e apresentação.
+## 12. Documentação e evidências disponíveis
 
-Não empurrar testes e publicação para depois das 20h de 23/11 para salvar uma funcionalidade secundária. Se uma mudança desestabilizar a versão principal, voltar à última versão funcional e corrigir em uma branch própria.
+| Material | Situação registrada | Onde consultar |
+| --- | --- | --- |
+| Design do jogo | Atualizado com regras adotadas, descartes e evoluções futuras | [GDD.md](GDD.md) |
+| Descrição e enredo | Nome, ferramenta, missão e objetivo documentados | [README.md](README.md) |
+| Abertura e execução | Instruções para baixar, abrir Robot.json e iniciar a prévia | README |
+| Funcionamento | Controles, combate, inimigos, ondas, chefe, cenário, progressão e HUD descritos | README |
+| Créditos | Quatro integrantes, contribuições e origem dos recursos reunidos | [CREDITOS.md](CREDITOS.md) |
+| Capturas | Oito imagens reais organizadas e inseridas | `midia/capturas/` e README |
+| Vídeos | Duas gravações completas, até vitória e derrota, com links no README | `midia/videos/` e README |
+| Conceitos e originais | Artes, spritesheets e prompts preservados | [Catálogo visual](imagens/README.md) |
+| Versão do editor e URL | Ainda precisam constar no README | Conferência de fechamento |
 
-## 12. Como pedir ajuda durante a implementação
-
-Os códigos de entrega e os nomes combinados facilitam continuar este plano na conversa. Exemplo: “Estamos na E02, passo 3. O tiro sai, mas não respeita o intervalo”.
-
-Ao pedir ajuda, informar:
-
-1. Entrega e passo em que estão.
-2. Versão do GDevelop e nome da cena/objeto.
-3. O que deveria acontecer e o que está acontecendo.
-4. Quais eventos/variáveis já criaram e, quando útil, uma captura do editor de eventos.
-
-Para uma tarefa nova, podem pedir: **“Me guie pela E01, passo 3, explicando onde clicar e o que cada configuração faz.”** Este documento é o mapa das entregas; a orientação de cliques pode ser feita por tarefa, conforme vocês avançarem.
+Os créditos individuais ficam no documento de créditos. Este planejamento acompanha tarefas e resultados, sem repetir uma lista detalhada de autoria ou lembretes de conversa.
 
 ## 13. Controle de andamento e checklist final
 
-Revisão de 20/11/2026 baseada no projeto local e nos testes e conclusões informados pela equipe. Os testes de aceite de E00 a E09 foram marcados como concluídos pelo responsável nesta revisão; essas marcações são registros dos testes relatados, não uma nova execução automática. Na E10, preservar os itens individuais: o ensaio ainda está pendente. Itens não aplicáveis ou descartados não contam como testes aprovados.
+**Implementação:** concluída no escopo adotado. **Testes das etapas:** aceites preservados na seção 8. **Entrega acadêmica:** em fechamento; os itens de envio, ensaio e versão final dependem de confirmação.
 
-| Entrega | Situação na revisão | Evidência e pendências |
-| --- | --- | --- |
-| E00 | Concluída com adaptações | Projeto oficial em `prototipo/Robot.json`, arquivo único, responsáveis identificados e critérios de conclusão confirmados no checklist |
-| E01 | Concluída conforme teste informado | Movimento, plataformas, limites, menu e exportação básica confirmados no teste de aceite |
-| E02 | Concluída conforme teste informado | Tiro, mira com câmera deslocada, vida independente dos inimigos, recompensas e remoção de projéteis confirmados |
-| E03 | Concluída conforme teste informado | XP, cartas, pausa, retorno e reinício sem herdar melhorias confirmados |
-| E04 | Concluída com redução de escopo | Dash, pausa durante dash, câmera e parallax confirmados. Pulo duplo descartado; T02 não aplicável |
-| E05 | Concluída com adaptações | Cinco tipos, recargas independentes, tiros atravessando plataformas, limites e recompensas confirmados. Refinamentos do Saltador podem continuar sem reabrir os critérios já aprovados |
-| E06 | Concluída com redução de escopo conforme testes informados | Esteiras, andaimes, Pesado e melhorias confirmados. Vida extra descartada e evolução visual descontinuada; testes específicos não aplicáveis |
-| E07 | Concluída conforme teste informado | Óleo, quatro habilidades do chefe, vitória e exclusão mútua de derrota/vitória confirmados |
-| E08 | Teste de aceite confirmado; documentação ainda em fechamento | Carregamento, animações, câmera, áudio e fluxo web confirmados. Créditos das frentes continuam sendo completados; opção de desligar áudio não localizada |
-| E09 | Concluída conforme critérios informados | Partidas publicadas até derrota/vitória, ciclo de coleta, controle de objetos e lista de correções confirmados |
-| E10 | Parcial: ensaio pendente | Cobertura do README, cópia limpa, URL pública e fluxo completo marcados como concluídos. Participação dos quatro no ensaio ainda desmarcada |
-| E11 | Pendente de confirmação da equipe | Envio ao professor, apresentação e demais verificações finais sem confirmação nesta revisão |
+### Itens concluídos ou confirmados
 
-### 13.1. O que já foi realizado
+- [x] Quatro integrantes identificados e contribuições documentadas.
+- [x] Jogo de plataforma em GDevelop com começo, desenvolvimento e fim.
+- [x] Fonte editável e recursos locais disponíveis no repositório.
+- [x] README com nome, descrição, enredo, objetivo, ferramenta e instruções de execução.
+- [x] Capturas reais e vídeos demonstrativos inseridos no README.
+- [x] Créditos e uso de IA registrados; aceitação das imagens confirmada com o professor.
+- [x] Testes de jogabilidade, pausa, progressão, vitória, derrota e reinício informados como aprovados nas etapas.
+- [x] Cópia limpa e acesso público informados como testados nos critérios da E10.
 
-- Fluxo menu → introdução → partida → derrota/vitória → reinício ou menu.
-- Pausa com botão Continuar, telas finais ilustradas, pontuação e estatísticas com ícones; ícone de pontuação apenas no topo da partida.
-- Cinco inimigos com comportamentos distintos e animações; dano, recompensas, ondas por cotas e surgimentos acompanhando a câmera.
-- Máquina-mãe com barra de vida e quatro habilidades com efeitos visuais e sons.
-- Arena ampliada, câmera, parallax, plataformas dinâmicas, óleo e tratamento das peças de XP.
-- Progressão por XP, seis melhorias principais e Reparo imediato; recuperação ao concluir as ondas 3 e 4 e vida completa na entrada do chefe.
-- Limpeza de 18 registros sem arquivo, organização dos sons/imagens soltos e revisão de comentários. Arquivos de origem das animações preservados.
-- Revisão das colisões: Pesado ampliado nas laterais; Voador mantido após avaliação.
+### Itens a concluir ou confirmar
 
-### 13.2. Pendências e confirmações antes da entrega
+- [ ] Botão Créditos com destino implementado e testado.
+- [ ] Versão do GDevelop e endereço jogável incluídos no README.
+- [ ] Fonte e exportação final correspondentes, com atalhos de teste revisados.
+- [ ] Conferência final dos fluxos afetados pelas últimas correções.
+- [ ] Ensaio com os quatro integrantes e data específica de apresentação confirmados.
+- [ ] Cópia local de contingência e versão final identificadas.
+- [ ] Link enviado ao professor pelo canal combinado até 23/11/2026, às 23h59, com confirmação registrada.
 
-1. **Movimento (E04):** testar salto comum, dash e pouso nas plataformas. Pulo duplo descartado e registrado no GDD; T02 não se aplica.
-2. **Saltador:** repetir os percursos nos layouts atuais, incluindo esteiras e plataformas intermediárias. O refinamento relatado continua em aberto.
-3. **Atalhos de teste:** revisar F3/F4/F5/F8, desativando ou protegendo o acesso na versão final.
-4. **Áudio:** confirmar a necessidade da opção de ativar/desativar prevista na E08; não localizada nesta revisão. Conferir todos os efeitos e pausa/retomada na exportação web.
-5. **Créditos:** centralizar contribuições da equipe, origem das artes, sons, recursos reutilizados e respectivas licenças em [CREDITOS.md](CREDITOS.md). Cada integrante deve completar e revisar os registros da sua frente. O botão de créditos do menu ainda está desativado; combinar se haverá uma tela de créditos e seu redirecionamento. A tela pode ser opcional, mas a documentação dos créditos no repositório precisa ser concluída.
-6. **README:** completar quatro integrantes, versão do GDevelop, controles, instalação/abertura do `Robot.json`, link jogável e capturas reais; atualizar descrições antigas das telas e caminhos reorganizados.
-7. **Validação final:** executar T01–T20 com T02 e T14 não aplicáveis e T13 revisado, incluindo reinícios, vitória com perigos ativos, pausa, câmera, animações, desempenho e navegador alternativo. Não marcar aprovação apenas pela presença dos eventos.
-8. **Fonte e publicação:** testar cópia limpa fora da pasta habitual, gerar exportação atualizada em `docs/`, confirmar acesso público e versão correspondente ao fonte. A presença de `docs/index.html` não confirma o estado do site.
-9. **Entrega:** identificar versão final, ensaiar com os quatro, guardar cópia local e registrar envio ao professor. Responsáveis e confirmações ficam com a equipe.
-
-### 13.3. Ideias descartadas nesta versão
-
-**Evolução visual do robô: descontinuada.** Manter aparência única independentemente do nível. As melhorias continuam afetando atributos; conceitos de outros estágios são preservados sem integração prevista. T14 não aplicável.
-
-**Pulo duplo (E04): descartado.** Preservar salto comum e dash. Não implementar segundo salto nem tratar T02 como pendência.
-
-**Vida extra (E06): descartada em 20/11/2026.** Não implementar reserva, retorno seguro ou ressurreição nesta versão. Manter a derrota ao zerar a vida e as formas atuais de cura. A decisão não deve permanecer como tarefa pendente nem ser marcada como funcionalidade implementada.
-
-Checklist da entrega acadêmica:
-
-- [ ] Quatro integrantes identificados e contribuições explicáveis.
-- [ ] Jogo de plataforma feito em GDevelop, com começo, desenvolvimento e fim.
-- [ ] Repositório público com fonte completo e todos os recursos necessários.
-- [ ] README com nome, enredo, objetivo, ferramenta e versão.
-- [ ] Instruções verificadas para jogar e para abrir o projeto editável.
-- [ ] Capturas de tela ou GIFs reais da implementação no README.
-- [ ] Link jogável funcionando ou versão executável apropriada.
-- [ ] Créditos, licenças e uso de IA registrados.
-- [ ] Testes de pausa, progressão, vitória, derrota e reinício aprovados.
-- [ ] Cópia limpa do fonte e URL pública testadas por outro integrante.
-- [ ] Link do repositório compartilhado com o professor até 23/11/2026, às 23h59.
-- [ ] Apresentação ensaiada; data do grupo e cópia local confirmadas.
+Esses itens são os pontos de fechamento; propostas descartadas não voltam à lista de pendências. As apresentações da disciplina estão previstas para 24 e 25/11/2026. A equipe deve confirmar qual data foi atribuída ao grupo.
 
 ## 14. Fontes e decisões de referência
 
