@@ -9869,6 +9869,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 36,
+          "layer": "HUD",
+          "name": "IconePontuacao",
+          "persistentUuid": "f19d2758-1d09-441e-a47e-361c5a413beb",
+          "width": 36,
+          "x": 725,
+          "y": 20,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [],
+          "keepRatio": true
         }
       ],
       "objects": [
@@ -20071,6 +20088,48 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "imagens/interface/hud/nivel-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconePontuacao",
+          "persistentUuid": "b5815f54-21f7-402d-91ac-d9a264306c23",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mira-heroi.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42347,7 +42406,7 @@
                   "parameters": [
                     "TextoPontuacao",
                     "=",
-                    "CameraCenterX(\"HUD\") - 185 + 270"
+                    "CameraCenterX(\"HUD\") + 125"
                   ]
                 },
                 {
@@ -42378,6 +42437,16 @@
                     "TextoPontuacao",
                     "=",
                     "\"Pontos \" + ToString(Variable(Pontuacao))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconePontuacao",
+                    "=",
+                    "CameraCenterX(\"HUD\") + 85"
                   ]
                 }
               ]
