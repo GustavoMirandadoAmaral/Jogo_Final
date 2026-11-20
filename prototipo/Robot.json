@@ -3002,6 +3002,20 @@
               "name": "Atirador"
             }
           ]
+        },
+        {
+          "name": "IndicadorVidaChefao",
+          "objects": [
+            {
+              "name": "MolduraVidaChefao"
+            },
+            {
+              "name": "BarraVidaChefao"
+            },
+            {
+              "name": "TextoChefao"
+            }
+          ]
         }
       ],
       "variables": [
@@ -4468,13 +4482,13 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "HUD",
+          "layer": "",
           "name": "TextoChefao",
           "persistentUuid": "a639225b-1ec8-4453-9f67-f23b9ccbe491",
           "width": 0,
-          "x": 850,
-          "y": 20,
-          "zOrder": 20,
+          "x": 2240,
+          "y": 236,
+          "zOrder": 192,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6761,6 +6775,38 @@
           "x": 725,
           "y": 25,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "width": 328,
+          "keepRatio": false,
+          "layer": "",
+          "name": "MolduraVidaChefao",
+          "persistentUuid": "141fa109-917e-4865-bac4-0a9d73171ca0",
+          "x": 2166,
+          "y": 261,
+          "zOrder": 190,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 18,
+          "width": 320,
+          "keepRatio": false,
+          "layer": "",
+          "name": "BarraVidaChefao",
+          "persistentUuid": "5778f4e1-7f52-4649-b27b-21b4c9ddd48b",
+          "x": 2170,
+          "y": 265,
+          "zOrder": 191,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12058,21 +12104,21 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "DisparoAtirador",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "prototipo/imagens/tiro_inimigo.png",
+                      "image": "prototipo/imagens/chefao/projetil-rajada.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 20
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -12083,20 +12129,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 15,
+                            "y": 8
                           },
                           {
-                            "x": 12,
-                            "y": 0
+                            "x": 39,
+                            "y": 8
                           },
                           {
-                            "x": 12,
-                            "y": 12
+                            "x": 39,
+                            "y": 32
                           },
                           {
-                            "x": 0,
-                            "y": 12
+                            "x": 15,
+                            "y": 32
                           }
                         ]
                       ]
@@ -13007,7 +13053,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "TextoChefao",
           "persistentUuid": "d7820da8-15ad-48f8-a2c2-c1cda588a410",
@@ -13017,36 +13063,36 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Maquina-mãe: 30/30",
+          "string": "MÁQUINA-MÃE",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 18,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "r": 246,
+            "g": 233,
+            "b": 210
           },
           "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
             "italic": false,
-            "outlineColor": "7;0;0",
+            "outlineColor": "12;19;23",
             "outlineThickness": 2,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
-            "shadowColor": "247;1;1",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
             "smoothed": true,
             "underlined": false,
-            "text": "Maquina-mãe: 30/30",
+            "text": "MÁQUINA-MÃE",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 18,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "246;233;210"
           }
         },
         {
@@ -15057,6 +15103,90 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MolduraVidaChefao",
+          "persistentUuid": "95117b19-fb90-46e3-b98f-ad479f840939",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/barra-moldura.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BarraVidaChefao",
+          "persistentUuid": "7f9578e9-b3df-471a-9bba-f99f857ca458",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/barra-vida.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -15250,6 +15380,12 @@
           },
           {
             "objectName": "TextoPontuacao"
+          },
+          {
+            "objectName": "MolduraVidaChefao"
+          },
+          {
+            "objectName": "BarraVidaChefao"
           }
         ]
       },
@@ -28191,6 +28327,38 @@
                     },
                     {
                       "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "Resizable",
+                        "=",
+                        "32"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "Resizable",
+                        "=",
+                        "20"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "=",
+                        "AngleBetweenPositions(TiroInimigo.CenterX(),TiroInimigo.CenterY(),Robo.CenterX(),Robo.CenterY())-180"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetNumberObjectVariable"
                       },
                       "parameters": [
@@ -33453,33 +33621,6 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "ChefaoAtivo",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "TextoChefao",
-                    "=",
-                    "\"Máquina-mãe: \" + ToString(ceil(MaquinaMae.Vida)) + \"/\" + ToString(MaquinaMae.VidaMaxima)"
-                  ]
-                }
-              ]
-            },
-            {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Tiro",
               "conditions": [
@@ -37292,6 +37433,178 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Máquina-mãe: barra de vida",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "parameters": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "MaquinaMae",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "IndicadorVidaChefao",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "MolduraVidaChefao",
+                    "=",
+                    "MaquinaMae.CenterX()-MolduraVidaChefao.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "MolduraVidaChefao",
+                    "=",
+                    "MaquinaMae.Y()-38"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BarraVidaChefao",
+                    "=",
+                    "MolduraVidaChefao.X()+4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BarraVidaChefao",
+                    "=",
+                    "MolduraVidaChefao.Y()+4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BarraVidaChefao",
+                    "Resizable",
+                    "=",
+                    "320*clamp(MaquinaMae.Vida/max(1,MaquinaMae.VidaMaxima),0,1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoChefao",
+                    "=",
+                    "MaquinaMae.CenterX()-TextoChefao.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TextoChefao",
+                    "=",
+                    "MolduraVidaChefao.Y()-26"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ChefaoAtivo",
+                    "!=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IndicadorVidaChefao"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "MaquinaMae",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IndicadorVidaChefao"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
