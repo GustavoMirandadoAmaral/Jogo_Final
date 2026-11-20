@@ -1705,7 +1705,7 @@
       "r": 10,
       "renderer3DWorldScale": 100,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": false,
+      "stopSoundsOnStartup": true,
       "title": "Oficina em Pane",
       "v": 19,
       "uiSettings": {
@@ -2164,16 +2164,6 @@
               },
               "parameters": [
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "SoundPlaying"
-              },
-              "parameters": [
-                "",
-                "1"
               ]
             }
           ],
@@ -20860,7 +20850,7 @@
                   },
                   "parameters": [
                     "",
-                    "9"
+                    "1"
                   ]
                 }
               ]
@@ -20892,7 +20882,7 @@
                   },
                   "parameters": [
                     "",
-                    "9"
+                    "1"
                   ]
                 },
                 {
@@ -20901,7 +20891,7 @@
                   },
                   "parameters": [
                     "",
-                    "9",
+                    "1",
                     "=",
                     "20"
                   ]
@@ -21793,7 +21783,7 @@
                   },
                   "parameters": [
                     "",
-                    "9"
+                    "1"
                   ]
                 },
                 {
@@ -21802,7 +21792,7 @@
                   },
                   "parameters": [
                     "",
-                    "9",
+                    "1",
                     "=",
                     "10"
                   ]
@@ -40062,7 +40052,7 @@
                       "parameters": [
                         "",
                         "sons/maquina_mae_prensa.wav",
-                        "11",
+                        "15",
                         "",
                         "32",
                         "1"
@@ -40812,7 +40802,7 @@
                   "parameters": [
                     "",
                     "sons/maquina_mae_vapor.wav",
-                    "12",
+                    "16",
                     "",
                     "27",
                     "1"

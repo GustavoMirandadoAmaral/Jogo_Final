@@ -112,9 +112,9 @@ Para evitar que efeitos simultâneos cortem uns aos outros durante ondas intensa
 | `5` | Explosão do inimigo Voador (`sons/explosao_voador_oficina_em_pane.wav`)|
 | `6` | Abate de inimigos (diferenciado entre inimigos leves e pesados) |
 | `7` | Disparo da arma do robô (`tiro.m4a`) |
-| `10` | Ataque de disparo da máquina-mãe (`maquina_mae_disparo.wav`) |
-| `11` | Ataque de vapór da máquina-mãe (`maquina_mae_vapor.wav`) |
-| `12` | Ataque de prensa da máquina-mãe (`maquina_mae_prensa.wav`) |
+| `10` a `14` | Cinco disparos da rajada da Máquina-mãe, um canal por disparo (`maquina_mae_disparo.wav`) |
+| `15` | Impacto da prensa da Máquina-mãe (`maquina_mae_prensa.wav`) |
+| `16` | Vapor da Máquina-mãe (`maquina_mae_vapor.wav`) |
 
 ## Inimigos, ondas e Máquina-mãe
 
