@@ -88,16 +88,16 @@ Os efeitos sonoros foram gerados via IA com **ChatGPT**, enquanto as trilhas mus
 | Recurso no jogo | Arquivo(s) no projeto | Canal | Origem e licença |
 | --- | --- | --- | --- |
 | Trilha sonora da cena `Arena` (em loop) | `musica_oficina.mp3` | `1` (cena `Arena`) | Gerada por IA via **Gemini** (uso livre no projeto acadêmico) |
-| Trilha sonora da cena `MenuInicial` (em loop) | Música do menu inicial | `1` (cena `MenuInicial`) | Gerada por IA via **Gemini** (uso livre no projeto acadêmico) |
-| Impacto metálico de dano sofrido pelo robô | `dano_robo_impacto_metalico.wav`[cite: 22] | `2` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
-| Dash do robô | `dash_robo.m4a`[cite: 23] | `3` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
-| Peça de XP coletada pelo robô | `coleta_xp_chime.wav`[cite: 21] | `4` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
-| Explosão do inimigo Voador | `sons/explosao_voador_oficina_em_pane.wav`[cite: 25] | `5` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
-| Abate de inimigos leves e pesados | `abate_inimigo_leve.wav`[cite: 19], `abate_inimigo_pesado.wav`[cite: 20] | `6` | Gerados por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Trilha sonora da cena `MenuInicial` (em loop) | `musica_menu.mp3` | `1` (cena `MenuInicial`) | Gerada por IA via **Gemini** (uso livre no projeto acadêmico) |
+| Impacto metálico de dano sofrido pelo robô | `dano_robo_impacto_metalico.wav` | `2` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Dash do robô | `dash_robo.m4a` | `3` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Peça de XP coletada pelo robô | `coleta_xp_chime.wav` | `4` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Explosão do inimigo Voador | `sons/explosao_voador_oficina_em_pane.wav` | `5` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Abate de inimigos leves e pesados | `abate_inimigo_leve.wav`, `abate_inimigo_pesado.wav` | `6` | Gerados por IA via **ChatGPT** (uso livre no projeto acadêmico) |
 | Disparo da arma do robô | `tiro.m4a` | `7` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
-| Ataque de disparo da Máquina-mãe | `maquina_mae_disparo.wav`[cite: 26] | `10` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Ataque de disparo da Máquina-mãe | `maquina_mae_disparo.wav` | `10` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
 | Ataque de vapor da Máquina-mãe | `maquina_mae_vapor.wav` | `11` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
-| Ataque de prensa da Máquina-mãe | `maquina_mae_prensa.wav`[cite: 27] | `12` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Ataque de prensa da Máquina-mãe | `maquina_mae_prensa.wav` | `12` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
 
 ### Imagens
 
