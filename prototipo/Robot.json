@@ -1624,17 +1624,17 @@
       },
       {
         "file": "imagens/menu/botao-creditos-v1.png",
-        "name": "imagens/menu/botao-creditos-v1.png",
         "kind": "image",
         "metadata": "",
+        "name": "imagens/menu/botao-creditos-v1.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "file": "imagens/menu/titulo-v1.png",
-        "name": "imagens/menu/titulo-v1.png",
         "kind": "image",
         "metadata": "",
+        "name": "imagens/menu/titulo-v1.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1731,6 +1731,7 @@
       "variables": [
         {
           "name": "EscalaMenu",
+          "persistentUuid": "e143ddb3-b30d-4dfd-b039-9ba439e0344c",
           "type": "number",
           "value": 1
         }
@@ -1740,11 +1741,11 @@
           "angle": 0,
           "customSize": true,
           "height": 720,
-          "width": 1280,
           "keepRatio": true,
           "layer": "",
           "name": "FundoMenu",
           "persistentUuid": "df96cb9d-751b-4fb1-abfd-ddcbd587e549",
+          "width": 1280,
           "x": 0,
           "y": 0,
           "zOrder": -20,
@@ -1756,11 +1757,11 @@
           "angle": 0,
           "customSize": true,
           "height": 200,
-          "width": 200,
           "keepRatio": true,
           "layer": "",
           "name": "LuzMenu",
           "persistentUuid": "83d216ed-3a1b-4ed9-84ca-00045046a626",
+          "width": 200,
           "x": 980,
           "y": -14,
           "zOrder": -10,
@@ -1772,11 +1773,11 @@
           "angle": 0,
           "customSize": true,
           "height": 186,
-          "width": 470,
           "keepRatio": true,
           "layer": "",
           "name": "Titulo",
           "persistentUuid": "f8a317c1-4b8b-4040-a8c2-a83dc3ae8567",
+          "width": 470,
           "x": 68,
           "y": 112,
           "zOrder": 10,
@@ -1788,11 +1789,11 @@
           "angle": 0,
           "customSize": true,
           "height": 110,
-          "width": 350,
           "keepRatio": true,
           "layer": "",
           "name": "BotaoIniciar",
           "persistentUuid": "c43dc668-9f7f-477d-b18b-587c21b25c01",
+          "width": 350,
           "x": 96,
           "y": 350,
           "zOrder": 10,
@@ -1804,11 +1805,11 @@
           "angle": 0,
           "customSize": true,
           "height": 110,
-          "width": 350,
           "keepRatio": true,
           "layer": "",
           "name": "BotaoCreditos",
           "persistentUuid": "413df053-a692-4bee-af3f-1abe3076053f",
+          "width": 350,
           "x": 96,
           "y": 466,
           "zOrder": 10,
@@ -1820,11 +1821,11 @@
           "angle": 0,
           "customSize": true,
           "height": 110,
-          "width": 350,
           "keepRatio": true,
           "layer": "",
           "name": "BotaoSair",
           "persistentUuid": "57739dae-e0c9-41a6-b0ae-8737c1fd51fc",
+          "width": 350,
           "x": 96,
           "y": 582,
           "zOrder": 10,
@@ -1835,10 +1836,12 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "FundoMenu",
-          "type": "Sprite",
           "persistentUuid": "d6568a6f-264d-49bd-b29b-1f9a1aeed2a2",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -1875,10 +1878,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LuzMenu",
-          "type": "Sprite",
           "persistentUuid": "558cbb0d-c829-4863-8be0-2e1f27f56744",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -1915,10 +1920,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Titulo",
-          "type": "Sprite",
           "persistentUuid": "6b931a9e-5dd6-4875-a7b4-b31d10971603",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -1955,10 +1962,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BotaoIniciar",
-          "type": "Sprite",
           "persistentUuid": "c4ccb758-895b-49c8-bfe9-4d6b4ddc933a",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -1995,10 +2004,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BotaoCreditos",
-          "type": "Sprite",
           "persistentUuid": "d28b13b1-2f89-4a21-a47f-edee8b14753a",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -2035,10 +2046,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BotaoSair",
-          "type": "Sprite",
           "persistentUuid": "1a3f2c91-6d75-405b-b8f3-3cdad182f546",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -2133,14 +2146,14 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Menu adaptado a janela",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Menu adaptado a janela",
           "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2436,14 +2449,14 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Realce dos botoes",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Realce dos botoes",
           "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2548,14 +2561,14 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Navegacao do menu",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Navegacao do menu",
           "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2634,7 +2647,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
-          "comment": "O botao Creditos fica desativado ate a equipe definir o conteudo e a cena de creditos.",
           "color": {
             "b": 109,
             "g": 230,
@@ -2642,7 +2654,8 @@
             "textB": 0,
             "textG": 0,
             "textR": 0
-          }
+          },
+          "comment": "O botao Creditos fica desativado ate a equipe definir o conteudo e a cena de creditos."
         }
       ],
       "layers": [
@@ -2787,11 +2800,11 @@
           "angle": 0,
           "customSize": true,
           "height": 720,
-          "width": 1280,
           "keepRatio": true,
           "layer": "",
           "name": "FundoIntroducao",
           "persistentUuid": "2143978a-e675-4461-abfa-226d42fdc97e",
+          "width": 1280,
           "x": 0,
           "y": 0,
           "zOrder": -20,
@@ -2803,11 +2816,11 @@
           "angle": 0,
           "customSize": true,
           "height": 720,
-          "width": 1280,
           "keepRatio": true,
           "layer": "",
           "name": "SombraIntroducao",
           "persistentUuid": "1615acd3-ba25-45ca-a42b-17a4ce567eaf",
+          "width": 1280,
           "x": 0,
           "y": 0,
           "zOrder": -10,
@@ -2819,11 +2832,11 @@
           "angle": 0,
           "customSize": true,
           "height": 139,
-          "width": 350,
           "keepRatio": true,
           "layer": "",
           "name": "LogoIntroducao",
           "persistentUuid": "74f888b7-e0b0-4d72-bf27-53f97590f64b",
+          "width": 350,
           "x": 76,
           "y": 28,
           "zOrder": 10,
@@ -2835,11 +2848,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "TituloHistoria",
           "persistentUuid": "9224b784-396e-4041-ac17-b3bca82f9ac9",
+          "width": 0,
           "x": 80,
           "y": 189,
           "zOrder": 12,
@@ -2851,11 +2864,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Historia",
           "persistentUuid": "278d9416-693d-4248-a5d2-acb5e4dd6609",
+          "width": 0,
           "x": 80,
           "y": 235,
           "zOrder": 12,
@@ -2867,11 +2880,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "TituloComandos",
           "persistentUuid": "eb202d90-aaad-4ada-a5f8-77c88b085867",
+          "width": 0,
           "x": 80,
           "y": 336,
           "zOrder": 12,
@@ -2883,11 +2896,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Tecla0",
           "persistentUuid": "4f5c7ee9-e795-4a2c-978f-a9a54651d2ba",
+          "width": 0,
           "x": 80,
           "y": 374,
           "zOrder": 12,
@@ -2899,11 +2912,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Acao0",
           "persistentUuid": "b40fffee-ad1a-4e98-86b6-9b51033c9b26",
+          "width": 0,
           "x": 310,
           "y": 371,
           "zOrder": 12,
@@ -2915,11 +2928,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Tecla1",
           "persistentUuid": "8b2c425f-19d6-48b7-89f0-b79af4b7f18e",
+          "width": 0,
           "x": 80,
           "y": 411,
           "zOrder": 12,
@@ -2931,11 +2944,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Acao1",
           "persistentUuid": "6e50eafd-de33-4f43-836d-a0f48cc86f5d",
+          "width": 0,
           "x": 310,
           "y": 408,
           "zOrder": 12,
@@ -2947,11 +2960,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Tecla2",
           "persistentUuid": "4317cf96-2a0b-4562-acaf-e2ffc92427c6",
+          "width": 0,
           "x": 80,
           "y": 448,
           "zOrder": 12,
@@ -2963,11 +2976,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Acao2",
           "persistentUuid": "b628648d-b294-4fa2-9c5d-8f8b60213b05",
+          "width": 0,
           "x": 310,
           "y": 445,
           "zOrder": 12,
@@ -2979,11 +2992,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Tecla3",
           "persistentUuid": "5c32976e-b0a8-42c9-a73e-15f9e84fe8e7",
+          "width": 0,
           "x": 80,
           "y": 485,
           "zOrder": 12,
@@ -2995,11 +3008,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Acao3",
           "persistentUuid": "1f9ed7d1-e797-4de9-a051-7e6ce868cbfb",
+          "width": 0,
           "x": 310,
           "y": 482,
           "zOrder": 12,
@@ -3011,11 +3024,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Tecla4",
           "persistentUuid": "b29cee24-0b31-4097-a38e-bd7bd1b654fa",
+          "width": 0,
           "x": 80,
           "y": 522,
           "zOrder": 12,
@@ -3027,11 +3040,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Acao4",
           "persistentUuid": "e12fda34-3f75-4f0f-8efa-9fa09c874b8c",
+          "width": 0,
           "x": 310,
           "y": 519,
           "zOrder": 12,
@@ -3043,11 +3056,11 @@
           "angle": 0,
           "customSize": true,
           "height": 84,
-          "width": 280,
           "keepRatio": true,
           "layer": "",
           "name": "BotaoJogar",
           "persistentUuid": "7cc1d638-bd63-4830-8056-a6c944eb808c",
+          "width": 280,
           "x": 80,
           "y": 581,
           "zOrder": 10,
@@ -3059,11 +3072,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "AvisoEnter",
           "persistentUuid": "4426253a-c531-4e16-add7-dfef51d5a4ad",
+          "width": 0,
           "x": 382,
           "y": 612,
           "zOrder": 12,
@@ -3075,11 +3088,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "width": 0,
           "keepRatio": true,
           "layer": "",
           "name": "VoltarMenu",
           "persistentUuid": "f76170ea-5e8a-4356-9b21-2167c03eec27",
+          "width": 0,
           "x": 80,
           "y": 682,
           "zOrder": 12,
@@ -3090,10 +3103,12 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "FundoIntroducao",
-          "type": "Sprite",
           "persistentUuid": "03a15425-0cc1-4fae-813f-7515593f9e44",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -3172,10 +3187,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LogoIntroducao",
-          "type": "Sprite",
           "persistentUuid": "30c154a2-4277-4345-8917-595b2ce534a2",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -3228,9 +3245,9 @@
           "textAlignment": "left",
           "characterSize": 27,
           "color": {
-            "r": 244,
+            "b": 111,
             "g": 190,
-            "b": 111
+            "r": 244
           },
           "content": {
             "bold": true,
@@ -3272,9 +3289,9 @@
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": false,
@@ -3316,9 +3333,9 @@
           "textAlignment": "left",
           "characterSize": 16,
           "color": {
-            "r": 244,
+            "b": 111,
             "g": 190,
-            "b": 111
+            "r": 244
           },
           "content": {
             "bold": true,
@@ -3360,9 +3377,9 @@
           "textAlignment": "left",
           "characterSize": 16,
           "color": {
-            "r": 244,
+            "b": 111,
             "g": 190,
-            "b": 111
+            "r": 244
           },
           "content": {
             "bold": true,
@@ -3404,9 +3421,9 @@
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": false,
@@ -3448,9 +3465,9 @@
           "textAlignment": "left",
           "characterSize": 16,
           "color": {
-            "r": 244,
+            "b": 111,
             "g": 190,
-            "b": 111
+            "r": 244
           },
           "content": {
             "bold": true,
@@ -3492,9 +3509,9 @@
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": false,
@@ -3536,9 +3553,9 @@
           "textAlignment": "left",
           "characterSize": 16,
           "color": {
-            "r": 244,
+            "b": 111,
             "g": 190,
-            "b": 111
+            "r": 244
           },
           "content": {
             "bold": true,
@@ -3580,9 +3597,9 @@
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": false,
@@ -3624,9 +3641,9 @@
           "textAlignment": "left",
           "characterSize": 16,
           "color": {
-            "r": 244,
+            "b": 111,
             "g": 190,
-            "b": 111
+            "r": 244
           },
           "content": {
             "bold": true,
@@ -3668,9 +3685,9 @@
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": false,
@@ -3712,9 +3729,9 @@
           "textAlignment": "left",
           "characterSize": 16,
           "color": {
-            "r": 244,
+            "b": 111,
             "g": 190,
-            "b": 111
+            "r": 244
           },
           "content": {
             "bold": true,
@@ -3756,9 +3773,9 @@
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": false,
@@ -3784,10 +3801,12 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BotaoJogar",
-          "type": "Sprite",
           "persistentUuid": "99cd66bb-7222-4cce-b352-74ff3900e332",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -3840,9 +3859,9 @@
           "textAlignment": "left",
           "characterSize": 17,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": false,
@@ -3884,9 +3903,9 @@
           "textAlignment": "left",
           "characterSize": 14,
           "color": {
-            "r": 182,
+            "b": 185,
             "g": 185,
-            "b": 185
+            "r": 182
           },
           "content": {
             "bold": false,
@@ -3999,14 +4018,14 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Enquadramento da introducao",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Enquadramento da introducao",
           "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -4657,14 +4676,14 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Botao de iniciar",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Botao de iniciar",
           "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -4732,14 +4751,14 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Entrar no jogo ou voltar",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Entrar no jogo ou voltar",
           "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5961,9 +5980,9 @@
         },
         {
           "name": "EscalaResultado",
+          "persistentUuid": "1596f4c4-1826-422e-bd33-1f2416ccc747",
           "type": "number",
-          "value": 1,
-          "persistentUuid": "1596f4c4-1826-422e-bd33-1f2416ccc747"
+          "value": 1
         }
       ],
       "instances": [
@@ -9002,11 +9021,10 @@
           "angle": 0,
           "customSize": true,
           "height": 26,
-          "width": 328,
-          "keepRatio": false,
           "layer": "",
           "name": "MolduraVidaChefao",
           "persistentUuid": "141fa109-917e-4865-bac4-0a9d73171ca0",
+          "width": 328,
           "x": 2166,
           "y": 261,
           "zOrder": 190,
@@ -9018,11 +9036,10 @@
           "angle": 0,
           "customSize": true,
           "height": 18,
-          "width": 320,
-          "keepRatio": false,
           "layer": "",
           "name": "BarraVidaChefao",
           "persistentUuid": "5778f4e1-7f52-4649-b27b-21b4c9ddd48b",
+          "width": 320,
           "x": 2170,
           "y": 265,
           "zOrder": 191,
@@ -9033,12 +9050,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 300,
           "height": 100,
           "keepRatio": true,
           "layer": "HUD",
           "name": "BotaoContinuar",
           "persistentUuid": "9d26ec3b-81b8-4f58-8a17-e49a7f239040",
+          "width": 300,
           "x": 490,
           "y": 476,
           "zOrder": 105,
@@ -9049,12 +9066,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 1000,
           "height": 580,
           "keepRatio": true,
           "layer": "HUD",
           "name": "PainelDerrota",
           "persistentUuid": "91e6b40d-b1d9-4e59-b52e-f6fcc45b7984",
+          "width": 1000,
           "x": 140,
           "y": 70,
           "zOrder": 104,
@@ -9065,12 +9082,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 286,
           "height": 288,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RoboDerrotadoVisual",
           "persistentUuid": "c04c8063-4e0b-43c7-8d48-8e790ce7d083",
+          "width": 286,
           "x": 238,
           "y": 223,
           "zOrder": 106,
@@ -9081,12 +9098,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 310,
           "height": 100,
           "keepRatio": true,
           "layer": "HUD",
           "name": "BotaoJogarNovamente",
           "persistentUuid": "2921fa3c-db87-4626-93d9-5714a2290146",
+          "width": 310,
           "x": 310,
           "y": 535,
           "zOrder": 108,
@@ -9097,12 +9114,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 310,
           "height": 100,
           "keepRatio": true,
           "layer": "HUD",
           "name": "BotaoMenuResultado",
           "persistentUuid": "868fa1a2-9d66-423a-b32c-d4137ee4635a",
+          "width": 310,
           "x": 660,
           "y": 535,
           "zOrder": 108,
@@ -9113,12 +9130,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "TituloDerrota",
           "persistentUuid": "8e551091-99cd-472e-b23e-8e10155dbe99",
+          "width": 0,
           "x": 640,
           "y": 109,
           "zOrder": 108,
@@ -9129,12 +9146,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "MensagemDerrota",
           "persistentUuid": "d8cc8b94-4047-44c7-a522-b68acbe322e3",
+          "width": 0,
           "x": 640,
           "y": 162,
           "zOrder": 108,
@@ -9145,12 +9162,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloPontosDerrota",
           "persistentUuid": "c3c57c4f-2344-4d77-a4fd-ea5f76a249f7",
+          "width": 0,
           "x": 675,
           "y": 224,
           "zOrder": 108,
@@ -9161,12 +9178,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "PontosDerrota",
           "persistentUuid": "c1895b27-7ab4-4a86-9e64-1cedea7472ff",
+          "width": 0,
           "x": 675,
           "y": 250,
           "zOrder": 108,
@@ -9177,12 +9194,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloAbatesDerrota",
           "persistentUuid": "e51db793-70da-40ee-a85d-f317bfc28dc3",
+          "width": 0,
           "x": 675,
           "y": 338,
           "zOrder": 108,
@@ -9193,12 +9210,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "AbatesDerrota",
           "persistentUuid": "a552f478-90ff-4c4c-a92d-5289287573fc",
+          "width": 0,
           "x": 675,
           "y": 362,
           "zOrder": 108,
@@ -9209,12 +9226,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloOndaDerrota",
           "persistentUuid": "37fe89e4-dccb-4ca7-add4-ab6fb486b569",
+          "width": 0,
           "x": 865,
           "y": 338,
           "zOrder": 108,
@@ -9225,12 +9242,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "OndaDerrota",
           "persistentUuid": "706e4f70-351e-43f0-b502-cda88641d5cb",
+          "width": 0,
           "x": 865,
           "y": 362,
           "zOrder": 108,
@@ -9241,12 +9258,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloTempoDerrota",
           "persistentUuid": "fe01a71e-7cd0-417b-bc67-099e02b3a068",
+          "width": 0,
           "x": 675,
           "y": 421,
           "zOrder": 108,
@@ -9257,12 +9274,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "TempoDerrota",
           "persistentUuid": "32ecd626-48fd-4c86-bb7c-9fc9fd735c52",
+          "width": 0,
           "x": 675,
           "y": 445,
           "zOrder": 108,
@@ -9273,12 +9290,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloNivelDerrota",
           "persistentUuid": "f670bc51-120c-4b37-8440-2166dc7ce0c5",
+          "width": 0,
           "x": 865,
           "y": 421,
           "zOrder": 108,
@@ -9289,12 +9306,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "NivelDerrota",
           "persistentUuid": "97e9224e-e0d7-4489-821b-2682c1e88577",
+          "width": 0,
           "x": 865,
           "y": 445,
           "zOrder": 108,
@@ -9305,12 +9322,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "AtalhosDerrota",
           "persistentUuid": "0321673a-a4d9-4373-b7d9-ea0791a5dbcd",
+          "width": 0,
           "x": 640,
           "y": 665,
           "zOrder": 108,
@@ -9321,12 +9338,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 36,
           "height": 36,
           "keepRatio": true,
           "layer": "HUD",
           "name": "IconeAbatesDerrota",
           "persistentUuid": "97425870-a96c-4d03-a15c-ba9a3cc6723c",
+          "width": 36,
           "x": 675,
           "y": 350,
           "zOrder": 108,
@@ -9337,12 +9354,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 36,
           "height": 36,
           "keepRatio": true,
           "layer": "HUD",
           "name": "IconeOndaDerrota",
           "persistentUuid": "e667f80c-c53b-46c2-9d81-9c003acd422f",
+          "width": 36,
           "x": 865,
           "y": 350,
           "zOrder": 108,
@@ -9353,12 +9370,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 36,
           "height": 36,
           "keepRatio": true,
           "layer": "HUD",
           "name": "IconeTempoDerrota",
           "persistentUuid": "d1d6ce55-3119-4360-a214-253bd661277a",
+          "width": 36,
           "x": 675,
           "y": 433,
           "zOrder": 108,
@@ -9369,12 +9386,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 36,
           "height": 36,
           "keepRatio": true,
           "layer": "HUD",
           "name": "IconeNivelDerrota",
           "persistentUuid": "921a77df-e2e7-418e-a101-e80cdade6c74",
+          "width": 36,
           "x": 865,
           "y": 433,
           "zOrder": 108,
@@ -9385,12 +9402,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 1000,
           "height": 580,
           "keepRatio": true,
           "layer": "HUD",
           "name": "PainelVitoria",
           "persistentUuid": "68bd6ee0-c63b-4901-9b51-9e3f03a9b6af",
+          "width": 1000,
           "x": 140,
           "y": 70,
           "zOrder": 104,
@@ -9401,12 +9418,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 263.195,
-          "height": 288.0,
+          "height": 288,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RoboVitoriosoVisual",
           "persistentUuid": "b2c6c854-d54b-4535-b67f-2307fef42033",
+          "width": 263.195,
           "x": 249.40300000000002,
           "y": 223,
           "zOrder": 106,
@@ -9417,12 +9434,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 310,
           "height": 100,
           "keepRatio": true,
           "layer": "HUD",
           "name": "BotaoRepetirVitoria",
           "persistentUuid": "f9a32c85-54ec-469d-bfa3-dec5e89c52e8",
+          "width": 310,
           "x": 310,
           "y": 535,
           "zOrder": 108,
@@ -9433,12 +9450,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 310,
           "height": 100,
           "keepRatio": true,
           "layer": "HUD",
           "name": "BotaoMenuVitoria",
           "persistentUuid": "396d5ace-4ef3-4334-8952-680c5dc0ad83",
+          "width": 310,
           "x": 660,
           "y": 535,
           "zOrder": 108,
@@ -9449,12 +9466,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "TituloVitoria",
           "persistentUuid": "785ddcfe-aeca-4d4a-bf22-079154c87c38",
+          "width": 0,
           "x": 640,
           "y": 109,
           "zOrder": 108,
@@ -9465,12 +9482,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "MensagemVitoria",
           "persistentUuid": "8e9ac3e2-d8d2-4184-84c6-2d7cb4607400",
+          "width": 0,
           "x": 640,
           "y": 162,
           "zOrder": 108,
@@ -9481,12 +9498,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloPontosVitoria",
           "persistentUuid": "db1b5a88-a899-4a5d-a9ff-53542ce2ca42",
+          "width": 0,
           "x": 675,
           "y": 224,
           "zOrder": 108,
@@ -9497,12 +9514,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "PontosVitoria",
           "persistentUuid": "ea2409b4-005f-4553-87cd-a8d9b1a8654f",
+          "width": 0,
           "x": 675,
           "y": 250,
           "zOrder": 108,
@@ -9513,12 +9530,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloAbatesVitoria",
           "persistentUuid": "ac142b8d-869e-4d4b-aace-944fe5735179",
+          "width": 0,
           "x": 675,
           "y": 338,
           "zOrder": 108,
@@ -9529,12 +9546,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "AbatesVitoria",
           "persistentUuid": "1f029db0-235b-47db-a4c5-3522fe01b4c6",
+          "width": 0,
           "x": 675,
           "y": 362,
           "zOrder": 108,
@@ -9545,12 +9562,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloOndaVitoria",
           "persistentUuid": "ad0a8960-2f0b-49a2-aa47-15c51a1526ae",
+          "width": 0,
           "x": 865,
           "y": 338,
           "zOrder": 108,
@@ -9561,12 +9578,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "OndaVitoria",
           "persistentUuid": "cd78d328-2c52-4ed4-85d9-5b2417daf2e7",
+          "width": 0,
           "x": 865,
           "y": 362,
           "zOrder": 108,
@@ -9577,12 +9594,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloTempoVitoria",
           "persistentUuid": "098252db-141d-4bc6-b7a4-d4e12debc520",
+          "width": 0,
           "x": 675,
           "y": 421,
           "zOrder": 108,
@@ -9593,12 +9610,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "TempoVitoria",
           "persistentUuid": "a43b03d1-5903-40b5-9acd-c86442b5e104",
+          "width": 0,
           "x": 675,
           "y": 445,
           "zOrder": 108,
@@ -9609,12 +9626,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "RotuloNivelVitoria",
           "persistentUuid": "d43fa502-f63d-4d10-aee1-57a97ee6cf88",
+          "width": 0,
           "x": 865,
           "y": 421,
           "zOrder": 108,
@@ -9625,12 +9642,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "NivelVitoria",
           "persistentUuid": "8f952a40-607c-442e-8299-161fe199841c",
+          "width": 0,
           "x": 865,
           "y": 445,
           "zOrder": 108,
@@ -9641,12 +9658,12 @@
         {
           "angle": 0,
           "customSize": false,
-          "width": 0,
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
           "name": "AtalhosVitoria",
           "persistentUuid": "1b20e5ef-30bb-46e2-ba2e-70f79a9ffd07",
+          "width": 0,
           "x": 640,
           "y": 665,
           "zOrder": 108,
@@ -9657,12 +9674,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 36,
           "height": 36,
           "keepRatio": true,
           "layer": "HUD",
           "name": "IconeAbatesVitoria",
           "persistentUuid": "96d5f6e9-8632-4176-9b2d-521db03b9b69",
+          "width": 36,
           "x": 675,
           "y": 350,
           "zOrder": 108,
@@ -9673,12 +9690,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 36,
           "height": 36,
           "keepRatio": true,
           "layer": "HUD",
           "name": "IconeOndaVitoria",
           "persistentUuid": "d321a226-7b2d-439e-8942-d38233d47eda",
+          "width": 36,
           "x": 865,
           "y": 350,
           "zOrder": 108,
@@ -9689,12 +9706,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 36,
           "height": 36,
           "keepRatio": true,
           "layer": "HUD",
           "name": "IconeTempoVitoria",
           "persistentUuid": "0d593052-1c93-4ecd-8a51-95b57c5efaae",
+          "width": 36,
           "x": 675,
           "y": 433,
           "zOrder": 108,
@@ -9705,12 +9722,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "width": 36,
           "height": 36,
           "keepRatio": true,
           "layer": "HUD",
           "name": "IconeNivelVitoria",
           "persistentUuid": "ec660acb-27cd-40bd-b0c5-40e2bc265032",
+          "width": 36,
           "x": 865,
           "y": 433,
           "zOrder": 108,
@@ -9723,6 +9740,7 @@
           "customSize": true,
           "depth": 0,
           "height": 36,
+          "keepRatio": true,
           "layer": "HUD",
           "name": "IconePontuacao",
           "persistentUuid": "f19d2758-1d09-441e-a47e-361c5a413beb",
@@ -9732,8 +9750,7 @@
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": [],
-          "keepRatio": true
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -15992,9 +16009,9 @@
           "textAlignment": "left",
           "characterSize": 18,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": true,
@@ -18113,10 +18130,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BotaoContinuar",
-          "type": "Sprite",
           "persistentUuid": "e1e7793e-539f-4c04-8b58-54605e7a5308",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -18195,10 +18214,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RoboDerrotadoVisual",
-          "type": "Sprite",
           "persistentUuid": "a50d6465-8957-4604-a40f-72fd3172bc80",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -18235,10 +18256,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BotaoJogarNovamente",
-          "type": "Sprite",
           "persistentUuid": "22cfa3d5-8d3c-4e72-becf-6200544c1724",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -18275,10 +18298,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BotaoMenuResultado",
-          "type": "Sprite",
           "persistentUuid": "0f9996d8-eea8-44ff-b595-7228dfe41de8",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -18331,9 +18356,9 @@
           "textAlignment": "center",
           "characterSize": 38,
           "color": {
-            "r": 247,
+            "b": 180,
             "g": 218,
-            "b": 180
+            "r": 247
           },
           "content": {
             "bold": true,
@@ -18375,9 +18400,9 @@
           "textAlignment": "center",
           "characterSize": 20,
           "color": {
-            "r": 221,
+            "b": 157,
             "g": 191,
-            "b": 157
+            "r": 221
           },
           "content": {
             "bold": false,
@@ -18419,9 +18444,9 @@
           "textAlignment": "left",
           "characterSize": 16,
           "color": {
-            "r": 231,
+            "b": 95,
             "g": 166,
-            "b": 95
+            "r": 231
           },
           "content": {
             "bold": true,
@@ -18463,9 +18488,9 @@
           "textAlignment": "left",
           "characterSize": 48,
           "color": {
-            "r": 255,
+            "b": 210,
             "g": 239,
-            "b": 210
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -18507,9 +18532,9 @@
           "textAlignment": "left",
           "characterSize": 14,
           "color": {
-            "r": 202,
+            "b": 111,
             "g": 158,
-            "b": 111
+            "r": 202
           },
           "content": {
             "bold": true,
@@ -18551,9 +18576,9 @@
           "textAlignment": "left",
           "characterSize": 26,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": true,
@@ -18595,9 +18620,9 @@
           "textAlignment": "left",
           "characterSize": 14,
           "color": {
-            "r": 202,
+            "b": 111,
             "g": 158,
-            "b": 111
+            "r": 202
           },
           "content": {
             "bold": true,
@@ -18639,9 +18664,9 @@
           "textAlignment": "left",
           "characterSize": 26,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": true,
@@ -18683,9 +18708,9 @@
           "textAlignment": "left",
           "characterSize": 14,
           "color": {
-            "r": 202,
+            "b": 111,
             "g": 158,
-            "b": 111
+            "r": 202
           },
           "content": {
             "bold": true,
@@ -18727,9 +18752,9 @@
           "textAlignment": "left",
           "characterSize": 26,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": true,
@@ -18771,9 +18796,9 @@
           "textAlignment": "left",
           "characterSize": 14,
           "color": {
-            "r": 202,
+            "b": 111,
             "g": 158,
-            "b": 111
+            "r": 202
           },
           "content": {
             "bold": true,
@@ -18815,9 +18840,9 @@
           "textAlignment": "left",
           "characterSize": 26,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": true,
@@ -18859,9 +18884,9 @@
           "textAlignment": "center",
           "characterSize": 16,
           "color": {
-            "r": 218,
+            "b": 190,
             "g": 208,
-            "b": 190
+            "r": 218
           },
           "content": {
             "bold": false,
@@ -19097,10 +19122,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RoboVitoriosoVisual",
-          "type": "Sprite",
           "persistentUuid": "c7121032-c30c-4a6c-86b9-86f2abf888cf",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -19137,10 +19164,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BotaoRepetirVitoria",
-          "type": "Sprite",
           "persistentUuid": "bfde510d-3b61-4de4-89d9-1364aa623e87",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -19177,10 +19206,12 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BotaoMenuVitoria",
-          "type": "Sprite",
           "persistentUuid": "19b2357f-7535-477a-82e6-6bd9856c4cde",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -19233,9 +19264,9 @@
           "textAlignment": "center",
           "characterSize": 38,
           "color": {
-            "r": 255,
+            "b": 156,
             "g": 225,
-            "b": 156
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -19277,9 +19308,9 @@
           "textAlignment": "center",
           "characterSize": 20,
           "color": {
-            "r": 242,
+            "b": 184,
             "g": 221,
-            "b": 184
+            "r": 242
           },
           "content": {
             "bold": false,
@@ -19321,9 +19352,9 @@
           "textAlignment": "left",
           "characterSize": 16,
           "color": {
-            "r": 231,
+            "b": 95,
             "g": 166,
-            "b": 95
+            "r": 231
           },
           "content": {
             "bold": true,
@@ -19365,9 +19396,9 @@
           "textAlignment": "left",
           "characterSize": 48,
           "color": {
-            "r": 255,
+            "b": 210,
             "g": 239,
-            "b": 210
+            "r": 255
           },
           "content": {
             "bold": true,
@@ -19409,9 +19440,9 @@
           "textAlignment": "left",
           "characterSize": 14,
           "color": {
-            "r": 202,
+            "b": 111,
             "g": 158,
-            "b": 111
+            "r": 202
           },
           "content": {
             "bold": true,
@@ -19453,9 +19484,9 @@
           "textAlignment": "left",
           "characterSize": 26,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": true,
@@ -19497,9 +19528,9 @@
           "textAlignment": "left",
           "characterSize": 14,
           "color": {
-            "r": 202,
+            "b": 111,
             "g": 158,
-            "b": 111
+            "r": 202
           },
           "content": {
             "bold": true,
@@ -19541,9 +19572,9 @@
           "textAlignment": "left",
           "characterSize": 26,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": true,
@@ -19585,9 +19616,9 @@
           "textAlignment": "left",
           "characterSize": 14,
           "color": {
-            "r": 202,
+            "b": 111,
             "g": 158,
-            "b": 111
+            "r": 202
           },
           "content": {
             "bold": true,
@@ -19629,9 +19660,9 @@
           "textAlignment": "left",
           "characterSize": 26,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": true,
@@ -19673,9 +19704,9 @@
           "textAlignment": "left",
           "characterSize": 14,
           "color": {
-            "r": 202,
+            "b": 111,
             "g": 158,
-            "b": 111
+            "r": 202
           },
           "content": {
             "bold": true,
@@ -19717,9 +19748,9 @@
           "textAlignment": "left",
           "characterSize": 26,
           "color": {
-            "r": 246,
+            "b": 210,
             "g": 233,
-            "b": 210
+            "r": 246
           },
           "content": {
             "bold": true,
@@ -19761,9 +19792,9 @@
           "textAlignment": "center",
           "characterSize": 16,
           "color": {
-            "r": 218,
+            "b": 190,
             "g": 208,
-            "b": 190
+            "r": 218
           },
           "content": {
             "bold": false,
@@ -20335,6 +20366,9 @@
                 "objectName": "IconeNivelVitoria"
               }
             ]
+          },
+          {
+            "objectName": "IconePontuacao"
           }
         ]
       },
@@ -20344,7 +20378,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ciclo da partida",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20369,7 +20402,7 @@
                   "parameters": [
                     "",
                     "sons/musica_oficina.mp3",
-                    "9",
+                    "1",
                     "yes",
                     "20",
                     "1"
@@ -24978,7 +25011,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Combate e recompensas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25137,7 +25169,7 @@
                           "parameters": [
                             "",
                             "sons/abate_inimigo_leve.wav",
-                            "8",
+                            "6",
                             "",
                             "25",
                             "1"
@@ -25167,7 +25199,7 @@
                           "parameters": [
                             "",
                             "sons/abate_inimigo_leve.wav",
-                            "8",
+                            "6",
                             "",
                             "25",
                             "1"
@@ -25197,7 +25229,7 @@
                           "parameters": [
                             "",
                             "sons/abate_inimigo_leve.wav",
-                            "8",
+                            "6",
                             "",
                             "25",
                             "1"
@@ -25227,7 +25259,7 @@
                           "parameters": [
                             "",
                             "sons/abate_inimigo_pesado.wav",
-                            "8",
+                            "6",
                             "",
                             "25",
                             "1"
@@ -25257,7 +25289,7 @@
                           "parameters": [
                             "",
                             "sons/abate_inimigo_pesado.wav",
-                            "8",
+                            "6",
                             "",
                             "25",
                             "1"
@@ -31065,7 +31097,7 @@
                       "parameters": [
                         "",
                         "sons/explosao_voador_oficina_em_pane.wav",
-                        "21",
+                        "5",
                         "",
                         "30",
                         "1"
@@ -33129,7 +33161,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Disparos do Atirador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35410,7 +35441,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Óleo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36176,7 +36206,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Robô",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36471,7 +36500,7 @@
                   "parameters": [
                     "",
                     "sons/disparo_robo.m4a",
-                    "1",
+                    "7",
                     "",
                     "30",
                     "1"
@@ -38943,7 +38972,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Máquina-mãe: rajada de projéteis",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39471,7 +39499,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Máquina-mãe: prensa de plataforma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39962,7 +39989,7 @@
                       "parameters": [
                         "",
                         "sons/maquina_mae_prensa.wav",
-                        "16",
+                        "11",
                         "",
                         "32",
                         "1"
@@ -40388,7 +40415,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Máquina-mãe: jato de vapor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40712,7 +40738,7 @@
                   "parameters": [
                     "",
                     "sons/maquina_mae_vapor.wav",
-                    "15",
+                    "12",
                     "",
                     "27",
                     "1"
@@ -42298,15 +42324,14 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Máquina-mãe: barra de vida",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Máquina-mãe: barra de vida",
           "source": "",
-          "parameters": [],
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -42467,18 +42492,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Pausa: botao Continuar",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Pausa: botao Continuar",
           "source": "",
-          "parameters": [],
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -42659,18 +42684,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Derrota: apresentacao e botoes",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Derrota: apresentacao e botoes",
           "source": "",
-          "parameters": [],
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -43830,18 +43855,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Group",
-          "name": "Vitoria: apresentacao e botoes",
-          "folded": true,
-          "colorR": 95,
-          "colorG": 95,
           "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
           "creationTime": 0,
+          "folded": true,
+          "name": "Vitoria: apresentacao e botoes",
           "source": "",
-          "parameters": [],
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -45040,7 +45065,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "layers": [
