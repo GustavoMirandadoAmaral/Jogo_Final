@@ -30,9 +30,58 @@ As artes conceituais do catálogo foram geradas por IA com a ferramenta de image
 
 A origem de cada recurso usado no jogo está em [CREDITOS.md](CREDITOS.md).
 
+## Controles e combate
+
+A navegação da tela inicial fica nos grupos **Menu adaptado a janela**, **Realce dos botoes** e **Navegacao do menu** da cena `MenuInicial`. Na cena `Arena`, a movimentação, os disparos e o dano sofrido pelo protagonista ficam concentrados no grupo **Robô**, enquanto a detecção de acertos e recompensas por abate ficam em **Combate e recompensas**. Já os efeitos sonoros são disparados nos eventos de cada respectiva ação ou inimigo, organizados por canais dedicados para evitar cortes de áudio.
+
+### Controles
+
+| Comando | Ação | Comportamento no jogo |
+| --- | --- | --- |
+| `A` / `D` ou `←` / `→` | Movimentação horizontal | Desloca o robô pelas plataformas e vira o sprite conforme a direção da mira (`CursorX()` em relação a `Robo.X()`) |
+| `W` / `↑` ou `Espaço` | Pulo | Permite alcançar prateleiras superiores e interromper o empurrão das esteiras |
+| `Shift` esquerdo | Dash | Impulso rápido na direção do movimento, limitado pela recarga `Robo.RecargaDash` e pelos limites da arena |
+| Movimento do mouse | Mira | Oculta o cursor padrão do sistema durante a partida e posiciona o objeto `Mira` na camada `"HUD"` |
+| Botão esquerdo do mouse | Atirar | Dispara projéteis contínuos enquanto pressionado, respeitando a cadência da arma |
+| `Esc` | Pausa | Alterna entre os estados `Jogando` e `Pausado` (também fecha telas de fim de partida voltando ao menu) |
+| Clique ou teclas `1`, `2`, `3` | Selecionar melhoria | Escolhe uma das três cartas exibidas ao subir de nível |
+
+### Mira e disparos
+
+- **Origem e trajetória:** cada disparo cria um projétil `Tiro` no ponto `"Ponta"` do objeto `Arma` (`Arma.PointX("Ponta")`, `Arma.PointY("Ponta")`) em direção ao cursor (`MouseX()`, `MouseY()`) com velocidade de **800 px/s**, acompanhado de um efeito visual rápido (`Fogo_Disparo` por 0,05 s).
+- **Bloqueios de disparo:** o robô só atira quando `EstadoJogo = "Jogando"`, o robô está pronto para atirar, não está no atordoamento inicial de dano (`TempoInvulneravel <= 2`) e o botão do mouse já foi solto após cliques em menus ou cartas (`AguardandoSoltarMouse = 0`).
+- **Colisão dos tiros:** ao atingir qualquer instância do grupo `Inimigos`, o projétil subtrai `DanoTiro` da variável `Vida` do alvo e é removido. Tiros que atingem o chão (`Chao`) também são deletados.
+
+### Dano, invulnerabilidade e abates
+
+- **Dano recebido e invulnerabilidade:** ao colidir com o `Pesado` (2 de dano), com objetos do grupo `CausadoresDeDano` (`Andador`, `Saltador`, `TiroInimigo`, `ExplosaoVoador`) ou dentro do raio de explosão do `Voador` (`<= 80` px), o robô perde vida caso `TempoInvulneravel <= 0` e ativa **3 segundos** de proteção (`TempoInvulneravel = 3`):
+  - **Primeiro segundo (`TempoInvulneravel > 2`):** o robô entra na animação `"dano"`, oculta a `Arma` e fica impedido de atirar.
+  - **Dois segundos seguintes (`TempoInvulneravel <= 2` e `> 0`):** a `Arma` volta a aparecer e ambos (`Robo` e `Arma`) piscam enquanto a proteção termina.
+- **Abates e recompensas:** dentro do loop `Repetir para cada instância de Inimigos`, quando `Vida <= 0`, o jogo incrementa `Abates`, soma `PontosAbate` à `Pontuacao`, gera uma peça de XP (`Peca` com `ValorXP = XPDrop`) dentro dos limites da arena e reproduz o efeito sonoro de abate correspondente ao tipo do inimigo (`Inimigos.ObjectName()`) antes de deletar a instância.
+
+### Menu inicial e organização de áudio
+
+A cena `MenuInicial` apresenta o título **Oficina em Pane**, a ambientação da oficina com o protagonista e os botões customizados (`BotaoIniciar`, `BotaoCreditos` e `BotaoSair`), com alteração do cursor para `"pointer"` ao passar sobre opções clicáveis e disparo das ações ao soltar o botão esquerdo do mouse (evitando tiros acidentais na transição para a `Arena`).
+
+Para evitar que efeitos simultâneos cortem uns aos outros durante ondas intensas, os áudios são separados por canais dedicados:
+
+| Canal | Uso |
+| --- | --- |
+| `1 da cena "Arena"` | Trilha sonora da cena `Arena` em loop (`musica_oficina.mp3`) |
+| `1 da cena "MenuInicial"` | Trilha sonora da cena `MenuInicial` em loop (interrompida ao iniciar a partida) |
+| `2` | Impacto metálico de dano sofrido pelo robô (`dano_robo_impacto_metalico.wav`) |
+| `3` | Dash do robô (`dash_robo.m4a`) |
+| `4` | Peça de XP coletada pelo robô (`coleta_xp_chime.wav`) |
+| `5` | Explosão do inimigo Voador (`sons/explosao_voador_oficina_em_pane.wav`)|
+| `6` | Abate de inimigos (diferenciado entre inimigos leves e pesados) |
+| `7` | Disparo da arma do robô (`tiro.m4a`) |
+| `10` | Ataque de disparo da máquina-mãe (`maquina_mae_disparo.wav`) |
+| `11` | Ataque de vapór da máquina-mãe (`maquina_mae_vapor.wav`) |
+| `12` | Ataque de prensa da máquina-mãe (`maquina_mae_prensa.wav`) |
+
 ## Inimigos, ondas e Máquina-mãe
 
-Esta frente foi implementada e integrada por **Lucas Ciampi**, na cena `Arena` de `prototipo/Robot.json`. Os inimigos combinam perseguição, saltos, voo, resistência e ataques à distância para exigir movimentação entre chão e plataformas. As animações distinguem movimento e preparação de ataques; os avisos visuais dão tempo para reagir.
+Os inimigos combinam perseguição, saltos, voo, resistência e ataques à distância para exigir movimentação entre chão e plataformas. As animações distinguem movimento e preparação de ataques; os avisos visuais dão tempo para reagir.
 
 ### Os cinco inimigos
 
@@ -84,7 +133,7 @@ A lógica fica organizada nos grupos `Movimento do Andador`, `Rota do Saltador`,
 - **Controle das ondas:** `CotaAndador`, `CotaSaltador` e as demais cotas definem o total; contadores como `AndadoresCriados` registram o que já nasceu, enquanto `LimiteVivos` controla a ocupação simultânea.
 - **Navegação do Saltador:** os eventos avaliam as posições e larguras das plataformas ativas, incluindo esteiras, para escolher um alvo alcançável. `MelhorRotaScore` compara candidatos e `AlvoRotaX` orienta o movimento; `TempoPulo` conta a espera no chão, evitando acumular a recarga durante o voo. A escolha considera espaço para apoiar o corpo e conserva o alvo durante o salto, em vez de seguir uma sequência fixa de coordenadas.
 
-Lucas utilizou **auxílio do ChatGPT na elaboração e no refinamento da lógica de navegação do Saltador**, especialmente na avaliação de plataformas e alcance dos saltos. A integração e os ajustes foram acompanhados de testes no GDevelop.
+Foi utiliado o **auxílio do ChatGPT na elaboração e no refinamento da lógica de navegação do Saltador**, especialmente na avaliação de plataformas e alcance dos saltos. A integração e os ajustes foram acompanhados de testes no GDevelop.
 
 ## Cenário, câmera e arena
 

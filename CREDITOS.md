@@ -16,6 +16,16 @@ Na parte visual, teve participação ampla na geração por IA, seleção, revis
 
 **Concepção do jogo:** a ideia inicial foi apresentada por Lucas e refinada em conjunto com Vitor e Gustavo. O planejamento e as decisões de design são trabalho coletivo da equipe; as contribuições acima descrevem a atuação de Lucas na implementação e no acabamento.
 
+## Participação de Gustavo Miranda
+
+Gustavo atuou na implementação, integração e testes da frente do protagonista (`Robo`), controles, combate e arquitetura sonora do jogo. Isso inclui a movimentação horizontal, pulo em plataformas, dash direcional com recarga, sistema de mira customizada no HUD, disparos contínuos com cadência e o ciclo de dano e invulnerabilidade temporária. Na estruturação dos eventos de combate, no controle de estados de invulnerabilidade e na organização dos canais de áudio, utilizou auxílio do Gemini para elaborar e refinar a lógica no GDevelop.
+
+Também desenvolveu a base da tela inicial (`MenuInicial`), implementando o fluxo de navegação entre cenas, a opção de encerramento do jogo, o comportamento de cursor clicável sobre os botões e o bloqueio de disparo inicial (`AguardandoSoltarMouse`) para evitar tiros acidentais na transição para a `Arena`. Esse trabalho serviu de estrutura para os refinamentos visuais e de apresentação integrados posteriormente pela equipe.
+
+Outros ajustes técnicos incluíram a resolução de conflitos na ordem de execução dos eventos de colisão e deleção de projéteis (`TiroInimigo` e `ExplosaoVoador`) para garantir o disparo correto do som de dano, o feedback visual de atordoamento e piscar do robô e da arma após sofrer impactos, além da separação dos efeitos sonoros em canais dedicados para evitar cortes de áudio durante ondas intensas.
+
+Na parte sonora, foi responsável pela geração por IA, seleção, ajuste e integração de todos os efeitos sonoros e trilhas musicais do projeto: os efeitos de combate, movimentação, coleta e chefão foram gerados via **ChatGPT**, enquanto as trilhas da arena e do menu inicial foram geradas via **Gemini**. A relação completa de arquivos e canais está detalhada na seção de áudio abaixo.
+
 ## Cenário, plataformas e efeitos da arena
 
 ### Imagens
@@ -42,7 +52,13 @@ Os efeitos da arena usam apenas recursos que vêm com o GDevelop, sem extensões
 
 ## Jogador, controles e combate
 
-_A preencher._
+Esta frente foi implementada e integrada por **Gustavo**, cobrindo a movimentação do robô, o sistema de mira e disparos, a invulnerabilidade ao sofrer dano, a estrutura inicial do menu e a integração sonora do projeto (com auxílio do Gemini no refinamento dos eventos de combate, organização de canais e na composição das trilhas musicais).
+
+### Sistemas e recursos do GDevelop
+
+- **Movimentação e controle:** deslocamento horizontal, pulo em plataformas atravessáveis, dash direcional com recarga e orientação do sprite pela posição do cursor (`CursorX()`), combinados ao objeto de mira customizada na camada `HUD`.
+- **Combate e invulnerabilidade:** disparos com efeito visual rápido (`Fogo_Disparo`), controle de cadência e bloqueio temporário de disparo durante o atordoamento inicial de dano (`TempoInvulneravel > 2`), além do feedback visual de piscar durante a proteção.
+- **Menu inicial:** estruturação base da cena `MenuInicial`, transição para a `Arena`, encerramento do jogo, alteração do cursor para `"pointer"` sobre botões e prevenção de disparos acidentais ao iniciar a partida (`AguardandoSoltarMouse`).
 
 ## Inimigos, ondas e chefão
 
@@ -64,6 +80,24 @@ Conceitos e spritesheets gerados por IA com a ferramenta de imagens integrada ao
 - Oito spritesheets adicionais da Máquina-mãe e de seus efeitos, totalizando 36 quadros, gerados pela mesma ferramenta. [Catálogo e prompts](imagens/inimigos/maquina-mae/spritesheets/README.md).
 
 ## Interface, menus e áudio
+
+### Áudio (efeitos sonoros e músicas)
+
+Os efeitos sonoros foram gerados via IA com **ChatGPT**, enquanto as trilhas musicais da arena e do menu foram geradas via IA com **Gemini**. Todos os áudios são recursos originais gerados especificamente para o projeto, sem uso de bibliotecas de terceiros com restrições de direitos autorais, e foram distribuídos em canais dedicados no GDevelop para evitar sobreposição.
+
+| Recurso no jogo | Arquivo(s) no projeto | Canal | Origem e licença |
+| --- | --- | --- | --- |
+| Trilha sonora da cena `Arena` (em loop) | `musica_oficina.mp3` | `1` (cena `Arena`) | Gerada por IA via **Gemini** (uso livre no projeto acadêmico) |
+| Trilha sonora da cena `MenuInicial` (em loop) | Música do menu inicial | `1` (cena `MenuInicial`) | Gerada por IA via **Gemini** (uso livre no projeto acadêmico) |
+| Impacto metálico de dano sofrido pelo robô | `dano_robo_impacto_metalico.wav`[cite: 22] | `2` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Dash do robô | `dash_robo.m4a`[cite: 23] | `3` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Peça de XP coletada pelo robô | `coleta_xp_chime.wav`[cite: 21] | `4` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Explosão do inimigo Voador | `sons/explosao_voador_oficina_em_pane.wav`[cite: 25] | `5` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Abate de inimigos leves e pesados | `abate_inimigo_leve.wav`[cite: 19], `abate_inimigo_pesado.wav`[cite: 20] | `6` | Gerados por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Disparo da arma do robô | `tiro.m4a` | `7` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Ataque de disparo da Máquina-mãe | `maquina_mae_disparo.wav`[cite: 26] | `10` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Ataque de vapor da Máquina-mãe | `maquina_mae_vapor.wav` | `11` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
+| Ataque de prensa da Máquina-mãe | `maquina_mae_prensa.wav`[cite: 27] | `12` | Gerado por IA via **ChatGPT** (uso livre no projeto acadêmico) |
 
 ### Imagens
 
