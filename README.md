@@ -295,6 +295,8 @@ As artes das cartas, do painel e dos ícones são do catálogo [imagens/interfac
 
 ## HUD
 
+Everton foi um dos responsáveis pelo HUD, implementando as barras de vida e XP e a linha de status com tempo, onda e pontuação. Também contribuiu com a apresentação da pontuação final e o reinício clicável nas telas de resultado. Essa frente foi compartilhada pela equipe, que integrou os demais sistemas e refinamentos de interface. As contribuições individuais estão detalhadas em [CREDITOS.md](CREDITOS.md).
+
 Grupo de eventos **HUD**, na cena `Arena`. Tudo fica na camada `HUD`, que não acompanha a câmera do Mundo.
 
 | Elemento | Objetos | O que mostra |

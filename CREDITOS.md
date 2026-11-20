@@ -26,6 +26,18 @@ Outros ajustes técnicos incluíram a resolução de conflitos na ordem de execu
 
 Na parte sonora, foi responsável pela geração por IA, seleção, ajuste e integração de todos os efeitos sonoros e trilhas musicais do projeto: os efeitos de combate, movimentação, coleta e chefão foram gerados via **ChatGPT**, enquanto as trilhas da arena e do menu inicial foram geradas via **Gemini**. A relação completa de arquivos e canais está detalhada na seção de áudio abaixo.
 
+## Participação de Everton
+
+Everton foi um dos responsáveis pelo **HUD e pela apresentação das informações da partida**, dentro da frente D do planejamento. As tarefas dessa frente foram compartilhadas pela equipe; sua atuação se concentrou nas barras de vida e XP, na linha de status e nas informações de resultado e reinício descritas abaixo.
+
+Everton implementou as **barras de vida e XP do HUD**, substituindo a apresentação provisória baseada em texto por moldura e preenchimentos proporcionais. A barra de vida acompanha a relação entre vida atual e máxima, inclusive após melhorias; a barra de XP acompanha o progresso até o próximo nível. Também preparou e integrou as imagens da moldura e dos preenchimentos e manteve os números de vida e nível junto às barras.
+
+Implementou a **linha de status com tempo, onda e pontuação**, incluindo os objetos de texto, os ícones de tempo e onda e o posicionamento pelo centro da câmera do HUD. Essa organização mantém a interface fixa e acompanha as diferentes larguras de janela, independentemente do deslocamento da câmera da arena.
+
+Na branch `telas-resultado`, acrescentou a **pontuação final e a opção clicável "Jogar de novo" nas telas de derrota e vitória**. Também ajustou a inicialização de `AguardandoSoltarMouse` para evitar que o clique de entrada ou reinício produzisse um disparo involuntário na partida nova. Essa contribuição foi integrada ao histórico do projeto, preservando a apresentação visual das telas refinadas posteriormente pela equipe.
+
+Também registrou o funcionamento desses elementos no README e a origem das imagens das barras em `CREDITOS.md`.
+
 ## Cenário, plataformas e efeitos da arena
 
 ### Imagens
