@@ -2,6 +2,23 @@
 
 Projeto de jogo de plataforma 2D com hordas e progressão do protagonista por XP e melhorias, desenvolvido em GDevelop para a disciplina de Desenvolvimento de Jogos Digitais.
 
+## Enredo e objetivo
+
+As máquinas de uma oficina entraram em pane, e um pequeno robô é a última esperança de salvá-la. Para restaurar a oficina, o jogador precisa sobreviver a cinco ondas de inimigos, coletar peças de XP, escolher melhorias e derrotar a Máquina-mãe.
+
+O combate acontece numa arena de plataformas: é preciso mirar e atirar enquanto se movimenta entre prateleiras, esteiras e andaimes. Na luta final, o óleo cobre o chão e reduz os locais seguros. A partida termina em vitória ao derrotar a Máquina-mãe ou em derrota quando a vida do robô chega a zero; as duas telas permitem jogar novamente ou voltar ao menu.
+
+## Como abrir e executar o projeto
+
+1. Instale o **GDevelop desktop**.
+2. Baixe o repositório pelo botão **Code → Download ZIP** no GitHub e extraia o arquivo, ou clone o repositório com Git.
+3. Mantenha a estrutura das pastas: o projeto depende das imagens, sons e demais recursos incluídos no repositório.
+4. No GDevelop, escolha **Abrir um projeto** e selecione `prototipo/Robot.json` dentro da pasta extraída.
+5. Inicie a prévia pelo botão **Visualizar**. Se o editor pedir uma cena, escolha `MenuInicial` para percorrer o fluxo completo do jogo.
+6. Clique em **Iniciar** no menu e siga a introdução. Use A/D ou ←/→ para mover, W/↑/Espaço para pular, Shift esquerdo para dash, mouse para mirar e botão esquerdo para atirar. Esc pausa a partida; as melhorias são escolhidas pelo mouse ou pelas teclas 1, 2 e 3.
+
+`prototipo/Robot.json` é o projeto editável; `docs/` contém a exportação web. Não é necessário editar a exportação para abrir o fonte no GDevelop.
+
 ## Documentação
 
 - [Documento de design do jogo (GDD)](GDD.md)
