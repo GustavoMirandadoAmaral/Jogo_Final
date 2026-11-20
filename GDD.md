@@ -47,7 +47,7 @@ A pausa e a escolha de melhorias acontecem durante a partida. Na implementação
 | Pausa | Interrompe a partida com Esc e permite retomar pelo botão Continuar ou Esc |
 | Vitória/derrota | Mostra pontuação, abates, onda, tempo e nível; permite reiniciar ou voltar ao menu |
 
-O botão de créditos está presente no menu, mas seu redirecionamento ainda precisa ser implementado. O conteúdo da equipe e dos recursos já está reunido em `CREDITOS.md`.
+O botão Créditos do menu abre uma cena própria com a concepção coletiva, as contribuições da equipe e o uso de IA. O retorno funciona pelo botão Menu inicial ou Esc. A música do menu continua ao entrar nessa tela; os registros completos estão em `CREDITOS.md`.
 
 ### Ciclo principal
 
@@ -209,7 +209,7 @@ O projeto editável é `prototipo/Robot.json`, em arquivo único. A lógica usa 
 | Variáveis e tempo | Vida, XP, cotas, recargas, estados e duração da partida |
 | Grupos de eventos | Organização de jogador, combate, inimigos, ondas, arena e interface |
 | Partículas | Vapor decorativo e efeitos |
-| Cenas e estados | `MenuInicial`, `Introducao` e `Arena`; pausa, melhorias e resultados dentro da Arena |
+| Cenas e estados | `MenuInicial`, `Creditos`, `Introducao` e `Arena`; pausa, melhorias e resultados dentro da Arena |
 
 ### Relação com os conteúdos das aulas
 
@@ -232,7 +232,7 @@ O projeto editável é `prototipo/Robot.json`, em arquivo único. A lógica usa 
 - [x] Ondas por cotas, limite de vivos e surgimentos acompanhando a câmera.
 - [x] XP, nível, seis melhorias principais, reparo e pontuação separada.
 - [x] Máquina-mãe com quatro habilidades, barra de vida e integração com o óleo.
-- [x] Menu, introdução, HUD, pausa, vitória, derrota e reinício.
+- [x] Menu, créditos, introdução, HUD, pausa, vitória, derrota e reinício.
 - [x] Trilhas, efeitos sonoros e organização dos canais de áudio.
 - [x] Recursos locais organizados e referências ausentes removidas.
 
@@ -264,7 +264,6 @@ Sem compromisso para esta entrega: parry rosa, cano duplo, regeneração gradual
 
 ### Pontos restantes de fechamento
 
-- [ ] Conectar o botão Créditos do menu à apresentação da equipe e dos recursos.
 - [ ] Conferir que o endereço público oferece a exportação final após as últimas alterações.
 - [ ] Gerar a exportação em `docs/` após as últimas correções e revisar os atalhos de teste.
 - [ ] Fazer a conferência da versão de entrega, revalidando os fluxos afetados pelas últimas alterações.

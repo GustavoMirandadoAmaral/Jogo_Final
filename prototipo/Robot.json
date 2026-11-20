@@ -1734,6 +1734,9 @@
             },
             {
               "name": "BotaoSair"
+            },
+            {
+              "name": "BotaoCreditos"
             }
           ]
         }
@@ -2478,7 +2481,7 @@
                     "BotaoCreditos",
                     "Opacity",
                     "=",
-                    "155"
+                    "255"
                   ]
                 }
               ]
@@ -2594,6 +2597,43 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoCreditos",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoCreditos",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -2679,21 +2719,46 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoCreditos",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Creditos\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "O botao Creditos fica desativado ate a equipe definir o conteudo e a cena de creditos."
         }
       ],
       "layers": [
@@ -2796,6 +2861,2297 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 27,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Creditos",
+      "name": "Creditos",
+      "r": 10,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": false,
+      "title": "Oficina em Pane — Créditos",
+      "v": 19,
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "FundoCreditos",
+          "persistentUuid": "fad819d1-0fc4-499c-a0f3-b1434a2dab10",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/menu/oficina-abertura-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SombraCreditos",
+          "persistentUuid": "a4855d2b-cb3b-4307-bfd6-a0d5241ef9e6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/veu-tela.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PainelCreditos",
+          "persistentUuid": "77023e14-20a7-4c2d-b590-7f550e706d2b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/painel-telas-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "BotaoVoltarCreditos",
+          "persistentUuid": "7a63554a-a5fa-485a-b119-3e74e0c6e0ec",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/resultados/botao-menu-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TituloCreditos",
+          "persistentUuid": "4dd268fe-203d-49a2-950a-f5c09c52ff0c",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CRÉDITOS",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 34,
+          "color": {
+            "r": 247,
+            "g": 218,
+            "b": 180
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "CRÉDITOS",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 34,
+            "lineHeight": 0,
+            "color": "247;218;180"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NomeJogoCreditos",
+          "persistentUuid": "630b9573-5473-43b6-b898-6e4ea7616b03",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "OFICINA EM PANE",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 18,
+          "color": {
+            "r": 238,
+            "g": 228,
+            "b": 209
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "OFICINA EM PANE",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 18,
+            "lineHeight": 0,
+            "color": "238;228;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ConcepcaoCreditos",
+          "persistentUuid": "6c599325-0be6-4614-9c5a-7e2d799da50c",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Uma oficina em pane. Um robô enfrenta hordas e a Máquina-mãe para salvá-la.\nIdeia, planejamento e decisões de design construídos em conjunto pela equipe.",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "r": 238,
+            "g": 228,
+            "b": 209
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Uma oficina em pane. Um robô enfrenta hordas e a Máquina-mãe para salvá-la.\nIdeia, planejamento e decisões de design construídos em conjunto pela equipe.",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "238;228;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NomeGustavoCreditos",
+          "persistentUuid": "d0652d60-7d19-4f8c-b42a-17196d935a2b",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "GUSTAVO MIRANDA DO AMARAL",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 247,
+            "g": 218,
+            "b": 180
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "GUSTAVO MIRANDA DO AMARAL",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "247;218;180"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ParteGustavoCreditos",
+          "persistentUuid": "efbe3e6c-8719-4251-8a8c-ce449058719f",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Controles, mira, tiros e dano do robô.\nBase do menu e integração dos áudios.",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "r": 238,
+            "g": 228,
+            "b": 209
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Controles, mira, tiros e dano do robô.\nBase do menu e integração dos áudios.",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 18,
+            "lineHeight": 0,
+            "color": "238;228;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NomeLucasCreditos",
+          "persistentUuid": "b91253ab-ba09-4592-b556-74cd53afd596",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "LUCAS CIAMPI",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 247,
+            "g": 218,
+            "b": 180
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "LUCAS CIAMPI",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "247;218;180"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ParteLucasCreditos",
+          "persistentUuid": "4b4ed369-dc77-4d26-913b-9384c97658a0",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Inimigos, ondas e Máquina-mãe.\nArtes, animações e refinamentos de interface.",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "r": 238,
+            "g": 228,
+            "b": 209
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Inimigos, ondas e Máquina-mãe.\nArtes, animações e refinamentos de interface.",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 18,
+            "lineHeight": 0,
+            "color": "238;228;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NomeVitorCreditos",
+          "persistentUuid": "145bcac2-26a7-40cf-b03d-f4c11472c805",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "VITOR ROSA",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 247,
+            "g": 218,
+            "b": 180
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "VITOR ROSA",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "247;218;180"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ParteVitorCreditos",
+          "persistentUuid": "ab685c7d-6b69-423a-91d9-b78a1d1c902c",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Arena, plataformas, câmera, parallax e óleo.\nXP, melhorias e ajustes de integração.",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "r": 238,
+            "g": 228,
+            "b": 209
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Arena, plataformas, câmera, parallax e óleo.\nXP, melhorias e ajustes de integração.",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 18,
+            "lineHeight": 0,
+            "color": "238;228;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NomeEvertonCreditos",
+          "persistentUuid": "336956c1-9e8b-44e4-800e-3365e2e7ea98",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "EVERTON",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 247,
+            "g": 218,
+            "b": 180
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "EVERTON",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "247;218;180"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ParteEvertonCreditos",
+          "persistentUuid": "d985dbff-9200-4609-9641-9d4d95fc513a",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Barras de vida e XP e indicadores do HUD.\nPontuação final e opção de jogar novamente.",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 18,
+          "color": {
+            "r": 238,
+            "g": 228,
+            "b": 209
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Barras de vida e XP e indicadores do HUD.\nPontuação final e opção de jogar novamente.",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 18,
+            "lineHeight": 0,
+            "color": "238;228;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TituloIACreditos",
+          "persistentUuid": "8ff56846-538a-4321-afcc-666851ce5a45",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "USO DE INTELIGÊNCIA ARTIFICIAL",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 19,
+          "color": {
+            "r": 247,
+            "g": 218,
+            "b": 180
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "USO DE INTELIGÊNCIA ARTIFICIAL",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 19,
+            "lineHeight": 0,
+            "color": "247;218;180"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "UsoIACreditos",
+          "persistentUuid": "7261f85e-44f4-4d38-8118-7bf25eec8a45",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Artes e spritesheets: ferramenta de imagens integrada ao Codex.\nEfeitos sonoros: ChatGPT. Trilhas musicais: Gemini.\nApoio em ideias e lógica: ChatGPT e Gemini, incluindo navegação do Saltador e combate.",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "r": 238,
+            "g": 228,
+            "b": 209
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Artes e spritesheets: ferramenta de imagens integrada ao Codex.\nEfeitos sonoros: ChatGPT. Trilhas musicais: Gemini.\nApoio em ideias e lógica: ChatGPT e Gemini, incluindo navegação do Saltador e combate.",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "238;228;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ReferenciaCreditos",
+          "persistentUuid": "11c74f7b-8fe7-4fc4-9be3-e77807320557",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Créditos completos e origem dos recursos: CREDITOS.md no repositório do jogo.",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 14,
+          "color": {
+            "r": 238,
+            "g": 228,
+            "b": 209
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Créditos completos e origem dos recursos: CREDITOS.md no repositório do jogo.",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "238;228;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "AtalhoCreditos",
+          "persistentUuid": "86469f54-5085-49c3-9918-be3f327a782b",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ESC · voltar ao menu",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 13,
+          "color": {
+            "r": 238,
+            "g": 228,
+            "b": 209
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ESC · voltar ao menu",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 13,
+            "lineHeight": 0,
+            "color": "238;228;209"
+          }
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
+          "width": 1280,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FundoCreditos",
+          "persistentUuid": "4880f1d0-86f0-45b9-93b8-c683e02a3eda",
+          "x": 0,
+          "y": 0,
+          "zOrder": -20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
+          "width": 1280,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SombraCreditos",
+          "persistentUuid": "716b9152-4430-470b-8cdf-f265964ef1e0",
+          "x": 0,
+          "y": 0,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 672,
+          "width": 1060,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PainelCreditos",
+          "persistentUuid": "071c7074-227e-42de-83d3-6f680920c6d0",
+          "x": 110,
+          "y": 24,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 88,
+          "width": 290,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BotaoVoltarCreditos",
+          "persistentUuid": "5969a6de-ddec-497c-a024-38f510e7b5bc",
+          "x": 495,
+          "y": 554,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "width": 900,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TituloCreditos",
+          "persistentUuid": "567e3c67-1002-494f-bf61-95af726cb0c9",
+          "x": 190,
+          "y": 66,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "width": 900,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NomeJogoCreditos",
+          "persistentUuid": "253f001b-b370-4614-b34b-59fe8de895ac",
+          "x": 190,
+          "y": 110,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 44,
+          "width": 900,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ConcepcaoCreditos",
+          "persistentUuid": "8c7c6bc3-da18-4fce-8df2-70bfd3cc1781",
+          "x": 190,
+          "y": 146,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "width": 420,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NomeGustavoCreditos",
+          "persistentUuid": "df75f3b6-53eb-4793-a46c-514e533bfb6d",
+          "x": 195,
+          "y": 207,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "width": 420,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ParteGustavoCreditos",
+          "persistentUuid": "4194c894-0c36-4921-ab75-f207c4510ac1",
+          "x": 195,
+          "y": 240,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "width": 420,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NomeLucasCreditos",
+          "persistentUuid": "16562d75-df10-4fdf-a009-c5ecc313e1cf",
+          "x": 675,
+          "y": 207,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "width": 420,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ParteLucasCreditos",
+          "persistentUuid": "f666177b-5ca2-4909-bf92-188e56db2496",
+          "x": 675,
+          "y": 240,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "width": 420,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NomeVitorCreditos",
+          "persistentUuid": "a07c2da6-d2d4-4145-afeb-b3a45e624fed",
+          "x": 195,
+          "y": 320,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "width": 420,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ParteVitorCreditos",
+          "persistentUuid": "5616ba4d-d8d0-4170-8132-b02a015e54ba",
+          "x": 195,
+          "y": 353,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "width": 420,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NomeEvertonCreditos",
+          "persistentUuid": "2933a7bc-6738-48d0-af94-7440bded37f7",
+          "x": 675,
+          "y": 320,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "width": 420,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ParteEvertonCreditos",
+          "persistentUuid": "75871803-aa8c-47b2-8079-49d77c57c73e",
+          "x": 675,
+          "y": 353,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "width": 900,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TituloIACreditos",
+          "persistentUuid": "8b7282d5-40fc-4157-8f0a-4fc3992b4d52",
+          "x": 190,
+          "y": 424,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 66,
+          "width": 900,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UsoIACreditos",
+          "persistentUuid": "ea3d38cd-e105-41a5-896c-55830ba70215",
+          "x": 190,
+          "y": 456,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "width": 900,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ReferenciaCreditos",
+          "persistentUuid": "4cb6daef-db2f-4f71-8870-361bbd7e0a3c",
+          "x": 190,
+          "y": 526,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "width": 700,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AtalhoCreditos",
+          "persistentUuid": "ad6f6415-49d1-4c7e-b396-5f97a37b5fda",
+          "x": 290,
+          "y": 644,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowCursor"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "SombraCreditos",
+                "Opacity",
+                "=",
+                "150"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Enquadramento dos creditos",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EscalaCreditos",
+                    "=",
+                    "min(CameraWidth()/1280, CameraHeight()/720)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "FundoCreditos",
+                    "=",
+                    "CameraBorderLeft()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "FundoCreditos",
+                    "=",
+                    "CameraBorderTop()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "FundoCreditos",
+                    "Resizable",
+                    "=",
+                    "CameraWidth()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "FundoCreditos",
+                    "Resizable",
+                    "=",
+                    "CameraHeight()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "SombraCreditos",
+                    "=",
+                    "CameraBorderLeft()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "SombraCreditos",
+                    "=",
+                    "CameraBorderTop()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "SombraCreditos",
+                    "Resizable",
+                    "=",
+                    "CameraWidth()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "SombraCreditos",
+                    "Resizable",
+                    "=",
+                    "CameraHeight()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "PainelCreditos",
+                    "=",
+                    "CameraCenterX()+(-530)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "PainelCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+24*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "PainelCreditos",
+                    "Resizable",
+                    "=",
+                    "1060*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "PainelCreditos",
+                    "Resizable",
+                    "=",
+                    "672*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoVoltarCreditos",
+                    "=",
+                    "CameraCenterX()+(-145)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoVoltarCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+554*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BotaoVoltarCreditos",
+                    "Resizable",
+                    "=",
+                    "290*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BotaoVoltarCreditos",
+                    "Resizable",
+                    "=",
+                    "88*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TituloCreditos",
+                    "=",
+                    "CameraCenterX()+(-450)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TituloCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+66*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "TituloCreditos",
+                    "=",
+                    "900*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "TituloCreditos",
+                    "=",
+                    "34*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "NomeJogoCreditos",
+                    "=",
+                    "CameraCenterX()+(-450)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "NomeJogoCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+110*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "NomeJogoCreditos",
+                    "=",
+                    "900*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "NomeJogoCreditos",
+                    "=",
+                    "18*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ConcepcaoCreditos",
+                    "=",
+                    "CameraCenterX()+(-450)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ConcepcaoCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+146*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "ConcepcaoCreditos",
+                    "=",
+                    "900*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "ConcepcaoCreditos",
+                    "=",
+                    "16*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "NomeGustavoCreditos",
+                    "=",
+                    "CameraCenterX()+(-445)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "NomeGustavoCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+207*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "NomeGustavoCreditos",
+                    "=",
+                    "420*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "NomeGustavoCreditos",
+                    "=",
+                    "20*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ParteGustavoCreditos",
+                    "=",
+                    "CameraCenterX()+(-445)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ParteGustavoCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+240*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "ParteGustavoCreditos",
+                    "=",
+                    "420*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "ParteGustavoCreditos",
+                    "=",
+                    "18*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "NomeLucasCreditos",
+                    "=",
+                    "CameraCenterX()+(35)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "NomeLucasCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+207*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "NomeLucasCreditos",
+                    "=",
+                    "420*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "NomeLucasCreditos",
+                    "=",
+                    "20*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ParteLucasCreditos",
+                    "=",
+                    "CameraCenterX()+(35)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ParteLucasCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+240*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "ParteLucasCreditos",
+                    "=",
+                    "420*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "ParteLucasCreditos",
+                    "=",
+                    "18*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "NomeVitorCreditos",
+                    "=",
+                    "CameraCenterX()+(-445)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "NomeVitorCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+320*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "NomeVitorCreditos",
+                    "=",
+                    "420*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "NomeVitorCreditos",
+                    "=",
+                    "20*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ParteVitorCreditos",
+                    "=",
+                    "CameraCenterX()+(-445)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ParteVitorCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+353*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "ParteVitorCreditos",
+                    "=",
+                    "420*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "ParteVitorCreditos",
+                    "=",
+                    "18*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "NomeEvertonCreditos",
+                    "=",
+                    "CameraCenterX()+(35)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "NomeEvertonCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+320*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "NomeEvertonCreditos",
+                    "=",
+                    "420*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "NomeEvertonCreditos",
+                    "=",
+                    "20*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ParteEvertonCreditos",
+                    "=",
+                    "CameraCenterX()+(35)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ParteEvertonCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+353*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "ParteEvertonCreditos",
+                    "=",
+                    "420*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "ParteEvertonCreditos",
+                    "=",
+                    "18*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TituloIACreditos",
+                    "=",
+                    "CameraCenterX()+(-450)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TituloIACreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+424*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "TituloIACreditos",
+                    "=",
+                    "900*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "TituloIACreditos",
+                    "=",
+                    "19*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "UsoIACreditos",
+                    "=",
+                    "CameraCenterX()+(-450)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "UsoIACreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+456*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "UsoIACreditos",
+                    "=",
+                    "900*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "UsoIACreditos",
+                    "=",
+                    "16*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "ReferenciaCreditos",
+                    "=",
+                    "CameraCenterX()+(-450)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "ReferenciaCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+526*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "ReferenciaCreditos",
+                    "=",
+                    "900*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "ReferenciaCreditos",
+                    "=",
+                    "14*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "AtalhoCreditos",
+                    "=",
+                    "CameraCenterX()+(-350)*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "AtalhoCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaCreditos)+644*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::WrappingWidth"
+                  },
+                  "parameters": [
+                    "AtalhoCreditos",
+                    "=",
+                    "700*Variable(EscalaCreditos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "AtalhoCreditos",
+                    "=",
+                    "13*Variable(EscalaCreditos)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 95,
+          "colorG": 95,
+          "colorR": 95,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Voltar ao menu",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"default\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoVoltarCreditos",
+                    "\"225;225;225\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoVoltarCreditos",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoVoltarCreditos",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoVoltarCreditos",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MenuInicial\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Escape\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MenuInicial\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "variables": [
+        {
+          "name": "EscalaCreditos",
+          "persistentUuid": "0b010579-c154-40fc-9056-d95dd106c371",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "objectsGroups": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "FundoCreditos"
+          },
+          {
+            "objectName": "SombraCreditos"
+          },
+          {
+            "objectName": "PainelCreditos"
+          },
+          {
+            "objectName": "BotaoVoltarCreditos"
+          },
+          {
+            "objectName": "TituloCreditos"
+          },
+          {
+            "objectName": "NomeJogoCreditos"
+          },
+          {
+            "objectName": "ConcepcaoCreditos"
+          },
+          {
+            "objectName": "NomeGustavoCreditos"
+          },
+          {
+            "objectName": "ParteGustavoCreditos"
+          },
+          {
+            "objectName": "NomeLucasCreditos"
+          },
+          {
+            "objectName": "ParteLucasCreditos"
+          },
+          {
+            "objectName": "NomeVitorCreditos"
+          },
+          {
+            "objectName": "ParteVitorCreditos"
+          },
+          {
+            "objectName": "NomeEvertonCreditos"
+          },
+          {
+            "objectName": "ParteEvertonCreditos"
+          },
+          {
+            "objectName": "TituloIACreditos"
+          },
+          {
+            "objectName": "UsoIACreditos"
+          },
+          {
+            "objectName": "ReferenciaCreditos"
+          },
+          {
+            "objectName": "AtalhoCreditos"
+          }
+        ]
+      },
+      "uiSettings": {}
     },
     {
       "b": 27,
@@ -45354,6 +47710,9 @@
     "children": [
       {
         "itemName": "MenuInicial"
+      },
+      {
+        "itemName": "Creditos"
       },
       {
         "itemName": "Introducao"

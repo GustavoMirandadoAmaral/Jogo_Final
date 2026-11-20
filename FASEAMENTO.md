@@ -26,7 +26,7 @@ As marcações deste documento preservam os testes e conclusões informados pela
 
 ### Prioridades de fechamento
 
-1. Conectar o botão Créditos do menu à apresentação da equipe e dos recursos.
+1. Conferir a nova navegação menu → créditos → menu na versão final, por clique e Esc.
 2. Conferir que o endereço público oferece a exportação final; a versão do GDevelop e o link já estão no README.
 3. Gerar a exportação final em `docs/` depois das últimas correções e revisar os atalhos de teste F3/F4/F5/F8.
 4. Revalidar os fluxos afetados pelas alterações recentes: áudio, retorno ao menu, créditos e reinício. Rever percursos do Saltador nos layouts finais se houver mudanças de navegação/plataformas.
@@ -73,7 +73,7 @@ A tabela registra a divisão de referência. As tarefas de interface e progress�
 | Item | Organização atual |
 | --- | --- |
 | Projeto editável | `prototipo/Robot.json`, em arquivo único |
-| Cenas | `MenuInicial`, `Introducao` e `Arena` |
+| Cenas | `MenuInicial`, `Creditos`, `Introducao` e `Arena` |
 | Pausa, melhorias e resultados | Estados e interface da própria `Arena`, sem cenas finais separadas |
 | Eventos | Grupos por sistema dentro das cenas; não foram adotadas folhas externas |
 | Camadas principais | `FundoDistante`, `FundoMedio`, mundo na camada base e `HUD` |
@@ -360,7 +360,7 @@ Para registrar uma falha, informar: ID, versão, responsável, passos, resultado
 
 ## 11. Preparação da versão final
 
-1. Concluir a navegação dos créditos e corrigir apenas problemas que afetem a entrega. Evitar ampliar o escopo.
+1. Validar a navegação dos créditos e corrigir apenas problemas que afetem a entrega. Evitar ampliar o escopo.
 2. Conferir os caminhos, a origem dos recursos e as referências entre README, GDD, FASEAMENTO e CREDITOS.
 3. Revisar os atalhos de teste antes de exportar a versão que será entregue.
 4. Gerar HTML5 em `docs/`, preservando Robot.json e os recursos editáveis. A exportação deve corresponder ao fonte integrado.
@@ -393,6 +393,7 @@ Os créditos individuais ficam no documento de créditos. Este planejamento acom
 ### Itens concluídos ou confirmados
 
 - [x] Quatro integrantes identificados e contribuições documentadas.
+- [x] Botão Créditos ligado à cena própria, com resumo da equipe e uso de IA; retorno por botão e Esc validado na prévia de teste.
 - [x] Jogo de plataforma em GDevelop com começo, desenvolvimento e fim.
 - [x] Fonte editável e recursos locais disponíveis no repositório.
 - [x] README com nome, descrição, enredo, objetivo, ferramenta e instruções de execução.
@@ -404,7 +405,6 @@ Os créditos individuais ficam no documento de créditos. Este planejamento acom
 
 ### Itens a concluir ou confirmar
 
-- [ ] Botão Créditos com destino implementado e testado.
 - [ ] Fonte e exportação final correspondentes, com atalhos de teste revisados.
 - [ ] Conferência final dos fluxos afetados pelas últimas correções.
 - [ ] Ensaio com os quatro integrantes e data específica de apresentação confirmados.

@@ -65,7 +65,7 @@ No menu, clique em **Iniciar**, leia a introdução e comece a partida. O fluxo 
 | Jogar novamente após o resultado | Enter ou botão Jogar de novo |
 | Voltar ao menu após o resultado | Esc ou botão Menu inicial |
 
-Use as plataformas para se reposicionar, desça para coletar peças e escolha melhorias ao subir de nível. A aparência do robô permanece a mesma durante a partida. O botão de créditos está presente no menu; seu redirecionamento ainda está em preparação.
+Use as plataformas para se reposicionar, desça para coletar peças e escolha melhorias ao subir de nível. A aparência do robô permanece a mesma durante a partida. O botão Créditos abre uma tela com a concepção coletiva, as contribuições dos integrantes e o uso de IA. O botão Menu inicial ou Esc permite voltar.
 
 ## Como abrir e executar o projeto
 
