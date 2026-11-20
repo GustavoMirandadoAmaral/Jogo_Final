@@ -2700,7 +2700,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Arena\"",
+                    "\"Introducao\"",
                     ""
                   ]
                 }
@@ -2755,6 +2755,2195 @@
             "textG": 0,
             "textR": 0
           }
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300,
+                "shadowDistance": 2000,
+                "shadowNormalBias": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "shadowRenderingMode": "fittedToCameraView",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 27,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Introducao",
+      "name": "Introducao",
+      "r": 10,
+      "renderer3DWorldScale": 100,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "Oficina em Pane - Introdução",
+      "v": 19,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.75,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "EscalaIntroducao",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
+          "width": 1280,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FundoIntroducao",
+          "persistentUuid": "2143978a-e675-4461-abfa-226d42fdc97e",
+          "x": 0,
+          "y": 0,
+          "zOrder": -20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
+          "width": 1280,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SombraIntroducao",
+          "persistentUuid": "1615acd3-ba25-45ca-a42b-17a4ce567eaf",
+          "x": 0,
+          "y": 0,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 139,
+          "width": 350,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LogoIntroducao",
+          "persistentUuid": "74f888b7-e0b0-4d72-bf27-53f97590f64b",
+          "x": 76,
+          "y": 28,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TituloHistoria",
+          "persistentUuid": "9224b784-396e-4041-ac17-b3bca82f9ac9",
+          "x": 80,
+          "y": 189,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Historia",
+          "persistentUuid": "278d9416-693d-4248-a5d2-acb5e4dd6609",
+          "x": 80,
+          "y": 235,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TituloComandos",
+          "persistentUuid": "eb202d90-aaad-4ada-a5f8-77c88b085867",
+          "x": 80,
+          "y": 336,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla0",
+          "persistentUuid": "4f5c7ee9-e795-4a2c-978f-a9a54651d2ba",
+          "x": 80,
+          "y": 374,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Acao0",
+          "persistentUuid": "b40fffee-ad1a-4e98-86b6-9b51033c9b26",
+          "x": 310,
+          "y": 371,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla1",
+          "persistentUuid": "8b2c425f-19d6-48b7-89f0-b79af4b7f18e",
+          "x": 80,
+          "y": 411,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Acao1",
+          "persistentUuid": "6e50eafd-de33-4f43-836d-a0f48cc86f5d",
+          "x": 310,
+          "y": 408,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla2",
+          "persistentUuid": "4317cf96-2a0b-4562-acaf-e2ffc92427c6",
+          "x": 80,
+          "y": 448,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Acao2",
+          "persistentUuid": "b628648d-b294-4fa2-9c5d-8f8b60213b05",
+          "x": 310,
+          "y": 445,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla3",
+          "persistentUuid": "5c32976e-b0a8-42c9-a73e-15f9e84fe8e7",
+          "x": 80,
+          "y": 485,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Acao3",
+          "persistentUuid": "1f9ed7d1-e797-4de9-a051-7e6ce868cbfb",
+          "x": 310,
+          "y": 482,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tecla4",
+          "persistentUuid": "b29cee24-0b31-4097-a38e-bd7bd1b654fa",
+          "x": 80,
+          "y": 522,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Acao4",
+          "persistentUuid": "e12fda34-3f75-4f0f-8efa-9fa09c874b8c",
+          "x": 310,
+          "y": 519,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 84,
+          "width": 280,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BotaoJogar",
+          "persistentUuid": "7cc1d638-bd63-4830-8056-a6c944eb808c",
+          "x": 80,
+          "y": 581,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AvisoEnter",
+          "persistentUuid": "4426253a-c531-4e16-add7-dfef51d5a4ad",
+          "x": 382,
+          "y": 612,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "width": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "VoltarMenu",
+          "persistentUuid": "f76170ea-5e8a-4356-9b21-2167c03eec27",
+          "x": 80,
+          "y": 682,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "FundoIntroducao",
+          "type": "Sprite",
+          "persistentUuid": "03a15425-0cc1-4fae-813f-7515593f9e44",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/menu/oficina-abertura-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SombraIntroducao",
+          "persistentUuid": "643e8763-606f-429d-a0a8-69c7f3626e17",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/veu-tela.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "LogoIntroducao",
+          "type": "Sprite",
+          "persistentUuid": "30c154a2-4277-4345-8917-595b2ce534a2",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/menu/titulo-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TituloHistoria",
+          "persistentUuid": "98b30811-cbb9-4689-a095-eaa48f2cf9cd",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "A OFICINA PRECISA DE VOCÊ",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 27,
+          "color": {
+            "r": 244,
+            "g": 190,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "A OFICINA PRECISA DE VOCÊ",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 27,
+            "lineHeight": 0,
+            "color": "244;190;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Historia",
+          "persistentUuid": "863b5642-0ff5-47d1-bdbf-113949116392",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "As máquinas enlouqueceram e a oficina entrou em pane.\nUm pequeno robô é a última esperança de salvá-la.\nEnfrente as ondas e derrote a Máquina-mãe!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "As máquinas enlouqueceram e a oficina entrou em pane.\nUm pequeno robô é a última esperança de salvá-la.\nEnfrente as ondas e derrote a Máquina-mãe!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TituloComandos",
+          "persistentUuid": "e96e6cca-6985-4cd8-9152-5eb178f8b165",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "COMANDOS",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "r": 244,
+            "g": 190,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "COMANDOS",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "244;190;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Tecla0",
+          "persistentUuid": "99192208-69e2-4069-ab38-c0765ea8cd38",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "A / D  ou  ← / →",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "r": 244,
+            "g": 190,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "A / D  ou  ← / →",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "244;190;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Acao0",
+          "persistentUuid": "8588fe54-9ce1-409b-83a7-1fb32aa407fc",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Mover",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Mover",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Tecla1",
+          "persistentUuid": "aa458b8e-94d8-4f2f-8483-c22636b09b25",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ESPAÇO / W / ↑",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "r": 244,
+            "g": 190,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ESPAÇO / W / ↑",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "244;190;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Acao1",
+          "persistentUuid": "46411fa1-710e-46c9-a165-1b8b57a3a11f",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Pular",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Pular",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Tecla2",
+          "persistentUuid": "0b160d8a-cba7-4ffe-9bf5-266b778f4733",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "SHIFT",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "r": 244,
+            "g": 190,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "SHIFT",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "244;190;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Acao2",
+          "persistentUuid": "c12c4b0f-7cf6-4d69-b5ca-39c11cd425c5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Dash",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Dash",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Tecla3",
+          "persistentUuid": "a41ed8c3-dbee-4f9e-9247-de08bb2e3945",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "MOUSE",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "r": 244,
+            "g": 190,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "MOUSE",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "244;190;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Acao3",
+          "persistentUuid": "c86362cd-e7af-49c5-8aac-747f3eea255a",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Mirar",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Mirar",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Tecla4",
+          "persistentUuid": "f9e06052-9626-4b13-bfec-69cb7d69d4b3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CLIQUE ESQUERDO",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "r": 244,
+            "g": 190,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "CLIQUE ESQUERDO",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "244;190;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Acao4",
+          "persistentUuid": "6a78f110-bcd3-442b-bd2f-12e88622f078",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Atirar",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Atirar",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "BotaoJogar",
+          "type": "Sprite",
+          "persistentUuid": "99cd66bb-7222-4cce-b352-74ff3900e332",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "botao_iniciar2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "AvisoEnter",
+          "persistentUuid": "fa972b7c-8cfc-4fde-aaf8-d64ece0a29cc",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ou pressione ENTER",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 17,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ou pressione ENTER",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 17,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "VoltarMenu",
+          "persistentUuid": "59fa141b-8839-48df-9e4d-b5f4f588bffc",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ESC para voltar ao menu",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "r": 182,
+            "g": 185,
+            "b": 185
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "12;19;23",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 210,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ESC para voltar ao menu",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "182;185;185"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "FundoIntroducao"
+          },
+          {
+            "objectName": "SombraIntroducao"
+          },
+          {
+            "objectName": "LogoIntroducao"
+          },
+          {
+            "objectName": "TituloHistoria"
+          },
+          {
+            "objectName": "Historia"
+          },
+          {
+            "objectName": "TituloComandos"
+          },
+          {
+            "objectName": "Tecla0"
+          },
+          {
+            "objectName": "Acao0"
+          },
+          {
+            "objectName": "Tecla1"
+          },
+          {
+            "objectName": "Acao1"
+          },
+          {
+            "objectName": "Tecla2"
+          },
+          {
+            "objectName": "Acao2"
+          },
+          {
+            "objectName": "Tecla3"
+          },
+          {
+            "objectName": "Acao3"
+          },
+          {
+            "objectName": "Tecla4"
+          },
+          {
+            "objectName": "Acao4"
+          },
+          {
+            "objectName": "BotaoJogar"
+          },
+          {
+            "objectName": "AvisoEnter"
+          },
+          {
+            "objectName": "VoltarMenu"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowCursor"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Enquadramento da introducao",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EscalaIntroducao",
+                    "=",
+                    "min(CameraWidth()/1280,CameraHeight()/720)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "FundoIntroducao",
+                    "Resizable",
+                    "=",
+                    "max(CameraWidth(),CameraHeight()*1672/941)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "FundoIntroducao",
+                    "Resizable",
+                    "=",
+                    "FundoIntroducao.Width()*941/1672"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "FundoIntroducao",
+                    "=",
+                    "CameraCenterX()-FundoIntroducao.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "FundoIntroducao",
+                    "=",
+                    "CameraCenterY()-FundoIntroducao.Height()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "SombraIntroducao",
+                    "Resizable",
+                    "=",
+                    "CameraWidth()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "SombraIntroducao",
+                    "Resizable",
+                    "=",
+                    "CameraHeight()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "SombraIntroducao",
+                    "=",
+                    "CameraCenterX()-SombraIntroducao.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "SombraIntroducao",
+                    "=",
+                    "CameraCenterY()-SombraIntroducao.Height()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "LogoIntroducao",
+                    "=",
+                    "CameraBorderLeft()+76*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "LogoIntroducao",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+28*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "LogoIntroducao",
+                    "Resizable",
+                    "=",
+                    "350*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "LogoIntroducao",
+                    "Resizable",
+                    "=",
+                    "139*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoJogar",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoJogar",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+581*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BotaoJogar",
+                    "Resizable",
+                    "=",
+                    "280*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BotaoJogar",
+                    "Resizable",
+                    "=",
+                    "84*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TituloHistoria",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TituloHistoria",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+189*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "TituloHistoria",
+                    "=",
+                    "27*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Historia",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Historia",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+235*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Historia",
+                    "=",
+                    "20*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TituloComandos",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TituloComandos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+336*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "TituloComandos",
+                    "=",
+                    "16*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Tecla0",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Tecla0",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+374*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Tecla0",
+                    "=",
+                    "16*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Acao0",
+                    "=",
+                    "CameraBorderLeft()+310*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Acao0",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+371*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Acao0",
+                    "=",
+                    "20*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Tecla1",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Tecla1",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+411*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Tecla1",
+                    "=",
+                    "16*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Acao1",
+                    "=",
+                    "CameraBorderLeft()+310*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Acao1",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+408*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Acao1",
+                    "=",
+                    "20*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Tecla2",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Tecla2",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+448*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Tecla2",
+                    "=",
+                    "16*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Acao2",
+                    "=",
+                    "CameraBorderLeft()+310*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Acao2",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+445*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Acao2",
+                    "=",
+                    "20*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Tecla3",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Tecla3",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+485*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Tecla3",
+                    "=",
+                    "16*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Acao3",
+                    "=",
+                    "CameraBorderLeft()+310*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Acao3",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+482*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Acao3",
+                    "=",
+                    "20*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Tecla4",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Tecla4",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+522*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Tecla4",
+                    "=",
+                    "16*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Acao4",
+                    "=",
+                    "CameraBorderLeft()+310*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Acao4",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+519*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "Acao4",
+                    "=",
+                    "20*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "AvisoEnter",
+                    "=",
+                    "CameraBorderLeft()+382*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "AvisoEnter",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+612*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "AvisoEnter",
+                    "=",
+                    "17*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "VoltarMenu",
+                    "=",
+                    "CameraBorderLeft()+80*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "VoltarMenu",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaIntroducao)+682*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "VoltarMenu",
+                    "=",
+                    "14*Variable(EscalaIntroducao)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "SombraIntroducao",
+                    "Opacity",
+                    "=",
+                    "95"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Botao de iniciar",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoJogar",
+                    "\"225;225;225\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"default\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoJogar",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoJogar",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Entrar no jogo ou voltar",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Arena\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoJogar",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Arena\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Escape\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MenuInicial\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -37828,6 +40017,9 @@
     "children": [
       {
         "itemName": "MenuInicial"
+      },
+      {
+        "itemName": "Introducao"
       },
       {
         "itemName": "Arena"
