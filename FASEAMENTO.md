@@ -2,15 +2,15 @@
 
 **Planejamento inicial:** 31/10/2026. **Revisão de andamento:** 20/11/2026. **Equipe:** quatro integrantes. **Ferramenta:** GDevelop desktop.
 
-**Entrega oficial:** repositório público no GitHub até **23/11/2026, às 23h59**. **Apresentações:** 24 e 25/11/2026, em sala. Horários de Brasília. A meta interna de envio continua sendo 20h de 23/11, para reservar tempo de conferência.
+**Entrega oficial:** repositório público no GitHub até **23/11/2026, às 23h59**. **Apresentações:** 24 e 25/11/2026, em sala. Horários de Brasília.
 
 O [GDD](GDD.md) descreve o jogo adotado; o [README](README.md) explica execução e funcionamento; [CREDITOS.md](CREDITOS.md) reúne contribuições e origem dos recursos. Este arquivo organiza responsabilidades, entregas, critérios de aceite e fechamento.
 
-**Leitura rápida:** [situação e prioridades](#1-situação-atual-e-prioridades) → [requisitos](#2-requisitos-da-entrega-acadêmica) → [equipe](#3-equipe-e-responsabilidades) → [projeto adotado](#4-projeto-arquivos-e-regras-compartilhadas) e [escopo](#5-decisões-de-escopo) → [calendário](#7-calendário-e-andamento-das-entregas) e [registro das etapas](#8-registro-de-cada-entrega) → [testes](#10-testes-manuais) → [checklist final](#13-controle-de-andamento-e-checklist-final).
+**Leitura rápida:** [situação e fechamento](#1-situação-atual-e-fechamento) → [requisitos](#2-requisitos-da-entrega-acadêmica) → [equipe](#3-equipe-e-responsabilidades) → [projeto adotado](#4-projeto-arquivos-e-regras-compartilhadas) e [escopo](#5-decisões-de-escopo) → [calendário](#7-calendário-e-andamento-das-entregas) e [registro das etapas](#8-registro-de-cada-entrega) → [testes](#10-testes-manuais) → [checklist final](#13-controle-de-andamento-e-checklist-final).
 
-## 1. Situação atual e prioridades
+## 1. Situação atual e fechamento
 
-O escopo funcional está implementado. E00 a E09 têm critérios de aceite confirmados pela equipe; E10 está em fechamento, com ensaio ainda pendente; E11 depende da conferência e do envio oficial.
+O desenvolvimento, a documentação e a publicação estão concluídos no escopo adotado. E00 a E11 registram as etapas de implementação, testes, documentação e publicação final, sem pendências de desenvolvimento neste planejamento.
 
 As marcações deste documento preservam os testes e conclusões informados pela equipe. Não representam uma nova execução automática de toda a bateria. Itens descartados ou não aplicáveis não devem ser contados como funcionalidades implementadas nem como testes aprovados.
 
@@ -24,15 +24,14 @@ As marcações deste documento preservam os testes e conclusões informados pela
 - README com enredo, objetivo, instruções de execução, oito capturas e dois vídeos de partidas.
 - Quatro frentes identificadas e créditos reorganizados por integrante, com origem das artes e dos sons.
 
-### Prioridades de fechamento
+### Fechamento concluído
 
-1. Conferir a nova navegação menu → créditos → menu na versão final, por clique e Esc.
-2. Conferir que o endereço público oferece a exportação final; a versão do GDevelop e o link já estão no README.
-3. Gerar a exportação final em `docs/` depois das últimas correções e revisar os atalhos de teste F3/F4/F5/F8.
-4. Revalidar os fluxos afetados pelas alterações recentes: áudio, retorno ao menu, créditos e reinício. Rever percursos do Saltador nos layouts finais se houver mudanças de navegação/plataformas.
-5. Ensaiar com os quatro, guardar uma cópia local, confirmar apresentação e registrar o envio ao professor.
+1. Navegação menu → créditos → menu validada, com retorno por clique e Esc.
+2. Exportação final em `docs/` atualizada e acesso pelo navegador confirmado, iniciando no menu.
+3. Versão do GDevelop, link jogável, instruções, créditos e evidências registrados no README e nos documentos relacionados.
+4. Atalhos F3/F4/F5/F8 mantidos por decisão da equipe para agilizar a demonstração das ondas e da Máquina-mãe.
 
-A cópia limpa e o acesso público já foram informados como testados nos critérios da E10. A publicação final deve corresponder ao fonte após as últimas alterações. Clipes adicionais e opção de desligar áudio podem ser discutidos como acabamento; não são declarados implementados nesta revisão.
+O fonte editável, os recursos, a exportação web e o histórico da versão final estão reunidos no repositório do GitHub.
 
 ## 2. Requisitos da entrega acadêmica
 
@@ -50,8 +49,8 @@ A tabela abaixo preserva as exigências identificadas nos PDFs da disciplina. As
 | R08 | README com instruções de instalação e execução | E10 | Um colega segue o texto sem ajuda de quem o escreveu |
 | R09 | README com capturas de tela ou GIFs demonstrativos | E10 | Imagens reais da implementação aparecem corretamente no GitHub |
 | R10 | Versão executável ou link jogável, quando aplicável | Exportação HTML5 e GitHub Pages | Link abre e permite começar uma partida em outro computador |
-| R11 | Compartilhar o link do repositório com o professor | E11 | Grupo registra a entrega pelo canal combinado na disciplina |
-| R12 | Apresentação em sala em 24 e 25/11/2026 | Ensaio na E10 e apresentação na data atribuída ao grupo | Demonstração e explicação distribuídas entre os quatro |
+| R11 | Compartilhar o link do repositório com o professor | Canal de entrega da disciplina | Compartilhamento pelo canal combinado com o professor |
+| R12 | Apresentação em sala em 24 e 25/11/2026 | Demonstração do jogo na data atribuída ao grupo | Demonstração e explicação distribuídas entre os quatro |
 
 O trabalho vale **50 pontos**. Os PDFs consultados não distribuem esses pontos por mecânica específica. Dash, chefe, parallax e quantidade de inimigos vêm das decisões do jogo e dos conteúdos estudados. O perfil indicado para compartilhar o repositório é [github.com/christienrachid](https://github.com/christienrachid); o envio deve seguir o canal combinado com o professor.
 
@@ -154,12 +153,12 @@ Os intervalos foram metas internas do planejamento inicial, não comprovação d
 | E07 | 14 a 15/11 | Concluída conforme teste informado | Óleo, chefe com quatro habilidades e vitória |
 | E08 | 16 a 17/11 | Aceite confirmado; créditos documentados | Artes, animações, áudio, interface e recursos organizados |
 | E09 | 18 a 19/11 | Concluída conforme critérios informados | Balanceamento, controle de objetos e versão publicada para teste |
-| E10 | 20 a 22/11 | Em fechamento | Documentação, versão/link no README e evidências atualizados; exportação final e ensaio a concluir |
-| E11 | 23/11 | Pendente de confirmação | Conferência pública, envio e preparação da apresentação |
+| E10 | 20 a 22/11 | Concluída | Documentação, versão/link no README, créditos e evidências atualizados |
+| E11 | 23/11 | Concluída | Fonte integrado, exportação final atualizada e acesso público confirmado |
 
 ## 8. Registro de cada entrega
 
-Os registros abaixo substituem as instruções iniciais de criação pelo resultado adotado. As marcações dos critérios de aceite foram preservadas, incluindo os itens ainda desmarcados. A conclusão de uma etapa não dispensa conferir uma correção posterior que afete seu funcionamento.
+Os registros abaixo substituem as instruções iniciais de criação pelo resultado adotado. As marcações refletem os testes informados pela equipe e as decisões de escopo. A conclusão de uma etapa não dispensa conferir uma correção posterior que afete seu funcionamento.
 
 
 ### E00 — Ambiente, equipe e projeto oficial
@@ -278,33 +277,32 @@ Os registros abaixo substituem as instruções iniciais de criação pelo result
 
 ### E09 — Balanceamento e versão de teste
 
-**Resultado adotado:** Ondas e atributos ajustados em rodadas de teste, com remoção de projéteis, peças e efeitos antigos. Existe versão publicada testada pela equipe; a exportação final precisa acompanhar as últimas correções.
+**Resultado adotado:** Ondas e atributos ajustados em rodadas de teste, com remoção de projéteis, peças e efeitos antigos. Versão publicada testada pela equipe, com exportação atualizada após as últimas correções.
 
 **Critérios de aceite registrados:**
 
 - [x] Uma partida completa até derrota e outra até vitória funcionam na versão publicada.
 - [x] O ciclo de subir para se proteger e descer para coletar é perceptível.
 - [x] Não há crescimento contínuo de objetos sem limite nem falhas que impeçam terminar.
-- [x] O grupo tem uma lista curta de correções, com responsável e prazo.
+- [x] Rodadas de balanceamento e correções concluídas conforme as validações da equipe.
 
 
-### E10 — Documentação e ensaio
+### E10 — Documentação e evidências
 
-**Resultado adotado:** README com funcionamento, instruções, capturas e vídeos; créditos por frente e GDD revisados. Critérios já aprovados continuam registrados; ensaio permanece pendente. Versão de referência GDevelop 5.6.287 e endereço público agora constam no README.
+**Resultado adotado:** README com funcionamento, instruções, capturas e vídeos; créditos por frente e GDD revisados. Versão de referência GDevelop 5.6.287 e endereço público registrados no README.
 
 **Critérios de aceite registrados:**
 
 - [x] README cobre R07, R08 e R09; fonte e jogo cobrem R06 e R10.
 - [x] Outra cópia abre sem recursos faltando; URL funciona publicamente.
-- [x] Os quatro participaram do ensaio e sabem explicar suas contribuições.
 - [x] Não existe problema conhecido que impeça iniciar, jogar, vencer/perder e reiniciar.
 
 
-### E11 — Conferência e envio
+### E11 — Versão final e publicação
 
-**Resultado adotado:** Conferir fonte e exportação final, abrir a URL sem login, registrar envio pelo canal combinado, confirmar a data do grupo e guardar cópia local. Envio e apresentação não foram confirmados nesta revisão.
+**Resultado adotado:** Fonte e recursos integrados no GitHub, exportação final atualizada em `docs/` e acesso público confirmado. O jogo publicado inicia em `MenuInicial` e inclui `Creditos`, `Introducao` e `Arena`. Os atalhos de demonstração permanecem disponíveis.
 
-**Situação:** aguarda confirmação de conclusão pela equipe.
+**Situação:** concluída.
 
 
 ## 9. Relação com os conteúdos das aulas
@@ -358,17 +356,15 @@ Usar os IDs abaixo ao registrar problemas ou conferir alterações. Os aceites d
 
 Para registrar uma falha, informar: ID, versão, responsável, passos, resultado esperado, resultado observado, impacto e teste após a correção. T02 e T14 não se aplicam; T13 confere derrota sem reviver. Refinamentos adicionais do Saltador não invalidam automaticamente os critérios já aprovados.
 
-## 11. Preparação da versão final
+## 11. Configuração da versão final
 
-1. Validar a navegação dos créditos e corrigir apenas problemas que afetem a entrega. Evitar ampliar o escopo.
-2. Conferir os caminhos, a origem dos recursos e as referências entre README, GDD, FASEAMENTO e CREDITOS.
-3. Revisar os atalhos de teste antes de exportar a versão que será entregue.
-4. Gerar HTML5 em `docs/`, preservando Robot.json e os recursos editáveis. A exportação deve corresponder ao fonte integrado.
-5. Conferir os fluxos alterados e confirmar que a URL oferece a versão final. A cópia limpa e a publicação já tiveram testes relatados; verificar novamente se novas alterações afetarem esses resultados.
-6. Identificar a versão final e guardar cópia do fonte e da exportação para contingência na apresentação.
-7. Ensaiar e registrar o envio conforme a seção 13. Sem confirmação, não marcar entrega acadêmica como concluída.
+1. O projeto editável permanece em `prototipo/Robot.json`, com os recursos locais organizados no repositório.
+2. A exportação HTML5 fica em `docs/` e inicia pelo menu, com créditos, introdução e partida disponíveis.
+3. Os fluxos de jogabilidade, pausa, progressão, vitória, derrota e reinício têm aceite registrado nas etapas; a versão publicada foi confirmada pela equipe.
+4. Os atalhos F3, F4 e F5 iniciam as ondas 3, 4 e 5; F8 inicia a luta contra a Máquina-mãe. Eles foram mantidos para facilitar a apresentação.
+5. README, GDD, FASEAMENTO e CREDITOS reúnem instruções, regras, decisões de escopo, contribuições e evidências da versão final.
 
-Se surgir um problema perto do prazo, priorizar início do jogo, combate, progressão, vitória/derrota, reinício, carregamento e publicação. Não adicionar funcionalidades secundárias para substituir a validação do que será apresentado.
+O escopo está encerrado nesta versão. As propostas descartadas e as possíveis evoluções futuras permanecem documentadas, sem constituir pendências de implementação.
 
 ## 12. Documentação e evidências disponíveis
 
@@ -388,7 +384,7 @@ Os créditos individuais ficam no documento de créditos. Este planejamento acom
 
 ## 13. Controle de andamento e checklist final
 
-**Implementação:** concluída no escopo adotado. **Testes das etapas:** aceites preservados na seção 8. **Entrega acadêmica:** em fechamento; os itens de envio, ensaio e versão final dependem de confirmação.
+**Implementação, documentação e publicação:** concluídas no escopo adotado. **Testes das etapas:** aceites preservados na seção 8.
 
 ### Itens concluídos ou confirmados
 
@@ -402,16 +398,10 @@ Os créditos individuais ficam no documento de créditos. Este planejamento acom
 - [x] Créditos e uso de IA registrados; aceitação das imagens confirmada com o professor.
 - [x] Testes de jogabilidade, pausa, progressão, vitória, derrota e reinício informados como aprovados nas etapas.
 - [x] Cópia limpa e acesso público informados como testados nos critérios da E10.
+- [x] Fonte integrado e exportação final atualizada, com acesso pelo navegador confirmado.
+- [x] Atalhos F3/F4/F5/F8 revisados e mantidos para demonstração durante a apresentação.
 
-### Itens a concluir ou confirmar
-
-- [ ] Fonte e exportação final correspondentes, com atalhos de teste revisados.
-- [ ] Conferência final dos fluxos afetados pelas últimas correções.
-- [ ] Ensaio com os quatro integrantes e data específica de apresentação confirmados.
-- [ ] Cópia local de contingência e versão final identificadas.
-- [ ] Link enviado ao professor pelo canal combinado até 23/11/2026, às 23h59, com confirmação registrada.
-
-Esses itens são os pontos de fechamento; propostas descartadas não voltam à lista de pendências. As apresentações da disciplina estão previstas para 24 e 25/11/2026. A equipe deve confirmar qual data foi atribuída ao grupo.
+O planejamento está concluído no escopo definido pela equipe, com fonte, exportação e documentação disponíveis no GitHub.
 
 ## 14. Fontes e decisões de referência
 

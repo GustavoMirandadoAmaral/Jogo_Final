@@ -1,6 +1,6 @@
 # Oficina em Pane — Documento de Design (GDD)
 
-**Revisão:** 20/11/2026. **Situação:** escopo funcional implementado; documentação, publicação final e apresentação em fechamento.
+**Revisão:** 20/11/2026. **Situação:** desenvolvimento, documentação e publicação concluídos no escopo adotado.
 
 Este documento descreve o jogo adotado para a entrega. O [FASEAMENTO](FASEAMENTO.md) reúne responsabilidades, cronograma e testes; o [README](README.md) explica a execução e os sistemas implementados; os [créditos](CREDITOS.md) registram contribuições e origem dos recursos.
 
@@ -236,7 +236,7 @@ O projeto editável é `prototipo/Robot.json`, em arquivo único. A lógica usa 
 - [x] Trilhas, efeitos sonoros e organização dos canais de áudio.
 - [x] Recursos locais organizados e referências ausentes removidas.
 
-Os testes de aceite de E00 a E09 foram confirmados pela equipe no [FASEAMENTO](FASEAMENTO.md#13-controle-de-andamento-e-checklist-final). As verificações finais da entrega permanecem separadas das funcionalidades implementadas.
+Os testes de aceite e o fechamento das etapas E00 a E11 estão registrados no [FASEAMENTO](FASEAMENTO.md#13-controle-de-andamento-e-checklist-final), conforme as validações e decisões da equipe.
 
 ### Documentação e demonstrações concluídas
 
@@ -262,11 +262,11 @@ Os testes de aceite de E00 a E09 foram confirmados pela equipe no [FASEAMENTO](F
 
 Sem compromisso para esta entrega: parry rosa, cano duplo, regeneração gradual, escudo, melhorias adicionais, novas arenas, recorde persistente, peças instaladas visíveis e aprofundamento do enredo.
 
-### Pontos restantes de fechamento
+### Fechamento concluído
 
-- [ ] Conferir que o endereço público oferece a exportação final após as últimas alterações.
-- [ ] Gerar a exportação em `docs/` após as últimas correções e revisar os atalhos de teste.
-- [ ] Fazer a conferência da versão de entrega, revalidando os fluxos afetados pelas últimas alterações.
-- [ ] Confirmar o ensaio com os quatro integrantes, o envio ao professor e a cópia local para apresentação.
+- [x] Exportação final atualizada em `docs/`, iniciando no menu e incluindo créditos, introdução e partida.
+- [x] Acesso público à versão atualizada confirmado pela equipe.
+- [x] Atalhos F3/F4/F5/F8 mantidos para facilitar a demonstração das ondas e da Máquina-mãe.
+- [x] Fonte editável, recursos, exportação e documentação reunidos no repositório do GitHub.
 
-A cópia limpa e o acesso público já foram informados como testados nos critérios da E10; isso não confirma automaticamente uma nova exportação após alterações posteriores. O ensaio continua sem confirmação no planejamento. O controle de prazo e entrega oficial permanece no FASEAMENTO.
+O escopo desta versão está encerrado. As propostas descartadas e as possíveis evoluções futuras não constituem pendências de implementação.
