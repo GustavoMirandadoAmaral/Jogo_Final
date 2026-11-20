@@ -513,10 +513,10 @@
         "userAdded": false
       },
       {
-        "file": "arma1.png",
+        "file": "imagens/robo/arma1.png",
         "kind": "image",
         "metadata": "",
-        "name": "arma1.png",
+        "name": "imagens/robo/arma1.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1353,18 +1353,18 @@
         "userAdded": true
       },
       {
-        "file": "mira-heroi.png",
+        "file": "imagens/interface/hud/mira-heroi.png",
         "kind": "image",
         "metadata": "",
-        "name": "mira-heroi.png",
+        "name": "imagens/interface/hud/mira-heroi.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "disparo-heroi-v1.png",
+        "file": "imagens/robo/disparo-heroi-v1.png",
         "kind": "image",
         "metadata": "",
-        "name": "disparo-heroi-v1.png",
+        "name": "imagens/robo/disparo-heroi-v1.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1425,10 +1425,10 @@
         "userAdded": true
       },
       {
-        "file": "tiro.m4a",
+        "file": "sons/disparo_robo.m4a",
         "kind": "audio",
         "metadata": "",
-        "name": "tiro.m4a",
+        "name": "sons/disparo_robo.m4a",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -1467,10 +1467,10 @@
         "userAdded": false
       },
       {
-        "file": "Video Project2.m4a",
+        "file": "sons/dash_robo.m4a",
         "kind": "audio",
         "metadata": "",
-        "name": "Video Project2.m4a",
+        "name": "sons/dash_robo.m4a",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -1485,10 +1485,10 @@
         "userAdded": false
       },
       {
-        "file": "dano_robo_impacto_metalico.wav",
+        "file": "sons/dano_robo_impacto_metalico.wav",
         "kind": "audio",
         "metadata": "",
-        "name": "dano_robo_impacto_metalico.wav",
+        "name": "sons/dano_robo_impacto_metalico.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -1503,40 +1503,40 @@
         "userAdded": false
       },
       {
-        "file": "coleta_xp_chime.wav",
+        "file": "sons/coleta_xp_chime.wav",
         "kind": "audio",
         "metadata": "",
-        "name": "coleta_xp_chime.wav",
+        "name": "sons/coleta_xp_chime.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "Pressure_Valve_Breach.mp3",
+        "file": "sons/musica_oficina.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "Pressure_Valve_Breach.mp3",
+        "name": "sons/musica_oficina.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "abate_inimigo_pesado.wav",
+        "file": "sons/abate_inimigo_pesado.wav",
         "kind": "audio",
         "metadata": "",
-        "name": "abate_inimigo_pesado.wav",
+        "name": "sons/abate_inimigo_pesado.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "abate_inimigo_leve.wav",
+        "file": "sons/abate_inimigo_leve.wav",
         "kind": "audio",
         "metadata": "",
-        "name": "abate_inimigo_leve.wav",
+        "name": "sons/abate_inimigo_leve.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -1581,10 +1581,10 @@
         "userAdded": false
       },
       {
-        "file": "explosao_voador_oficina_em_pane.wav",
+        "file": "sons/explosao_voador_oficina_em_pane.wav",
         "kind": "audio",
         "metadata": "",
-        "name": "explosao_voador_oficina_em_pane.wav",
+        "name": "sons/explosao_voador_oficina_em_pane.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -17926,7 +17926,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "mira-heroi.png",
+                      "image": "imagens/interface/hud/mira-heroi.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19977,7 +19977,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "mira-heroi.png",
+                      "image": "imagens/interface/hud/mira-heroi.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -20380,7 +20380,7 @@
                   },
                   "parameters": [
                     "",
-                    "Pressure_Valve_Breach.mp3",
+                    "sons/musica_oficina.mp3",
                     "9",
                     "yes",
                     "20",
@@ -20886,7 +20886,7 @@
                   },
                   "parameters": [
                     "",
-                    "coleta_xp_chime.wav",
+                    "sons/coleta_xp_chime.wav",
                     "4",
                     "",
                     "30",
@@ -25160,7 +25160,7 @@
                           },
                           "parameters": [
                             "",
-                            "abate_inimigo_leve.wav",
+                            "sons/abate_inimigo_leve.wav",
                             "8",
                             "",
                             "25",
@@ -25190,7 +25190,7 @@
                           },
                           "parameters": [
                             "",
-                            "abate_inimigo_leve.wav",
+                            "sons/abate_inimigo_leve.wav",
                             "8",
                             "",
                             "25",
@@ -25220,7 +25220,7 @@
                           },
                           "parameters": [
                             "",
-                            "abate_inimigo_leve.wav",
+                            "sons/abate_inimigo_leve.wav",
                             "8",
                             "",
                             "25",
@@ -25250,7 +25250,7 @@
                           },
                           "parameters": [
                             "",
-                            "abate_inimigo_pesado.wav",
+                            "sons/abate_inimigo_pesado.wav",
                             "8",
                             "",
                             "25",
@@ -25280,7 +25280,7 @@
                           },
                           "parameters": [
                             "",
-                            "abate_inimigo_pesado.wav",
+                            "sons/abate_inimigo_pesado.wav",
                             "8",
                             "",
                             "25",
@@ -31100,7 +31100,7 @@
                       },
                       "parameters": [
                         "",
-                        "explosao_voador_oficina_em_pane.wav",
+                        "sons/explosao_voador_oficina_em_pane.wav",
                         "21",
                         "",
                         "30",
@@ -31174,7 +31174,7 @@
                           },
                           "parameters": [
                             "",
-                            "dano_robo_impacto_metalico.wav",
+                            "sons/dano_robo_impacto_metalico.wav",
                             "2",
                             "",
                             "30",
@@ -33482,7 +33482,7 @@
                   },
                   "parameters": [
                     "",
-                    "dano_robo_impacto_metalico.wav",
+                    "sons/dano_robo_impacto_metalico.wav",
                     "2",
                     "",
                     "30",
@@ -35897,7 +35897,7 @@
                   },
                   "parameters": [
                     "",
-                    "dano_robo_impacto_metalico.wav",
+                    "sons/dano_robo_impacto_metalico.wav",
                     "2",
                     "",
                     "30",
@@ -36542,7 +36542,7 @@
                   },
                   "parameters": [
                     "",
-                    "tiro.m4a",
+                    "sons/disparo_robo.m4a",
                     "1",
                     "",
                     "30",
@@ -37140,7 +37140,7 @@
                   },
                   "parameters": [
                     "",
-                    "Video Project2.m4a",
+                    "sons/dash_robo.m4a",
                     "3",
                     "",
                     "30",
@@ -37228,7 +37228,7 @@
                   },
                   "parameters": [
                     "",
-                    "dano_robo_impacto_metalico.wav",
+                    "sons/dano_robo_impacto_metalico.wav",
                     "2",
                     "",
                     "30",
@@ -37304,7 +37304,7 @@
                   },
                   "parameters": [
                     "",
-                    "dano_robo_impacto_metalico.wav",
+                    "sons/dano_robo_impacto_metalico.wav",
                     "2",
                     "",
                     "30",
@@ -40978,7 +40978,7 @@
                   },
                   "parameters": [
                     "",
-                    "dano_robo_impacto_metalico.wav",
+                    "sons/dano_robo_impacto_metalico.wav",
                     "2",
                     "",
                     "30",
