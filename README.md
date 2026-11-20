@@ -19,6 +19,43 @@ O combate acontece numa arena de plataformas: é preciso mirar e atirar enquanto
 
 `prototipo/Robot.json` é o projeto editável; `docs/` contém a exportação web. Não é necessário editar a exportação para abrir o fonte no GDevelop.
 
+## Demonstrações do jogo
+
+Capturas reais da versão em execução, mostrando o menu, o combate, as melhorias e os resultados da partida.
+
+### Menu inicial
+
+| Tela inicial | Botões do menu |
+| --- | --- |
+| ![Menu inicial de Oficina em Pane, com o protagonista e os botões de navegação](midia/capturas/menu-inicial.png) | ![Detalhe dos botões da tela inicial](midia/capturas/menu-botoes.png) |
+
+### Combate e Máquina-mãe
+
+| Combate na onda 4 | Encontro com a Máquina-mãe |
+| --- | --- |
+| ![Robô enfrentando os inimigos durante a quarta onda](midia/capturas/combate-onda-4.png) | ![Máquina-mãe na arena durante a etapa final](midia/capturas/maquina-mae.png) |
+
+### Progressão e melhorias
+
+| Escolha de melhoria | Outras opções de melhoria |
+| --- | --- |
+| ![Três cartas de melhoria disponíveis ao subir de nível](midia/capturas/escolha-melhoria.png) | ![Outras melhorias oferecidas durante a progressão](midia/capturas/outras-melhorias.png) |
+
+### Resultados
+
+| Vitória | Derrota |
+| --- | --- |
+| ![Tela de vitória com as estatísticas finais da partida](midia/capturas/vitoria.png) | ![Tela de derrota com o resultado e as opções para reiniciar ou voltar ao menu](midia/capturas/derrota.png) |
+
+### Vídeos de demonstração
+
+As gravações mostram duas partidas: uma até a vitória e outra até a derrota. Os links abaixo levam aos arquivos MP4, para abrir ou baixar.
+
+| Gravação | Duração aproximada | Arquivo |
+| --- | --- | --- |
+| Partida até a vitória | 5 min 26 s | [Abrir ou baixar o vídeo da vitória](midia/videos/partida-vitoria.mp4) |
+| Partida até a derrota | 2 min 41 s | [Abrir ou baixar o vídeo da derrota](midia/videos/partida-derrota.mp4) |
+
 ## Documentação
 
 - [Documento de design do jogo (GDD)](GDD.md)
