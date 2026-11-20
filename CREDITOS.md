@@ -38,9 +38,13 @@ Na branch `telas-resultado`, acrescentou a **pontuação final e a opção clic�
 
 Também registrou o funcionamento desses elementos no README e a origem das imagens das barras em `CREDITOS.md`.
 
-## Cenário, plataformas e efeitos da arena
+## Participação de Vitor Rosa
 
-### Imagens
+Vitor Rosa foi responsável pela implementação e integração dos sistemas de cenário, plataformas, câmera, parallax, óleo e peças de XP descritos no README. A origem e a autoria das artes usadas nessa integração estão preservadas abaixo.
+
+### Cenário, plataformas e efeitos da arena
+
+#### Imagens
 
 | Recurso no jogo | Arquivo no projeto | Origem |
 | --- | --- | --- |
@@ -53,7 +57,7 @@ Também registrou o funcionamento desses elementos no README e a origem das imag
 
 Preparação: as texturas das plataformas foram recortadas da arte original num trecho que se repete, com a emenda fundida para não aparecer a junção, e reduzidas à espessura usada no jogo (32 px; 120 px no óleo).
 
-### Recursos do GDevelop
+#### Recursos do GDevelop
 
 Os efeitos da arena usam apenas recursos que vêm com o GDevelop, sem extensões externas:
 
@@ -61,6 +65,8 @@ Os efeitos da arena usam apenas recursos que vêm com o GDevelop, sem extensões
 - **Tween** para a queda do andaime, a chegada do óleo e o tremor da câmera;
 - **Comportamentos de plataforma** (plataforma e objeto que anda sobre plataformas) para chão, prateleiras, esteiras, andaimes e peças;
 - objetos **Tiled Sprite** para as texturas repetidas.
+
+Também contribuiu com os estados da partida, pausa, coleta de XP, níveis, escolha e aplicação de melhorias, cartões e painéis de resumo, além de ajustes de colisão, balanceamento, desempenho, documentação e exportação web.
 
 ## Jogador, controles e combate
 
