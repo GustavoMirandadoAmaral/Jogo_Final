@@ -1789,6 +1789,38 @@
         "metadata": "",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/interface/botao-continuar-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/botao-continuar-v1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/interface/resultados/robo-desligado-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/resultados/robo-desligado-v1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/interface/resultados/botao-reiniciar-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/resultados/botao-reiniciar-v1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/interface/resultados/botao-menu-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/resultados/botao-menu-v1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5205,6 +5237,74 @@
               "name": "TextoChefao"
             }
           ]
+        },
+        {
+          "name": "TelaDerrota",
+          "objects": [
+            {
+              "name": "PainelDerrota"
+            },
+            {
+              "name": "RoboDerrotadoVisual"
+            },
+            {
+              "name": "BotaoJogarNovamente"
+            },
+            {
+              "name": "BotaoMenuResultado"
+            },
+            {
+              "name": "TituloDerrota"
+            },
+            {
+              "name": "MensagemDerrota"
+            },
+            {
+              "name": "RotuloPontosDerrota"
+            },
+            {
+              "name": "PontosDerrota"
+            },
+            {
+              "name": "RotuloAbatesDerrota"
+            },
+            {
+              "name": "AbatesDerrota"
+            },
+            {
+              "name": "RotuloOndaDerrota"
+            },
+            {
+              "name": "OndaDerrota"
+            },
+            {
+              "name": "RotuloTempoDerrota"
+            },
+            {
+              "name": "TempoDerrota"
+            },
+            {
+              "name": "RotuloNivelDerrota"
+            },
+            {
+              "name": "NivelDerrota"
+            },
+            {
+              "name": "AtalhosDerrota"
+            },
+            {
+              "name": "IconeAbatesDerrota"
+            },
+            {
+              "name": "IconeOndaDerrota"
+            },
+            {
+              "name": "IconeTempoDerrota"
+            },
+            {
+              "name": "IconeNivelDerrota"
+            }
+          ]
         }
       ],
       "variables": [
@@ -5934,6 +6034,12 @@
           "persistentUuid": "0ce01920-fd46-4c35-b9e6-2a99a6bf1f55",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "EscalaResultado",
+          "type": "number",
+          "value": 1,
+          "persistentUuid": "1596f4c4-1826-422e-bd33-1f2416ccc747"
         }
       ],
       "instances": [
@@ -8996,6 +9102,358 @@
           "x": 2170,
           "y": 265,
           "zOrder": 191,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 300,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "BotaoContinuar",
+          "persistentUuid": "9d26ec3b-81b8-4f58-8a17-e49a7f239040",
+          "x": 490,
+          "y": 476,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 1000,
+          "height": 580,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "PainelDerrota",
+          "persistentUuid": "91e6b40d-b1d9-4e59-b52e-f6fcc45b7984",
+          "x": 140,
+          "y": 70,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 286,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RoboDerrotadoVisual",
+          "persistentUuid": "c04c8063-4e0b-43c7-8d48-8e790ce7d083",
+          "x": 238,
+          "y": 223,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 310,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "BotaoJogarNovamente",
+          "persistentUuid": "2921fa3c-db87-4626-93d9-5714a2290146",
+          "x": 310,
+          "y": 535,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 310,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "BotaoMenuResultado",
+          "persistentUuid": "868fa1a2-9d66-423a-b32c-d4137ee4635a",
+          "x": 660,
+          "y": 535,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TituloDerrota",
+          "persistentUuid": "8e551091-99cd-472e-b23e-8e10155dbe99",
+          "x": 640,
+          "y": 109,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "MensagemDerrota",
+          "persistentUuid": "d8cc8b94-4047-44c7-a522-b68acbe322e3",
+          "x": 640,
+          "y": 162,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloPontosDerrota",
+          "persistentUuid": "c3c57c4f-2344-4d77-a4fd-ea5f76a249f7",
+          "x": 675,
+          "y": 224,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "PontosDerrota",
+          "persistentUuid": "c1895b27-7ab4-4a86-9e64-1cedea7472ff",
+          "x": 675,
+          "y": 250,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloAbatesDerrota",
+          "persistentUuid": "e51db793-70da-40ee-a85d-f317bfc28dc3",
+          "x": 675,
+          "y": 338,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "AbatesDerrota",
+          "persistentUuid": "a552f478-90ff-4c4c-a92d-5289287573fc",
+          "x": 675,
+          "y": 362,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloOndaDerrota",
+          "persistentUuid": "37fe89e4-dccb-4ca7-add4-ab6fb486b569",
+          "x": 865,
+          "y": 338,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "OndaDerrota",
+          "persistentUuid": "706e4f70-351e-43f0-b502-cda88641d5cb",
+          "x": 865,
+          "y": 362,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloTempoDerrota",
+          "persistentUuid": "fe01a71e-7cd0-417b-bc67-099e02b3a068",
+          "x": 675,
+          "y": 421,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TempoDerrota",
+          "persistentUuid": "32ecd626-48fd-4c86-bb7c-9fc9fd735c52",
+          "x": 675,
+          "y": 445,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloNivelDerrota",
+          "persistentUuid": "f670bc51-120c-4b37-8440-2166dc7ce0c5",
+          "x": 865,
+          "y": 421,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "NivelDerrota",
+          "persistentUuid": "97e9224e-e0d7-4489-821b-2682c1e88577",
+          "x": 865,
+          "y": 445,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "AtalhosDerrota",
+          "persistentUuid": "0321673a-a4d9-4373-b7d9-ea0791a5dbcd",
+          "x": 640,
+          "y": 665,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 36,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "IconeAbatesDerrota",
+          "persistentUuid": "97425870-a96c-4d03-a15c-ba9a3cc6723c",
+          "x": 675,
+          "y": 350,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 36,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "IconeOndaDerrota",
+          "persistentUuid": "e667f80c-c53b-46c2-9d81-9c003acd422f",
+          "x": 865,
+          "y": 350,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 36,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "IconeTempoDerrota",
+          "persistentUuid": "d1d6ce55-3119-4360-a214-253bd661277a",
+          "x": 675,
+          "y": 433,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 36,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "IconeNivelDerrota",
+          "persistentUuid": "921a77df-e2e7-418e-a101-e80cdade6c74",
+          "x": 865,
+          "y": 433,
+          "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17376,6 +17834,948 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BotaoContinuar",
+          "type": "Sprite",
+          "persistentUuid": "e1e7793e-539f-4c04-8b58-54605e7a5308",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/botao-continuar-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PainelDerrota",
+          "persistentUuid": "f3ba6b6c-c837-4fa9-a270-9dd7b7d9db77",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/painel-telas-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "RoboDerrotadoVisual",
+          "type": "Sprite",
+          "persistentUuid": "a50d6465-8957-4604-a40f-72fd3172bc80",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/resultados/robo-desligado-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BotaoJogarNovamente",
+          "type": "Sprite",
+          "persistentUuid": "22cfa3d5-8d3c-4e72-becf-6200544c1724",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/resultados/botao-reiniciar-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BotaoMenuResultado",
+          "type": "Sprite",
+          "persistentUuid": "0f9996d8-eea8-44ff-b595-7228dfe41de8",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/resultados/botao-menu-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TituloDerrota",
+          "persistentUuid": "3583107a-517f-411c-abf2-ada5e97dd554",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ROBÔ DESLIGADO",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 38,
+          "color": {
+            "r": 247,
+            "g": 218,
+            "b": 180
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ROBÔ DESLIGADO",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 38,
+            "lineHeight": 0,
+            "color": "247;218;180"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "MensagemDerrota",
+          "persistentUuid": "d9c76d2c-27e5-4633-ad4b-f4019aba4b7f",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "A oficina ainda precisa de você.",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "r": 221,
+            "g": 191,
+            "b": 157
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "A oficina ainda precisa de você.",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "221;191;157"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloPontosDerrota",
+          "persistentUuid": "ff3d9b96-3130-46f5-9161-21ad9fc6eb17",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "PONTUAÇÃO FINAL",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "r": 231,
+            "g": 166,
+            "b": 95
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "PONTUAÇÃO FINAL",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "231;166;95"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "PontosDerrota",
+          "persistentUuid": "386ce18c-1794-4e84-b931-a6f559d3dfed",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 48,
+          "color": {
+            "r": 255,
+            "g": 239,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 48,
+            "lineHeight": 0,
+            "color": "255;239;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloAbatesDerrota",
+          "persistentUuid": "ad5b40d8-7421-41ed-a251-b36af05a781a",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ABATES",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "r": 202,
+            "g": 158,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ABATES",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "202;158;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "AbatesDerrota",
+          "persistentUuid": "934703ac-961b-4372-b0fb-e5529bf59d74",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloOndaDerrota",
+          "persistentUuid": "34ebcff8-afeb-478a-bc0d-8a538351b182",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ONDA ALCANÇADA",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "r": 202,
+            "g": 158,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ONDA ALCANÇADA",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "202;158;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "OndaDerrota",
+          "persistentUuid": "ccb739c5-cbf1-4b8e-bd66-f4f9faa1e20d",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloTempoDerrota",
+          "persistentUuid": "db87b78b-dc78-4760-b590-82e1e306f897",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "TEMPO",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "r": 202,
+            "g": 158,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "TEMPO",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "202;158;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TempoDerrota",
+          "persistentUuid": "40838ec3-ee27-4f2c-b0f2-f9aad3dc6436",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloNivelDerrota",
+          "persistentUuid": "9814d614-04e2-487a-8a41-1b49173735cd",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "NÍVEL",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "r": 202,
+            "g": 158,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "NÍVEL",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "202;158;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NivelDerrota",
+          "persistentUuid": "03112d2f-5c68-4d5c-9571-ed2785529d21",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "AtalhosDerrota",
+          "persistentUuid": "61d48892-16ba-49ed-b61a-150e4a1efb10",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ENTER · jogar de novo          ESC · menu inicial",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "r": 218,
+            "g": 208,
+            "b": 190
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ENTER · jogar de novo          ESC · menu inicial",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "218;208;190"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeAbatesDerrota",
+          "persistentUuid": "a048fd89-619f-466b-921e-64c320e7eff1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "abatidos",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/abatidos-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeOndaDerrota",
+          "persistentUuid": "5a1911eb-7375-4a69-b49f-4037f2e18b76",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "onda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/onda-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeTempoDerrota",
+          "persistentUuid": "443bc63c-5123-4870-9388-dd9b771eff0b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "tempo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/tempo-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeNivelDerrota",
+          "persistentUuid": "555785f8-54e8-4f88-a672-7067616db32a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "nivel",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/nivel-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -17575,6 +18975,77 @@
           },
           {
             "objectName": "BarraVidaChefao"
+          },
+          {
+            "objectName": "BotaoContinuar"
+          },
+          {
+            "folderName": "Tela de derrota",
+            "children": [
+              {
+                "objectName": "PainelDerrota"
+              },
+              {
+                "objectName": "RoboDerrotadoVisual"
+              },
+              {
+                "objectName": "BotaoJogarNovamente"
+              },
+              {
+                "objectName": "BotaoMenuResultado"
+              },
+              {
+                "objectName": "TituloDerrota"
+              },
+              {
+                "objectName": "MensagemDerrota"
+              },
+              {
+                "objectName": "RotuloPontosDerrota"
+              },
+              {
+                "objectName": "PontosDerrota"
+              },
+              {
+                "objectName": "RotuloAbatesDerrota"
+              },
+              {
+                "objectName": "AbatesDerrota"
+              },
+              {
+                "objectName": "RotuloOndaDerrota"
+              },
+              {
+                "objectName": "OndaDerrota"
+              },
+              {
+                "objectName": "RotuloTempoDerrota"
+              },
+              {
+                "objectName": "TempoDerrota"
+              },
+              {
+                "objectName": "RotuloNivelDerrota"
+              },
+              {
+                "objectName": "NivelDerrota"
+              },
+              {
+                "objectName": "AtalhosDerrota"
+              },
+              {
+                "objectName": "IconeAbatesDerrota"
+              },
+              {
+                "objectName": "IconeOndaDerrota"
+              },
+              {
+                "objectName": "IconeTempoDerrota"
+              },
+              {
+                "objectName": "IconeNivelDerrota"
+              }
+            ]
           }
         ]
       },
@@ -17873,7 +19344,7 @@
                     "value": "IsCursorOnObject"
                   },
                   "parameters": [
-                    "TextoSubtitulo",
+                    "BotaoContinuar",
                     "",
                     "",
                     ""
@@ -19492,7 +20963,7 @@
                   "parameters": [
                     "TextoSubtitulo",
                     "=",
-                    "\"[ Continuar ]   ou Esc\""
+                    "\"Esc para voltar ao jogo\""
                   ]
                 }
               ]
@@ -39789,6 +41260,1369 @@
                   },
                   "parameters": [
                     "IndicadorVidaChefao"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Pausa: botao Continuar",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "parameters": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BotaoContinuar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Pausado\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BotaoContinuar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoContinuar",
+                    "=",
+                    "CameraCenterX(\"HUD\")-BotaoContinuar.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoContinuar",
+                    "=",
+                    "476"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "=",
+                    "592"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo",
+                    "=",
+                    "CameraCenterX(\"HUD\")-TextoSubtitulo.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoContinuar",
+                    "\"225;225;225\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowCursor"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"default\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Pausado\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoContinuar",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoContinuar",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Jogando\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideCursor"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Derrota: apresentacao e botoes",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "parameters": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TelaDerrota"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Derrota\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TelaDerrota",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowCursor"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"default\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EscalaResultado",
+                    "=",
+                    "min(CameraWidth(\"HUD\")/1280,CameraHeight(\"HUD\")/720)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PainelTela"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoResumo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoTitulo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IconeResumo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoNivelResumo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IconeEstatistica"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoEstatistica"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Mira"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "PainelDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+-500*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "PainelDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+70*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "PainelDerrota",
+                    "Resizable",
+                    "=",
+                    "1000*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "PainelDerrota",
+                    "Resizable",
+                    "=",
+                    "580*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RoboDerrotadoVisual",
+                    "=",
+                    "CameraCenterX(\"HUD\")+-402*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RoboDerrotadoVisual",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+223*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "RoboDerrotadoVisual",
+                    "Resizable",
+                    "=",
+                    "286*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "RoboDerrotadoVisual",
+                    "Resizable",
+                    "=",
+                    "288*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoJogarNovamente",
+                    "=",
+                    "CameraCenterX(\"HUD\")+-330*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoJogarNovamente",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+535*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BotaoJogarNovamente",
+                    "Resizable",
+                    "=",
+                    "310*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BotaoJogarNovamente",
+                    "Resizable",
+                    "=",
+                    "100*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoMenuResultado",
+                    "=",
+                    "CameraCenterX(\"HUD\")+20*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoMenuResultado",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+535*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BotaoMenuResultado",
+                    "Resizable",
+                    "=",
+                    "310*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BotaoMenuResultado",
+                    "Resizable",
+                    "=",
+                    "100*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "TituloDerrota",
+                    "=",
+                    "38*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TituloDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")-TituloDerrota.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TituloDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+109*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "MensagemDerrota",
+                    "=",
+                    "20*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "MensagemDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")-MensagemDerrota.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "MensagemDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+162*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloPontosDerrota",
+                    "=",
+                    "16*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloPontosDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+35*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloPontosDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+224*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "PontosDerrota",
+                    "=",
+                    "ToString(Variable(Pontuacao))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "PontosDerrota",
+                    "=",
+                    "48*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "PontosDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+35*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "PontosDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+250*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloAbatesDerrota",
+                    "=",
+                    "14*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloAbatesDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+79*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloAbatesDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+338*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "AbatesDerrota",
+                    "=",
+                    "ToString(Variable(Abates))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "AbatesDerrota",
+                    "=",
+                    "26*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "AbatesDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+79*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "AbatesDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+362*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloOndaDerrota",
+                    "=",
+                    "14*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloOndaDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+269*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloOndaDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+338*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "OndaDerrota",
+                    "=",
+                    "ToString(Variable(Onda))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "OndaDerrota",
+                    "=",
+                    "26*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "OndaDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+269*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "OndaDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+362*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloTempoDerrota",
+                    "=",
+                    "14*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloTempoDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+79*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloTempoDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+421*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TempoDerrota",
+                    "=",
+                    "ToString(floor(Variable(TempoPartida)/60))+\":\"+SubStr(\"0\"+ToString(mod(floor(Variable(TempoPartida)),60)),StrLength(\"0\"+ToString(mod(floor(Variable(TempoPartida)),60)))-2,2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "TempoDerrota",
+                    "=",
+                    "26*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TempoDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+79*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TempoDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+445*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloNivelDerrota",
+                    "=",
+                    "14*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloNivelDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+269*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloNivelDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+421*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NivelDerrota",
+                    "=",
+                    "ToString(Variable(Nivel))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "NivelDerrota",
+                    "=",
+                    "26*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "NivelDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+269*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "NivelDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+445*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "AtalhosDerrota",
+                    "=",
+                    "16*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "AtalhosDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")-AtalhosDerrota.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "AtalhosDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+665*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoJogarNovamente",
+                    "\"225;225;225\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoMenuResultado",
+                    "\"225;225;225\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeAbatesDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+35*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "IconeAbatesDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+350*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "IconeAbatesDerrota",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "IconeAbatesDerrota",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeOndaDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+225*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "IconeOndaDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+350*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "IconeOndaDerrota",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "IconeOndaDerrota",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeTempoDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+35*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "IconeTempoDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+433*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "IconeTempoDerrota",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "IconeTempoDerrota",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeNivelDerrota",
+                    "=",
+                    "CameraCenterX(\"HUD\")+225*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "IconeNivelDerrota",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+433*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "IconeNivelDerrota",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "IconeNivelDerrota",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Derrota\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoJogarNovamente",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoJogarNovamente",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Derrota\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoJogarNovamente",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Arena\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Derrota\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoMenuResultado",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoMenuResultado",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Derrota\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoMenuResultado",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MenuInicial\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Derrota\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Escape\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MenuInicial\"",
+                    "no"
                   ]
                 }
               ]
