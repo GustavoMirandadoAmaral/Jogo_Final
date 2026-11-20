@@ -1821,6 +1821,14 @@
         "name": "imagens/interface/resultados/botao-menu-v1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/interface/resultados/robo-vitorioso-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/interface/resultados/robo-vitorioso-v1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5303,6 +5311,74 @@
             },
             {
               "name": "IconeNivelDerrota"
+            }
+          ]
+        },
+        {
+          "name": "TelaVitoria",
+          "objects": [
+            {
+              "name": "PainelVitoria"
+            },
+            {
+              "name": "RoboVitoriosoVisual"
+            },
+            {
+              "name": "BotaoRepetirVitoria"
+            },
+            {
+              "name": "BotaoMenuVitoria"
+            },
+            {
+              "name": "TituloVitoria"
+            },
+            {
+              "name": "MensagemVitoria"
+            },
+            {
+              "name": "RotuloPontosVitoria"
+            },
+            {
+              "name": "PontosVitoria"
+            },
+            {
+              "name": "RotuloAbatesVitoria"
+            },
+            {
+              "name": "AbatesVitoria"
+            },
+            {
+              "name": "RotuloOndaVitoria"
+            },
+            {
+              "name": "OndaVitoria"
+            },
+            {
+              "name": "RotuloTempoVitoria"
+            },
+            {
+              "name": "TempoVitoria"
+            },
+            {
+              "name": "RotuloNivelVitoria"
+            },
+            {
+              "name": "NivelVitoria"
+            },
+            {
+              "name": "AtalhosVitoria"
+            },
+            {
+              "name": "IconeAbatesVitoria"
+            },
+            {
+              "name": "IconeOndaVitoria"
+            },
+            {
+              "name": "IconeTempoVitoria"
+            },
+            {
+              "name": "IconeNivelVitoria"
             }
           ]
         }
@@ -9451,6 +9527,342 @@
           "layer": "HUD",
           "name": "IconeNivelDerrota",
           "persistentUuid": "921a77df-e2e7-418e-a101-e80cdade6c74",
+          "x": 865,
+          "y": 433,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 1000,
+          "height": 580,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "PainelVitoria",
+          "persistentUuid": "68bd6ee0-c63b-4901-9b51-9e3f03a9b6af",
+          "x": 140,
+          "y": 70,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 263.195,
+          "height": 288.0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RoboVitoriosoVisual",
+          "persistentUuid": "b2c6c854-d54b-4535-b67f-2307fef42033",
+          "x": 249.40300000000002,
+          "y": 223,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 310,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "BotaoRepetirVitoria",
+          "persistentUuid": "f9a32c85-54ec-469d-bfa3-dec5e89c52e8",
+          "x": 310,
+          "y": 535,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 310,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "BotaoMenuVitoria",
+          "persistentUuid": "396d5ace-4ef3-4334-8952-680c5dc0ad83",
+          "x": 660,
+          "y": 535,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TituloVitoria",
+          "persistentUuid": "785ddcfe-aeca-4d4a-bf22-079154c87c38",
+          "x": 640,
+          "y": 109,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "MensagemVitoria",
+          "persistentUuid": "8e9ac3e2-d8d2-4184-84c6-2d7cb4607400",
+          "x": 640,
+          "y": 162,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloPontosVitoria",
+          "persistentUuid": "db1b5a88-a899-4a5d-a9ff-53542ce2ca42",
+          "x": 675,
+          "y": 224,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "PontosVitoria",
+          "persistentUuid": "ea2409b4-005f-4553-87cd-a8d9b1a8654f",
+          "x": 675,
+          "y": 250,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloAbatesVitoria",
+          "persistentUuid": "ac142b8d-869e-4d4b-aace-944fe5735179",
+          "x": 675,
+          "y": 338,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "AbatesVitoria",
+          "persistentUuid": "1f029db0-235b-47db-a4c5-3522fe01b4c6",
+          "x": 675,
+          "y": 362,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloOndaVitoria",
+          "persistentUuid": "ad0a8960-2f0b-49a2-aa47-15c51a1526ae",
+          "x": 865,
+          "y": 338,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "OndaVitoria",
+          "persistentUuid": "cd78d328-2c52-4ed4-85d9-5b2417daf2e7",
+          "x": 865,
+          "y": 362,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloTempoVitoria",
+          "persistentUuid": "098252db-141d-4bc6-b7a4-d4e12debc520",
+          "x": 675,
+          "y": 421,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TempoVitoria",
+          "persistentUuid": "a43b03d1-5903-40b5-9acd-c86442b5e104",
+          "x": 675,
+          "y": 445,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "RotuloNivelVitoria",
+          "persistentUuid": "d43fa502-f63d-4d10-aee1-57a97ee6cf88",
+          "x": 865,
+          "y": 421,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "NivelVitoria",
+          "persistentUuid": "8f952a40-607c-442e-8299-161fe199841c",
+          "x": 865,
+          "y": 445,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "width": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "AtalhosVitoria",
+          "persistentUuid": "1b20e5ef-30bb-46e2-ba2e-70f79a9ffd07",
+          "x": 640,
+          "y": 665,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 36,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "IconeAbatesVitoria",
+          "persistentUuid": "96d5f6e9-8632-4176-9b2d-521db03b9b69",
+          "x": 675,
+          "y": 350,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 36,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "IconeOndaVitoria",
+          "persistentUuid": "d321a226-7b2d-439e-8942-d38233d47eda",
+          "x": 865,
+          "y": 350,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 36,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "IconeTempoVitoria",
+          "persistentUuid": "0d593052-1c93-4ecd-8a51-95b57c5efaae",
+          "x": 675,
+          "y": 433,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "width": 36,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "IconeNivelVitoria",
+          "persistentUuid": "ec660acb-27cd-40bd-b0c5-40e2bc265032",
           "x": 865,
           "y": 433,
           "zOrder": 108,
@@ -18776,6 +19188,908 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PainelVitoria",
+          "persistentUuid": "907ca0ff-63b4-42dc-af43-713df9bf14a5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/painel-telas-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "RoboVitoriosoVisual",
+          "type": "Sprite",
+          "persistentUuid": "c7121032-c30c-4a6c-86b9-86f2abf888cf",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/resultados/robo-vitorioso-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BotaoRepetirVitoria",
+          "type": "Sprite",
+          "persistentUuid": "bfde510d-3b61-4de4-89d9-1364aa623e87",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/resultados/botao-reiniciar-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BotaoMenuVitoria",
+          "type": "Sprite",
+          "persistentUuid": "19b2357f-7535-477a-82e6-6bd9856c4cde",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/resultados/botao-menu-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TituloVitoria",
+          "persistentUuid": "298cab62-d628-46f8-a9eb-594c6541304e",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "OFICINA SALVA!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 38,
+          "color": {
+            "r": 255,
+            "g": 225,
+            "b": 156
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "OFICINA SALVA!",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 38,
+            "lineHeight": 0,
+            "color": "255;225;156"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "MensagemVitoria",
+          "persistentUuid": "8e26e828-8f34-44a9-b273-e7837a9655ea",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "A Máquina-mãe foi derrotada. A oficina voltou a funcionar.",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "r": 242,
+            "g": 221,
+            "b": 184
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "A Máquina-mãe foi derrotada. A oficina voltou a funcionar.",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "242;221;184"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloPontosVitoria",
+          "persistentUuid": "ee245cb8-7e93-48f9-a236-ea39c66865ef",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "PONTUAÇÃO FINAL",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "r": 231,
+            "g": 166,
+            "b": 95
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "PONTUAÇÃO FINAL",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "231;166;95"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "PontosVitoria",
+          "persistentUuid": "06fd1aec-3af0-47f5-a388-a99587764367",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 48,
+          "color": {
+            "r": 255,
+            "g": 239,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 48,
+            "lineHeight": 0,
+            "color": "255;239;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloAbatesVitoria",
+          "persistentUuid": "7a02b1ba-2d11-4823-830c-b3103053486b",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ABATES",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "r": 202,
+            "g": 158,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ABATES",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "202;158;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "AbatesVitoria",
+          "persistentUuid": "66243825-b8ee-43bb-950a-fe63e31cb51a",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloOndaVitoria",
+          "persistentUuid": "c7a9bcef-a822-4ab8-ac08-910fb36ef4a4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ONDA ALCANÇADA",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "r": 202,
+            "g": 158,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ONDA ALCANÇADA",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "202;158;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "OndaVitoria",
+          "persistentUuid": "a039f49a-4ed3-4de4-a095-814c32767d3f",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloTempoVitoria",
+          "persistentUuid": "adb0ff66-7dd4-4df9-a694-abd3393473ca",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "TEMPO",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "r": 202,
+            "g": 158,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "TEMPO",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "202;158;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TempoVitoria",
+          "persistentUuid": "7140e1f0-2a02-4040-9dea-10a94299bc47",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "RotuloNivelVitoria",
+          "persistentUuid": "2009cae0-d3dd-43a8-aff4-7f7bd0edd482",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "NÍVEL",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 14,
+          "color": {
+            "r": 202,
+            "g": 158,
+            "b": 111
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "NÍVEL",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 14,
+            "lineHeight": 0,
+            "color": "202;158;111"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NivelVitoria",
+          "persistentUuid": "d6200239-514d-46d5-9ee0-8451f8cb6767",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "r": 246,
+            "g": 233,
+            "b": 210
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "246;233;210"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "AtalhosVitoria",
+          "persistentUuid": "b34e04b2-9246-439e-8be7-d36de48c2940",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ENTER · jogar de novo          ESC · menu inicial",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "r": 218,
+            "g": 208,
+            "b": 190
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "40;24;12",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 2,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ENTER · jogar de novo          ESC · menu inicial",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "218;208;190"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeAbatesVitoria",
+          "persistentUuid": "61245188-470e-4733-8d18-f0b87534a78a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "abatidos",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/abatidos-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeOndaVitoria",
+          "persistentUuid": "39363f14-398e-4398-a62c-20155069d13e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "onda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/onda-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeTempoVitoria",
+          "persistentUuid": "f76bb736-5e7b-4f8d-a51a-da78337d6d64",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "tempo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/tempo-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconeNivelVitoria",
+          "persistentUuid": "6977f5f3-a26e-455b-ae5e-e4c5b75ad8d6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "nivel",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/interface/hud/nivel-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -19044,6 +20358,74 @@
               },
               {
                 "objectName": "IconeNivelDerrota"
+              }
+            ]
+          },
+          {
+            "folderName": "Tela de vitoria",
+            "children": [
+              {
+                "objectName": "PainelVitoria"
+              },
+              {
+                "objectName": "RoboVitoriosoVisual"
+              },
+              {
+                "objectName": "BotaoRepetirVitoria"
+              },
+              {
+                "objectName": "BotaoMenuVitoria"
+              },
+              {
+                "objectName": "TituloVitoria"
+              },
+              {
+                "objectName": "MensagemVitoria"
+              },
+              {
+                "objectName": "RotuloPontosVitoria"
+              },
+              {
+                "objectName": "PontosVitoria"
+              },
+              {
+                "objectName": "RotuloAbatesVitoria"
+              },
+              {
+                "objectName": "AbatesVitoria"
+              },
+              {
+                "objectName": "RotuloOndaVitoria"
+              },
+              {
+                "objectName": "OndaVitoria"
+              },
+              {
+                "objectName": "RotuloTempoVitoria"
+              },
+              {
+                "objectName": "TempoVitoria"
+              },
+              {
+                "objectName": "RotuloNivelVitoria"
+              },
+              {
+                "objectName": "NivelVitoria"
+              },
+              {
+                "objectName": "AtalhosVitoria"
+              },
+              {
+                "objectName": "IconeAbatesVitoria"
+              },
+              {
+                "objectName": "IconeOndaVitoria"
+              },
+              {
+                "objectName": "IconeTempoVitoria"
+              },
+              {
+                "objectName": "IconeNivelVitoria"
               }
             ]
           }
@@ -42623,6 +44005,1216 @@
                     "",
                     "\"MenuInicial\"",
                     "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Vitoria: apresentacao e botoes",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "parameters": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TelaVitoria"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Vitoria\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TelaVitoria",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowCursor"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"default\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EscalaResultado",
+                    "=",
+                    "min(CameraWidth(\"HUD\")/1280,CameraHeight(\"HUD\")/720)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PainelTela"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoResumo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoTitulo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoSubtitulo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IconeResumo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoNivelResumo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "IconeEstatistica"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TextoEstatistica"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Mira"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "PainelVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+-500*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "PainelVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+70*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "PainelVitoria",
+                    "Resizable",
+                    "=",
+                    "1000*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "PainelVitoria",
+                    "Resizable",
+                    "=",
+                    "580*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RoboVitoriosoVisual",
+                    "=",
+                    "CameraCenterX(\"HUD\")+-390.597*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RoboVitoriosoVisual",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+223*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "RoboVitoriosoVisual",
+                    "Resizable",
+                    "=",
+                    "263.195*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "RoboVitoriosoVisual",
+                    "Resizable",
+                    "=",
+                    "288.0*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoRepetirVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+-330*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoRepetirVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+535*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BotaoRepetirVitoria",
+                    "Resizable",
+                    "=",
+                    "310*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BotaoRepetirVitoria",
+                    "Resizable",
+                    "=",
+                    "100*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoMenuVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+20*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoMenuVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+535*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BotaoMenuVitoria",
+                    "Resizable",
+                    "=",
+                    "310*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BotaoMenuVitoria",
+                    "Resizable",
+                    "=",
+                    "100*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "TituloVitoria",
+                    "=",
+                    "38*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TituloVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")-TituloVitoria.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TituloVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+109*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "MensagemVitoria",
+                    "=",
+                    "20*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "MensagemVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")-MensagemVitoria.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "MensagemVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+162*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloPontosVitoria",
+                    "=",
+                    "16*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloPontosVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+35*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloPontosVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+224*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "PontosVitoria",
+                    "=",
+                    "ToString(Variable(Pontuacao))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "PontosVitoria",
+                    "=",
+                    "48*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "PontosVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+35*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "PontosVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+250*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloAbatesVitoria",
+                    "=",
+                    "14*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloAbatesVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+79*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloAbatesVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+338*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "AbatesVitoria",
+                    "=",
+                    "ToString(Variable(Abates))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "AbatesVitoria",
+                    "=",
+                    "26*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "AbatesVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+79*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "AbatesVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+362*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloOndaVitoria",
+                    "=",
+                    "14*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloOndaVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+269*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloOndaVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+338*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "OndaVitoria",
+                    "=",
+                    "ToString(Variable(Onda))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "OndaVitoria",
+                    "=",
+                    "26*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "OndaVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+269*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "OndaVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+362*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloTempoVitoria",
+                    "=",
+                    "14*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloTempoVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+79*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloTempoVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+421*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TempoVitoria",
+                    "=",
+                    "ToString(floor(Variable(TempoPartida)/60))+\":\"+SubStr(\"0\"+ToString(mod(floor(Variable(TempoPartida)),60)),StrLength(\"0\"+ToString(mod(floor(Variable(TempoPartida)),60)))-2,2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "TempoVitoria",
+                    "=",
+                    "26*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "TempoVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+79*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "TempoVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+445*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "RotuloNivelVitoria",
+                    "=",
+                    "14*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "RotuloNivelVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+269*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "RotuloNivelVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+421*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NivelVitoria",
+                    "=",
+                    "ToString(Variable(Nivel))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "NivelVitoria",
+                    "=",
+                    "26*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "NivelVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+269*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "NivelVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+445*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Size"
+                  },
+                  "parameters": [
+                    "AtalhosVitoria",
+                    "=",
+                    "16*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "AtalhosVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")-AtalhosVitoria.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "AtalhosVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+665*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoRepetirVitoria",
+                    "\"225;225;225\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoMenuVitoria",
+                    "\"225;225;225\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeAbatesVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+35*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "IconeAbatesVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+350*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "IconeAbatesVitoria",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "IconeAbatesVitoria",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeOndaVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+225*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "IconeOndaVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+350*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "IconeOndaVitoria",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "IconeOndaVitoria",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeTempoVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+35*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "IconeTempoVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+433*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "IconeTempoVitoria",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "IconeTempoVitoria",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "IconeNivelVitoria",
+                    "=",
+                    "CameraCenterX(\"HUD\")+225*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "IconeNivelVitoria",
+                    "=",
+                    "CameraCenterY(\"HUD\")-360*Variable(EscalaResultado)+433*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "IconeNivelVitoria",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "IconeNivelVitoria",
+                    "Resizable",
+                    "=",
+                    "36*Variable(EscalaResultado)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "VeuTela",
+                    "Opacity",
+                    "=",
+                    "175"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Vitoria\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoRepetirVitoria",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoRepetirVitoria",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Vitoria\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoRepetirVitoria",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Arena\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Vitoria\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoMenuVitoria",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoMenuVitoria",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Vitoria\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoMenuVitoria",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MenuInicial\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "=",
+                    "\"Vitoria\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Escape\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MenuInicial\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "EstadoJogo",
+                    "!=",
+                    "\"Vitoria\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "VeuTela",
+                    "Opacity",
+                    "=",
+                    "255"
                   ]
                 }
               ]
