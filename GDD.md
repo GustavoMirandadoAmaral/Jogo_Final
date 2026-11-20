@@ -242,6 +242,7 @@ Os testes de aceite de E00 a E09 foram confirmados pela equipe no [FASEAMENTO](F
 
 - [x] Nome, descrição, enredo, objetivo e ferramenta apresentados no README.
 - [x] Instruções para baixar, abrir `prototipo/Robot.json` e iniciar a prévia.
+- [x] Versão de referência GDevelop 5.6.287 e endereço público do jogo incluídos no README.
 - [x] Oito capturas reais do menu, combate, melhorias, chefe e resultados inseridas no README.
 - [x] Gravações das partidas até vitória e derrota organizadas e vinculadas no README.
 - [x] Quatro frentes identificadas e contribuições dos integrantes reunidas em `CREDITOS.md`.
@@ -264,8 +265,7 @@ Sem compromisso para esta entrega: parry rosa, cano duplo, regeneração gradual
 ### Pontos restantes de fechamento
 
 - [ ] Conectar o botão Créditos do menu à apresentação da equipe e dos recursos.
-- [ ] Informar a versão do GDevelop no README.
-- [ ] Incluir no README o endereço jogável e conferir que corresponde à exportação final.
+- [ ] Conferir que o endereço público oferece a exportação final após as últimas alterações.
 - [ ] Gerar a exportação em `docs/` após as últimas correções e revisar os atalhos de teste.
 - [ ] Fazer a conferência da versão de entrega, revalidando os fluxos afetados pelas últimas alterações.
 - [ ] Confirmar o ensaio com os quatro integrantes, o envio ao professor e a cópia local para apresentação.

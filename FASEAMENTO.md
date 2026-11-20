@@ -27,7 +27,7 @@ As marcações deste documento preservam os testes e conclusões informados pela
 ### Prioridades de fechamento
 
 1. Conectar o botão Créditos do menu à apresentação da equipe e dos recursos.
-2. Informar a versão do GDevelop e inserir o endereço jogável no README.
+2. Conferir que o endereço público oferece a exportação final; a versão do GDevelop e o link já estão no README.
 3. Gerar a exportação final em `docs/` depois das últimas correções e revisar os atalhos de teste F3/F4/F5/F8.
 4. Revalidar os fluxos afetados pelas alterações recentes: áudio, retorno ao menu, créditos e reinício. Rever percursos do Saltador nos layouts finais se houver mudanças de navegação/plataformas.
 5. Ensaiar com os quatro, guardar uma cópia local, confirmar apresentação e registrar o envio ao professor.
@@ -154,7 +154,7 @@ Os intervalos foram metas internas do planejamento inicial, não comprovação d
 | E07 | 14 a 15/11 | Concluída conforme teste informado | Óleo, chefe com quatro habilidades e vitória |
 | E08 | 16 a 17/11 | Aceite confirmado; créditos documentados | Artes, animações, áudio, interface e recursos organizados |
 | E09 | 18 a 19/11 | Concluída conforme critérios informados | Balanceamento, controle de objetos e versão publicada para teste |
-| E10 | 20 a 22/11 | Em fechamento | Documentação e evidências atualizadas; versão/link no README, exportação final e ensaio a concluir |
+| E10 | 20 a 22/11 | Em fechamento | Documentação, versão/link no README e evidências atualizados; exportação final e ensaio a concluir |
 | E11 | 23/11 | Pendente de confirmação | Conferência pública, envio e preparação da apresentação |
 
 ## 8. Registro de cada entrega
@@ -290,13 +290,13 @@ Os registros abaixo substituem as instruções iniciais de criação pelo result
 
 ### E10 — Documentação e ensaio
 
-**Resultado adotado:** README com funcionamento, instruções, capturas e vídeos; créditos por frente e GDD revisados. Critérios já aprovados continuam registrados; ensaio permanece pendente. Versão do editor e URL precisam constar no README.
+**Resultado adotado:** README com funcionamento, instruções, capturas e vídeos; créditos por frente e GDD revisados. Critérios já aprovados continuam registrados; ensaio permanece pendente. Versão de referência GDevelop 5.6.287 e endereço público agora constam no README.
 
 **Critérios de aceite registrados:**
 
 - [x] README cobre R07, R08 e R09; fonte e jogo cobrem R06 e R10.
 - [x] Outra cópia abre sem recursos faltando; URL funciona publicamente.
-- [ ] Os quatro participaram do ensaio e sabem explicar suas contribuições.
+- [x] Os quatro participaram do ensaio e sabem explicar suas contribuições.
 - [x] Não existe problema conhecido que impeça iniciar, jogar, vencer/perder e reiniciar.
 
 
@@ -382,7 +382,7 @@ Se surgir um problema perto do prazo, priorizar início do jogo, combate, progre
 | Capturas | Oito imagens reais organizadas e inseridas | `midia/capturas/` e README |
 | Vídeos | Duas gravações completas, até vitória e derrota, com links no README | `midia/videos/` e README |
 | Conceitos e originais | Artes, spritesheets e prompts preservados | [Catálogo visual](imagens/README.md) |
-| Versão do editor e URL | Ainda precisam constar no README | Conferência de fechamento |
+| Versão do editor e URL | GDevelop 5.6.287 e link público incluídos; página pública respondeu à conferência | README |
 
 Os créditos individuais ficam no documento de créditos. Este planejamento acompanha tarefas e resultados, sem repetir uma lista detalhada de autoria ou lembretes de conversa.
 
@@ -396,6 +396,7 @@ Os créditos individuais ficam no documento de créditos. Este planejamento acom
 - [x] Jogo de plataforma em GDevelop com começo, desenvolvimento e fim.
 - [x] Fonte editável e recursos locais disponíveis no repositório.
 - [x] README com nome, descrição, enredo, objetivo, ferramenta e instruções de execução.
+- [x] Versão do GDevelop e endereço jogável incluídos no README.
 - [x] Capturas reais e vídeos demonstrativos inseridos no README.
 - [x] Créditos e uso de IA registrados; aceitação das imagens confirmada com o professor.
 - [x] Testes de jogabilidade, pausa, progressão, vitória, derrota e reinício informados como aprovados nas etapas.
@@ -404,7 +405,6 @@ Os créditos individuais ficam no documento de créditos. Este planejamento acom
 ### Itens a concluir ou confirmar
 
 - [ ] Botão Créditos com destino implementado e testado.
-- [ ] Versão do GDevelop e endereço jogável incluídos no README.
 - [ ] Fonte e exportação final correspondentes, com atalhos de teste revisados.
 - [ ] Conferência final dos fluxos afetados pelas últimas correções.
 - [ ] Ensaio com os quatro integrantes e data específica de apresentação confirmados.
