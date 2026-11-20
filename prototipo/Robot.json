@@ -1677,6 +1677,16 @@
         "name": "imagens/interface/resultados/robo-vitorioso-v1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "musica_menu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "musica_menu.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -1695,7 +1705,7 @@
       "r": 10,
       "renderer3DWorldScale": 100,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "Oficina em Pane",
       "v": 19,
       "uiSettings": {
@@ -2141,6 +2151,44 @@
               },
               "parameters": [
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "musica_menu.mp3",
+                "1",
+                "yes",
+                "20",
+                "1"
               ]
             }
           ]
@@ -2767,7 +2815,7 @@
       "r": 10,
       "renderer3DWorldScale": 100,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "Oficina em Pane - Introdução",
       "v": 19,
       "uiSettings": {
@@ -2782,7 +2830,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.75,
+        "zoomFactor": 0.8014332906158985,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2791,6 +2839,7 @@
       "variables": [
         {
           "name": "EscalaIntroducao",
+          "persistentUuid": "973db987-06c6-4393-93dd-06f724f2907e",
           "type": "number",
           "value": 1
         }
@@ -4680,7 +4729,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Botao de iniciar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4755,7 +4803,6 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
-          "folded": true,
           "name": "Entrar no jogo ou voltar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4774,6 +4821,15 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -4811,6 +4867,15 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -20378,6 +20443,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Ciclo da partida",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25011,6 +25077,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Combate e recompensas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30943,6 +31010,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Voador: movimento e explosão",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33161,6 +33229,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Disparos do Atirador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35441,6 +35510,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Óleo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36206,6 +36276,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Robô",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38972,6 +39043,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Máquina-mãe: rajada de projéteis",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39499,6 +39571,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Máquina-mãe: prensa de plataforma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40415,6 +40488,7 @@
           "colorG": 95,
           "colorR": 95,
           "creationTime": 0,
+          "folded": true,
           "name": "Máquina-mãe: jato de vapor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
