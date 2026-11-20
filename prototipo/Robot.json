@@ -1757,6 +1757,38 @@
         "name": "botao_sair",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "imagens/menu/luz.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/menu/luz.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/menu/oficina-abertura-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens/menu/oficina-abertura-v1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/menu/botao-creditos-v1.png",
+        "name": "imagens/menu/botao-creditos-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "imagens/menu/titulo-v1.png",
+        "name": "imagens/menu/titulo-v1.png",
+        "kind": "image",
+        "metadata": "",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1768,16 +1800,16 @@
   "variables": [],
   "layouts": [
     {
-      "b": 0,
+      "b": 27,
       "disableInputWhenNotFocused": true,
       "mangledName": "MenuInicial",
       "name": "MenuInicial",
-      "r": 0,
+      "r": 10,
       "renderer3DWorldScale": 100,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 0,
+      "title": "Oficina em Pane",
+      "v": 19,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -1790,26 +1822,76 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.75,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
-      "objectsGroups": [],
-      "variables": [],
+      "objectsGroups": [
+        {
+          "name": "BotoesAtivosMenu",
+          "objects": [
+            {
+              "name": "BotaoIniciar"
+            },
+            {
+              "name": "BotaoSair"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "EscalaMenu",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 720,
+          "width": 1280,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FundoMenu",
+          "persistentUuid": "df96cb9d-751b-4fb1-abfd-ddcbd587e549",
+          "x": 0,
+          "y": 0,
+          "zOrder": -20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 200,
+          "width": 200,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LuzMenu",
+          "persistentUuid": "83d216ed-3a1b-4ed9-84ca-00045046a626",
+          "x": 980,
+          "y": -14,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 186,
+          "width": 470,
           "keepRatio": true,
           "layer": "",
           "name": "Titulo",
-          "persistentUuid": "e3184289-290a-4d63-bd44-a43c6f9d566f",
-          "width": 0,
-          "x": 429,
-          "y": 186,
-          "zOrder": 1,
+          "persistentUuid": "f8a317c1-4b8b-4040-a8c2-a83dc3ae8567",
+          "x": 68,
+          "y": 112,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1817,16 +1899,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 167,
+          "height": 110,
+          "width": 350,
           "keepRatio": true,
           "layer": "",
           "name": "BotaoIniciar",
-          "persistentUuid": "85418227-178e-417f-b14b-3e30813a31a0",
-          "width": 571,
-          "x": 349,
-          "y": 329,
-          "zOrder": 2,
+          "persistentUuid": "c43dc668-9f7f-477d-b18b-587c21b25c01",
+          "x": 96,
+          "y": 350,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1834,16 +1915,31 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 177,
+          "height": 110,
+          "width": 350,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BotaoCreditos",
+          "persistentUuid": "413df053-a692-4bee-af3f-1abe3076053f",
+          "x": 96,
+          "y": 466,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 110,
+          "width": 350,
           "keepRatio": true,
           "layer": "",
           "name": "BotaoSair",
-          "persistentUuid": "743de1a1-bcd2-4e87-a57d-35ae1320c509",
-          "width": 583,
-          "x": 334,
-          "y": 505,
-          "zOrder": 3,
+          "persistentUuid": "57739dae-e0c9-41a6-b0ae-8737c1fd51fc",
+          "x": 96,
+          "y": 582,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1852,70 +1948,143 @@
       "objects": [
         {
           "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Titulo",
-          "persistentUuid": "2c6c86c1-c9dc-46c5-9907-74941b893397",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Oficina em Pane",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 64,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Oficina em Pane",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 64,
-            "lineHeight": 0,
-            "color": "255;255;255"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "BotaoIniciar",
-          "persistentUuid": "e6b390e1-36ec-47cf-8e2c-dfc0a40a1fa4",
+          "name": "FundoMenu",
           "type": "Sprite",
-          "updateIfNotVisible": false,
+          "persistentUuid": "d6568a6f-264d-49bd-b29b-1f9a1aeed2a2",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "animations": [
             {
-              "name": "botao_iniciar",
+              "name": "Visual",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 1000,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/menu/oficina-abertura-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "LuzMenu",
+          "type": "Sprite",
+          "persistentUuid": "558cbb0d-c829-4863-8be0-2e1f27f56744",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/menu/luz.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Titulo",
+          "type": "Sprite",
+          "persistentUuid": "6b931a9e-5dd6-4875-a7b4-b31d10971603",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/menu/titulo-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BotaoIniciar",
+          "type": "Sprite",
+          "persistentUuid": "c4ccb758-895b-49c8-bfe9-4d6b4ddc933a",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
                       "image": "botao_iniciar2",
                       "points": [],
                       "originPoint": {
@@ -1929,26 +2098,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 193,
-                            "y": 72
-                          },
-                          {
-                            "x": 1569.5,
-                            "y": 77
-                          },
-                          {
-                            "x": 1565,
-                            "y": 389.5
-                          },
-                          {
-                            "x": 184,
-                            "y": 394
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -1957,27 +2107,64 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "BotaoSair",
-          "persistentUuid": "ef44faf9-5d0d-4fef-820a-f988d199e043",
+          "name": "BotaoCreditos",
           "type": "Sprite",
-          "updateIfNotVisible": false,
+          "persistentUuid": "d28b13b1-2f89-4a21-a47f-edee8b14753a",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "animations": [
             {
-              "name": "botao_sair",
+              "name": "Visual",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 1000,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens/menu/botao-creditos-v1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BotaoSair",
+          "type": "Sprite",
+          "persistentUuid": "1a3f2c91-6d75-405b-b8f3-3cdad182f546",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Visual",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1000,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
                       "image": "botao_sair",
                       "points": [],
                       "originPoint": {
@@ -1991,26 +2178,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 197.5,
-                            "y": 69
-                          },
-                          {
-                            "x": 1576.5,
-                            "y": 76
-                          },
-                          {
-                            "x": 1572,
-                            "y": 395.5
-                          },
-                          {
-                            "x": 188.5,
-                            "y": 400
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -2023,13 +2191,32 @@
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "Cenario do menu",
+            "children": [
+              {
+                "objectName": "FundoMenu"
+              },
+              {
+                "objectName": "LuzMenu"
+              }
+            ]
+          },
+          {
             "objectName": "Titulo"
           },
           {
-            "objectName": "BotaoIniciar"
-          },
-          {
-            "objectName": "BotaoSair"
+            "folderName": "Botoes",
+            "children": [
+              {
+                "objectName": "BotaoIniciar"
+              },
+              {
+                "objectName": "BotaoCreditos"
+              },
+              {
+                "objectName": "BotaoSair"
+              }
+            ]
           }
         ]
       },
@@ -2058,14 +2245,433 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Menu adaptado a janela",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "events": [
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EscalaMenu",
+                    "=",
+                    "min(CameraWidth()/1280, CameraHeight()/720)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "FundoMenu",
+                    "Resizable",
+                    "=",
+                    "max(CameraWidth(),CameraHeight()*(1672/941))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "FundoMenu",
+                    "Resizable",
+                    "=",
+                    "FundoMenu.Width()/(1672/941)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "FundoMenu",
+                    "=",
+                    "CameraCenterX()-FundoMenu.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "FundoMenu",
+                    "=",
+                    "CameraCenterY()-FundoMenu.Height()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoIniciar",
+                    "=",
+                    "CameraBorderLeft()+96*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoIniciar",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaMenu)+350*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BotaoIniciar",
+                    "Resizable",
+                    "=",
+                    "350*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BotaoIniciar",
+                    "Resizable",
+                    "=",
+                    "110*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoCreditos",
+                    "=",
+                    "CameraBorderLeft()+96*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoCreditos",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaMenu)+466*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BotaoCreditos",
+                    "Resizable",
+                    "=",
+                    "350*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BotaoCreditos",
+                    "Resizable",
+                    "=",
+                    "110*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "BotaoSair",
+                    "=",
+                    "CameraBorderLeft()+96*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "BotaoSair",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaMenu)+582*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BotaoSair",
+                    "Resizable",
+                    "=",
+                    "350*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BotaoSair",
+                    "Resizable",
+                    "=",
+                    "110*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "LuzMenu",
+                    "Resizable",
+                    "=",
+                    "200*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "LuzMenu",
+                    "Resizable",
+                    "=",
+                    "200*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "LuzMenu",
+                    "=",
+                    "FundoMenu.X()+FundoMenu.Width()*0.844-LuzMenu.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "LuzMenu",
+                    "=",
+                    "FundoMenu.Y()+FundoMenu.Height()*0.096-LuzMenu.Height()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "LuzMenu",
+                    "Opacity",
+                    "=",
+                    "65+9*sin(TimeFromStart()*1.7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Titulo",
+                    "=",
+                    "CameraBorderLeft()+68*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Titulo",
+                    "=",
+                    "CameraCenterY()-360*Variable(EscalaMenu)+112*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Titulo",
+                    "Resizable",
+                    "=",
+                    "470*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Titulo",
+                    "Resizable",
+                    "=",
+                    "186*Variable(EscalaMenu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "BotaoCreditos",
+                    "Opacity",
+                    "=",
+                    "155"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Realce dos botoes",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"default\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotoesAtivosMenu",
+                    "\"225;225;225\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoIniciar",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoIniciar",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "BotaoSair",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BotaoSair",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorType::ChangeCursorType"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pointer\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Group",
+          "name": "Navegacao do menu",
+          "folded": true,
+          "colorR": 95,
+          "colorG": 95,
+          "colorB": 95,
+          "creationTime": 0,
+          "source": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
                     "value": "IsCursorOnObject"
@@ -2079,6 +2685,32 @@
                 },
                 {
                   "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Arena\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "IsCursorOnObject"
                   },
                   "parameters": [
@@ -2087,147 +2719,42 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ]
                 }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "CursorType::ChangeCursorType"
-              },
-              "parameters": [
-                "",
-                "\"pointer\"",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "BotaoIniciar",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "BotaoSair",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "CursorType::ChangeCursorType"
-              },
-              "parameters": [
-                "",
-                "\"default\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "BotaoIniciar",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Arena\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "BotaoSair",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Quit"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
+          "type": "BuiltinCommonInstructions::Comment",
+          "comment": "O botao Creditos fica desativado ate a equipe definir o conteudo e a cena de creditos.",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          }
         }
       ],
       "layers": [
