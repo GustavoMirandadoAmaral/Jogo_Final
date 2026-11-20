@@ -1425,46 +1425,6 @@
         "userAdded": true
       },
       {
-        "file": "disparo_robo_oficina_em_pane.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "disparo_robo_oficina_em_pane.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "../../../../Downloads/disparo_robo_oficina_em_pane.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "../../../../Downloads/disparo_robo_oficina_em_pane.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "disparo_robo_oficina_em_pane2.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "disparo_robo_oficina_em_pane2.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "disparo_robo_oficina_em_pane.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "disparo_robo_oficina_em_pane.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
         "file": "tiro.m4a",
         "kind": "audio",
         "metadata": "",
@@ -1487,22 +1447,6 @@
         "kind": "image",
         "metadata": "",
         "name": "../imagens/spritesheets/heroi/parado-tres-estagios/parado_enferrujado_sem_braco.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "arma2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "arma2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "arma3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "arma3.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1541,46 +1485,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/dano.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "dano",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/dano2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "dano2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/dano3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "dano3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/dano4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "dano4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/dano5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "dano5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "dano_robo_impacto_metalico.wav",
         "kind": "audio",
         "metadata": "",
@@ -1588,30 +1492,6 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/dano6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "dano6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/dano7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "dano7",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/dano8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "dano8",
-        "smoothed": true,
         "userAdded": false
       },
       {
@@ -1708,38 +1588,6 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "botao_iniciar2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "botao_iniciar2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "botao_iniciar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "botao_iniciar.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "botao_sair.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "botao_sair.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/botao_iniciar.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "botao_iniciar",
-        "smoothed": true,
         "userAdded": false
       },
       {
